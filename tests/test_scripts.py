@@ -11,6 +11,7 @@ if str(ROOT / "scripts") not in sys.path:
     sys.path.insert(0, str(ROOT / "scripts"))
 
 import commit_message  # noqa: E402
+import pr_comment  # noqa: E402
 import verify_outputs  # noqa: E402
 
 from popvpn.pipeline import Options, run  # noqa: E402
@@ -100,3 +101,26 @@ def test_commit_message_cli(generated, capsys):
 def test_commit_message_cli_missing_file(tmp_path, capsys):
     assert commit_message.main([str(tmp_path / "nope.json")]) == 1
     assert "stats file not found" in capsys.readouterr().err
+
+
+def test_pr_comment_from_generated_stats(generated):
+    stats = json.loads(Path("outputs/stats.json").read_text(encoding="utf-8"))
+    comment = pr_comment.build_comment(stats)
+    assert "POPVPN X — live pipeline run" in comment
+    assert "**24 configs**" in comment
+    assert "| TROJAN | 12 |" in comment
+    assert "verify_outputs.py" in comment
+
+
+def test_pr_comment_handles_empty_stats():
+    comment = pr_comment.build_comment({})
+    assert "**0 configs**" in comment
+
+
+def test_pr_comment_cli(generated, capsys):
+    assert pr_comment.main(["outputs/stats.json"]) == 0
+    assert "live pipeline run" in capsys.readouterr().out
+
+
+def test_pr_comment_cli_missing_file(tmp_path, capsys):
+    assert pr_comment.main([str(tmp_path / "nope.json")]) == 1
