@@ -8,7 +8,7 @@
 
 ![Auto Update](https://img.shields.io/badge/AUTO--UPDATE-EVERY%20HOUR-7c3aed?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Zero deps](https://img.shields.io/badge/DEPENDENCIES-ZERO-06b6d4?style=for-the-badge)
-![Tests](https://img.shields.io/badge/TESTS-176%20PASSED-16a34a?style=for-the-badge)
+![Tests](https://img.shields.io/badge/TESTS-180%20PASSED-16a34a?style=for-the-badge)
 ![Python](https://img.shields.io/badge/PYTHON-3.9%2B-3b82f6?style=for-the-badge&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/LICENSE-MIT-eab308?style=for-the-badge)
 
@@ -270,7 +270,7 @@ links.txt ──► fetch (موازی + کش) ──► decode (plain/b64/b64²)
 
 ```bash
 python -m venv .venv && .venv/bin/pip install -r requirements-dev.txt
-.venv/bin/python -m pytest -q          # 176 passed
+.venv/bin/python -m pytest -q          # 180 passed
 .venv/bin/python -m ruff check .
 ```
 
