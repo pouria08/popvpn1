@@ -39,37 +39,37 @@
 
 <!-- POPVPN:STATS:START -->
 
-![Total](https://img.shields.io/badge/CONFIGS-8,048-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-3,886-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-2,110-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-631-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-1,389-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-10%2F10-06b6d4?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-8,062-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-3,866-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-2,154-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-613-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-1,397-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-10%2F10-06b6d4?style=flat-square)
 
-**Last update:** `2026-09-20 19:30:32 UTC` · **8,048 configs**
+**Last update:** `2026-09-20 22:30:13 UTC` · **8,062 configs** (+14 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
-| VLESS | 3,886 | 48.3% |
-| VMESS | 2,110 | 26.2% |
-| SS | 1,389 | 17.3% |
-| TROJAN | 631 | 7.8% |
+| VLESS | 3,866 | 48.0% |
+| VMESS | 2,154 | 26.7% |
+| SS | 1,397 | 17.3% |
+| TROJAN | 613 | 7.6% |
 | HY2 | 32 | 0.4% |
 
 | Top countries | Configs |
 | --- | ---: |
-| 🏳️ Unknown | 4,974 |
-| 🇺🇸 United States | 563 |
-| 🇩🇪 Germany | 519 |
-| 🇨🇦 Canada | 394 |
-| 🇳🇱 Netherlands | 271 |
-| 🇬🇧 United Kingdom | 148 |
-| 🇭🇰 Hong Kong | 146 |
-| 🇮🇷 Iran | 139 |
+| 🏳️ Unknown | 4,978 |
+| 🇺🇸 United States | 560 |
+| 🇩🇪 Germany | 508 |
+| 🇨🇦 Canada | 384 |
+| 🇳🇱 Netherlands | 256 |
+| 🇮🇷 Iran | 151 |
+| 🇭🇰 Hong Kong | 142 |
+| 🇬🇧 United Kingdom | 136 |
 
 <details><summary>Pipeline health</summary>
 
 - sources: **10/10** ok, 0 failed, 0 auto-paused
-- duplicates removed: **13,376**
-- invalid lines skipped: **933**
+- duplicates removed: **13,437**
+- invalid lines skipped: **927**
 - HTTP cache hit rate: **0%**
-- security flags: **134** insecure, **11** private hosts
-- run duration: **2511 ms**
+- security flags: **133** insecure, **12** private hosts
+- run duration: **2751 ms**
 
 </details>
 
