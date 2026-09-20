@@ -1,0 +1,29 @@
+# ============================================================================
+#  POPVPN X — منابع Subscription
+# ============================================================================
+#  * خطوط خالی و خطوط شروع‌شده با # نادیده گرفته می‌شوند.
+#  * هر URL می‌تواند annotation داشته باشد:
+#        https://example.com/sub.txt   # name=Barry weight=2 country=DE
+#    کلیدها: name, weight, country, disabled, note
+#  * منبعی که پشت‌سرهم خطا بدهد به‌صورت خودکار موقتاً غیرفعال می‌شود
+#    (state/sources.json) و بعد از چند ساعت دوباره امتحان می‌شود.
+# ============================================================================
+
+# --- منابع Mixed ---
+https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt   # name=patterniha weight=3
+https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt   # name=MatinGhanbari weight=2
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt   # name=barry-far weight=3
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt   # name=Epodonios weight=3
+
+# --- تفکیک‌شده بر اساس پروتکل (پوشش VMess / Shadowsocks / Trojan) ---
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt   # name=barry-vmess weight=2
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt      # name=barry-ss weight=2
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt  # name=barry-trojan weight=2
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt # name=epodonios-trojan weight=1
+
+# --- منابع دیگر ---
+https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt                # name=AetrisVPN weight=1
+https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt       # name=AetrisVPN-blacklist weight=1
+
+# --- منابع غیرفعال (نمونهٔ استفاده از annotation) ---
+# https://example.com/dead-sub.txt   # name=dead disabled=true note=404

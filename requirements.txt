@@ -1,0 +1,5 @@
+# POPVPN X needs no runtime dependencies — the whole pipeline runs on the
+# Python standard library (3.9+). This file exists so `pip install -r
+# requirements.txt` keeps working for people who expect it.
+#
+# Development / CI dependencies live in requirements-dev.txt.

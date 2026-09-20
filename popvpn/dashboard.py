@@ -1,0 +1,355 @@
+"""Static live dashboard.
+
+``dashboard/index.html`` + ``dashboard/data.json`` are written on every run.
+The HTML is a single self-contained file (no build step, no CDN) that can be
+published with GitHub Pages or opened straight from disk.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from .protocols import Config
+from .stats import sparkline_svg
+
+PROTOCOL_COLORS = {
+    "vless": "#8b5cf6",
+    "vmess": "#3b82f6",
+    "trojan": "#f97316",
+    "ss": "#22c55e",
+    "tuic": "#06b6d4",
+    "hy2": "#ec4899",
+    "hysteria": "#ec4899",
+    "wireguard": "#eab308",
+}
+
+
+def build_dashboard_data(
+    *,
+    stats: dict,
+    configs: list[Config],
+    max_configs: int = 400,
+    links: dict | None = None,
+) -> dict:
+    """Assemble ``data.json`` — note that no secret material is included."""
+
+    rows = []
+    for cfg in configs[:max_configs]:
+        rows.append(
+            {
+                "n": cfg.name or cfg.remark,
+                "p": cfg.protocol,
+                "c": cfg.geo_code or "",
+                "f": cfg.geo_flag or "",
+                "cn": cfg.geo_name or "",
+                "t": (cfg.security if cfg.security != "none" else cfg.network) or "tcp",
+                "v": cfg.verified,
+                "s": round(cfg.score, 1),
+                "ms": cfg.latency_ms,
+                "w": sorted(set(cfg.warnings)),
+            }
+        )
+    return {
+        "generated_at": stats.get("generated_at", ""),
+        "total": stats.get("total", 0),
+        "by_protocol": stats.get("by_protocol", {}),
+        "by_country": stats.get("by_country", [])[:30],
+        "country_count": stats.get("country_count", 0),
+        "sources": stats.get("source_list", [])[:40],
+        "probe": stats.get("probe", {}),
+        "audit": stats.get("audit", {}),
+        "cache": stats.get("cache", {}),
+        "history": stats.get("history", [])[-120:],
+        "links": links or {},
+        "duplicates": stats.get("duplicates", 0),
+        "invalid": stats.get("invalid", 0),
+        "duration_ms": stats.get("duration_ms", 0),
+        "configs": rows,
+        "colors": PROTOCOL_COLORS,
+    }
+
+
+def write_dashboard(directory: str | Path, data: dict, *, history_values: list[int] | None = None) -> dict:
+    """Write ``index.html``, ``data.json`` and ``history.svg``."""
+
+    path = Path(directory)
+    path.mkdir(parents=True, exist_ok=True)
+    written: dict[str, int] = {}
+
+    data_path = path / "data.json"
+    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    data_path.write_text(payload, encoding="utf-8")
+    written[str(data_path)] = data_path.stat().st_size
+
+    html_path = path / "index.html"
+    html_path.write_text(render_dashboard_html(), encoding="utf-8")
+    written[str(html_path)] = html_path.stat().st_size
+
+    if history_values:
+        svg_path = path / "history.svg"
+        svg_path.write_text(
+            sparkline_svg(history_values, label="configs"), encoding="utf-8"
+        )
+        written[str(svg_path)] = svg_path.stat().st_size
+
+    return written
+
+
+def render_dashboard_html() -> str:
+    return _HTML
+
+
+_HTML = r"""<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>POPVPN X — Live Dashboard</title>
+<meta name="description" content="Live statistics for the POPVPN X subscription pipeline"/>
+<style>
+  :root{
+    --bg:#070b14; --panel:#0e1524; --panel2:#131c2e; --line:#1e2b44;
+    --text:#e6edf7; --muted:#8ea0bd; --accent:#7c3aed; --accent2:#06b6d4;
+    --ok:#22c55e; --bad:#ef4444; --warn:#eab308;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#17203a 0%,var(--bg) 60%);
+       color:var(--text);font:15px/1.6 "Vazirmatn",system-ui,-apple-system,"Segoe UI",sans-serif}
+  a{color:var(--accent2);text-decoration:none}
+  .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 80px}
+  header{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between;
+         padding-bottom:18px;border-bottom:1px solid var(--line);margin-bottom:22px}
+  h1{margin:0;font-size:26px;letter-spacing:.5px}
+  h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));
+          -webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:var(--muted);font-size:13px;margin-top:6px}
+  .grid{display:grid;gap:14px}
+  .cards{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+  .card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+        border-radius:14px;padding:14px 16px}
+  .card b{display:block;font-size:24px;font-variant-numeric:tabular-nums}
+  .card small{color:var(--muted)}
+  section{margin-top:26px}
+  h2{font-size:16px;margin:0 0 12px;color:var(--muted);font-weight:600;letter-spacing:.4px}
+  .bars{display:flex;flex-direction:column;gap:8px}
+  .bar{display:grid;grid-template-columns:110px 1fr 70px;gap:10px;align-items:center;font-size:13px}
+  .track{background:#0b1220;border:1px solid var(--line);border-radius:99px;height:12px;overflow:hidden}
+  .fill{height:100%;border-radius:99px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:right}
+  th:first-child,td:first-child{text-align:right}
+  th{color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--panel);z-index:2}
+  .pill{display:inline-block;padding:1px 8px;border-radius:99px;font-size:11px;border:1px solid var(--line)}
+  .ok{color:var(--ok)} .bad{color:var(--bad)} .warn{color:var(--warn)} .muted{color:var(--muted)}
+  .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+  input,select{background:#0b1220;border:1px solid var(--line);color:var(--text);
+               border-radius:10px;padding:8px 12px;font:inherit;outline:none}
+  input:focus,select:focus{border-color:var(--accent)}
+  input[type=search]{flex:1;min-width:220px}
+  .tablewrap{max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:14px}
+  .btn{background:var(--accent);color:#fff;border:none;border-radius:10px;padding:8px 14px;
+       cursor:pointer;font:inherit}
+  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
+  .btn:hover{filter:brightness(1.1)}
+  .links{display:flex;gap:8px;flex-wrap:wrap}
+  .links a{background:var(--panel2);border:1px solid var(--line);padding:8px 12px;border-radius:10px;font-size:13px}
+  .foot{margin-top:40px;color:var(--muted);font-size:12px;text-align:center}
+  .chart{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px}
+  .spark{width:100%;height:auto;display:block}
+  @media (max-width:640px){ .bar{grid-template-columns:80px 1fr 60px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>⚡ <span>POPVPN X</span> · داشبورد زنده</h1>
+      <div class="sub" id="updated">در حال بارگذاری…</div>
+    </div>
+    <div class="links" id="links"></div>
+  </header>
+
+  <div class="grid cards" id="cards"></div>
+
+  <section>
+    <h2>توزیع پروتکل‌ها</h2>
+    <div class="bars" id="protocols"></div>
+  </section>
+
+  <section>
+    <h2>روند تعداد کانفیگ‌ها</h2>
+    <div class="chart" id="chart"></div>
+  </section>
+
+  <section>
+    <h2>کشورها</h2>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+      <div class="tablewrap" style="max-height:320px">
+        <table><thead><tr><th>کشور</th><th>تعداد</th><th>سهم</th></tr></thead>
+        <tbody id="countries"></tbody></table>
+      </div>
+      <div class="tablewrap" style="max-height:320px">
+        <table><thead><tr><th>منبع</th><th>کانفیگ</th><th>وضعیت</th></tr></thead>
+        <tbody id="sources"></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>کانفیگ‌ها (نمونه)</h2>
+    <div class="toolbar">
+      <input type="search" id="q" placeholder="جستجو در نام کانفیگ…"/>
+      <select id="fp"><option value="">همه پروتکل‌ها</option></select>
+      <select id="fc"><option value="">همه کشورها</option></select>
+      <select id="fv">
+        <option value="">همه</option>
+        <option value="alive">فقط زنده</option>
+        <option value="dead">فقط مرده</option>
+      </select>
+      <button class="btn ghost" id="copyAll">کپی لینک ساب</button>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>نام</th><th>پروتکل</th><th>کشور</th><th>انتقال</th><th>امتیاز</th><th>وضعیت</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div class="sub" id="rowcount"></div>
+  </section>
+
+  <div class="foot">POPVPN X — generated by the auto-update pipeline · no credentials are stored in this file</div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let DATA = null;
+
+function card(label, value, extra) {
+  return `<div class="card"><small>${label}</small><b>${value}</b>${extra ? `<small>${extra}</small>` : ""}</div>`;
+}
+function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function renderCards(d){
+  const probe = d.probe || {}, audit = d.audit || {}, cache = d.cache || {};
+  $("cards").innerHTML = [
+    card("کل کانفیگ‌ها", (d.total||0).toLocaleString(), `${(d.duration_ms/1000).toFixed(1)}s runtime`),
+    card("تکراری حذف‌شده", (d.duplicates||0).toLocaleString(), `${(d.invalid||0).toLocaleString()} خط نامعتبر`),
+    card("کشورها", d.country_count || 0, `${(d.by_country||[]).length} کشور برتر`),
+    card("منابع فعال", (d.sources||[]).filter(s=>s.last_configs>0).length, `${(d.sources||[]).length} منبع`),
+    card("زنده (probe)", (probe.alive||0).toLocaleString(), `${(probe.dead||0).toLocaleString()} مرده`),
+    card("نرخ کش HTTP", Math.round((cache.hit_rate||0)*100)+"%", `${cache.hits||0} hit`),
+    card("ناامن", (audit.insecure||0).toLocaleString(), `${(audit.private_hosts||0)} هاست خصوصی`),
+  ].join("");
+}
+
+function renderProtocols(d){
+  const entries = Object.entries(d.by_protocol||{}).sort((a,b)=>b[1]-a[1]);
+  const max = Math.max(1, ...entries.map(e=>e[1]));
+  $("protocols").innerHTML = entries.map(([p,c])=>{
+    const color = (d.colors||{})[p] || "#7c3aed";
+    const pct = ((c/max)*100).toFixed(1);
+    return `<div class="bar"><span>${esc(p.toUpperCase())}</span>
+      <span class="track"><span class="fill" style="width:${pct}%;background:${color}"></span></span>
+      <span class="muted">${c.toLocaleString()}</span></div>`;
+  }).join("");
+  const sel = $("fp");
+  entries.forEach(([p])=>{ const o=document.createElement("option"); o.value=p; o.textContent=p.toUpperCase(); sel.appendChild(o); });
+}
+
+function renderCountries(d){
+  const total = Math.max(1, d.total||1);
+  $("countries").innerHTML = (d.by_country||[]).slice(0,40).map(r=>
+    `<tr><td>${esc(r.flag||"🏳️")} ${esc(r.name||"Unknown")}</td>
+     <td>${(r.count||0).toLocaleString()}</td>
+     <td class="muted">${((r.count/total)*100).toFixed(1)}%</td></tr>`).join("");
+  const sel = $("fc");
+  (d.by_country||[]).slice(0,40).forEach(r=>{
+    if(!r.code) return;
+    const o=document.createElement("option"); o.value=r.code; o.textContent=`${r.flag} ${r.code}`; sel.appendChild(o);
+  });
+}
+
+function renderSources(d){
+  $("sources").innerHTML = (d.sources||[]).slice(0,40).map(s=>{
+    const cls = s.paused ? "warn" : (s.last_configs>0 ? "ok" : "bad");
+    const state = s.paused ? "موقتاً متوقف" : (s.last_configs>0 ? "سالم" : "خطا");
+    return `<tr><td title="${esc(s.url)}">${esc(s.name||s.url)}</td>
+      <td>${(s.last_configs||0).toLocaleString()}</td>
+      <td class="${cls}">${state} · ${Math.round((s.success_rate||0)*100)}%</td></tr>`;
+  }).join("");
+}
+
+function renderLinks(d){
+  const l = d.links || {};
+  const items = Object.entries(l).filter(([,v])=>v);
+  $("links").innerHTML = items.map(([k,v])=>`<a href="${esc(v)}" target="_blank" rel="noopener">${esc(k)}</a>`).join("");
+}
+
+function sparkline(values, colors){
+  if(!values || values.length < 2) return `<div class="muted">داده‌ای برای رسم روند وجود ندارد.</div>`;
+  const w=1100,h=140,max=Math.max(...values),min=Math.min(...values),span=(max-min)||1;
+  const step=w/(values.length-1);
+  const pts=values.map((v,i)=>`${(i*step).toFixed(1)},${(h-((v-min)/span)*(h-24)-12).toFixed(1)}`);
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+    <polyline points="${pts.join(" ")}" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+    <polygon points="0,${h} ${pts.join(" ")} ${w},${h}" fill="#7c3aed" opacity="0.12"/>
+    <text x="8" y="16" fill="#8ea0bd" font-size="12" font-family="monospace">${min.toLocaleString()} → ${max.toLocaleString()}</text>
+  </svg>`;
+}
+
+function filtered(){
+  const q = $("q").value.trim().toLowerCase();
+  const fp = $("fp").value, fc = $("fc").value, fv = $("fv").value;
+  return (DATA.configs||[]).filter(c=>{
+    if(q && !String(c.n).toLowerCase().includes(q)) return false;
+    if(fp && c.p!==fp) return false;
+    if(fc && c.c!==fc) return false;
+    if(fv==="alive" && c.v!==true) return false;
+    if(fv==="dead" && c.v!==false) return false;
+    return true;
+  });
+}
+
+function renderRows(){
+  if(!DATA) return;
+  const rows = filtered().slice(0,400);
+  $("rows").innerHTML = rows.map(c=>{
+    const state = c.v===true ? `<span class="ok">✔ ${c.ms}ms</span>`
+                : c.v===false ? `<span class="bad">✘ مرده</span>`
+                : `<span class="muted">—</span>`;
+    const warn = (c.w||[]).length ? ` <span class="pill warn" title="${esc(c.w.join(", "))}">!</span>` : "";
+    return `<tr><td>${esc(c.n)}${warn}</td><td>${esc(c.p)}</td>
+      <td>${esc(c.f||"")} ${esc(c.cn||c.c||"—")}</td><td class="muted">${esc(c.t)}</td>
+      <td>${c.s}</td><td>${state}</td></tr>`;
+  }).join("");
+  $("rowcount").textContent = `${rows.length} ردیف نمایش داده شد از ${(DATA.configs||[]).length} نمونه`;
+}
+
+async function boot(){
+  try{
+    const res = await fetch("data.json", {cache:"no-store"});
+    DATA = await res.json();
+  }catch(err){
+    $("updated").textContent = "data.json پیدا نشد — ابتدا pipeline را اجرا کنید.";
+    return;
+  }
+  $("updated").textContent = `آخرین به‌روزرسانی: ${DATA.generated_at}`;
+  renderCards(DATA); renderProtocols(DATA); renderCountries(DATA);
+  renderSources(DATA); renderLinks(DATA);
+  $("chart").innerHTML = sparkline((DATA.history||[]).map(h=>h.total));
+  ["q","fp","fc","fv"].forEach(id=>$(id).addEventListener("input", renderRows));
+  $("copyAll").addEventListener("click", async ()=>{
+    const url = (DATA.links||{})["plain"];
+    if(!url) return;
+    try{ await navigator.clipboard.writeText(url); $("copyAll").textContent="کپی شد ✔";
+         setTimeout(()=>$("copyAll").textContent="کپی لینک ساب",1500);}catch(e){}
+  });
+  renderRows();
+}
+boot();
+setInterval(()=>{ if(document.visibilityState==="visible") boot(); }, 120000);
+</script>
+</body>
+</html>
+"""

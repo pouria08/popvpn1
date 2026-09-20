@@ -1,0 +1,44 @@
+[project]
+name = "popvpn-x"
+version = "2.0.0"
+description = "POPVPN X — self-updating VPN subscription pipeline (fetch, clean, dedupe, geo-tag, score, probe, publish)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "pouria08" }]
+keywords = ["vpn", "subscription", "vless", "vmess", "trojan", "shadowsocks", "hiddify", "clash", "sing-box"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Internet :: Proxy Servers",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/pouria08/popvpn1"
+Issues = "https://github.com/pouria08/popvpn1/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = ["error::DeprecationWarning:popvpn.*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+extend-exclude = [".venv", "outputs", "dashboard"]
+
+[tool.ruff.lint]
+# E/W pycodestyle, F pyflakes, I isort, UP pyupgrade, B bugbear, SIM simplify
+select = ["E", "W", "F", "I", "B", "SIM"]
+ignore = [
+    "E501",   # long lines are mostly data tables / URLs
+    "SIM108", # ternaries are not always clearer
+    "B008",   # function call in default argument (dataclass style used here)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B011"]

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Pipeline caches (restored between runs by actions/cache)
+.cache/
+state/probe_cache.json
+
+# Local experiments
+.preview/
+outputs.local/
+*.log
+.DS_Store
