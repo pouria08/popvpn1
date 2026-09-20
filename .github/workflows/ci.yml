@@ -47,13 +47,47 @@ jobs:
             --offline "$GITHUB_WORKSPACE/tests/data" --no-notify --quiet
           python "$GITHUB_WORKSPACE/scripts/verify_outputs.py"
 
+  # Real end-to-end run against the live sources listed in links.txt.
+  # Writes into a scratch directory so the repository is never touched.
   pipeline:
     runs-on: ubuntu-latest
     needs: test
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Dry run against live sources
-        run: python main.py --dry-run --json --quiet --limit 200
+
+      - name: Full run against live sources
+        run: |
+          python -m pip install --quiet pyyaml
+          mkdir -p /tmp/live && cp links.txt README.md /tmp/live/
+          cd /tmp/live
+          python "$GITHUB_WORKSPACE/main.py" --config "$GITHUB_WORKSPACE/config.yaml" \
+            --limit 3000 --no-notify
+          python "$GITHUB_WORKSPACE/scripts/verify_outputs.py"
+          {
+            echo "### Live pipeline run"
+            echo '```json'
+            python - <<'PY'
+          import json
+          stats = json.load(open("outputs/stats.json"))
+          keep = ("generated_at","total","unique","parsed","duplicates","invalid","by_protocol","sources","country_count","duration_ms")
+          print(json.dumps({k: stats.get(k) for k in keep}, indent=2, ensure_ascii=False))
+          PY
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          TOTAL=$(python -c 'import json;print(json.load(open("outputs/stats.json"))["total"])')
+          echo "published configs: $TOTAL"
+          test "$TOTAL" -gt 0
+
+      - name: Upload live stats
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-stats
+          path: /tmp/live/outputs/stats.json
+          if-no-files-found: warn
+          retention-days: 3
