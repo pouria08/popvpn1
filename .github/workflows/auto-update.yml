@@ -1,0 +1,112 @@
+name: Auto Update
+
+on:
+  schedule:
+    # every hour, offset from the top of the hour to avoid GitHub's cron rush
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: 'Liveness probe mode'
+        type: choice
+        options: [off, tcp, tls]
+        default: 'off'
+      limit:
+        description: 'Max configs (0 = use config.yaml)'
+        type: string
+        default: '0'
+      dry_run:
+        description: 'Dry run (fetch + parse, commit nothing)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Restore HTTP cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: popvpn-http-${{ github.run_id }}
+          restore-keys: popvpn-http-
+
+      - name: Run pipeline
+        env:
+          POPVPN_PROFILE_REPO: ${{ github.repository }}
+          POPVPN_PROFILE_BRANCH: ${{ github.ref_name }}
+          POPVPN_TELEGRAM_TOKEN: ${{ secrets.POPVPN_TELEGRAM_TOKEN }}
+          POPVPN_TELEGRAM_CHAT_ID: ${{ secrets.POPVPN_TELEGRAM_CHAT_ID }}
+          POPVPN_DISCORD_WEBHOOK: ${{ secrets.POPVPN_DISCORD_WEBHOOK }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python main.py --probe "${{ inputs.probe || 'off' }}" --limit "${{ inputs.limit || '0' }}" $ARGS
+
+      - name: Verify outputs
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          python -m pip install --quiet pyyaml
+          python scripts/verify_outputs.py
+
+      - name: Commit outputs
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "popvpn-bot[bot]"
+          git config user.email "popvpn-bot[bot]@users.noreply.github.com"
+          git add working_configs.txt base64.txt stats.txt outputs state dashboard README.md 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No output changes to commit."
+            exit 0
+          fi
+          python scripts/commit_message.py > .git/COMMIT_EDITMSG_TMP
+          git commit -F .git/COMMIT_EDITMSG_TMP
+          git push
+
+      - name: Job summary
+        if: always()
+        run: |
+          if [ -f outputs/stats.json ]; then
+            {
+              echo "### ⚡ POPVPN X run"
+              echo '```json'
+              python - <<'PY'
+          import json
+          stats = json.load(open("outputs/stats.json"))
+          keep = ("generated_at","total","unique","duplicates","invalid","by_protocol","sources","probe","country_count","duration_ms")
+          print(json.dumps({k: stats.get(k) for k in keep}, indent=2, ensure_ascii=False))
+          PY
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload artefacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: outputs
+          path: |
+            working_configs.txt
+            base64.txt
+            stats.txt
+            outputs/
+            dashboard/
+          if-no-files-found: warn
+          retention-days: 7

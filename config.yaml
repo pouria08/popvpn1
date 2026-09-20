@@ -1,0 +1,106 @@
+# ============================================================================
+#  POPVPN X — pipeline configuration
+# ============================================================================
+#  هر کلید را می‌توان با متغیر محیطی POPVPN_<SECTION>_<KEY> بازنویسی کرد:
+#      POPVPN_PROFILE_TITLE="My VPN"
+#      POPVPN_PROBE_MODE=tcp
+#      POPVPN_LIMITS_MAX_CONFIGS=5000
+#  این فایل با پارسر YAML داخلی پروژه خوانده می‌شود (بدون وابستگی خارجی):
+#  map های تودرتو، لیست‌های `- آیتم` و `[a, b]`، کامنت # و مقدارهای
+#  رشته/عدد/بولین. از Tab برای تورفتگی استفاده نکنید.
+# ============================================================================
+
+profile:
+  title: "POPVPN X"
+  brand: "POPVPN"
+  update_interval: 1
+  total: 10737418240000000          # عملاً نامحدود (۱۰ پتابایت)
+  expire: 2546249531                # عملاً نامحدود (سال ۲۰۵۰)
+  profile_web_page_url: ""          # لینک داشبورد/README — در هدر ساب درج می‌شود
+  support_url: ""
+  client_types: ""
+  announce: ""
+  repo: "pouria08/popvpn1"          # برای ساخت لینک‌های raw در README/داشبورد
+  branch: "main"
+
+sources:
+  file: links.txt
+  max_failures: 3                   # بعد از ۳ خطای پشت‌سرهم، منبع موقتاً متوقف می‌شود
+  revive_after_hours: 6             # … و بعد از این مدت دوباره امتحان می‌شود
+  state_file: state/sources.json
+
+fetch:
+  workers: 12                       # دانلود هم‌زمان منابع
+  connect_timeout: 10
+  read_timeout: 45
+  retries: 3
+  backoff: 1.6                      # تأخیر نمایی بین تلاش‌ها
+  jitter: 0.35
+  max_bytes: 26214400               # سقف ۲۵ مگابایت برای هر منبع
+  use_cache: true
+  use_stale_on_error: true          # اگر منبع خطا داد، آخرین نسخهٔ کش‌شده را نگه دار
+  cache_ttl: 900                    # ثانیه
+  cache_dir: .cache/http
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+parsing:
+  protocols: [vless, vmess, trojan, ss, tuic, hy2, wireguard]
+  split_concatenated: true          # URI های چسبیده به هم را جدا کن
+  allow_double_base64: true
+
+naming:
+  template: "{brand} {index} {flag} {country} {protocol} {transport}"
+  index_width: 4
+  separator: "|"
+  max_length: 60
+  unique: true                      # نام تکراری نده (۲، ۳، … اضافه می‌شود)
+
+geo:
+  unknown_label: "GLOBAL"
+
+scoring:
+  enabled: true
+  sort: "score"                     # score | protocol | country | latency
+  shuffle_within_country: false
+
+security:
+  drop_insecure: false              # allowInsecure=1 را حذف کن
+  drop_private_hosts: false         # ۱۲۷.۰.۰.۱ / ۱۰.x / ۱۹۲.۱۶۸.x را حذف کن
+  drop_legacy_vmess: false          # vmess با v:1 (غیر AEAD) را حذف کن
+  max_warnings: 99
+
+probe:
+  mode: "off"                       # off | tcp | tls
+  workers: 96
+  timeout: 4.0
+  tls: false
+  max_endpoints: 4000               # هر host:port فقط یک‌بار تست می‌شود
+  cache_ttl: 3600
+  state_file: state/probe_cache.json
+  drop_dead: false                  # کانفیگ‌های مرده را از خروجی حذف کن
+
+limits:
+  max_configs: 12000
+  per_protocol: 0                   # ۰ = بدون سقف
+  best_count: 100                   # تعداد کانفیگ در outputs/best.txt
+  clash_max: 3000                   # سقف proxy در clash.yaml / singbox.json
+  dashboard_configs: 400
+
+outputs:
+  dir: outputs
+  root_files: true                  # working_configs.txt / base64.txt / stats.txt
+  by_protocol: true
+  by_country: true
+  clash: true
+  singbox: true
+  dashboard: dashboard
+  readme: README.md
+  history_file: state/history.json
+  history_keep: 240
+  sparkline: outputs/history.svg
+
+notify:
+  enabled: true                     # فقط با تنظیم POPVPN_TELEGRAM_* یا POPVPN_DISCORD_WEBHOOK فعال می‌شود
+  min_drop_percent: 40              # افت بیش از این درصد → اطلاع‌رسانی
+
+quiet: false
