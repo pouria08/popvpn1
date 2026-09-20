@@ -76,14 +76,14 @@ def test_verify_outputs_detects_bad_singbox_json(generated):
 def test_commit_message_from_generated_stats(generated, capsys):
     stats = json.loads(Path("outputs/stats.json").read_text(encoding="utf-8"))
     subject = commit_message.build_message(stats)
-    assert subject.startswith("Auto-Update: Total: 13")
-    assert "VLESS: 3" in subject
-    assert "Sources: 5/5" in subject
+    assert subject.startswith("Auto-Update: Total: 24")
+    assert "TROJAN: 12" in subject
+    assert "Sources: 6/6" in subject
     assert len(subject) <= 180
 
     body = commit_message.build_body(stats)
-    assert "duplicates removed: 14" in body
-    assert "countries detected: 10" in body
+    assert "duplicates removed: 16" in body
+    assert "countries detected: 12" in body
 
 
 def test_commit_message_truncates_long_subject():

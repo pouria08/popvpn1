@@ -45,8 +45,9 @@ def test_dry_run_json(workspace, capsys):
     )
     assert code == 0
     payload = json.loads(capsys.readouterr().out)
-    assert payload["total"] == 13
+    assert payload["total"] == 24
     assert payload["by_protocol"]["vless"] == 3
+    assert payload["by_protocol"]["trojan"] == 12
     assert payload["files"] == []
 
 

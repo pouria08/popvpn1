@@ -60,16 +60,18 @@ def result(workspace):
 def test_pipeline_reports_counts(result):
     stats = result["stats"]
     assert result["ok"] is True
-    # the fixtures contain 13 distinct configs published across 3 files
-    assert stats["total"] == 13
-    assert stats["unique"] == 13
-    assert stats["parsed"] == 27
-    assert stats["duplicates"] == 14         # padded, HTML-escaped, concatenated + repeated files
+    # the fixtures contain 24 distinct configs across 4 files
+    # (mixed.txt + base64_body.txt + double_base64_body.txt + real_trojan_sample.txt)
+    assert stats["total"] == 24
+    assert stats["unique"] == 24
+    assert stats["parsed"] == 40
+    assert stats["duplicates"] == 16         # padded, HTML-escaped, concatenated + repeated files
     assert stats["invalid"] == 2             # the two deliberately broken lines
     assert stats["by_protocol"] == {
-        "vless": 3, "vmess": 3, "ss": 3, "trojan": 1, "tuic": 1, "hy2": 1, "wireguard": 1,
+        "trojan": 12, "vless": 3, "vmess": 3, "ss": 3,
+        "tuic": 1, "hy2": 1, "wireguard": 1,
     }
-    assert stats["country_count"] >= 8
+    assert stats["country_count"] >= 10
 
 
 def test_pipeline_writes_every_artefact(result, workspace):

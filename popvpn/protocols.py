@@ -212,15 +212,20 @@ def _split_uri(uri: str) -> tuple[str, str, str, str]:
     """Split ``scheme://netloc?query#fragment`` without urllib's surprises.
 
     ``urlsplit`` refuses to treat some real-world payloads as URLs (and it
-    percent-decodes nothing for us), so the split is done by hand: the
-    fragment is everything after the *first* ``#`` and the query everything
-    after the *first* ``?`` that follows it.
+    percent-decodes nothing for us), so the split is done by hand.
+
+    The fragment is taken from the **last** ``#``, not the first one: free
+    feeds publish Trojan passwords that legitimately contain a ``#``
+    (``trojan://8r<[9'l6hAO#8ZQi@1.2.3.4:443#remark``), and splitting on the
+    first ``#`` would throw the whole config away.  Losing part of a remark
+    that itself contains a ``#`` is harmless — the pipeline replaces every
+    remark with its own name anyway.
     """
 
     scheme, _, rest = uri.partition("://")
     fragment = ""
     if "#" in rest:
-        rest, _, fragment = rest.partition("#")
+        rest, _, fragment = rest.rpartition("#")
     query = ""
     if "?" in rest:
         rest, _, query = rest.partition("?")
@@ -755,9 +760,10 @@ def rename(uri: str, remark: str, *, protocol: str = "") -> str:
     if not uri:
         return uri
     scheme, _, _ = uri.partition("://")
-    base = uri.split("#", 1)[0]
+    # rsplit, so a '#' inside the credential is not mistaken for a remark
+    base = uri.rsplit("#", 1)[0]
     if scheme.lower() == "vmess":
-        payload = uri.partition("://")[2].split("#", 1)[0]
+        payload = uri.partition("://")[2].rsplit("#", 1)[0]
         decoded = _b64decode_text(payload)
         if decoded and decoded.strip().startswith("{"):
             try:
