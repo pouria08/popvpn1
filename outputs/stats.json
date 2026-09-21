@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-20 22:30:13 UTC",
+  "generated_at": "2026-09-21 01:10:47 UTC",
   "version": "2.0.0",
-  "duration_ms": 2751,
-  "total": 8062,
-  "unique": 8062,
-  "parsed": 21499,
-  "raw_lines": 22426,
-  "duplicates": 13437,
-  "invalid": 927,
+  "duration_ms": 2859,
+  "total": 8226,
+  "unique": 8226,
+  "parsed": 21401,
+  "raw_lines": 22402,
+  "duplicates": 13175,
+  "invalid": 1001,
   "by_protocol": {
-    "vless": 3866,
-    "trojan": 613,
+    "vless": 4044,
+    "trojan": 622,
     "hy2": 32,
-    "vmess": 2154,
-    "ss": 1397
+    "vmess": 2116,
+    "ss": 1412
   },
   "by_country": [
     {
@@ -21,63 +21,63 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 4978
+      "count": 5189
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 560
+      "count": 525
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 508
+      "count": 493
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 384
+      "count": 417
     },
     {
       "code": "NL",
       "name": "Netherlands",
       "flag": "🇳🇱",
       "region": "EU",
-      "count": 256
+      "count": 261
     },
     {
       "code": "IR",
       "name": "Iran",
       "flag": "🇮🇷",
       "region": "",
-      "count": 151
+      "count": 137
     },
     {
       "code": "HK",
       "name": "Hong Kong",
       "flag": "🇭🇰",
       "region": "AS",
-      "count": 142
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 136
+      "count": 133
     },
     {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
       "region": "EU",
-      "count": 122
+      "count": 124
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
+      "count": 119
     },
     {
       "code": "FI",
@@ -91,63 +91,56 @@
       "name": "Russia",
       "flag": "🇷🇺",
       "region": "",
-      "count": 110
+      "count": 107
     },
     {
       "code": "SG",
       "name": "Singapore",
       "flag": "🇸🇬",
       "region": "AS",
-      "count": 81
+      "count": 84
     },
     {
       "code": "TR",
       "name": "Türkiye",
       "flag": "🇹🇷",
       "region": "",
-      "count": 59
+      "count": 63
     },
     {
       "code": "JP",
       "name": "Japan",
       "flag": "🇯🇵",
       "region": "AS",
-      "count": 54
+      "count": 59
     },
     {
       "code": "PL",
       "name": "Poland",
       "flag": "🇵🇱",
       "region": "EU",
-      "count": 51
+      "count": 50
     },
     {
       "code": "TW",
       "name": "Taiwan",
       "flag": "🇹🇼",
       "region": "AS",
-      "count": 33
-    },
-    {
-      "code": "KR",
-      "name": "South Korea",
-      "flag": "🇰🇷",
-      "region": "",
-      "count": 24
-    },
-    {
-      "code": "AU",
-      "name": "Australia",
-      "flag": "🇦🇺",
-      "region": "OC",
-      "count": 20
+      "count": 34
     },
     {
       "code": "CN",
       "name": "China",
       "flag": "🇨🇳",
       "region": "AS",
-      "count": 20
+      "count": 23
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "region": "",
+      "count": 21
     },
     {
       "code": "IT",
@@ -157,17 +150,17 @@
       "count": 20
     },
     {
-      "code": "KZ",
-      "name": "Kazakhstan",
-      "flag": "🇰🇿",
-      "region": "AS",
-      "count": 18
-    },
-    {
       "code": "SE",
       "name": "Sweden",
       "flag": "🇸🇪",
       "region": "EU",
+      "count": 20
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "region": "OC",
       "count": 18
     },
     {
@@ -175,13 +168,13 @@
       "name": "Belgium",
       "flag": "🇧🇪",
       "region": "EU",
-      "count": 16
+      "count": 17
     },
     {
-      "code": "EE",
-      "name": "Estonia",
-      "flag": "🇪🇪",
-      "region": "EU",
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "flag": "🇰🇿",
+      "region": "AS",
       "count": 15
     },
     {
@@ -192,53 +185,60 @@
       "count": 14
     },
     {
-      "code": "LV",
-      "name": "Latvia",
-      "flag": "🇱🇻",
+      "code": "EE",
+      "name": "Estonia",
+      "flag": "🇪🇪",
       "region": "EU",
-      "count": 13
-    },
-    {
-      "code": "ES",
-      "name": "Spain",
-      "flag": "🇪🇸",
-      "region": "EU",
-      "count": 11
-    },
-    {
-      "code": "AT",
-      "name": "Austria",
-      "flag": "🇦🇹",
-      "region": "EU",
-      "count": 9
+      "count": 12
     },
     {
       "code": "BR",
       "name": "Brazil",
       "flag": "🇧🇷",
       "region": "SA",
-      "count": 9
+      "count": 10
     },
     {
       "code": "CH",
       "name": "Switzerland",
       "flag": "🇨🇭",
       "region": "EU",
-      "count": 9
+      "count": 10
     },
     {
       "code": "CZ",
       "name": "Czechia",
       "flag": "🇨🇿",
       "region": "EU",
+      "count": 10
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "flag": "🇱🇻",
+      "region": "EU",
+      "count": 10
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "region": "AS",
       "count": 9
     },
     {
-      "code": "VN",
-      "name": "Vietnam",
-      "flag": "🇻🇳",
-      "region": "AS",
+      "code": "ES",
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "region": "EU",
       "count": 9
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "flag": "🇦🇹",
+      "region": "EU",
+      "count": 8
     },
     {
       "code": "IE",
@@ -248,24 +248,24 @@
       "count": 8
     },
     {
-      "code": "AE",
-      "name": "United Arab Emirates",
-      "flag": "🇦🇪",
+      "code": "MY",
+      "name": "Malaysia",
+      "flag": "🇲🇾",
       "region": "AS",
-      "count": 7
+      "count": 8
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "region": "AS",
+      "count": 8
     },
     {
       "code": "BG",
       "name": "Bulgaria",
       "flag": "🇧🇬",
       "region": "EU",
-      "count": 7
-    },
-    {
-      "code": "MY",
-      "name": "Malaysia",
-      "flag": "🇲🇾",
-      "region": "AS",
       "count": 6
     },
     {
@@ -273,7 +273,7 @@
       "name": "Lithuania",
       "flag": "🇱🇹",
       "region": "EU",
-      "count": 5
+      "count": 6
     },
     {
       "code": "RO",
@@ -283,11 +283,11 @@
       "count": 5
     },
     {
-      "code": "AM",
-      "name": "Armenia",
-      "flag": "🇦🇲",
-      "region": "AS",
-      "count": 4
+      "code": "ZA",
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "region": "AF",
+      "count": 5
     },
     {
       "code": "CY",
@@ -311,17 +311,17 @@
       "count": 4
     },
     {
+      "code": "AM",
+      "name": "Armenia",
+      "flag": "🇦🇲",
+      "region": "AS",
+      "count": 3
+    },
+    {
       "code": "MD",
       "name": "Moldova",
       "flag": "🇲🇩",
       "region": "EU",
-      "count": 3
-    },
-    {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
-      "region": "NA",
       "count": 3
     },
     {
@@ -339,13 +339,6 @@
       "count": 3
     },
     {
-      "code": "ZA",
-      "name": "South Africa",
-      "flag": "🇿🇦",
-      "region": "AF",
-      "count": 3
-    },
-    {
       "code": "AD",
       "name": "Andorra",
       "flag": "🇦🇩",
@@ -360,17 +353,10 @@
       "count": 2
     },
     {
-      "code": "AZ",
-      "name": "Azerbaijan",
-      "flag": "🇦🇿",
-      "region": "AS",
-      "count": 2
-    },
-    {
-      "code": "DO",
-      "name": "Dominican Republic",
-      "flag": "🇩🇴",
-      "region": "NA",
+      "code": "HU",
+      "name": "Hungary",
+      "flag": "🇭🇺",
+      "region": "EU",
       "count": 2
     },
     {
@@ -381,10 +367,17 @@
       "count": 2
     },
     {
-      "code": "UA",
-      "name": "Ukraine",
-      "flag": "🇺🇦",
+      "code": "LU",
+      "name": "Luxembourg",
+      "flag": "🇱🇺",
       "region": "EU",
+      "count": 2
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "region": "NA",
       "count": 2
     },
     {
@@ -395,10 +388,10 @@
       "count": 2
     },
     {
-      "code": "BA",
-      "name": "Bosnia",
-      "flag": "🇧🇦",
-      "region": "EU",
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "flag": "🇦🇿",
+      "region": "AS",
       "count": 1
     },
     {
@@ -416,6 +409,13 @@
       "count": 1
     },
     {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "flag": "🇩🇴",
+      "region": "NA",
+      "count": 1
+    },
+    {
       "code": "EG",
       "name": "Egypt",
       "flag": "🇪🇬",
@@ -423,23 +423,23 @@
       "count": 1
     },
     {
-      "code": "HU",
-      "name": "Hungary",
-      "flag": "🇭🇺",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "KW",
-      "name": "Kuwait",
-      "flag": "🇰🇼",
+      "code": "IQ",
+      "name": "Iraq",
+      "flag": "🇮🇶",
       "region": "AS",
       "count": 1
     },
     {
-      "code": "LU",
-      "name": "Luxembourg",
-      "flag": "🇱🇺",
+      "code": "RS",
+      "name": "Serbia",
+      "flag": "🇷🇸",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "flag": "🇺🇦",
       "region": "EU",
       "count": 1
     }
@@ -458,7 +458,7 @@
       "last_configs": 52,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 245,
+      "elapsed_ms": 148,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -466,10 +466,10 @@
     {
       "name": "MatinGhanbari",
       "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
-      "last_configs": 3944,
+      "last_configs": 3949,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 302,
+      "elapsed_ms": 183,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -477,40 +477,7 @@
     {
       "name": "barry-far",
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
-      "last_configs": 7291,
-      "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 545,
-      "error": "",
-      "success_rate": 1.0,
-      "paused": false
-    },
-    {
-      "name": "Epodonios",
-      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
-      "last_configs": 7292,
-      "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 331,
-      "error": "",
-      "success_rate": 1.0,
-      "paused": false
-    },
-    {
-      "name": "barry-vmess",
-      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
-      "last_configs": 258,
-      "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 353,
-      "error": "",
-      "success_rate": 1.0,
-      "paused": false
-    },
-    {
-      "name": "barry-ss",
-      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
-      "last_configs": 704,
+      "last_configs": 7260,
       "ok": true,
       "from_cache": false,
       "elapsed_ms": 278,
@@ -519,12 +486,45 @@
       "paused": false
     },
     {
-      "name": "barry-trojan",
-      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt",
-      "last_configs": 613,
+      "name": "Epodonios",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
+      "last_configs": 7293,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 271,
+      "elapsed_ms": 178,
+      "error": "",
+      "success_rate": 1.0,
+      "paused": false
+    },
+    {
+      "name": "barry-vmess",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
+      "last_configs": 254,
+      "ok": true,
+      "from_cache": false,
+      "elapsed_ms": 206,
+      "error": "",
+      "success_rate": 1.0,
+      "paused": false
+    },
+    {
+      "name": "barry-ss",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
+      "last_configs": 680,
+      "ok": true,
+      "from_cache": false,
+      "elapsed_ms": 195,
+      "error": "",
+      "success_rate": 1.0,
+      "paused": false
+    },
+    {
+      "name": "barry-trojan",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt",
+      "last_configs": 604,
+      "ok": true,
+      "from_cache": false,
+      "elapsed_ms": 191,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -532,10 +532,10 @@
     {
       "name": "epodonios-trojan",
       "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
-      "last_configs": 614,
+      "last_configs": 613,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 170,
+      "elapsed_ms": 134,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -543,10 +543,10 @@
     {
       "name": "AetrisVPN",
       "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
-      "last_configs": 514,
+      "last_configs": 479,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 1461,
+      "elapsed_ms": 1018,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -557,7 +557,7 @@
       "last_configs": 217,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 964,
+      "elapsed_ms": 561,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -565,14 +565,14 @@
   ],
   "per_source": {
     "patterniha": 52,
-    "MatinGhanbari": 3944,
-    "barry-far": 7291,
-    "Epodonios": 7292,
-    "barry-vmess": 258,
-    "barry-ss": 704,
-    "barry-trojan": 613,
-    "epodonios-trojan": 614,
-    "AetrisVPN": 514,
+    "MatinGhanbari": 3949,
+    "barry-far": 7260,
+    "Epodonios": 7293,
+    "barry-vmess": 254,
+    "barry-ss": 680,
+    "barry-trojan": 604,
+    "epodonios-trojan": 613,
+    "AetrisVPN": 479,
     "AetrisVPN-blacklist": 217
   },
   "cache": {
@@ -594,19 +594,19 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 8062,
+    "kept": 8226,
     "dropped": 0,
-    "insecure": 133,
-    "private_hosts": 12,
+    "insecure": 134,
+    "private_hosts": 10,
     "placeholder_credentials": 2,
     "warnings": {
-      "unknown-network": 1858,
-      "allow-insecure": 133,
-      "private-host": 12,
+      "unknown-network": 1811,
+      "allow-insecure": 134,
+      "private-host": 10,
       "weak-credential": 2,
       "unknown-security": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 8048
+  "previous_total": 8062
 }
