@@ -5,9 +5,9 @@
       <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.02"/>
     </linearGradient>
   </defs>
-  <polygon points="0,120 0.0,112.0 180.0,106.0 360.0,35.5 540.0,8.0 720.0,76.8 720,120" fill="#7c3aed" opacity="0.25"/>
-  <polygon points="0,120 0.0,112.0 180.0,106.0 360.0,35.5 540.0,8.0 720.0,76.8 720,120" fill="url(#g)"/>
-  <polyline points="0.0,112.0 180.0,106.0 360.0,35.5 540.0,8.0 720.0,76.8" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="720.0" cy="76.8" r="4" fill="#7c3aed"/>
-  <text x="8" y="18" font-family="monospace" font-size="12" fill="#7c3aed">configs 8130</text>
+  <polygon points="0,120 0.0,112.0 144.0,109.1 288.0,75.6 432.0,62.5 576.0,95.2 720.0,8.0 720,120" fill="#7c3aed" opacity="0.25"/>
+  <polygon points="0,120 0.0,112.0 144.0,109.1 288.0,75.6 432.0,62.5 576.0,95.2 720.0,8.0 720,120" fill="url(#g)"/>
+  <polyline points="0.0,112.0 144.0,109.1 288.0,75.6 432.0,62.5 576.0,95.2 720.0,8.0" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="720.0" cy="8.0" r="4" fill="#7c3aed"/>
+  <text x="8" y="18" font-family="monospace" font-size="12" fill="#7c3aed">configs 8556</text>
 </svg>

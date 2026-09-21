@@ -1,135 +1,135 @@
 {
   "sources": {
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt": {
-      "attempts": 5,
-      "avg_ms": 1162,
+      "attempts": 6,
+      "avg_ms": 1101,
       "fail_streak": 0,
-      "last_configs": 461,
+      "last_configs": 521,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
+      "last_ok_at": 1790019279,
       "last_status": 200,
       "name": "AetrisVPN",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt": {
-      "attempts": 5,
-      "avg_ms": 731,
+      "attempts": 6,
+      "avg_ms": 668,
       "fail_streak": 0,
       "last_configs": 217,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
+      "last_ok_at": 1790019279,
       "last_status": 304,
       "name": "AetrisVPN-blacklist",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt": {
-      "attempts": 5,
-      "avg_ms": 309,
+      "attempts": 6,
+      "avg_ms": 261,
       "fail_streak": 0,
-      "last_configs": 7319,
+      "last_configs": 7317,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
+      "last_ok_at": 1790019279,
       "last_status": 200,
       "name": "Epodonios",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt": {
-      "attempts": 5,
-      "avg_ms": 203,
+      "attempts": 6,
+      "avg_ms": 181,
       "fail_streak": 0,
       "last_configs": 604,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
+      "last_ok_at": 1790019279,
       "last_status": 200,
       "name": "epodonios-trojan",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt": {
-      "attempts": 5,
-      "avg_ms": 245,
+      "attempts": 6,
+      "avg_ms": 259,
       "fail_streak": 0,
-      "last_configs": 3947,
+      "last_configs": 3951,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
+      "last_ok_at": 1790019279,
       "last_status": 200,
       "name": "MatinGhanbari",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt": {
-      "attempts": 5,
-      "avg_ms": 298,
+      "attempts": 6,
+      "avg_ms": 241,
       "fail_streak": 0,
-      "last_configs": 7322,
+      "last_configs": 7337,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
+      "last_ok_at": 1790019279,
       "last_status": 200,
       "name": "barry-far",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt": {
-      "attempts": 5,
-      "avg_ms": 254,
+      "attempts": 6,
+      "avg_ms": 212,
       "fail_streak": 0,
-      "last_configs": 671,
+      "last_configs": 658,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
-      "last_status": 304,
+      "last_ok_at": 1790019279,
+      "last_status": 200,
       "name": "barry-ss",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt": {
-      "attempts": 5,
-      "avg_ms": 228,
+      "attempts": 6,
+      "avg_ms": 195,
       "fail_streak": 0,
-      "last_configs": 605,
+      "last_configs": 615,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
+      "last_ok_at": 1790019279,
       "last_status": 200,
       "name": "barry-trojan",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt": {
-      "attempts": 5,
-      "avg_ms": 220,
+      "attempts": 6,
+      "avg_ms": 191,
       "fail_streak": 0,
-      "last_configs": 253,
+      "last_configs": 260,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
+      "last_ok_at": 1790019279,
       "last_status": 200,
       "name": "barry-vmess",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt": {
-      "attempts": 5,
-      "avg_ms": 201,
+      "attempts": 6,
+      "avg_ms": 173,
       "fail_streak": 0,
-      "last_configs": 52,
+      "last_configs": 63,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790000154,
-      "last_status": 304,
+      "last_ok_at": 1790019279,
+      "last_status": 200,
       "name": "patterniha",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     }
   },
-  "updated_at": 1790000154
+  "updated_at": 1790019279
 }
