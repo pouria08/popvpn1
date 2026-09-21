@@ -1,24 +1,24 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
-    "name": "Epodonios",
-    "attempts": 3,
+    "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
+    "name": "barry-far",
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 7293,
-    "avg_ms": 169,
+    "last_configs": 7321,
+    "avg_ms": 281,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
   },
   {
-    "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
-    "name": "barry-far",
-    "attempts": 3,
+    "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
+    "name": "Epodonios",
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 7260,
-    "avg_ms": 281,
+    "avg_ms": 272,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -26,11 +26,11 @@
   {
     "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
     "name": "MatinGhanbari",
-    "attempts": 3,
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 3949,
-    "avg_ms": 165,
+    "last_configs": 3939,
+    "avg_ms": 219,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -38,11 +38,11 @@
   {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
     "name": "barry-ss",
-    "attempts": 3,
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 680,
-    "avg_ms": 165,
+    "last_configs": 671,
+    "avg_ms": 197,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -50,11 +50,11 @@
   {
     "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
     "name": "epodonios-trojan",
-    "attempts": 3,
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 613,
-    "avg_ms": 115,
+    "avg_ms": 165,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -62,11 +62,11 @@
   {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt",
     "name": "barry-trojan",
-    "attempts": 3,
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 604,
-    "avg_ms": 163,
+    "avg_ms": 233,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -74,11 +74,11 @@
   {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
     "name": "AetrisVPN",
-    "attempts": 3,
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 479,
-    "avg_ms": 926,
+    "last_configs": 542,
+    "avg_ms": 1156,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -86,11 +86,11 @@
   {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
     "name": "barry-vmess",
-    "attempts": 3,
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 254,
-    "avg_ms": 190,
+    "avg_ms": 216,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -98,11 +98,11 @@
   {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt",
     "name": "AetrisVPN-blacklist",
-    "attempts": 3,
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 217,
-    "avg_ms": 612,
+    "avg_ms": 757,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -110,11 +110,11 @@
   {
     "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
     "name": "patterniha",
-    "attempts": 3,
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 52,
-    "avg_ms": 139,
+    "avg_ms": 165,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
