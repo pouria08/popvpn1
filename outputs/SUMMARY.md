@@ -1,34 +1,34 @@
-![Total](https://img.shields.io/badge/CONFIGS-8,282-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-3,985-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-2,205-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-662-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-1,399-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-10%2F10-06b6d4?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-8,367-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-4,080-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-2,223-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-632-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-1,401-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-10%2F10-06b6d4?style=flat-square)
 
-**Last update:** `2026-09-22 10:03:25 UTC` · **8,282 configs** (+160 vs previous run)
+**Last update:** `2026-09-22 14:59:28 UTC` · **8,367 configs** (+85 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
-| VLESS | 3,985 | 48.1% |
-| VMESS | 2,205 | 26.6% |
-| SS | 1,399 | 16.9% |
-| TROJAN | 662 | 8.0% |
+| VLESS | 4,080 | 48.8% |
+| VMESS | 2,223 | 26.6% |
+| SS | 1,401 | 16.7% |
+| TROJAN | 632 | 7.6% |
 | HY2 | 31 | 0.4% |
 
 | Top countries | Configs |
 | --- | ---: |
-| 🏳️ Unknown | 5,114 |
+| 🏳️ Unknown | 5,203 |
 | 🇺🇸 United States | 574 |
-| 🇩🇪 Germany | 500 |
-| 🇨🇦 Canada | 422 |
-| 🇳🇱 Netherlands | 265 |
-| 🇮🇷 Iran | 165 |
-| 🇭🇰 Hong Kong | 144 |
-| 🇬🇧 United Kingdom | 132 |
+| 🇩🇪 Germany | 514 |
+| 🇨🇦 Canada | 428 |
+| 🇳🇱 Netherlands | 282 |
+| 🇭🇰 Hong Kong | 148 |
+| 🇮🇷 Iran | 146 |
+| 🇬🇧 United Kingdom | 120 |
 
 <details><summary>Pipeline health</summary>
 
 - sources: **10/10** ok, 0 failed, 0 auto-paused
-- duplicates removed: **12,899**
-- invalid lines skipped: **990**
+- duplicates removed: **12,854**
+- invalid lines skipped: **958**
 - HTTP cache hit rate: **0%**
-- security flags: **133** insecure, **14** private hosts
-- run duration: **3073 ms**
+- security flags: **147** insecure, **12** private hosts
+- run duration: **3661 ms**
 
 </details>
 
