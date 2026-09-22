@@ -40,6 +40,9 @@ def test_render_markdown_contains_counts_and_links():
     assert "CONFIGS-100" in block
     assert "owner/repo/main" in block
     assert "| VLESS | 60 | 60.0% |" in block
+    assert "COUNTRIES-1" in block
+    assert "Germany (40): https://raw.githubusercontent.com/owner/repo/main/outputs/by-country/de.txt" in block
+    assert "GLOBAL / Unknown (60): https://raw.githubusercontent.com/owner/repo/main/outputs/by-country/global.txt" in block
     assert "-10 vs previous run" in block
 
 
