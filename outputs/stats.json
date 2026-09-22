@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-22 22:15:14 UTC",
+  "generated_at": "2026-09-22 23:51:00 UTC",
   "version": "2.0.0",
-  "duration_ms": 2610,
-  "total": 8192,
-  "unique": 8192,
-  "parsed": 21499,
-  "raw_lines": 22453,
-  "duplicates": 13307,
-  "invalid": 954,
+  "duration_ms": 100891,
+  "total": 8288,
+  "unique": 8288,
+  "parsed": 19381,
+  "raw_lines": 20290,
+  "duplicates": 11093,
+  "invalid": 909,
   "by_protocol": {
-    "vless": 4062,
-    "trojan": 566,
-    "hy2": 30,
+    "trojan": 569,
+    "vless": 4149,
     "vmess": 2112,
-    "ss": 1422
+    "hy2": 30,
+    "ss": 1428
   },
   "by_country": [
     {
@@ -21,14 +21,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 4965
+      "count": 5052
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 545
+      "count": 546
     },
     {
       "code": "US",
@@ -49,7 +49,14 @@
       "name": "Netherlands",
       "flag": "🇳🇱",
       "region": "EU",
-      "count": 281
+      "count": 285
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
+      "count": 148
     },
     {
       "code": "IR",
@@ -57,13 +64,6 @@
       "flag": "🇮🇷",
       "region": "",
       "count": 148
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 147
     },
     {
       "code": "HK",
@@ -77,21 +77,21 @@
       "name": "Finland",
       "flag": "🇫🇮",
       "region": "EU",
-      "count": 127
+      "count": 126
     },
     {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
       "region": "EU",
-      "count": 115
+      "count": 117
     },
     {
       "code": "RU",
       "name": "Russia",
       "flag": "🇷🇺",
       "region": "",
-      "count": 100
+      "count": 101
     },
     {
       "code": "SG",
@@ -112,7 +112,7 @@
       "name": "Türkiye",
       "flag": "🇹🇷",
       "region": "",
-      "count": 60
+      "count": 61
     },
     {
       "code": "JP",
@@ -178,10 +178,10 @@
       "count": 17
     },
     {
-      "code": "IN",
-      "name": "India",
-      "flag": "🇮🇳",
-      "region": "AS",
+      "code": "CZ",
+      "name": "Czechia",
+      "flag": "🇨🇿",
+      "region": "EU",
       "count": 15
     },
     {
@@ -192,17 +192,17 @@
       "count": 14
     },
     {
-      "code": "CZ",
-      "name": "Czechia",
-      "flag": "🇨🇿",
-      "region": "EU",
-      "count": 14
-    },
-    {
       "code": "EE",
       "name": "Estonia",
       "flag": "🇪🇪",
       "region": "EU",
+      "count": 14
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "flag": "🇮🇳",
+      "region": "AS",
       "count": 14
     },
     {
@@ -460,8 +460,8 @@
   ],
   "country_count": 63,
   "sources": {
-    "total": 10,
-    "ok": 10,
+    "total": 6,
+    "ok": 6,
     "failed": 0,
     "paused": 0
   },
@@ -472,7 +472,7 @@
       "last_configs": 53,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 203,
+      "elapsed_ms": 181,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -482,8 +482,8 @@
       "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
       "last_configs": 3936,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 204,
+      "from_cache": true,
+      "elapsed_ms": 216,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -493,8 +493,8 @@
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
       "last_configs": 7374,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 323,
+      "from_cache": true,
+      "elapsed_ms": 82,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -502,54 +502,10 @@
     {
       "name": "Epodonios",
       "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
-      "last_configs": 7371,
+      "last_configs": 7268,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 206,
-      "error": "",
-      "success_rate": 1.0,
-      "paused": false
-    },
-    {
-      "name": "barry-vmess",
-      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
-      "last_configs": 296,
-      "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 225,
-      "error": "",
-      "success_rate": 1.0,
-      "paused": false
-    },
-    {
-      "name": "barry-ss",
-      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
-      "last_configs": 658,
-      "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 207,
-      "error": "",
-      "success_rate": 1.0,
-      "paused": false
-    },
-    {
-      "name": "barry-trojan",
-      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt",
-      "last_configs": 535,
-      "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 223,
-      "error": "",
-      "success_rate": 1.0,
-      "paused": false
-    },
-    {
-      "name": "epodonios-trojan",
-      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
-      "last_configs": 539,
-      "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 225,
+      "elapsed_ms": 94,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -557,10 +513,10 @@
     {
       "name": "AetrisVPN",
       "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
-      "last_configs": 520,
+      "last_configs": 533,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 1162,
+      "elapsed_ms": 1264,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -571,7 +527,7 @@
       "last_configs": 217,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 755,
+      "elapsed_ms": 950,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -581,41 +537,37 @@
     "patterniha": 53,
     "MatinGhanbari": 3936,
     "barry-far": 7374,
-    "Epodonios": 7371,
-    "barry-vmess": 296,
-    "barry-ss": 658,
-    "barry-trojan": 535,
-    "epodonios-trojan": 539,
-    "AetrisVPN": 520,
+    "Epodonios": 7268,
+    "AetrisVPN": 533,
     "AetrisVPN-blacklist": 217
   },
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 10,
+    "misses": 6,
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "off",
-    "endpoints_total": 0,
-    "endpoints_probed": 0,
+    "mode": "tcp",
+    "endpoints_total": 6746,
+    "endpoints_probed": 4000,
     "endpoints_cached": 0,
-    "alive": 0,
-    "dead": 0,
-    "configs_alive": 0,
-    "configs_dead": 0,
-    "elapsed_ms": 0,
-    "avg_latency_ms": 0
+    "alive": 1616,
+    "dead": 5130,
+    "configs_alive": 2504,
+    "configs_dead": 2550,
+    "elapsed_ms": 97941,
+    "avg_latency_ms": 115
   },
   "audit": {
-    "kept": 8192,
+    "kept": 8288,
     "dropped": 0,
-    "insecure": 168,
+    "insecure": 171,
     "private_hosts": 11,
     "placeholder_credentials": 2,
     "warnings": {
       "unknown-network": 1807,
-      "allow-insecure": 168,
+      "allow-insecure": 171,
       "private-host": 11,
       "weak-credential": 2,
       "unknown-security": 2,
@@ -623,5 +575,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 8087
+  "previous_total": 8192
 }
