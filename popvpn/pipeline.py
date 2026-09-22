@@ -226,9 +226,10 @@ class Pipeline:
             per_source_counts[source.name or source.url] = found
 
         # --- source health bookkeeping ---------------------------------
+        # A paused source has not been retried in this run. Recording it as
+        # another failure would refresh ``last_fail_at`` every hour and make
+        # its cool-down never expire, so only record sources we actually ran.
         for source in (active if not options.offline_dir else []):
-            health.record(source)
-        for source in paused:
             health.record(source)
 
         unique: list[VpnConfig] = []
@@ -379,6 +380,7 @@ class Pipeline:
             history,
             history_path,
             health,
+            protocols=allowed,
             base=base,
         )
 
@@ -416,6 +418,7 @@ class Pipeline:
         history_path: str,
         health: SourceHealth,
         *,
+        protocols: list[str],
         base: str,
     ) -> dict:
         options = self.options
@@ -437,8 +440,17 @@ class Pipeline:
         sink.add(out_dir / "all_base64.txt", encoded)
 
         if bool(self.cfg.get("outputs.by_protocol", True)):
-            for protocol, group in writers.group_by_protocol(configs, uris).items():
-                sink.add(out_dir / "by-protocol" / f"{protocol}.txt", writers.plain_subscription(group, profile))
+            # Keep URLs stable for the protocols enabled in config.yaml.  A
+            # quiet feed may have no TUIC / WireGuard node in one particular
+            # run, but users should receive an empty, valid subscription
+            # instead of a 404 from a documented URL.
+            groups = writers.group_by_protocol(configs, uris)
+            for protocol in dict.fromkeys(protocols):
+                group = groups.get(protocol, [])
+                sink.add(
+                    out_dir / "by-protocol" / f"{protocol}.txt",
+                    writers.plain_subscription(group, profile),
+                )
                 sink.add(
                     out_dir / "by-protocol" / f"{protocol}_base64.txt",
                     writers.base64_subscription(group),
@@ -461,16 +473,19 @@ class Pipeline:
                 writers.base64_subscription(uris[:best_count]),
             )
 
+        # Always publish the verified endpoints.  When no probe has run, the
+        # files intentionally contain an empty, valid subscription rather
+        # than disappearing and breaking the public README/dashboard links.
         verified = [(cfg, uri) for cfg, uri in zip(configs, uris) if cfg.verified is True]
-        if verified:
-            sink.add(
-                out_dir / "verified.txt",
-                writers.plain_subscription([uri for _, uri in verified], profile),
-            )
-            sink.add(
-                out_dir / "verified_base64.txt",
-                writers.base64_subscription([uri for _, uri in verified]),
-            )
+        verified_uris = [uri for _, uri in verified]
+        sink.add(
+            out_dir / "verified.txt",
+            writers.plain_subscription(verified_uris, profile),
+        )
+        sink.add(
+            out_dir / "verified_base64.txt",
+            writers.base64_subscription(verified_uris),
+        )
 
         if bool(self.cfg.get("outputs.clash", True)) and configs:
             sink.add(out_dir / "clash.yaml", writers.clash_document(configs[:clash_max], profile))
@@ -518,6 +533,7 @@ class Pipeline:
                     "clash": f"{base}/outputs/clash.yaml",
                     "sing-box": f"{base}/outputs/singbox.json",
                     "best": f"{base}/outputs/best.txt",
+                    "verified": f"{base}/outputs/verified.txt",
                     "stats": f"{base}/stats.txt",
                     "sources": f"{base}/outputs/sources.json",
                 }

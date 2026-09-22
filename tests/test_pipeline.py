@@ -7,6 +7,7 @@ from pathlib import Path
 import pytest
 
 from popvpn.pipeline import Options, run
+from popvpn.sources import Source, SourceHealth
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "tests" / "data"
@@ -20,6 +21,8 @@ EXPECTED_FILES = [
     "outputs/all_base64.txt",
     "outputs/best.txt",
     "outputs/best_base64.txt",
+    "outputs/verified.txt",
+    "outputs/verified_base64.txt",
     "outputs/stats.json",
     "outputs/sources.json",
     "outputs/history.svg",
@@ -27,9 +30,19 @@ EXPECTED_FILES = [
     "outputs/singbox.json",
     "outputs/SUMMARY.md",
     "outputs/by-protocol/vless.txt",
+    "outputs/by-protocol/vless_base64.txt",
     "outputs/by-protocol/vmess.txt",
+    "outputs/by-protocol/vmess_base64.txt",
     "outputs/by-protocol/trojan.txt",
+    "outputs/by-protocol/trojan_base64.txt",
     "outputs/by-protocol/ss.txt",
+    "outputs/by-protocol/ss_base64.txt",
+    "outputs/by-protocol/tuic.txt",
+    "outputs/by-protocol/tuic_base64.txt",
+    "outputs/by-protocol/hy2.txt",
+    "outputs/by-protocol/hy2_base64.txt",
+    "outputs/by-protocol/wireguard.txt",
+    "outputs/by-protocol/wireguard_base64.txt",
     "outputs/by-country/de.txt",
     "outputs/by-country/nl.txt",
     "dashboard/index.html",
@@ -103,6 +116,15 @@ def test_best_and_per_protocol_splits(result):
     assert "trojan://" not in vless
 
 
+def test_verified_subscription_exists_without_a_probe(result):
+    """The public verified URLs must not disappear on fast, probe-off runs."""
+
+    verified = Path("outputs/verified.txt").read_text(encoding="utf-8")
+    assert verified.startswith("#profile-title: POPVPN X")
+    assert "://" not in verified
+    assert Path("outputs/verified_base64.txt").exists()
+
+
 def test_stats_json_is_valid(result):
     payload = json.loads(Path("outputs/stats.json").read_text(encoding="utf-8"))
     assert payload["total"] == result["stats"]["total"]
@@ -169,6 +191,23 @@ def test_custom_outputs_dir(workspace):
     assert any(path.endswith("custom/all.txt") for path in result["written"])
 
 
+def test_enabled_protocol_urls_exist_when_a_feed_has_no_nodes(workspace, tmp_path):
+    """A documented protocol URL must be stable instead of returning 404."""
+
+    input_dir = tmp_path / "input"
+    input_dir.mkdir()
+    (input_dir / "vless-only.txt").write_text(
+        "vless://a1b2c3d4-e5f6-4789-abcd-ef0123456789@example.com:443"
+        "?security=tls&type=ws&sni=example.com#ONLY-VLESS\n",
+        encoding="utf-8",
+    )
+    run(_options(offline_dir=str(input_dir)))
+    tuic = Path("outputs/by-protocol/tuic.txt").read_text(encoding="utf-8")
+    assert tuic.startswith("#profile-title: POPVPN X")
+    assert "://" not in tuic
+    assert Path("outputs/by-protocol/tuic_base64.txt").exists()
+
+
 def test_probe_mode_marks_unreachable_endpoints(workspace, tmp_path):
     # Uses a local, guaranteed-unreachable endpoint so the test never
     # touches the network.
@@ -210,6 +249,25 @@ def test_probe_drop_dead(workspace, tmp_path):
         for key in monkey:
             os.environ.pop(key, None)
     assert result["stats"]["total"] == 0
+
+
+def test_paused_source_cooldown_is_not_reset_without_a_retry(workspace):
+    """Skipped sources must be allowed to revive after their cool-down."""
+
+    url = "https://example.com/paused.txt"
+    health = SourceHealth("state/sources.json", max_failures=3, revive_after_hours=6)
+    for _ in range(3):
+        health.record(Source(url=url, name="paused"))
+    health.records[url]["last_fail_at"] -= 60
+    before = health.records[url]["last_fail_at"]
+    health.save()
+
+    result = run(_options(offline_dir="", sources=[url]))
+    assert result["stats"]["sources"]["paused"] == 1
+
+    reloaded = SourceHealth("state/sources.json", max_failures=3, revive_after_hours=6)
+    assert reloaded.records[url]["last_fail_at"] == before
+    assert reloaded.is_paused(url) is True
 
 
 def test_missing_source_list_raises(workspace, monkeypatch, tmp_path):

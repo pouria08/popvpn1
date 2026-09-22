@@ -164,14 +164,22 @@ def render_stats_txt(stats: dict, profile: dict | None = None) -> str:
     return "\n".join(lines)
 
 
+def _country_output_name(code: object) -> str:
+    """Return the stable filename used for one country subscription."""
+
+    normalized = str(code or "").upper()
+    return normalized.lower() if len(normalized) == 2 and normalized.isalpha() else "global"
+
+
 def render_markdown(stats: dict, *, repo: str = "", branch: str = "main", title: str = "POPVPN X") -> str:
-    """Markdown block injected between the README markers."""
+    """Render the live README block, including copyable country feed URLs."""
 
     base = f"https://raw.githubusercontent.com/{repo}/{branch}" if repo else ""
     counts = stats.get("by_protocol", {})
     sources = stats.get("sources", {})
     probe = stats.get("probe", {})
     previous = stats.get("previous_total")
+    countries = stats.get("by_country", [])
 
     badges = [
         f"![Total](https://img.shields.io/badge/CONFIGS-{stats.get('total', 0):,}-7c3aed?style=flat-square)",
@@ -181,7 +189,7 @@ def render_markdown(stats: dict, *, repo: str = "", branch: str = "main", title:
         f"![SS](https://img.shields.io/badge/Shadowsocks-{counts.get('ss', 0):,}-22c55e?style=flat-square)",
         f"![Sources](https://img.shields.io/badge/SOURCES-{sources.get('ok', 0)}%2F{sources.get('total', 0)}-06b6d4?style=flat-square)",
     ]
-    if stats.get("countries"):
+    if stats.get("country_count", 0):
         badges.append(
             f"![Countries](https://img.shields.io/badge/COUNTRIES-{stats.get('country_count', 0)}-eab308?style=flat-square)"
         )
@@ -211,12 +219,15 @@ def render_markdown(stats: dict, *, repo: str = "", branch: str = "main", title:
         "| Top countries | Configs |",
         "| --- | ---: |",
     ]
-    for row in stats.get("by_country", [])[:8]:
-        label = f"{row['flag']} {row['name']}" if row["code"] else "🏳️ Unknown"
-        lines.append(f"| {label} | {row['count']:,} |")
+    for row in countries[:8]:
+        code = str(row.get("code", ""))
+        label = f"{row.get('flag', '')} {row.get('name', 'Unknown')}"
+        if code in ("", "?"):
+            label = "🏳️ GLOBAL / Unknown"
+        lines.append(f"| {label.strip()} | {int(row.get('count', 0)):,} |")
     lines += [
         "",
-        "<details><summary>Pipeline health</summary>",
+        "<details><summary><b>Pipeline health</b></summary>",
         "",
         f"- sources: **{sources.get('ok', 0)}/{sources.get('total', 0)}** ok, "
         f"{sources.get('failed', 0)} failed, {sources.get('paused', 0)} auto-paused",
@@ -242,13 +253,27 @@ def render_markdown(stats: dict, *, repo: str = "", branch: str = "main", title:
             "**Subscription:** "
             f"[plain]({base}/working_configs.txt) · "
             f"[base64]({base}/base64.txt) · "
+            f"[all]({base}/outputs/all.txt) · "
+            f"[best]({base}/outputs/best.txt) · "
+            f"[verified]({base}/outputs/verified.txt) · "
             f"[clash]({base}/outputs/clash.yaml) · "
             f"[sing-box]({base}/outputs/singbox.json) · "
-            f"[best]({base}/outputs/best.txt) · "
             f"[stats]({base}/stats.txt)",
+            "",
+            "<details><summary><b>🌍 همهٔ لینک‌های کشورها در آخرین اجرا — Copyable</b></summary>",
+            "",
+            "```text",
         ]
+        for row in countries:
+            code = str(row.get("code", ""))
+            name = str(row.get("name", "Unknown"))
+            flag = str(row.get("flag", "🏳️"))
+            count = int(row.get("count", 0))
+            filename = _country_output_name(code)
+            label = "GLOBAL / Unknown" if filename == "global" else name
+            lines.append(f"{flag} {label} ({count:,}): {base}/outputs/by-country/{filename}.txt")
+        lines += ["```", "", "</details>"]
     return "\n".join(lines) + "\n"
-
 
 def inject_readme(readme_path: str | Path, block: str) -> bool:
     """Replace the content between the stats markers in ``README.md``."""
