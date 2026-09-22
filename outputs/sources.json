@@ -2,11 +2,11 @@
   {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
     "name": "barry-far",
-    "attempts": 11,
+    "attempts": 12,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 7150,
-    "avg_ms": 235,
+    "last_configs": 7374,
+    "avg_ms": 270,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -14,11 +14,11 @@
   {
     "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
     "name": "Epodonios",
-    "attempts": 11,
+    "attempts": 12,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 7149,
-    "avg_ms": 225,
+    "last_configs": 7371,
+    "avg_ms": 217,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -26,11 +26,11 @@
   {
     "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
     "name": "MatinGhanbari",
-    "attempts": 11,
+    "attempts": 12,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 3946,
-    "avg_ms": 219,
+    "last_configs": 3936,
+    "avg_ms": 213,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -38,11 +38,11 @@
   {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
     "name": "barry-ss",
-    "attempts": 11,
+    "attempts": 12,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 656,
-    "avg_ms": 232,
+    "last_configs": 658,
+    "avg_ms": 222,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -50,23 +50,11 @@
   {
     "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
     "name": "epodonios-trojan",
-    "attempts": 11,
+    "attempts": 12,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 566,
-    "avg_ms": 229,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
-    "name": "AetrisVPN",
-    "attempts": 11,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 550,
-    "avg_ms": 1447,
+    "last_configs": 539,
+    "avg_ms": 227,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -74,11 +62,23 @@
   {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt",
     "name": "barry-trojan",
-    "attempts": 11,
+    "attempts": 12,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 543,
-    "avg_ms": 212,
+    "last_configs": 535,
+    "avg_ms": 216,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
+    "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
+    "name": "AetrisVPN",
+    "attempts": 12,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 520,
+    "avg_ms": 1333,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -86,11 +86,11 @@
   {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
     "name": "barry-vmess",
-    "attempts": 11,
+    "attempts": 12,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 292,
-    "avg_ms": 238,
+    "last_configs": 296,
+    "avg_ms": 232,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -98,11 +98,11 @@
   {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt",
     "name": "AetrisVPN-blacklist",
-    "attempts": 11,
+    "attempts": 12,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 217,
-    "avg_ms": 1052,
+    "avg_ms": 933,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -110,7 +110,7 @@
   {
     "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
     "name": "patterniha",
-    "attempts": 11,
+    "attempts": 12,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 53,
