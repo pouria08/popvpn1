@@ -46,8 +46,9 @@ jobs:
           cd /tmp/popvpn-run
           # Fixtures intentionally use non-routable endpoints. This parser
           # smoke test opts out explicitly; production defaults remain TCP.
-          python "$GITHUB_WORKSPACE/main.py" --config "$GITHUB_WORKSPACE/config.yaml" \
-            --offline "$GITHUB_WORKSPACE/tests/data" --probe off --no-notify --quiet
+          POPVPN_PROBE_REQUIRE_VERIFIED=false POPVPN_PROBE_DROP_DEAD=false \
+            python "$GITHUB_WORKSPACE/main.py" --config "$GITHUB_WORKSPACE/config.yaml" \
+              --offline "$GITHUB_WORKSPACE/tests/data" --probe off --no-notify --quiet
           python "$GITHUB_WORKSPACE/scripts/verify_outputs.py"
 
   # Real end-to-end run against the live sources listed in links.txt.
