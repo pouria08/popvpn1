@@ -42,8 +42,9 @@ def test_render_markdown_contains_counts_and_links():
     assert "| VLESS | 60 | 60.0% |" in block
     assert "COUNTRIES-1" in block
     assert "Germany (40): https://raw.githubusercontent.com/owner/repo/main/outputs/by-country/de.txt" in block
-    assert "GLOBAL / Unknown (60): https://raw.githubusercontent.com/owner/repo/main/outputs/by-country/global.txt" in block
-    assert "-10 vs previous run" in block
+    assert "جهانی / نامشخص (60): https://raw.githubusercontent.com/owner/repo/main/outputs/by-country/global.txt" in block
+    assert '<div dir="rtl">' in block
+    assert "-10 نسبت به اجرای قبل" in block
 
 
 def test_render_markdown_without_repo_has_no_links():

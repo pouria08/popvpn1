@@ -1,0 +1,19 @@
+# Isolated deterministic policy for offline parser/writer tests.
+# Production defaults live in ../config.yaml and intentionally require TCP.
+profile:
+  title: "POPVPN X"
+  brand: "POPVPN"
+  repo: "pouria08/popvpn1"
+  branch: "main"
+
+security:
+  drop_insecure: false
+  drop_private_hosts: false
+  drop_legacy_vmess: false
+  drop_weak_credentials: false
+  max_warnings: 99
+
+probe:
+  mode: "off"
+  require_verified: false
+  drop_dead: false

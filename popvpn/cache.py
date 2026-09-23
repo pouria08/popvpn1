@@ -17,13 +17,16 @@ from pathlib import Path
 
 
 class HttpCache:
-    def __init__(self, directory: str | Path, ttl: int = 900, enabled: bool = True) -> None:
+    def __init__(
+        self, directory: str | Path, ttl: int = 900, enabled: bool = True, *, writable: bool = True
+    ) -> None:
         self.directory = Path(directory)
         self.ttl = int(ttl)
         self.enabled = enabled
+        self.writable = writable
         self.hits = 0
         self.misses = 0
-        if self.enabled:
+        if self.enabled and self.writable:
             self.directory.mkdir(parents=True, exist_ok=True)
 
     # -- helpers ---------------------------------------------------------
@@ -91,7 +94,7 @@ class HttpCache:
             return None
 
     def put(self, url: str, body: str, headers: dict | None = None) -> None:
-        if not self.enabled:
+        if not self.enabled or not self.writable:
             return
         headers = headers or {}
         meta = {
@@ -112,7 +115,7 @@ class HttpCache:
     def touch(self, url: str) -> None:
         """Refresh the timestamp after a ``304 Not Modified``."""
 
-        if not self.enabled:
+        if not self.enabled or not self.writable:
             return
         meta_path = self._meta_path(url)
         if not meta_path.exists():

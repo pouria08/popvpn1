@@ -52,7 +52,10 @@ https://example.com/subscription.txt
 https://example.com/subscription.txt   # name=MySource weight=2 country=DE
 ```
 
-کلیدهای قابل‌استفاده: `name`، `weight`، `country`، `disabled` و `note`.
+کلیدهای قابل‌استفاده: `name`، `weight`، `country`، `disabled` و `note`. وزن بالاتر فقط هنگام برخورد کانفیگ تکراری، انتخاب منبع را اولویت می‌دهد.
+
+> [!IMPORTANT]
+> `links.txt` تنها مرجع منابع است. حذف یک URL از آن قطعی است؛ pipeline هیچ URL حذف‌شده‌ای را از cache، README یا فهرست‌های قدیمی بازسازی نمی‌کند.
 
 برای بررسی یک feed پیش از اضافه‌کردن آن:
 
@@ -82,7 +85,7 @@ python --version
 ### ۲) اجرای پیشنهادی برای یک آپدیت کامل
 
 ```bash
-python main.py --no-cache --probe tcp
+python main.py --no-cache
 ```
 
 این دستور به‌ترتیب زیر عمل می‌کند:
@@ -97,15 +100,15 @@ links.txt + config.yaml
 → نوشتن همهٔ خروجی‌ها، آمار، README و dashboard
 ```
 
-`--probe tcp` باعث می‌شود `outputs/verified.txt` نیز بر اساس endpointهای پاسخ‌گو پر شود. این کار ممکن است نسبت به اجرای عادی بیشتر طول بکشد.
+TCP probe به‌صورت پیش‌فرض فعال است؛ بنابراین `outputs/verified.txt` و تمام خروجی‌های عمومی فقط endpointهای پاسخ‌گو را خواهند داشت. این کنترل کیفیت ممکن است چند دقیقه زمان ببرد.
 
-### ۳) اجرای سریع‌تر، بدون probe
+### ۳) اجرای عادی با cache دریافت
 
 ```bash
 python main.py
 ```
 
-در تنظیمات فعلی، این دستور از cache استفاده می‌کند و probe پیش‌فرض خاموش است؛ برای آپدیت‌های سبک‌تر مناسب است.
+این دستور HTTP cache را برای دریافت feedها استفاده می‌کند، اما verdictهای TCP فقط ۱۵ دقیقه معتبرند؛ در اجرای زمان‌بندی‌شده probe تازه انجام می‌شود. `--probe off` فقط برای توسعه و fixture است و خروجی آن نباید منتشر شود.
 
 ### ۴) پیش‌نمایش بدون تغییر فایل‌ها
 
@@ -208,7 +211,7 @@ git push
 2. از ستون چپ **Auto Update** را انتخاب کنید.
 3. روی **Run workflow** بزنید.
 4. گزینه‌ها را این‌گونه انتخاب کنید:
-   - **probe:** `tcp` برای ساخت خروجی verified؛ یا `off` برای اجرای سریع‌تر
+   - **probe:** مقدار پیش‌فرض و پیشنهادی `tcp` است. `off` فقط برای عیب‌یابی/توسعه است و policy انتشارِ verified-only را دور می‌زند.
    - **limit:** `0` برای استفاده از سقف `config.yaml`
    - **dry_run:** خاموش باشد تا خروجی‌ها commit شوند
 5. صبر کنید تا run سبز شود. این workflow خودش خروجی‌ها و README را commit می‌کند.
@@ -229,7 +232,7 @@ git push
 | بررسی یک URL | `python main.py check-source URL` |
 | parse یک فایل محلی | `python main.py parse FILE.txt` |
 | دیدن سلامت منابع | `python main.py sources` |
-| اجرای آفلاین با fixture/local files | `python main.py --offline tests/data --outputs-dir /tmp/popvpn-out` |
+| اجرای آفلاین با fixture/local files | `python main.py --offline tests/data --probe off --outputs-dir /tmp/popvpn-out` |
 | دیدن تمام گزینه‌ها | `python main.py --help` |
 
 ### تنظیم موقت با environment variable
@@ -246,8 +249,9 @@ POPVPN_PROBE_MODE=tcp POPVPN_LIMITS_MAX_CONFIGS=5000 python main.py
 POPVPN_SECURITY_DROP_INSECURE=true \
 POPVPN_SECURITY_DROP_PRIVATE_HOSTS=true \
 POPVPN_SECURITY_DROP_LEGACY_VMESS=true \
-POPVPN_PROBE_DROP_DEAD=true \
-python main.py --probe tcp
+POPVPN_SECURITY_DROP_WEAK_CREDENTIALS=true \
+POPVPN_PROBE_REQUIRE_VERIFIED=true \
+python main.py
 ```
 
 ---
@@ -273,13 +277,13 @@ python main.py --probe tcp
 
 ### لینک `verified.txt` خالی است
 
-این فایل فقط هنگام اجرای probe با نتیجهٔ موفق پر می‌شود. یک بار این دستور را اجرا کنید:
+در حالت پیش‌فرض، این فایل و خروجی‌های اصلی فقط هنگام وجود نتیجهٔ موفق TCP پر می‌شوند. یک بار اجرای تازه انجام دهید:
 
 ```bash
-python main.py --probe tcp --no-cache
+python main.py --no-cache
 ```
 
-خالی‌بودن آن یعنی نباید به verified بودن کانفیگی اعتماد کرد، نه اینکه لزوماً همهٔ خروجی‌های دیگر خراب‌اند.
+اگر قبلاً snapshot تأییدشده‌ای وجود داشته باشد، در اجرای probe خاموش یا اجرای TCP بدون verdict موفق فایل `verified.txt` دست‌نخورده می‌ماند. تنها اجرای موفقی که حداقل یک endpoint زنده پیدا کند آن را جایگزین می‌کند؛ بنابراین لینک کاربران ناگهان خالی نمی‌شود.
 
 ### داشبورد دادهٔ قدیمی نشان می‌دهد
 
@@ -298,16 +302,16 @@ python -m pip install -r requirements-dev.txt
 
 ### اجرای دستی ساعت‌ها طول می‌کشد
 
-ابتدا بدون probe اجرا کنید:
+سقف endpointهای probe را برای اجرای آزمایشی کم کنید؛ مواردی که تست نشوند منتشر نخواهند شد:
 
 ```bash
-python main.py --no-cache
+POPVPN_PROBE_MAX_ENDPOINTS=1000 python main.py --no-cache
 ```
 
 یا تعداد نودهای منتشرشده را محدود کنید:
 
 ```bash
-python main.py --probe tcp --limit 3000
+python main.py --limit 3000
 ```
 
 ---

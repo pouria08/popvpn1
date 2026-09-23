@@ -1,77 +1,5 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
-    "name": "barry-far",
-    "attempts": 13,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 7374,
-    "avg_ms": 194,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
-    "name": "Epodonios",
-    "attempts": 13,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 7268,
-    "avg_ms": 167,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
-    "name": "MatinGhanbari",
-    "attempts": 13,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 3936,
-    "avg_ms": 214,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
-    "name": "barry-ss",
-    "attempts": 12,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 658,
-    "avg_ms": 222,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
-    "name": "epodonios-trojan",
-    "attempts": 12,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 539,
-    "avg_ms": 227,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt",
-    "name": "barry-trojan",
-    "attempts": 12,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 535,
-    "avg_ms": 216,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
     "name": "AetrisVPN",
     "attempts": 20,
@@ -79,18 +7,6 @@
     "fail_streak": 0,
     "last_configs": 504,
     "avg_ms": 1405,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
-    "name": "barry-vmess",
-    "attempts": 12,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 296,
-    "avg_ms": 232,
     "reliability": 1.0,
     "last_error": "",
     "paused": false

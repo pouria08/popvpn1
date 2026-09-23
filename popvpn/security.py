@@ -8,8 +8,9 @@ user should at least think about before trusting:
 * hosts that are loopback / private IPs
 * placeholder credentials such as ``00000000-0000-0000-0000-000000000000``
 
-Nothing is dropped by default — the findings are attached as warnings, shown
-in the dashboard and only filtered when the operator opts in.
+The production defaults drop unsafe entries before publication. Operators can
+still opt out of individual filters for controlled investigations through the
+corresponding configuration setting or environment override.
 """
 
 from __future__ import annotations
@@ -91,9 +92,13 @@ def audit(configs: list[Config], settings: dict | None = None) -> tuple[list[Con
     """Tag (and optionally drop) risky configs.  Returns ``(kept, report)``."""
 
     settings = settings or {}
+    # The library is observational when called without settings. Production
+    # strictness comes from config.yaml, which supplies explicit true values;
+    # this keeps ``audit(configs)`` useful for diagnostics and integrations.
     drop_insecure = bool(settings.get("drop_insecure", False))
     drop_private = bool(settings.get("drop_private_hosts", False))
     drop_legacy = bool(settings.get("drop_legacy_vmess", False))
+    drop_weak_credentials = bool(settings.get("drop_weak_credentials", False))
     max_warnings = int(settings.get("max_warnings", 99))
 
     report = AuditReport()
@@ -123,6 +128,8 @@ def audit(configs: list[Config], settings: dict | None = None) -> tuple[list[Con
             reasons.append("insecure")
         if drop_legacy and cfg.legacy:
             reasons.append("legacy-vmess")
+        if drop_weak_credentials and "weak-credential" in cfg.warnings:
+            reasons.append("weak-credential")
         if len(set(cfg.warnings)) > max_warnings:
             reasons.append("too-many-warnings")
 

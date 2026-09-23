@@ -117,7 +117,11 @@ def _cmd_update(parsed: argparse.Namespace) -> int:
                 indent=2,
             )
         )
-        return 0
+        return 0 if result.get("ok") else 1
+
+    if not result.get("ok"):
+        print(f"[popvpn] update not published: {result.get('reason', 'unknown failure')}", file=sys.stderr)
+        return 1
 
     counts = stats.get("by_protocol", {})
     print(

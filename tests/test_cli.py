@@ -7,7 +7,7 @@ from popvpn.cli import build_parser, main
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "tests" / "data"
-CONFIG = str(ROOT / "config.yaml")
+CONFIG = str(ROOT / "tests" / "pipeline-config.yaml")
 
 
 def test_parser_defaults():

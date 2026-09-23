@@ -111,7 +111,9 @@ def test_shipped_config_yaml_loads():
     assert isinstance(cfg.get("parsing.protocols"), list)
     assert "vless" in cfg.get("parsing.protocols")
     assert cfg.get("naming.separator") == "|"
-    assert cfg.get("probe.mode") == "off"
+    assert cfg.get("probe.mode") == "tcp"
+    assert cfg.get("probe.require_verified") is True
+    assert cfg.get("security.drop_weak_credentials") is True
     assert cfg.get("fetch.max_bytes") == 26214400
 
 

@@ -64,20 +64,26 @@ scoring:
   shuffle_within_country: false
 
 security:
-  drop_insecure: false              # allowInsecure=1 را حذف کن
-  drop_private_hosts: false         # ۱۲۷.۰.۰.۱ / ۱۰.x / ۱۹۲.۱۶۸.x را حذف کن
-  drop_legacy_vmess: false          # vmess با v:1 (غیر AEAD) را حذف کن
-  max_warnings: 99
+  # خروجی عمومی فقط باید کانفیگ‌های قابل‌اعتماد را داشته باشد. برای بررسی
+  # یک feed مشکوک می‌توانید این‌ها را موقتاً با POPVPN_SECURITY_* خاموش کنید.
+  drop_insecure: true               # allowInsecure=1 یا TLS غیرفعال را حذف کن
+  drop_private_hosts: true          # loopback / private / link-local را حذف کن
+  drop_legacy_vmess: true           # VMess v:1 (غیر AEAD) را حذف کن
+  drop_weak_credentials: true       # credentialهای نمونه/placeholder را حذف کن
+  max_warnings: 2
 
 probe:
-  mode: "off"                       # off | tcp | tls
-  workers: 96
+  # حالت عملیاتی پیش‌فرض: هر endpoint با TCP بررسی می‌شود و تنها endpointهای
+  # پاسخ‌گو منتشر می‌شوند. `off` فقط برای توسعه و عیب‌یابیِ آگاهانه است.
+  mode: "tcp"                       # tcp | tls | off (فقط override صریح)
+  workers: 128
   timeout: 4.0
   tls: false
-  max_endpoints: 4000               # هر host:port فقط یک‌بار تست می‌شود
-  cache_ttl: 3600
+  max_endpoints: 12000              # برابر سقف انتشار؛ endpoint بدون تست منتشر نمی‌شود
+  cache_ttl: 900                    # ۱۵ دقیقه؛ اجرای ساعتی نتیجهٔ تازه می‌گیرد
   state_file: state/probe_cache.json
-  drop_dead: false                  # کانفیگ‌های مرده را از خروجی حذف کن
+  drop_dead: true                   # سازگاری عقب‌رو؛ verdict مرده هرگز منتشر نمی‌شود
+  require_verified: true            # فقط TCP/TLS-verified=true را ذخیره و منتشر کن
 
 limits:
   max_configs: 12000
@@ -98,6 +104,9 @@ outputs:
   history_file: state/history.json
   history_keep: 240
   sparkline: outputs/history.svg
+  # اگر probe نتیجهٔ زنده نداشت یا عمداً خاموش بود، آخرین verified snapshot
+  # دست‌نخورده می‌ماند تا لینک کاربران ناگهان خالی نشود.
+  preserve_verified_on_empty: true
 
 notify:
   enabled: true                     # فقط با تنظیم POPVPN_TELEGRAM_* یا POPVPN_DISCORD_WEBHOOK فعال می‌شود

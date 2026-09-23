@@ -1,176 +1,110 @@
 <div align="center" dir="rtl">
 
 <a href="https://pouria08.github.io/popvpn1/">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=270&color=0:071225,35:312e81,68:7c3aed,100:06b6d4&text=POPVPN%20X&fontColor=ffffff&fontSize=64&fontAlignY=38&desc=Always%20Fresh%20VPN%20Subscriptions&descAlignY=62&descSize=21&animation=fadeIn" alt="POPVPN X — VPN Subscription Hub" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:071225,35:312e81,68:7c3aed,100:06b6d4&text=POPVPN%20X&fontColor=ffffff&fontSize=62&fontAlignY=38&desc=TCP-verified%20VPN%20subscriptions&descAlignY=62&descSize=20&animation=fadeIn" alt="POPVPN X" />
 </a>
 
 # ⚡ POPVPN X
 
-### هاب هوشمند سابسکریپشن‌های VPN — مرتب، قابل‌استفاده و همیشه در حال به‌روزرسانی
-
-<img src="https://readme-typing-svg.demolab.com?font=Vazirmatn&weight=700&size=20&duration=2600&pause=900&color=A78BFA&center=true&vCenter=true&width=820&lines=%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA+%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1+%D9%88+%D9%BE%D8%A7%DA%A9%D8%B3%D8%A7%D8%B2%DB%8C+%D9%85%D9%86%D8%A7%D8%A8%D8%B9+%D8%B9%D9%85%D9%88%D9%85%DB%8C;7+%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84+%7C+Clash+%7C+sing-box+%7C+Hiddify;Dashboard+%D8%B2%D9%86%D8%AF%D9%87+%D9%88+%D8%AE%D8%B1%D9%88%D8%AC%DB%8C%D9%90+%D8%A2%D9%85%D8%A7%D8%AF%D9%87+%D8%A8%D8%B1%D8%A7%DB%8C+%D8%A7%DB%8C%D9%85%D9%BE%D9%88%D8%B1%D8%AA" alt="Animated POPVPN X features" />
+### خط لولهٔ حرفه‌ایِ دریافت، پاک‌سازی، ارزیابی و انتشار سابسکریپشن‌های عمومی VPN
 
 <p>
-  <a href="https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt"><img src="https://img.shields.io/badge/📥_دریافت_ساب-7C3AED?style=for-the-badge&labelColor=171135" alt="Get subscription"></a>
-  <a href="https://pouria08.github.io/popvpn1/"><img src="https://img.shields.io/badge/🖥_داشبورد_زنده-06B6D4?style=for-the-badge&labelColor=083344" alt="Live dashboard"></a>
-  <a href="https://github.com/pouria08/popvpn1/actions"><img src="https://img.shields.io/badge/⚙️_آپدیت_خودکار-8B5CF6?style=for-the-badge&labelColor=2E1065" alt="GitHub Actions"></a>
+  <a href="https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt"><img src="https://img.shields.io/badge/دریافت_ساب-Base64-7C3AED?style=for-the-badge&labelColor=171135" alt="دریافت سابسکریپشن"></a>
+  <a href="https://pouria08.github.io/popvpn1/"><img src="https://img.shields.io/badge/داشبورد_زنده-06B6D4?style=for-the-badge&labelColor=083344" alt="داشبورد زنده"></a>
+  <a href="https://github.com/pouria08/popvpn1/actions"><img src="https://img.shields.io/badge/GitHub_Actions-به‌روزرسانی_خودکار-8B5CF6?style=for-the-badge&labelColor=2E1065" alt="GitHub Actions"></a>
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.9 or later">
-  <img src="https://img.shields.io/badge/Runtime_deps-0-16A34A?style=flat-square" alt="No runtime dependencies">
-  <img src="https://img.shields.io/badge/Protocols-7-C084FC?style=flat-square" alt="Seven supported protocols">
-  <img src="https://img.shields.io/badge/License-MIT-F59E0B?style=flat-square" alt="MIT license">
+  <img src="https://img.shields.io/badge/Runtime_dependencies-0-16A34A?style=flat-square" alt="بدون وابستگی زمان اجرا">
+  <img src="https://img.shields.io/badge/Default_probe-TCP-16A34A?style=flat-square" alt="TCP پیش‌فرض">
+  <img src="https://img.shields.io/badge/License-MIT-F59E0B?style=flat-square" alt="MIT">
 </p>
 
 </div>
 
 > [!IMPORTANT]
-> این پروژه کانفیگ‌هایی را که **به‌صورت عمومی منتشر شده‌اند** جمع‌آوری و مرتب می‌کند. هیچ کانفیگی تضمین دائمی ندارد. برای انتخاب مطمئن‌تر، ابتدا خروجی **Verified** (پس از اجرای probe) و سپس **Best** را امتحان کنید؛ قوانین محل زندگی خود را هم رعایت کنید.
+> این پروژه فقط داده‌هایی را که **به‌شکل عمومی منتشر شده‌اند** گردآوری و پردازش می‌کند. هیچ سرویس، مالکیت یا عملکرد دائمی تضمین نمی‌شود. استفاده از خروجی‌ها باید مطابق قوانین محل زندگی و سیاست کلاینت شما باشد.
 
 ---
 
-## ✨ از کجا شروع کنم؟
+## 🎯 سیاست کیفیت خروجی
 
-| اگر شما… | این خروجی را انتخاب کنید | چرا؟ |
+POPVPN X برای جلوگیری از انتشار فهرست‌های شلوغ و کم‌فایده، در اجرای عادی این مراحل را اعمال می‌کند:
+
+1. دریافت هم‌زمان feedهای تعریف‌شده در `links.txt`، با retry، محدودیت اندازه و cache امن.
+2. decode، parse، اعتبارسنجی ساختار و حذف configهای تکراری.
+3. حذف موارد پرخطر: TLS ناامن، میزبان خصوصی/loopback، VMess قدیمی و credentialهای نمونه.
+4. **TCP probe پیش‌فرض** برای endpointها؛ فقط endpointهای پاسخ‌گو وارد خروجی عمومی می‌شوند.
+5. امتیازدهی، مرتب‌سازی و ساخت خروجی سازگار با کلاینت‌های متداول.
+
+> تست TCP فقط باز بودن و پاسخ‌گویی `host:port` را نشان می‌دهد؛ کیفیت اینترنت، اعتبار واقعی credential و امکان عبور از محدودیت‌های شبکهٔ شما را تضمین نمی‌کند.
+
+- `probe.mode: tcp` و `probe.require_verified: true` به‌صورت پیش‌فرض فعال‌اند.
+- endpointهایی که به‌علت سقف probe هنوز تست نشده‌اند، در خروجی strict منتشر نمی‌شوند.
+- `state/probe_cache.json` فقط ۱۵ دقیقه معتبر است؛ اجرای زمان‌بندی‌شده نتیجهٔ تازه می‌گیرد.
+- `verified.txt` فقط بعد از دست‌کم یک verdict موفق تازه جایگزین می‌شود؛ در probe خاموش یا اجرای بدون نتیجه، آخرین snapshot تأییدشده باقی می‌ماند.
+- گزینهٔ `--probe off` تنها برای توسعه، fixture و عیب‌یابیِ آگاهانه است و نباید برای انتشار عمومی استفاده شود.
+
+---
+
+## 📥 دریافت خروجی مناسب
+
+| اگر از این کلاینت/کاربرد استفاده می‌کنید | خروجی پیشنهادی | توضیح |
 |:---|:---|:---|
-| از **Hiddify / v2rayNG / Streisand** استفاده می‌کنید | [Base64 Subscription](https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt) | یک لینک برای بیشتر کلاینت‌های رایج |
-| از **Clash Meta / Clash Verge Rev / Mihomo** استفاده می‌کنید | [clash.yaml](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/clash.yaml) | پروفایل آمادهٔ Clash/Mihomo |
-| از **sing-box** استفاده می‌کنید | [singbox.json](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/singbox.json) | فایل import آمادهٔ sing-box |
-| می‌خواهید تعداد کمتری کانفیگ با رتبهٔ بهتر داشته باشید | [best.txt](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/best.txt) | مرتب‌شده بر اساس امتیاز کیفیت |
-| فقط نودهای بررسی‌شده می‌خواهید | [verified.txt](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/verified.txt) | فقط نتیجه‌های موفقِ آخرین probe؛ ممکن است بدون probe خالی باشد |
-| می‌خواهید وضعیت سرویس را ببینید | [داشبورد زنده](https://pouria08.github.io/popvpn1/) | آمار، منابع، کیفیت و روند به‌روزرسانی |
+| Hiddify، v2rayNG، Streisand و کلاینت‌های subscription محور | [Base64 Subscription](https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt) | یک لینک import برای اکثر کلاینت‌ها |
+| کلاینتی که URI خام می‌پذیرد | [Plain Subscription](https://raw.githubusercontent.com/pouria08/popvpn1/main/working_configs.txt) | ساب متنی به‌همراه metadata استاندارد |
+| Clash Meta، Clash Verge Rev، Mihomo یا OpenClash | [clash.yaml](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/clash.yaml) | پروفایل آمادهٔ Clash/Mihomo |
+| sing-box و کلاینت‌های مبتنی بر آن | [singbox.json](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/singbox.json) | فایل import آمادهٔ sing-box |
+| فهرست کوتاه‌تر با امتیاز بالاتر | [best.txt](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/best.txt) | برترین موارد از خروجی تأییدشده |
+| فقط endpointهای تأییدشده | [verified.txt](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/verified.txt) | خروجی موفق آخرین probe |
+| مشاهدهٔ سلامت و روند پروژه | [داشبورد زنده](https://pouria08.github.io/popvpn1/) | آمار، منابع، وضعیت probe و کیفیت |
 
-<details open>
-<summary><b>📋 لینک‌های اصلی — برای بازکردن یا کپی‌کردن</b></summary>
+<details>
+<summary><b>آدرس‌های مستقیم برای کپی</b></summary>
 
-> روی نام فایل کلیک کنید تا باز شود؛ برای کپی دقیق، URL مقابل آن را انتخاب و کپی کنید. GitHub برای امنیت، JavaScript و دکمهٔ کپیِ سفارشی را در README اجرا نمی‌کند؛ به همین دلیل همهٔ آدرس‌ها به‌صورت متن هم آورده شده‌اند.
-
-| خروجی | مناسب برای | URL مستقیم |
-|:---|:---|:---|
-| [Base64 Subscription](https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt) | Hiddify، v2rayNG، Streisand و اکثر کلاینت‌ها | `https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt` |
-| [Plain Subscription](https://raw.githubusercontent.com/pouria08/popvpn1/main/working_configs.txt) | کلاینت‌هایی که URI خام می‌پذیرند | `https://raw.githubusercontent.com/pouria08/popvpn1/main/working_configs.txt` |
-| [All / Plain](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/all.txt) | نسخهٔ کامل plain در پوشهٔ خروجی | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/all.txt` |
-| [All / Base64](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/all_base64.txt) | نسخهٔ کامل Base64 | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/all_base64.txt` |
-| [Best / Plain](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/best.txt) | ۱۰۰ کانفیگ برتر | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/best.txt` |
-| [Best / Base64](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/best_base64.txt) | بهترین‌ها برای کلاینت‌های Base64 | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/best_base64.txt` |
-| [Verified / Plain](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/verified.txt) | فقط نتیجه‌های موفق probe | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/verified.txt` |
-| [Verified / Base64](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/verified_base64.txt) | verified برای کلاینت‌های Base64 | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/verified_base64.txt` |
-| [Clash / Mihomo](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/clash.yaml) | Clash Meta، Clash Verge Rev، Mihomo | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/clash.yaml` |
-| [sing-box](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/singbox.json) | sing-box و کلاینت‌های مبتنی بر آن | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/singbox.json` |
-| [Statistics](https://raw.githubusercontent.com/pouria08/popvpn1/main/stats.txt) | گزارش انسانی آخرین اجرا | `https://raw.githubusercontent.com/pouria08/popvpn1/main/stats.txt` |
-| [Machine-readable stats](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/stats.json) | توسعه‌دهنده‌ها و مانیتورینگ | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/stats.json` |
-| [Source health](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/sources.json) | سلامت و پایداری منابع | `https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/sources.json` |
+```text
+https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt
+https://raw.githubusercontent.com/pouria08/popvpn1/main/working_configs.txt
+https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/all.txt
+https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/best.txt
+https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/verified.txt
+https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/clash.yaml
+https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/singbox.json
+```
 
 </details>
 
 <details>
-<summary><b>🧩 ساب‌لینک‌های تفکیک‌شده بر اساس پروتکل</b></summary>
-
-هر دو نسخهٔ **Plain** و **Base64** تولید می‌شوند. اگر در یک اجرای خاص هیچ کانفیگی برای پروتکل وجود نداشته باشد، فایل مربوطه خالی است اما لینک ثابت می‌ماند.
+<summary><b>خروجی‌های تفکیک‌شده بر اساس پروتکل</b></summary>
 
 | پروتکل | Plain | Base64 |
 |:---|:---|:---|
-| VLESS | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vless.txt) · `…/by-protocol/vless.txt` | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vless_base64.txt) · `…/by-protocol/vless_base64.txt` |
-| VMess | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vmess.txt) · `…/by-protocol/vmess.txt` | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vmess_base64.txt) · `…/by-protocol/vmess_base64.txt` |
-| Trojan | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/trojan.txt) · `…/by-protocol/trojan.txt` | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/trojan_base64.txt) · `…/by-protocol/trojan_base64.txt` |
-| Shadowsocks | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/ss.txt) · `…/by-protocol/ss.txt` | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/ss_base64.txt) · `…/by-protocol/ss_base64.txt` |
-| TUIC | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/tuic.txt) · `…/by-protocol/tuic.txt` | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/tuic_base64.txt) · `…/by-protocol/tuic_base64.txt` |
-| Hysteria2 | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/hy2.txt) · `…/by-protocol/hy2.txt` | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/hy2_base64.txt) · `…/by-protocol/hy2_base64.txt` |
-| WireGuard | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/wireguard.txt) · `…/by-protocol/wireguard.txt` | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/wireguard_base64.txt) · `…/by-protocol/wireguard_base64.txt` |
-
-<details>
-<summary><b>📋 آدرس کامل همهٔ پروتکل‌ها برای کپی</b></summary>
-
-```text
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vless.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vless_base64.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vmess.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vmess_base64.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/trojan.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/trojan_base64.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/ss.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/ss_base64.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/tuic.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/tuic_base64.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/hy2.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/hy2_base64.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/wireguard.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/wireguard_base64.txt
-```
-
-</details>
-
-</details>
-
-<details>
-<summary><b>🌍 ساب‌لینک‌های کشورها</b></summary>
-
-فایل‌های هر کشور در مسیر [`outputs/by-country/`](https://github.com/pouria08/popvpn1/tree/main/outputs/by-country) قرار می‌گیرند؛ برای نمونه:
-
-```text
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/de.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ir.txt
-https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
-```
-
-فهرست **کامل و قابل‌کپیِ کشورهایی که در آخرین اجرا وجود دارند** به‌صورت خودکار در بخش «وضعیت زنده» پایین همین README ساخته می‌شود تا همیشه با خروجی‌ها همگام بماند.
+| VLESS | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vless.txt) | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vless_base64.txt) |
+| VMess | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vmess.txt) | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/vmess_base64.txt) |
+| Trojan | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/trojan.txt) | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/trojan_base64.txt) |
+| Shadowsocks | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/ss.txt) | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/ss_base64.txt) |
+| TUIC | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/tuic.txt) | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/tuic_base64.txt) |
+| Hysteria2 | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/hy2.txt) | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/hy2_base64.txt) |
+| WireGuard | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/wireguard.txt) | [بازکردن](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-protocol/wireguard_base64.txt) |
 
 </details>
 
 ---
 
-## 📱 کلاینت‌های پیشنهادی
+## 📊 وضعیت زندهٔ خروجی
 
-<details open>
-<summary><b>🤖 Android</b></summary>
-
-| برنامه | خروجی مناسب |
-|:---|:---|
-| [Hiddify](https://github.com/hiddify/hiddify-app) | Base64 Subscription |
-| [v2rayNG](https://github.com/2dust/v2rayNG) | Base64، VLESS، VMess |
-| [NekoBox for Android](https://github.com/MatsuriDayo/NekoBoxForAndroid) | sing-box |
-| [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid) | Clash / Mihomo |
-
-</details>
-
-<details>
-<summary><b>🍎 iPhone / iPad</b></summary>
-
-| برنامه | خروجی مناسب |
-|:---|:---|
-| [Streisand](https://apps.apple.com/app/streisand/id6450534064) | Base64، VLESS، VMess، Trojan |
-| [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118) | Base64 یا Clash |
-| [FoXray](https://apps.apple.com/app/foxray/id6448898396) | Base64، VLESS، VMess، Trojan |
-| [Hiddify](https://github.com/hiddify/hiddify-app) | Base64 Subscription |
-
-</details>
-
-<details>
-<summary><b>🖥 Windows / Linux / macOS و روتر</b></summary>
-
-| برنامه | خروجی مناسب |
-|:---|:---|
-| [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev) | `clash.yaml` |
-| [v2rayN](https://github.com/2dust/v2rayN) | Base64 Subscription |
-| [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) | `clash.yaml` |
-| [sing-box](https://github.com/SagerNet/sing-box) | `singbox.json` |
-| [OpenClash](https://github.com/vernesong/OpenClash) | `clash.yaml` برای OpenWrt |
-
-</details>
-
----
-
-## 📊 وضعیت زنده و کاتالوگ کشورها
+این بخش در هر اجرای موفق pipeline، همراه با `outputs/SUMMARY.md` و dashboard، به‌صورت خودکار به‌روز می‌شود. آدرس‌های منابع ورودی هرگز از این بخش ساخته یا به `links.txt` برگردانده نمی‌شوند.
 
 <!-- POPVPN:STATS:START -->
 
-![Total](https://img.shields.io/badge/CONFIGS-766-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-704-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-20-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-26-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-13-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-4%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-35-eab308?style=flat-square) | ![Verified](https://img.shields.io/badge/ALIVE-324-16a34a?style=flat-square)
+<div dir="rtl">
 
-**Last update:** `2026-09-23 14:17:22 UTC` · **766 configs** (+23 vs previous run)
+![Total](https://img.shields.io/badge/CONFIGS-766-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-704-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-20-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-26-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-13-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-4%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-35-eab308?style=flat-square) | ![TCP verified](https://img.shields.io/badge/TCP_ALIVE-324-16a34a?style=flat-square)
 
-| Protocol | Configs | Share |
+**آخرین به‌روزرسانی:** `2026-09-23 14:17:22 UTC` · **766 کانفیگ منتشرشده** (+23 نسبت به اجرای قبل)
+
+| پروتکل | تعداد | سهم |
 | --- | ---: | ---: |
 | VLESS | 704 | 91.9% |
 | TROJAN | 26 | 3.4% |
@@ -178,9 +112,9 @@ https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/globa
 | SS | 13 | 1.7% |
 | HY2 | 3 | 0.4% |
 
-| Top countries | Configs |
+| کشورهای برتر | تعداد |
 | --- | ---: |
-| 🏳️ GLOBAL / Unknown | 255 |
+| 🏳️ جهانی / نامشخص | 255 |
 | 🇩🇪 Germany | 113 |
 | 🇳🇱 Netherlands | 85 |
 | 🇺🇸 United States | 83 |
@@ -189,24 +123,23 @@ https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/globa
 | 🇨🇦 Canada | 22 |
 | 🇫🇷 France | 19 |
 
-<details><summary><b>Pipeline health</b></summary>
+<details><summary><b>سلامت خط لوله و کنترل کیفیت</b></summary>
 
-- sources: **4/4** ok, 0 failed, 0 auto-paused
-- duplicates removed: **299**
-- invalid lines skipped: **111**
-- HTTP cache hit rate: **0%**
-- security flags: **18** insecure, **0** private hosts
-- liveness probe (tcp): **324** endpoints alive, 208 dead, avg 156 ms
-- run duration: **14106 ms**
+- منابع: **4/4** سالم، 0 ناموفق و 0 متوقف‌شدهٔ خودکار
+- تکراری‌های حذف‌شده: **299** · خطوط نامعتبر: **111**
+- نرخ استفاده از کش HTTP: **0%**
+- فیلتر امنیتی: **0** حذف‌شده · 18 مورد ناامن · 0 میزبان خصوصی
+- probe TCP: **324** endpoint پاسخ‌گو، 208 ناموفق، 0 تست‌نشده، میانگین 156 ms
+- زمان اجرا: **14106 ms**
 
 </details>
 
-**Subscription:** [plain](https://raw.githubusercontent.com/pouria08/popvpn1/main/working_configs.txt) · [base64](https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt) · [all](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/all.txt) · [best](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/best.txt) · [verified](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/verified.txt) · [clash](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/clash.yaml) · [sing-box](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/singbox.json) · [stats](https://raw.githubusercontent.com/pouria08/popvpn1/main/stats.txt)
+**دریافت خروجی‌ها:** [ساب ساده](https://raw.githubusercontent.com/pouria08/popvpn1/main/working_configs.txt) · [ساب Base64](https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt) · [همه](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/all.txt) · [برترین‌ها](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/best.txt) · [تأییدشده](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/verified.txt) · [Clash/Mihomo](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/clash.yaml) · [sing-box](https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/singbox.json) · [آمار](https://raw.githubusercontent.com/pouria08/popvpn1/main/stats.txt)
 
-<details><summary><b>🌍 همهٔ لینک‌های کشورها در آخرین اجرا — Copyable</b></summary>
+<details><summary><b>🌍 لینک‌های کشورها در همین اجرای اخیر</b></summary>
 
 ```text
-🏳️ GLOBAL / Unknown (255): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
+🏳️ جهانی / نامشخص (255): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
 🇩🇪 Germany (113): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/de.txt
 🇳🇱 Netherlands (85): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/nl.txt
 🇺🇸 United States (83): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
@@ -245,80 +178,132 @@ https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/globa
 
 </details>
 
+</div>
+
 <!-- POPVPN:STATS:END -->
 
 ---
 
-## 🛠 راهنمای به‌روزرسانی دستی
+## 🚀 راه‌اندازی و اجرای دستی
 
-راهنمای فارسیِ مرحله‌به‌مرحله، شامل اجرای محلی، بررسی خروجی‌ها، انتشار در GitHub و رفع خطاها در این فایل است:
+### پیش‌نیازها
 
-### [📖 باز کردن راهنمای به‌روزرسانی دستی](docs/MANUAL_UPDATE_FA.md)
-
-**نسخهٔ کوتاه:**
+- Python **3.9 یا جدیدتر**
+- دسترسی اینترنت برای اجرای واقعی
+- وابستگی runtime خارجی لازم نیست
 
 ```bash
-# از ریشهٔ پروژه — همهٔ خروجی‌ها، README و dashboard را تازه می‌سازد
-python main.py --no-cache --probe tcp
-
-# بعد از آن خروجی‌ها را بررسی کن
-python scripts/verify_outputs.py
+git clone https://github.com/pouria08/popvpn1.git
+cd popvpn1
+python --version
+python main.py
 ```
 
-> `main.py` تنها فایل اجرایی اصلی است؛ فایل‌های داخل `popvpn/` را مستقیم اجرا نکنید. آن‌ها در زمان اجرای pipeline خودکار و به‌ترتیب فراخوانی می‌شوند.
+دستور آخر به‌صورت پیش‌فرض TCP probe انجام می‌دهد، فقط endpointهای تأییدشده را ذخیره می‌کند و `README.md`، dashboard، آمار و تمام خروجی‌ها را تازه می‌سازد.
 
-برای به‌روزرسانی بدون ترمینال نیز از **Actions → Auto Update → Run workflow** استفاده کنید؛ سپس در صورت نیاز **Deploy dashboard → Run workflow** را اجرا کنید.
+### دستورهای مفید
+
+```bash
+# اجرای کامل؛ TCP به‌صورت پیش‌فرض فعال است
+python main.py
+
+# دریافت تازه از منابع، بدون HTTP cache
+python main.py --no-cache
+
+# پیش‌نمایش بدون نوشتن فایل
+python main.py --dry-run --json
+
+# عیب‌یابی یک feed پیش از اضافه‌کردن آن
+python main.py check-source https://example.com/subscription.txt
+
+# اعتبارسنجی خروجی‌های تولیدشده
+python scripts/verify_outputs.py
+
+# تست و lint توسعه‌دهندگان
+python -m pip install -r requirements-dev.txt
+python -m pytest -q
+python -m ruff check .
+```
+
+راهنمای گام‌به‌گام فارسی: **[docs/MANUAL_UPDATE_FA.md](docs/MANUAL_UPDATE_FA.md)**
 
 ---
 
-## 🧩 پشت صحنه چه می‌گذرد؟
+## ⚙️ پیکربندی حرفه‌ای
 
-```mermaid
-flowchart LR
-    A[links.txt] --> B[Fetch + HTTP Cache]
-    B --> C[Decode + Parse]
-    C --> D[Validate + Deduplicate]
-    D --> E[Geo + Security Audit]
-    E --> F[Score + Optional Probe]
-    F --> G[Subscriptions + Dashboard + Stats]
+تنظیمات قابل‌نسخه‌بندی در [`config.yaml`](config.yaml) قرار دارند. هر کلید را می‌توان موقتاً با متغیر محیطی `POPVPN_<SECTION>_<KEY>` override کرد.
+
+```bash
+# کاهش سقف endpointها برای یک اجرای آزمایشی (موارد تست‌نشده منتشر نمی‌شوند)
+POPVPN_PROBE_MAX_ENDPOINTS=1000 python main.py
+
+# فقط برای توسعه/fixture؛ خروجی strict production نیست
+POPVPN_PROBE_MODE=off python main.py --dry-run
+
+# بدون تغییر فایل، خروجی‌های ناامن را هم بررسی نکن
+POPVPN_SECURITY_DROP_INSECURE=true \
+POPVPN_SECURITY_DROP_PRIVATE_HOSTS=true \
+POPVPN_SECURITY_DROP_LEGACY_VMESS=true \
+POPVPN_SECURITY_DROP_WEAK_CREDENTIALS=true \
+python main.py
 ```
 
-- پشتیبانی از **VLESS، VMess، Trojan، Shadowsocks، TUIC، Hysteria2 و WireGuard**
-- Decode خودکار Plain، Base64 و Base64 دوبل
-- اعتبارسنجی ساختار URI، UUID، پورت و رمزهای Shadowsocks
-- حذف تکراری، نام‌گذاری یکپارچه، تشخیص کشور و امتیازدهی کیفیت
-- cache با ETag، سلامت منابع، خروجی‌های تفکیک‌شده و داشبورد استاتیک
-- بدون dependency اجرایی؛ فقط کتابخانهٔ استاندارد Python 3.9+
+### مدیریت منابع
 
-## 📁 ساختار مهم پروژه
+فقط `links.txt` مرجع منابع ورودی است. یک URL در هر خط قرار دهید؛ annotation اختیاری است:
 
 ```text
-links.txt                 # منابع ورودی را اینجا مدیریت کنید
-config.yaml               # تنظیمات دریافت، probe، امنیت و خروجی‌ها
-main.py                   # تنها entry point برای اجرای کامل
-popvpn/                   # منطق pipeline
-outputs/                  # خروجی‌های منتشرشده
-dashboard/                # سایت استاتیک GitHub Pages
-docs/MANUAL_UPDATE_FA.md  # راهنمای دستی فارسی
+https://example.com/subscription.txt  # name=Example weight=2 country=DE
 ```
 
-## ⚠️ نکات امنیتی و شفافیت
+- `name` نام نمایشی منبع است.
+- `weight` هنگام برخورد config تکراری، منبع با وزن بالاتر را ترجیح می‌دهد.
+- `country` و `note` برای metadata هستند.
+- `disabled=true` منبع را بدون حذف خط غیرفعال می‌کند.
 
-- کانفیگ‌های عمومی را با احتیاط مصرف کنید و credential شخصی خود را در آن‌ها قرار ندهید.
-- `--probe tcp` فقط دسترس‌پذیر بودن TCP endpoint را بررسی می‌کند؛ تضمین اتصال کامل یا حریم خصوصی نیست.
-- برای سخت‌گیرانه‌تر شدن خروجی، گزینه‌های `security.drop_*` و `probe.drop_dead` را در `config.yaml` بررسی کنید.
-- داشبورد URI، UUID، رمز یا secret کانفیگ‌ها را ذخیره نمی‌کند؛ فقط metadata نمایش داده می‌شود.
+> [!CAUTION]
+> حذف یک URL از `links.txt` قطعی است: pipeline فقط همین فایل را می‌خواند و هیچ URL حذف‌شده یا فهرست قدیمی را بازسازی نمی‌کند.
 
 ---
+
+## 🧩 معماری و تضمین‌های عملیاتی
+
+```text
+links.txt
+  → دریافت مقاوم HTTP
+  → decode / parse / validation
+  → dedupe با اولویت weight منبع
+  → geo + security audit + scoring
+  → TCP probe تازه
+  → strict verified-only filter
+  → subscriptions + Clash + sing-box + README + dashboard
+```
+
+| بخش | مسئولیت |
+|:---|:---|
+| `popvpn/pipeline.py` | هماهنگی کل مراحل و policy انتشار |
+| `popvpn/probe.py` | TCP/TLS probe، cache زمان‌دار و verdictهای صریح |
+| `popvpn/security.py` | audit و حذف موارد ناامن پیش از انتشار |
+| `popvpn/protocols.py` | parser و normalizer پروتکل‌های پشتیبانی‌شده |
+| `popvpn/writers.py` | تولید subscription، Clash و sing-box |
+| `popvpn/dashboard.py` | dashboard استاتیک RTL بدون credential |
+| `scripts/verify_outputs.py` | بررسی سازگاری و parse شدن خروجی‌ها |
+
+GitHub Actions نیز سه وظیفه دارد: اجرای خودکار pipeline، اجرای CI و انتشار dashboard در GitHub Pages. اجرای زمان‌بندی‌شدهٔ Auto Update به‌طور صریح `tcp` را استفاده می‌کند.
+
+---
+
+## 🔐 امنیت، حریم خصوصی و گزارش مشکل
+
+- هیچ token یا credential ورودی در dashboard ذخیره نمی‌شود.
+- secretهای notification فقط از GitHub Secrets یا environment variables خوانده می‌شوند.
+- cacheهای HTTP و probe در Git قرار نمی‌گیرند.
+- گزارش آسیب‌پذیری را مطابق [SECURITY.md](SECURITY.md) ارسال کنید.
+- برای مشارکت و قواعد توسعه، [CONTRIBUTING.md](CONTRIBUTING.md) را ببینید.
+- تغییرات نسخه‌ها در [CHANGELOG.md](CHANGELOG.md) ثبت می‌شود.
 
 <div align="center" dir="rtl">
 
-<a href="https://github.com/pouria08/popvpn1">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:071225,45:312e81,75:7c3aed,100:06b6d4&section=footer&animation=fadeIn" alt="POPVPN X footer" />
-</a>
-
-[![MIT License](https://img.shields.io/badge/License-MIT-F59E0B?style=flat-square)](LICENSE)
-
-اگر پروژه برایتان مفید بود، با ⭐ دادن از آن حمایت کنید.
+**POPVPN X** · ساخته‌شده برای خروجی تمیز، قابل مشاهده و قابل‌تکرار
 
 </div>
