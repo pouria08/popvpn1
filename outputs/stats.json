@@ -1,19 +1,28 @@
 {
-  "generated_at": "2026-09-23 00:49:40 UTC",
+  "generated_at": "2026-09-23 01:11:24 UTC",
   "version": "2.0.0",
-  "duration_ms": 12635,
-  "total": 563,
-  "unique": 563,
-  "parsed": 798,
-  "raw_lines": 877,
-  "duplicates": 235,
-  "invalid": 79,
+  "duration_ms": 14175,
+  "total": 784,
+  "unique": 784,
+  "parsed": 1078,
+  "raw_lines": 1165,
+  "duplicates": 294,
+  "invalid": 87,
   "by_protocol": {
-    "trojan": 10,
-    "vless": 538,
-    "vmess": 15
+    "trojan": 28,
+    "vless": 724,
+    "vmess": 20,
+    "hy2": 3,
+    "ss": 9
   },
   "by_country": [
+    {
+      "code": "?",
+      "name": "Unknown",
+      "flag": "🏳️",
+      "region": "",
+      "count": 248
+    },
     {
       "code": "DE",
       "name": "Germany",
@@ -48,13 +57,6 @@
       "flag": "🇬🇧",
       "region": "EU",
       "count": 32
-    },
-    {
-      "code": "?",
-      "name": "Unknown",
-      "flag": "🏳️",
-      "region": "",
-      "count": 27
     },
     {
       "code": "CA",
@@ -255,8 +257,8 @@
   ],
   "country_count": 34,
   "sources": {
-    "total": 3,
-    "ok": 3,
+    "total": 4,
+    "ok": 4,
     "failed": 0,
     "paused": 0
   },
@@ -267,7 +269,7 @@
       "last_configs": 53,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 0,
+      "elapsed_ms": 145,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -277,8 +279,8 @@
       "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
       "last_configs": 528,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 0,
+      "from_cache": false,
+      "elapsed_ms": 1520,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -289,7 +291,18 @@
       "last_configs": 217,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 0,
+      "elapsed_ms": 1119,
+      "error": "",
+      "success_rate": 1.0,
+      "paused": false
+    },
+    {
+      "name": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
+      "last_configs": 280,
+      "ok": true,
+      "from_cache": false,
+      "elapsed_ms": 357,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -298,35 +311,36 @@
   "per_source": {
     "patterniha": 53,
     "AetrisVPN": 528,
-    "AetrisVPN-blacklist": 217
+    "AetrisVPN-blacklist": 217,
+    "raw.githubusercontent.com": 280
   },
   "cache": {
     "enabled": true,
-    "hits": 3,
-    "misses": 0,
-    "hit_rate": 1.0
+    "hits": 0,
+    "misses": 4,
+    "hit_rate": 0.0
   },
   "probe": {
     "mode": "tcp",
-    "endpoints_total": 339,
-    "endpoints_probed": 339,
+    "endpoints_total": 531,
+    "endpoints_probed": 531,
     "endpoints_cached": 0,
-    "alive": 190,
-    "dead": 149,
-    "configs_alive": 392,
-    "configs_dead": 171,
-    "elapsed_ms": 12584,
-    "avg_latency_ms": 241
+    "alive": 335,
+    "dead": 196,
+    "configs_alive": 566,
+    "configs_dead": 218,
+    "elapsed_ms": 12521,
+    "avg_latency_ms": 159
   },
   "audit": {
-    "kept": 563,
+    "kept": 784,
     "dropped": 0,
-    "insecure": 17,
+    "insecure": 18,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "allow-insecure": 17,
-      "unknown-network": 15
+      "unknown-network": 22,
+      "allow-insecure": 18
     },
     "dropped_reasons": {}
   },

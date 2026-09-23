@@ -1,30 +1,43 @@
 {
   "sources": {
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt": {
-      "attempts": 15,
-      "avg_ms": 879,
+      "attempts": 16,
+      "avg_ms": 1135,
       "fail_streak": 0,
       "last_configs": 528,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790124568,
+      "last_ok_at": 1790125872,
       "last_status": 200,
       "name": "AetrisVPN",
       "reliability": 1.0,
-      "successes": 15
+      "successes": 16
     },
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt": {
-      "attempts": 15,
-      "avg_ms": 617,
+      "attempts": 16,
+      "avg_ms": 817,
       "fail_streak": 0,
       "last_configs": 217,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790124568,
-      "last_status": 200,
+      "last_ok_at": 1790125872,
+      "last_status": 304,
       "name": "AetrisVPN-blacklist",
       "reliability": 1.0,
-      "successes": 15
+      "successes": 16
+    },
+    "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt": {
+      "attempts": 1,
+      "avg_ms": 142,
+      "fail_streak": 0,
+      "last_configs": 280,
+      "last_error": "",
+      "last_fail_at": 0,
+      "last_ok_at": 1790125872,
+      "last_status": 200,
+      "name": "raw.githubusercontent.com",
+      "reliability": 1.0,
+      "successes": 1
     },
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt": {
       "attempts": 13,
@@ -118,18 +131,18 @@
       "successes": 12
     },
     "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt": {
-      "attempts": 15,
-      "avg_ms": 90,
+      "attempts": 16,
+      "avg_ms": 112,
       "fail_streak": 0,
       "last_configs": 53,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790124568,
-      "last_status": 200,
+      "last_ok_at": 1790125872,
+      "last_status": 304,
       "name": "patterniha",
       "reliability": 1.0,
-      "successes": 15
+      "successes": 16
     }
   },
-  "updated_at": 1790124580
+  "updated_at": 1790125884
 }
