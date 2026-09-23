@@ -74,11 +74,11 @@
   {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
     "name": "AetrisVPN",
-    "attempts": 13,
+    "attempts": 14,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 533,
-    "avg_ms": 1305,
+    "last_configs": 528,
+    "avg_ms": 1465,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -98,11 +98,11 @@
   {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt",
     "name": "AetrisVPN-blacklist",
-    "attempts": 13,
+    "attempts": 14,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 217,
-    "avg_ms": 939,
+    "avg_ms": 1029,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -110,11 +110,11 @@
   {
     "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
     "name": "patterniha",
-    "attempts": 13,
+    "attempts": 14,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 53,
-    "avg_ms": 193,
+    "avg_ms": 151,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
