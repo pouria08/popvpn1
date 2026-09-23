@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-23 11:14:41 UTC",
+  "generated_at": "2026-09-23 11:45:24 UTC",
   "version": "2.0.0",
-  "duration_ms": 14192,
-  "total": 744,
-  "unique": 744,
-  "parsed": 1046,
+  "duration_ms": 1497,
+  "total": 743,
+  "unique": 743,
+  "parsed": 1040,
   "raw_lines": 1176,
-  "duplicates": 302,
-  "invalid": 130,
+  "duplicates": 297,
+  "invalid": 136,
   "by_protocol": {
+    "vless": 681,
     "trojan": 26,
-    "vless": 682,
     "vmess": 20,
     "hy2": 3,
     "ss": 13
@@ -21,14 +21,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 257
+      "count": 256
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 96
+      "count": 95
     },
     {
       "code": "NL",
@@ -49,14 +49,14 @@
       "name": "Russia",
       "flag": "🇷🇺",
       "region": "",
-      "count": 61
+      "count": 57
     },
     {
       "code": "GB",
       "name": "United Kingdom",
       "flag": "🇬🇧",
       "region": "EU",
-      "count": 23
+      "count": 26
     },
     {
       "code": "CA",
@@ -70,21 +70,21 @@
       "name": "France",
       "flag": "🇫🇷",
       "region": "EU",
-      "count": 18
+      "count": 17
     },
     {
       "code": "FI",
       "name": "Finland",
       "flag": "🇫🇮",
       "region": "EU",
-      "count": 15
+      "count": 16
     },
     {
       "code": "PL",
       "name": "Poland",
       "flag": "🇵🇱",
       "region": "EU",
-      "count": 14
+      "count": 13
     },
     {
       "code": "BE",
@@ -105,7 +105,14 @@
       "name": "Sweden",
       "flag": "🇸🇪",
       "region": "EU",
-      "count": 8
+      "count": 7
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "region": "EU",
+      "count": 5
     },
     {
       "code": "JP",
@@ -220,13 +227,6 @@
       "count": 1
     },
     {
-      "code": "GR",
-      "name": "Greece",
-      "flag": "🇬🇷",
-      "region": "EU",
-      "count": 1
-    },
-    {
       "code": "HU",
       "name": "Hungary",
       "flag": "🇭🇺",
@@ -276,7 +276,7 @@
       "last_configs": 53,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 197,
+      "elapsed_ms": 89,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -284,10 +284,10 @@
     {
       "name": "AetrisVPN",
       "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
-      "last_configs": 485,
+      "last_configs": 479,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 1498,
+      "elapsed_ms": 1396,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -298,7 +298,7 @@
       "last_configs": 217,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 900,
+      "elapsed_ms": 973,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -308,8 +308,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 291,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 241,
+      "from_cache": true,
+      "elapsed_ms": 148,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -317,7 +317,7 @@
   ],
   "per_source": {
     "patterniha": 53,
-    "AetrisVPN": 485,
+    "AetrisVPN": 479,
     "AetrisVPN-blacklist": 217,
     "raw.githubusercontent.com": 291
   },
@@ -328,19 +328,19 @@
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "tcp",
-    "endpoints_total": 533,
-    "endpoints_probed": 533,
+    "mode": "off",
+    "endpoints_total": 0,
+    "endpoints_probed": 0,
     "endpoints_cached": 0,
-    "alive": 322,
-    "dead": 211,
-    "configs_alive": 511,
-    "configs_dead": 233,
-    "elapsed_ms": 12546,
-    "avg_latency_ms": 176
+    "alive": 0,
+    "dead": 0,
+    "configs_alive": 0,
+    "configs_dead": 0,
+    "elapsed_ms": 0,
+    "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 744,
+    "kept": 743,
     "dropped": 0,
     "insecure": 19,
     "private_hosts": 0,
