@@ -147,6 +147,7 @@ def render_stats_txt(stats: dict, profile: dict | None = None) -> str:
             f"    endpoints    : {probe.get('endpoints_total', 0)}",
             f"    alive        : {probe.get('alive', 0)}",
             f"    dead         : {probe.get('dead', 0)}",
+            f"    unprobed     : {probe.get('endpoints_unprobed', 0)}",
             f"    avg latency  : {probe.get('avg_latency_ms', 0)} ms",
         ]
     audit = stats.get("audit", {})
@@ -171,13 +172,21 @@ def _country_output_name(code: object) -> str:
     return normalized.lower() if len(normalized) == 2 and normalized.isalpha() else "global"
 
 
-def render_markdown(stats: dict, *, repo: str = "", branch: str = "main", title: str = "POPVPN X") -> str:
-    """Render the live README block, including copyable country feed URLs."""
+def render_markdown(
+    stats: dict, *, repo: str = "", branch: str = "main", title: str = "POPVPN X"
+) -> str:
+    """Render the Persian, RTL live README block.
+
+    Only links to this repository's generated artefacts are emitted here. The
+    source list remains solely in ``links.txt`` and is never reconstructed by
+    a run, which keeps operator-removed feeds removed.
+    """
 
     base = f"https://raw.githubusercontent.com/{repo}/{branch}" if repo else ""
     counts = stats.get("by_protocol", {})
     sources = stats.get("sources", {})
     probe = stats.get("probe", {})
+    quality = stats.get("quality", {})
     previous = stats.get("previous_total")
     countries = stats.get("by_country", [])
 
@@ -195,20 +204,31 @@ def render_markdown(stats: dict, *, repo: str = "", branch: str = "main", title:
         )
     if probe.get("alive"):
         badges.append(
-            f"![Verified](https://img.shields.io/badge/ALIVE-{probe.get('alive', 0):,}-16a34a?style=flat-square)"
+            f"![TCP verified](https://img.shields.io/badge/TCP_ALIVE-{probe.get('alive', 0):,}-16a34a?style=flat-square)"
         )
 
     lines = [
+        '<div dir="rtl">',
+        "",
         " | ".join(badges),
         "",
-        f"**Last update:** `{stats.get('generated_at', '')}` · "
-        f"**{stats.get('total', 0):,} configs**",
+        f"**آخرین به‌روزرسانی:** `{stats.get('generated_at', '')}` · "
+        f"**{stats.get('total', 0):,} کانفیگ منتشرشده**",
     ]
     if previous is not None:
-        lines[-1] += f" ({delta(stats.get('total', 0), previous)} vs previous run)"
+        lines[-1] += f" ({delta(stats.get('total', 0), previous)} نسبت به اجرای قبل)"
+    if quality.get("require_verified"):
+        lines.extend(
+            [
+                "",
+                "> ✅ سیاست انتشار فعال است: فقط کانفیگ‌هایی که در آخرین اجرای "
+                "TCP پاسخ داده‌اند منتشر می‌شوند. تست TCP صرفاً دسترس‌پذیری endpoint "
+                "را می‌سنجد و تضمین عملکرد اعتبارنامه یا کیفیت اینترنت کاربر نیست.",
+            ]
+        )
     lines += [
         "",
-        "| Protocol | Configs | Share |",
+        "| پروتکل | تعداد | سهم |",
         "| --- | ---: | ---: |",
     ]
     total = max(1, stats.get("total", 1))
@@ -216,51 +236,59 @@ def render_markdown(stats: dict, *, repo: str = "", branch: str = "main", title:
         lines.append(f"| {protocol.upper()} | {count:,} | {count / total:.1%} |")
     lines += [
         "",
-        "| Top countries | Configs |",
+        "| کشورهای برتر | تعداد |",
         "| --- | ---: |",
     ]
     for row in countries[:8]:
         code = str(row.get("code", ""))
         label = f"{row.get('flag', '')} {row.get('name', 'Unknown')}"
         if code in ("", "?"):
-            label = "🏳️ GLOBAL / Unknown"
+            label = "🏳️ جهانی / نامشخص"
         lines.append(f"| {label.strip()} | {int(row.get('count', 0)):,} |")
     lines += [
         "",
-        "<details><summary><b>Pipeline health</b></summary>",
+        "<details><summary><b>سلامت خط لوله و کنترل کیفیت</b></summary>",
         "",
-        f"- sources: **{sources.get('ok', 0)}/{sources.get('total', 0)}** ok, "
-        f"{sources.get('failed', 0)} failed, {sources.get('paused', 0)} auto-paused",
-        f"- duplicates removed: **{stats.get('duplicates', 0):,}**",
-        f"- invalid lines skipped: **{stats.get('invalid', 0):,}**",
-        f"- HTTP cache hit rate: **{stats.get('cache', {}).get('hit_rate', 0):.0%}**",
-        f"- security flags: **{stats.get('audit', {}).get('insecure', 0)}** insecure, "
-        f"**{stats.get('audit', {}).get('private_hosts', 0)}** private hosts",
+        f"- منابع: **{sources.get('ok', 0)}/{sources.get('total', 0)}** سالم، "
+        f"{sources.get('failed', 0)} ناموفق و {sources.get('paused', 0)} متوقف‌شدهٔ خودکار",
+        f"- تکراری‌های حذف‌شده: **{stats.get('duplicates', 0):,}** · خطوط نامعتبر: **{stats.get('invalid', 0):,}**",
+        f"- نرخ استفاده از کش HTTP: **{stats.get('cache', {}).get('hit_rate', 0):.0%}**",
+        f"- فیلتر امنیتی: **{stats.get('audit', {}).get('dropped', 0):,}** حذف‌شده · "
+        f"{stats.get('audit', {}).get('insecure', 0):,} مورد ناامن · "
+        f"{stats.get('audit', {}).get('private_hosts', 0):,} میزبان خصوصی",
     ]
     if probe.get("mode", "off") != "off":
         lines.append(
-            f"- liveness probe ({probe.get('mode')}): **{probe.get('alive', 0):,}** endpoints alive, "
-            f"{probe.get('dead', 0):,} dead, avg {probe.get('avg_latency_ms', 0)} ms"
+            f"- probe {probe.get('mode', '').upper()}: "
+            f"**{probe.get('alive', 0):,}** endpoint پاسخ‌گو، "
+            f"{probe.get('dead', 0):,} ناموفق، "
+            f"{probe.get('endpoints_unprobed', 0):,} تست‌نشده، "
+            f"میانگین {probe.get('avg_latency_ms', 0)} ms"
+        )
+    if quality.get("require_verified"):
+        lines.append(
+            f"- خروجی نهایی: **{quality.get('published', stats.get('total', 0)):,}** تأییدشده · "
+            f"{quality.get('excluded_unverified', 0):,} مورد تأییدنشده منتشر نشد"
         )
     lines += [
-        f"- run duration: **{stats.get('duration_ms', 0)} ms**",
+        f"- زمان اجرا: **{stats.get('duration_ms', 0)} ms**",
         "",
         "</details>",
     ]
     if base:
         lines += [
             "",
-            "**Subscription:** "
-            f"[plain]({base}/working_configs.txt) · "
-            f"[base64]({base}/base64.txt) · "
-            f"[all]({base}/outputs/all.txt) · "
-            f"[best]({base}/outputs/best.txt) · "
-            f"[verified]({base}/outputs/verified.txt) · "
-            f"[clash]({base}/outputs/clash.yaml) · "
+            "**دریافت خروجی‌ها:** "
+            f"[ساب ساده]({base}/working_configs.txt) · "
+            f"[ساب Base64]({base}/base64.txt) · "
+            f"[همه]({base}/outputs/all.txt) · "
+            f"[برترین‌ها]({base}/outputs/best.txt) · "
+            f"[تأییدشده]({base}/outputs/verified.txt) · "
+            f"[Clash/Mihomo]({base}/outputs/clash.yaml) · "
             f"[sing-box]({base}/outputs/singbox.json) · "
-            f"[stats]({base}/stats.txt)",
+            f"[آمار]({base}/stats.txt)",
             "",
-            "<details><summary><b>🌍 همهٔ لینک‌های کشورها در آخرین اجرا — Copyable</b></summary>",
+            "<details><summary><b>🌍 لینک‌های کشورها در همین اجرای اخیر</b></summary>",
             "",
             "```text",
         ]
@@ -270,9 +298,10 @@ def render_markdown(stats: dict, *, repo: str = "", branch: str = "main", title:
             flag = str(row.get("flag", "🏳️"))
             count = int(row.get("count", 0))
             filename = _country_output_name(code)
-            label = "GLOBAL / Unknown" if filename == "global" else name
+            label = "جهانی / نامشخص" if filename == "global" else name
             lines.append(f"{flag} {label} ({count:,}): {base}/outputs/by-country/{filename}.txt")
         lines += ["```", "", "</details>"]
+    lines.extend(["", "</div>"])
     return "\n".join(lines) + "\n"
 
 def inject_readme(readme_path: str | Path, block: str) -> bool:

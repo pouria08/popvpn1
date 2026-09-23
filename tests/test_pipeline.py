@@ -11,7 +11,7 @@ from popvpn.sources import Source, SourceHealth
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "tests" / "data"
-CONFIG = ROOT / "config.yaml"
+CONFIG = ROOT / "tests" / "pipeline-config.yaml"
 
 EXPECTED_FILES = [
     "working_configs.txt",

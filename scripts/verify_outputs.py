@@ -71,6 +71,23 @@ def verify(root: Path = WORKDIR) -> list[str]:
     else:
         _ok(f"stats.json agrees ({len(uris)})")
 
+    quality = stats.get("quality", {})
+    probe = stats.get("probe", {})
+    if quality.get("require_verified"):
+        if probe.get("mode") not in {"tcp", "tls"}:
+            _fail(errors, "strict publication requires a tcp or tls probe")
+        if len(uris) > int(probe.get("configs_alive", 0)):
+            _fail(errors, "published config count exceeds fresh verified configs")
+        verified_path = root / "outputs" / "verified.txt"
+        if not verified_path.exists():
+            _fail(errors, f"missing {verified_path}")
+        else:
+            verified_uris = [line for line in verified_path.read_text(encoding="utf-8").splitlines() if "://" in line]
+            if verified_uris != uris:
+                _fail(errors, "strict all.txt and verified.txt do not match")
+            else:
+                _ok("strict output contains verified configs only")
+
     invalid = [uri for uri in uris if parse_uri(uri) is None]
     if invalid:
         _fail(errors, f"{len(invalid)} published URIs do not re-parse, e.g. {invalid[0][:80]}")

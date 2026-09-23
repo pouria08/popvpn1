@@ -119,6 +119,14 @@ def test_health_success_resets_streak(tmp_path):
     assert health.records[url]["last_configs"] == 10
 
 
+def test_health_retain_removes_deleted_sources(tmp_path):
+    health = SourceHealth(tmp_path / "sources.json")
+    health.record(Source(url="https://example.com/keep", name="keep", ok=True))
+    health.record(Source(url="https://example.com/removed", name="removed", ok=True))
+    assert health.retain(["https://example.com/keep"]) == 1
+    assert list(health.records) == ["https://example.com/keep"]
+
+
 def test_health_persistence(tmp_path):
     path = tmp_path / "sources.json"
     health = SourceHealth(path)

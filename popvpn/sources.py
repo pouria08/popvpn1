@@ -156,6 +156,20 @@ class SourceHealth:
             return 1.0
         return float(record.get("reliability", 1.0))
 
+    def retain(self, urls) -> int:
+        """Forget health records for sources no longer present in ``links.txt``.
+
+        Keeping an obsolete record is not useful for cooldown/reliability and
+        risks showing a removed feed again in the public health report.
+        Disabled sources are passed in by the caller too, so their history is
+        preserved until the operator actually removes the line.
+        """
+
+        allowed = set(urls)
+        before = len(self.records)
+        self.records = {url: record for url, record in self.records.items() if url in allowed}
+        return before - len(self.records)
+
     # -- updates ---------------------------------------------------------
     def record(self, source: Source) -> None:
         record = self.record_for(source.url)

@@ -16,7 +16,7 @@ import verify_outputs  # noqa: E402
 
 from popvpn.pipeline import Options, run  # noqa: E402
 
-CONFIG = str(ROOT / "config.yaml")
+CONFIG = str(ROOT / "tests" / "pipeline-config.yaml")
 DATA = str(ROOT / "tests" / "data")
 
 
@@ -79,7 +79,8 @@ def test_commit_message_from_generated_stats(generated, capsys):
     subject = commit_message.build_message(stats)
     assert subject.startswith("Auto-Update: Total: 24")
     assert "TROJAN: 12" in subject
-    assert "Sources: 6/6" in subject
+    # Two synthetic HTML/CDN error fixtures are correctly rejected as feeds.
+    assert "Sources: 4/6" in subject
     assert len(subject) <= 180
 
     body = commit_message.build_body(stats)

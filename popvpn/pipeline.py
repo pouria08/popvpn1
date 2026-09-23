@@ -15,7 +15,7 @@ from .http import FetchResult, HttpSettings, fetch_many
 from .notify import notify
 from .probe import ProbeSettings, probe_configs
 from .protocols import Config as VpnConfig
-from .protocols import decode_body, extract_uris, parse_uri
+from .protocols import decode_body, extract_uris, looks_like_error_page, parse_uri
 from .security import audit
 from .sources import Source, SourceHealth, load_sources, parse_links
 from .stats import (
@@ -102,6 +102,7 @@ class Pipeline:
             cache_dir,
             ttl=int(self.cfg.get("fetch.cache_ttl", 900)),
             enabled=bool(self.cfg.get("fetch.use_cache", True)) and not self.options.no_cache,
+            writable=not self.options.dry_run,
         )
         self.cache = cache
 
@@ -173,6 +174,9 @@ class Pipeline:
             max_failures=int(self.cfg.get("sources.max_failures", 3)),
             revive_after_hours=float(self.cfg.get("sources.revive_after_hours", 6)),
         )
+        removed_health_records = health.retain(source.url for source in sources)
+        if removed_health_records:
+            self.log(f"[popvpn] removed {removed_health_records} obsolete source-health record(s)")
 
         paused: list[Source] = []
         active: list[Source] = []
@@ -210,6 +214,15 @@ class Pipeline:
             decoded = decode_body(
                 body, allow_double=bool(self.cfg.get("parsing.allow_double_base64", True))
             )
+            # A number of CDN/error pages are returned with HTTP 200. Treat
+            # them as failed sources instead of recording a misleading
+            # successful fetch with zero usable configs.
+            if looks_like_error_page(decoded):
+                source.ok = False
+                source.error = "source returned an HTML/CDN error page"
+                source.found = 0
+                per_source_counts[source.name or source.url] = 0
+                continue
             chunks = extract_uris(decoded)
             raw_count += len(chunks)
             found = 0
@@ -232,13 +245,27 @@ class Pipeline:
         for source in (active if not options.offline_dir else []):
             health.record(source)
 
-        unique: list[VpnConfig] = []
-        seen: set[str] = set()
+        # Keep one copy of every logical config. When identical entries appear
+        # in more than one feed, prefer the source the operator weighted more
+        # heavily; health breaks ties. This makes ``weight=`` annotations in
+        # links.txt meaningful without ever adding a removed source back.
+        source_by_url = {source.url: source for source in sources}
+
+        def source_priority(cfg: VpnConfig) -> tuple[float, float, str]:
+            source = source_by_url.get(cfg.source)
+            weight = max(0, source.weight) if source else 1
+            return (float(weight), health.reliability(cfg.source), cfg.source)
+
+        unique_by_fingerprint: dict[str, VpnConfig] = {}
+        unique_order: list[str] = []
         for cfg in configs:
-            if cfg.fingerprint in seen:
-                continue
-            seen.add(cfg.fingerprint)
-            unique.append(cfg)
+            previous = unique_by_fingerprint.get(cfg.fingerprint)
+            if previous is None:
+                unique_by_fingerprint[cfg.fingerprint] = cfg
+                unique_order.append(cfg.fingerprint)
+            elif source_priority(cfg) > source_priority(previous):
+                unique_by_fingerprint[cfg.fingerprint] = cfg
+        unique = [unique_by_fingerprint[fingerprint] for fingerprint in unique_order]
         duplicates = len(configs) - len(unique)
 
         # --- geo + security + scoring ----------------------------------
@@ -258,17 +285,34 @@ class Pipeline:
                 workers=int(self.cfg.get("probe.workers", 96)),
                 timeout=float(self.cfg.get("probe.timeout", 4.0)),
                 tls=bool(self.cfg.get("probe.tls", False)),
-                max_endpoints=int(self.cfg.get("probe.max_endpoints", 4000)),
-                cache_ttl=int(self.cfg.get("probe.cache_ttl", 3600)),
+                max_endpoints=int(self.cfg.get("probe.max_endpoints", 12000)),
+                cache_ttl=int(self.cfg.get("probe.cache_ttl", 900)),
                 state_file=str(self.cfg.get("probe.state_file", "state/probe_cache.json")),
+                persist=not options.dry_run,
             ),
             on_progress=lambda done, total: self.log(f"  … probed {done}/{total} endpoints"),
         )
+        require_verified = bool(self.cfg.get("probe.require_verified", True)) or bool(
+            self.cfg.get("probe.drop_dead", True)
+        )
+        quality = {
+            "require_verified": require_verified,
+            "candidates_after_security": len(kept),
+            "published_after_probe": len(kept),
+            "excluded_unverified": 0,
+        }
         if probe_summary.get("mode", "off") != "off":
             # Scores depend on the verdict, so re-score after probing.
             scoring.score_all(kept, reliability_of=health.reliability)
-            if bool(self.cfg.get("probe.drop_dead", False)):
-                kept = [cfg for cfg in kept if cfg.verified is not False]
+            if require_verified:
+                before_filter = len(kept)
+                # ``None`` means the endpoint was not in this run's fresh
+                # probe set (for example because of max_endpoints). It is not
+                # evidence of quality and must never be published in strict
+                # mode alongside an explicit failed verdict.
+                kept = [cfg for cfg in kept if cfg.verified is True]
+                quality["excluded_unverified"] = before_filter - len(kept)
+                quality["published_after_probe"] = len(kept)
 
         # --- sort + limit + name ---------------------------------------
         kept = scoring.sort_configs(kept, str(self.cfg.get("scoring.sort", "score")))
@@ -285,6 +329,7 @@ class Pipeline:
         max_configs = options.limit or int(self.cfg.get("limits.max_configs", 0) or 0)
         if max_configs:
             kept = kept[:max_configs]
+        quality["published"] = len(kept)
 
         uris = naming.apply_names(
             kept,
@@ -347,6 +392,7 @@ class Pipeline:
             "per_source": per_source_counts,
             "cache": self.cache.stats(),
             "probe": probe_summary,
+            "quality": quality,
             "audit": audit_report.as_dict(),
             "previous_total": previous_total,
             "history": history,
@@ -357,6 +403,24 @@ class Pipeline:
         repo = str(self.cfg.get("profile.repo", "") or "")
         branch = str(self.cfg.get("profile.branch", "main") or "main")
         base = f"https://raw.githubusercontent.com/{repo}/{branch}" if repo else ""
+
+        # Do not publish an empty snapshot solely because the network or every
+        # upstream source failed. Keeping the last successful verified output
+        # is safer than atomically replacing it with an outage page. A genuine
+        # successful-but-empty feed still proceeds and is written normally.
+        all_active_sources_failed = bool(active) and not any(source.ok for source in active)
+        if all_active_sources_failed and not options.dry_run:
+            health.save()
+            self.log("[popvpn] every active source failed; existing outputs were left untouched")
+            return {
+                "ok": False,
+                "dry_run": False,
+                "reason": "every active source failed",
+                "stats": stats,
+                "uris": uris,
+                "written": {},
+                "log": self.log_lines,
+            }
 
         if options.dry_run:
             self.log(
@@ -463,15 +527,17 @@ class Pipeline:
                     writers.plain_subscription(group, profile),
                 )
 
-        if best_count and configs:
-            sink.add(
-                out_dir / "best.txt",
-                writers.plain_subscription(uris[:best_count], profile),
-            )
-            sink.add(
-                out_dir / "best_base64.txt",
-                writers.base64_subscription(uris[:best_count]),
-            )
+        # Write these on every run, including an empty but valid subscription,
+        # so a formerly good node can never survive in a stale best-list.
+        best_uris = uris[:best_count] if best_count > 0 else []
+        sink.add(
+            out_dir / "best.txt",
+            writers.plain_subscription(best_uris, profile),
+        )
+        sink.add(
+            out_dir / "best_base64.txt",
+            writers.base64_subscription(best_uris),
+        )
 
         # Always publish the verified endpoints.  When no probe has run, the
         # files intentionally contain an empty, valid subscription rather
@@ -487,9 +553,11 @@ class Pipeline:
             writers.base64_subscription(verified_uris),
         )
 
-        if bool(self.cfg.get("outputs.clash", True)) and configs:
+        # Empty documents are safer than leaving a previous run's proxies in
+        # place when no endpoint passes the current quality gate.
+        if bool(self.cfg.get("outputs.clash", True)):
             sink.add(out_dir / "clash.yaml", writers.clash_document(configs[:clash_max], profile))
-        if bool(self.cfg.get("outputs.singbox", True)) and configs:
+        if bool(self.cfg.get("outputs.singbox", True)):
             sink.add(out_dir / "singbox.json", writers.singbox_document(configs[:clash_max], profile))
 
         stats_payload = dict(stats)
@@ -545,6 +613,20 @@ class Pipeline:
             )
             for path, size in write_dashboard(dashboard_dir, data, history_values=values).items():
                 sink.files[path] = size
+
+        # Country and protocol folders are entirely generated. Reconcile them
+        # so files for a node/country that no longer passed today's checks do
+        # not remain publicly reachable from a prior run.
+        expected = {Path(path) for path in sink.files}
+        for directory in (out_dir / "by-country", out_dir / "by-protocol"):
+            if not directory.exists():
+                continue
+            for stale in directory.glob("*.txt"):
+                if stale not in expected:
+                    try:
+                        stale.unlink()
+                    except OSError:  # pragma: no cover - best effort on read-only filesystems
+                        self.log(f"[popvpn] could not remove stale output: {stale}")
 
         return sink.files
 

@@ -30,7 +30,7 @@ pipeline کانفیگ‌هایی را پردازش می‌کند که **عموم
 | `weak-credential` | رمز placeholder یا الگوی ضعیف |
 | `unknown-ss-method` | متد Shadowsocks ناشناخته |
 
-با `security.drop_*` در `config.yaml` می‌توانید حذفشان کنید.
+در تنظیمات production فعلی، موارد پرخطر (از جمله `weak-credential`) به‌صورت پیش‌فرض با `security.drop_*` حذف می‌شوند. این گزینه‌ها فقط برای بررسی کنترل‌شدهٔ یک feed قابل خاموش‌کردن هستند.
 
 ## گزارش آسیب‌پذیری
 

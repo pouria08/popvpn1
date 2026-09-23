@@ -7,10 +7,10 @@ on:
   workflow_dispatch:
     inputs:
       probe:
-        description: 'Liveness probe mode'
+        description: 'Liveness probe mode (TCP is the safe production default)'
         type: choice
-        options: [off, tcp, tls]
-        default: 'off'
+        options: [tcp, tls, off]
+        default: 'tcp'
       limit:
         description: 'Max configs (0 = use config.yaml)'
         type: string
@@ -58,7 +58,9 @@ jobs:
         run: |
           ARGS=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
-          python main.py --probe "${{ inputs.probe || 'off' }}" --limit "${{ inputs.limit || '0' }}" $ARGS
+          # Scheduled runs have no workflow inputs; keep TCP as the explicit
+          # fallback so config quality guarantees are never bypassed.
+          python main.py --probe "${{ inputs.probe || 'tcp' }}" --limit "${{ inputs.limit || '0' }}" $ARGS
 
       - name: Verify outputs
         if: ${{ inputs.dry_run != true }}

@@ -29,13 +29,21 @@ from .protocols import Config
 
 @dataclass
 class ProbeSettings:
-    mode: str = "off"
-    workers: int = 96
+    """Runtime settings for liveness checks.
+
+    TCP is deliberately the default: it is safe for every supported transport,
+    including Reality, and answers the only publication question we need here:
+    whether the advertised endpoint accepts a connection right now.
+    """
+
+    mode: str = "tcp"
+    workers: int = 128
     timeout: float = 4.0
     tls: bool = False
-    max_endpoints: int = 4000
-    cache_ttl: int = 3600
+    max_endpoints: int = 12000
+    cache_ttl: int = 900
     state_file: str = "state/probe_cache.json"
+    persist: bool = True
 
 
 class ProbeCache:
@@ -62,16 +70,25 @@ class ProbeCache:
             encoding="utf-8",
         )
 
-    def get(self, endpoint: str) -> dict | None:
+    def get(self, endpoint: str, mode: str) -> dict | None:
+        """Return a fresh verdict produced with the same probe mode.
+
+        Older cache files did not include a mode. They are intentionally
+        treated as stale so a TCP run never mistakes a former TLS result for a
+        current TCP liveness check.
+        """
+
         entry = self.entries.get(endpoint)
-        if not entry:
+        if not entry or entry.get("mode") != mode:
             return None
         if time.time() - float(entry.get("at", 0)) > self.ttl:
             return None
         return entry
 
-    def put(self, endpoint: str, ok: bool, ms: int) -> None:
-        self.entries[endpoint] = {"ok": bool(ok), "ms": int(ms), "at": int(time.time())}
+    def put(self, endpoint: str, mode: str, ok: bool, ms: int) -> dict:
+        entry = {"mode": mode, "ok": bool(ok), "ms": int(ms), "at": int(time.time())}
+        self.entries[endpoint] = entry
+        return entry
 
     def prune(self, keep: int = 20000) -> None:
         if len(self.entries) <= keep:
@@ -122,40 +139,61 @@ def probe_configs(
     *,
     on_progress=None,
 ) -> dict:
-    """Probe every unique endpoint and annotate the configs in place."""
+    """Probe unique endpoints and annotate every config in place.
 
+    A verdict is only used when it is fresh *and* was produced in the requested
+    mode. Endpoints above ``max_endpoints`` remain explicitly unverified;
+    callers that require verified output can therefore filter safely instead
+    of accidentally publishing an untested configuration.
+    """
+
+    mode = (settings.mode or "tcp").strip().lower()
+    # A malformed environment override must fail closed. Falling back to TCP
+    # preserves the production guarantee rather than quietly skipping probes.
+    if mode not in {"off", "tcp", "tls"}:
+        mode = "tcp"
     summary = {
-        "mode": settings.mode,
+        "mode": mode,
         "endpoints_total": 0,
         "endpoints_probed": 0,
         "endpoints_cached": 0,
+        "endpoints_unprobed": 0,
         "alive": 0,
         "dead": 0,
         "configs_alive": 0,
         "configs_dead": 0,
+        "configs_unprobed": 0,
         "elapsed_ms": 0,
         "avg_latency_ms": 0,
     }
-    if settings.mode == "off" or not configs:
+    if mode == "off" or not configs:
         return summary
 
-    use_tls = settings.mode == "tls"
+    use_tls = mode == "tls"
     cache = ProbeCache(settings.state_file, settings.cache_ttl)
     endpoints: dict[str, str] = {}
+    endpoint_scores: dict[str, float] = {}
     for cfg in configs:
-        if cfg.host and cfg.port:
-            endpoints.setdefault(cfg.endpoint, cfg.sni or cfg.host)
+        if not cfg.host or not cfg.port:
+            continue
+        endpoints.setdefault(cfg.endpoint, cfg.sni or cfg.host)
+        endpoint_scores[cfg.endpoint] = max(endpoint_scores.get(cfg.endpoint, 0.0), cfg.score)
 
     summary["endpoints_total"] = len(endpoints)
-    todo: dict[str, str] = {}
+    verdicts: dict[str, dict] = {}
+    todo: list[tuple[str, str]] = []
     for endpoint, sni in endpoints.items():
-        cached = cache.get(endpoint)
-        if cached:
+        cached = cache.get(endpoint, mode)
+        if cached is not None:
+            verdicts[endpoint] = cached
             summary["endpoints_cached"] += 1
-            continue
-        todo[endpoint] = sni
+        else:
+            todo.append((endpoint, sni))
 
-    todo = dict(list(todo.items())[: max(0, settings.max_endpoints)])
+    # When a safety cap is needed, spend the budget on higher-quality
+    # candidates first. The endpoint name is a stable tie-breaker.
+    todo.sort(key=lambda item: (-endpoint_scores.get(item[0], 0.0), item[0]))
+    todo = todo[: max(0, settings.max_endpoints)]
     summary["endpoints_probed"] = len(todo)
     started = time.monotonic()
 
@@ -175,7 +213,7 @@ def probe_configs(
                     use_tls and endpoint not in plain_endpoints,
                     sni,
                 ): endpoint
-                for endpoint, sni in todo.items()
+                for endpoint, sni in todo
             }
             for done, future in enumerate(as_completed(futures), start=1):
                 endpoint = futures[future]
@@ -183,17 +221,18 @@ def probe_configs(
                     ok, ms = future.result()
                 except Exception:  # pragma: no cover - defensive
                     ok, ms = False, 0
-                cache.put(endpoint, ok, ms)
-                if on_progress and done % 250 == 0:
+                verdicts[endpoint] = cache.put(endpoint, mode, ok, ms)
+                if on_progress and (done % 250 == 0 or done == len(todo)):
                     on_progress(done, len(todo))
-        cache.prune()
-        cache.save()
+        if settings.persist:
+            cache.prune()
+            cache.save()
 
+    summary["endpoints_unprobed"] = summary["endpoints_total"] - len(verdicts)
     latencies: list[int] = []
-    for endpoint in endpoints:
-        entry = cache.entries.get(endpoint)
-        ok = bool(entry and entry.get("ok"))
-        ms = int(entry.get("ms", 0)) if entry else 0
+    for entry in verdicts.values():
+        ok = bool(entry.get("ok"))
+        ms = int(entry.get("ms", 0))
         if ok:
             summary["alive"] += 1
             latencies.append(ms)
@@ -201,8 +240,11 @@ def probe_configs(
             summary["dead"] += 1
 
     for cfg in configs:
-        entry = cache.entries.get(cfg.endpoint)
+        entry = verdicts.get(cfg.endpoint)
         if entry is None:
+            cfg.verified = None
+            cfg.latency_ms = None
+            summary["configs_unprobed"] += 1
             continue
         cfg.verified = bool(entry.get("ok"))
         cfg.latency_ms = int(entry.get("ms", 0))
@@ -214,4 +256,3 @@ def probe_configs(
     summary["elapsed_ms"] = int((time.monotonic() - started) * 1000)
     summary["avg_latency_ms"] = int(sum(latencies) / len(latencies)) if latencies else 0
     return summary
-

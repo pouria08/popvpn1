@@ -20,8 +20,9 @@ python -m venv .venv
 
 ```bash
 mkdir -p /tmp/run && cp links.txt README.md /tmp/run && cd /tmp/run
+# endpointهای fixture واقعی نیستند؛ این override فقط برای توسعه است.
 python /path/to/popvpn1/main.py --config /path/to/popvpn1/config.yaml \
-  --offline /path/to/popvpn1/tests/data --no-notify
+  --offline /path/to/popvpn1/tests/data --probe off --no-notify
 ```
 
 یا ساده‌تر، فقط بررسی کنید بدون نوشتن چیزی:
