@@ -74,11 +74,11 @@
   {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
     "name": "AetrisVPN",
-    "attempts": 20,
+    "attempts": 21,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 504,
-    "avg_ms": 1405,
+    "last_configs": 500,
+    "avg_ms": 1259,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -98,11 +98,11 @@
   {
     "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 5,
+    "attempts": 6,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 291,
-    "avg_ms": 261,
+    "last_configs": 293,
+    "avg_ms": 355,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -110,11 +110,11 @@
   {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt",
     "name": "AetrisVPN-blacklist",
-    "attempts": 20,
+    "attempts": 21,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 217,
-    "avg_ms": 975,
+    "avg_ms": 811,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -122,11 +122,11 @@
   {
     "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
     "name": "patterniha",
-    "attempts": 20,
+    "attempts": 21,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 53,
-    "avg_ms": 129,
+    "last_configs": 33,
+    "avg_ms": 104,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
