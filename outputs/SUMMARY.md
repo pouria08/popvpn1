@@ -1,6 +1,6 @@
-![Total](https://img.shields.io/badge/CONFIGS-563-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-538-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-15-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-10-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-0-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-3%2F3-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-34-eab308?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-563-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-538-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-15-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-10-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-0-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-3%2F3-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-34-eab308?style=flat-square) | ![Verified](https://img.shields.io/badge/ALIVE-190-16a34a?style=flat-square)
 
-**Last update:** `2026-09-23 00:41:35 UTC` · **563 configs** (-7725 vs previous run)
+**Last update:** `2026-09-23 00:49:40 UTC` · **563 configs** (±0 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
@@ -24,9 +24,10 @@
 - sources: **3/3** ok, 0 failed, 0 auto-paused
 - duplicates removed: **235**
 - invalid lines skipped: **79**
-- HTTP cache hit rate: **0%**
+- HTTP cache hit rate: **100%**
 - security flags: **17** insecure, **0** private hosts
-- run duration: **1814 ms**
+- liveness probe (tcp): **190** endpoints alive, 149 dead, avg 241 ms
+- run duration: **12635 ms**
 
 </details>
 

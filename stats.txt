@@ -1,8 +1,8 @@
 ==============================================================
   POPVPN X — subscription statistics
 ==============================================================
-  generated      : 2026-09-23 00:41:35 UTC
-  run duration   : 1814 ms
+  generated      : 2026-09-23 00:49:40 UTC
+  run duration   : 12635 ms
   total configs  : 563
   unique configs : 563
   duplicates     : 235
@@ -25,7 +25,13 @@
     🇫🇷 FR France               18
 
   sources        : 3 (ok 3 / failed 0 / paused 0)
-  cache hit rate : 0%
+  cache hit rate : 100%
+
+  probe (tcp):
+    endpoints    : 339
+    alive        : 190
+    dead         : 149
+    avg latency  : 241 ms
 
   security audit :
     insecure        : 17
