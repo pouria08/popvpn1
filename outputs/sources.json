@@ -48,18 +48,6 @@
     "paused": false
   },
   {
-    "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
-    "name": "AetrisVPN",
-    "attempts": 22,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 541,
-    "avg_ms": 1442,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
     "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
     "name": "epodonios-trojan",
     "attempts": 12,
@@ -84,13 +72,13 @@
     "paused": false
   },
   {
-    "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 7,
+    "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
+    "name": "AetrisVPN",
+    "attempts": 23,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 316,
-    "avg_ms": 328,
+    "last_configs": 514,
+    "avg_ms": 1500,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -108,13 +96,25 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 8,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 268,
+    "avg_ms": 279,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt",
     "name": "AetrisVPN-blacklist",
-    "attempts": 22,
+    "attempts": 23,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 217,
-    "avg_ms": 968,
+    "avg_ms": 912,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -122,11 +122,11 @@
   {
     "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
     "name": "patterniha",
-    "attempts": 22,
+    "attempts": 23,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 33,
-    "avg_ms": 146,
+    "avg_ms": 154,
     "reliability": 1.0,
     "last_error": "",
     "paused": false

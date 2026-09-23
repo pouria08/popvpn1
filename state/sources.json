@@ -1,43 +1,43 @@
 {
   "sources": {
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt": {
-      "attempts": 22,
-      "avg_ms": 1442,
+      "attempts": 23,
+      "avg_ms": 1500,
       "fail_streak": 0,
-      "last_configs": 541,
+      "last_configs": 514,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790195237,
+      "last_ok_at": 1790207124,
       "last_status": 200,
       "name": "AetrisVPN",
       "reliability": 1.0,
-      "successes": 22
+      "successes": 23
     },
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt": {
-      "attempts": 22,
-      "avg_ms": 968,
+      "attempts": 23,
+      "avg_ms": 912,
       "fail_streak": 0,
       "last_configs": 217,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790195237,
+      "last_ok_at": 1790207124,
       "last_status": 304,
       "name": "AetrisVPN-blacklist",
       "reliability": 1.0,
-      "successes": 22
+      "successes": 23
     },
     "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt": {
-      "attempts": 7,
-      "avg_ms": 328,
+      "attempts": 8,
+      "avg_ms": 279,
       "fail_streak": 0,
-      "last_configs": 316,
+      "last_configs": 268,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790195237,
+      "last_ok_at": 1790207124,
       "last_status": 200,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 7
+      "successes": 8
     },
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt": {
       "attempts": 13,
@@ -131,18 +131,18 @@
       "successes": 12
     },
     "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt": {
-      "attempts": 22,
-      "avg_ms": 146,
+      "attempts": 23,
+      "avg_ms": 154,
       "fail_streak": 0,
       "last_configs": 33,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790195237,
+      "last_ok_at": 1790207124,
       "last_status": 304,
       "name": "patterniha",
       "reliability": 1.0,
-      "successes": 22
+      "successes": 23
     }
   },
-  "updated_at": 1790195237
+  "updated_at": 1790207124
 }
