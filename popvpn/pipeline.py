@@ -539,19 +539,28 @@ class Pipeline:
             writers.base64_subscription(best_uris),
         )
 
-        # Always publish the verified endpoints.  When no probe has run, the
-        # files intentionally contain an empty, valid subscription rather
-        # than disappearing and breaking the public README/dashboard links.
+        # The verified subscription is a usability promise: never replace a
+        # known-good snapshot with an empty file merely because a probe was
+        # intentionally disabled or this run produced no live endpoint. It is
+        # rotated only after at least one fresh successful verdict. This is
+        # independent from the strict all-output policy above, which can still
+        # intentionally become empty when no current config qualifies.
         verified = [(cfg, uri) for cfg, uri in zip(configs, uris) if cfg.verified is True]
         verified_uris = [uri for _, uri in verified]
-        sink.add(
-            out_dir / "verified.txt",
-            writers.plain_subscription(verified_uris, profile),
+        verified_path = out_dir / "verified.txt"
+        verified_base64_path = out_dir / "verified_base64.txt"
+        probe_active = stats.get("probe", {}).get("mode", "off") != "off"
+        preserve_verified = bool(self.cfg.get("outputs.preserve_verified_on_empty", True))
+        have_previous_verified = verified_path.exists() and verified_base64_path.exists()
+        keep_previous_verified = (
+            preserve_verified and have_previous_verified and (not probe_active or not verified_uris)
         )
-        sink.add(
-            out_dir / "verified_base64.txt",
-            writers.base64_subscription(verified_uris),
-        )
+        stats.setdefault("quality", {})["verified_output_preserved"] = keep_previous_verified
+        if keep_previous_verified:
+            self.log("[popvpn] kept the previous verified snapshot (no new live verdict)")
+        else:
+            sink.add(verified_path, writers.plain_subscription(verified_uris, profile))
+            sink.add(verified_base64_path, writers.base64_subscription(verified_uris))
 
         # Empty documents are safer than leaving a previous run's proxies in
         # place when no endpoint passes the current quality gate.

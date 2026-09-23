@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import json
 from pathlib import Path
 
@@ -108,6 +109,43 @@ def test_production_policy_publishes_only_tcp_verified_configs(workspace, tmp_pa
     assert "://" not in Path("working_configs.txt").read_text(encoding="utf-8")
     assert "://" not in Path("outputs/all.txt").read_text(encoding="utf-8")
     assert "://" not in Path("outputs/best.txt").read_text(encoding="utf-8")
+
+
+def test_empty_tcp_probe_keeps_previous_verified_snapshot(workspace, tmp_path, monkeypatch):
+    """Users keep a usable verified URL during a transient bad probe run."""
+
+    input_dir = tmp_path / "input"
+    input_dir.mkdir()
+    (input_dir / "source.txt").write_text(VLESS + "\n", encoding="utf-8")
+    previous_plain = "#profile-title: Previous\n\n" + VLESS + "\n"
+    previous_base64 = base64.b64encode(VLESS.encode("utf-8")).decode("ascii") + "\n"
+    Path("outputs").mkdir()
+    Path("outputs/verified.txt").write_text(previous_plain, encoding="utf-8")
+    Path("outputs/verified_base64.txt").write_text(previous_base64, encoding="utf-8")
+
+    def dead_probe(configs, settings, **_kwargs):
+        for cfg in configs:
+            cfg.verified = False
+            cfg.latency_ms = 0
+        return {
+            "mode": "tcp", "endpoints_total": 1, "endpoints_probed": 1, "endpoints_cached": 0,
+            "endpoints_unprobed": 0, "alive": 0, "dead": 1, "configs_alive": 0,
+            "configs_dead": 1, "configs_unprobed": 0, "elapsed_ms": 1, "avg_latency_ms": 0,
+        }
+
+    monkeypatch.setattr("popvpn.pipeline.probe_configs", dead_probe)
+    result = run(
+        Options(
+            config_path=str(PRODUCTION_CONFIG),
+            offline_dir=str(input_dir),
+            notify_enabled=False,
+            quiet=True,
+        )
+    )
+    assert result["stats"]["quality"]["verified_output_preserved"] is True
+    assert Path("outputs/verified.txt").read_text(encoding="utf-8") == previous_plain
+    assert Path("outputs/verified_base64.txt").read_text(encoding="utf-8") == previous_base64
+    assert "://" not in Path("outputs/all.txt").read_text(encoding="utf-8")
 
 
 def test_all_failed_sources_do_not_replace_last_successful_output(workspace, monkeypatch):

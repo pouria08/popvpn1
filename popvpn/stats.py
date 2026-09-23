@@ -270,6 +270,8 @@ def render_markdown(
             f"- خروجی نهایی: **{quality.get('published', stats.get('total', 0)):,}** تأییدشده · "
             f"{quality.get('excluded_unverified', 0):,} مورد تأییدنشده منتشر نشد"
         )
+    if quality.get("verified_output_preserved"):
+        lines.append("- `verified.txt` بدون تغییر نگه داشته شد؛ verdict زندهٔ تازه‌ای برای جایگزینی وجود نداشت.")
     lines += [
         f"- زمان اجرا: **{stats.get('duration_ms', 0)} ms**",
         "",

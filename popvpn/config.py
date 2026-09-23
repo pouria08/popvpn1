@@ -265,6 +265,7 @@ DEFAULTS: dict = {
     "outputs.history_file": "state/history.json",
     "outputs.history_keep": 240,
     "outputs.sparkline": "outputs/history.svg",
+    "outputs.preserve_verified_on_empty": True,
     "notify.enabled": True,
     "notify.min_drop_percent": 40,
     "quiet": False,

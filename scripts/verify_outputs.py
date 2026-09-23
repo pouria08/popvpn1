@@ -83,7 +83,12 @@ def verify(root: Path = WORKDIR) -> list[str]:
             _fail(errors, f"missing {verified_path}")
         else:
             verified_uris = [line for line in verified_path.read_text(encoding="utf-8").splitlines() if "://" in line]
-            if verified_uris != uris:
+            invalid_verified = [uri for uri in verified_uris if parse_uri(uri) is None]
+            if invalid_verified:
+                _fail(errors, "verified.txt contains an unparseable URI")
+            elif quality.get("verified_output_preserved"):
+                _ok("previous verified snapshot preserved after an empty probe")
+            elif verified_uris != uris:
                 _fail(errors, "strict all.txt and verified.txt do not match")
             else:
                 _ok("strict output contains verified configs only")

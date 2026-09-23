@@ -104,6 +104,9 @@ outputs:
   history_file: state/history.json
   history_keep: 240
   sparkline: outputs/history.svg
+  # اگر probe نتیجهٔ زنده نداشت یا عمداً خاموش بود، آخرین verified snapshot
+  # دست‌نخورده می‌ماند تا لینک کاربران ناگهان خالی نشود.
+  preserve_verified_on_empty: true
 
 notify:
   enabled: true                     # فقط با تنظیم POPVPN_TELEGRAM_* یا POPVPN_DISCORD_WEBHOOK فعال می‌شود
