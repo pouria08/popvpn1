@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-23 01:11:24 UTC",
+  "generated_at": "2026-09-23 06:03:08 UTC",
   "version": "2.0.0",
-  "duration_ms": 14175,
-  "total": 784,
-  "unique": 784,
-  "parsed": 1078,
-  "raw_lines": 1165,
-  "duplicates": 294,
-  "invalid": 87,
+  "duration_ms": 2005,
+  "total": 744,
+  "unique": 744,
+  "parsed": 1035,
+  "raw_lines": 1166,
+  "duplicates": 291,
+  "invalid": 131,
   "by_protocol": {
+    "vless": 683,
     "trojan": 28,
-    "vless": 724,
     "vmess": 20,
     "hy2": 3,
-    "ss": 9
+    "ss": 10
   },
   "by_country": [
     {
@@ -21,28 +21,28 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 248
+      "count": 251
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 115
+      "count": 93
     },
     {
       "code": "NL",
       "name": "Netherlands",
       "flag": "🇳🇱",
       "region": "EU",
-      "count": 102
+      "count": 84
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 82
+      "count": 83
     },
     {
       "code": "RU",
@@ -56,7 +56,7 @@
       "name": "United Kingdom",
       "flag": "🇬🇧",
       "region": "EU",
-      "count": 32
+      "count": 25
     },
     {
       "code": "CA",
@@ -70,7 +70,7 @@
       "name": "France",
       "flag": "🇫🇷",
       "region": "EU",
-      "count": 18
+      "count": 20
     },
     {
       "code": "FI",
@@ -105,7 +105,7 @@
       "name": "Sweden",
       "flag": "🇸🇪",
       "region": "EU",
-      "count": 7
+      "count": 8
     },
     {
       "code": "JP",
@@ -136,13 +136,6 @@
       "count": 3
     },
     {
-      "code": "KR",
-      "name": "South Korea",
-      "flag": "🇰🇷",
-      "region": "",
-      "count": 3
-    },
-    {
       "code": "MD",
       "name": "Moldova",
       "flag": "🇲🇩",
@@ -168,6 +161,13 @@
       "name": "Czechia",
       "flag": "🇨🇿",
       "region": "EU",
+      "count": 2
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "region": "",
       "count": 2
     },
     {
@@ -220,9 +220,9 @@
       "count": 1
     },
     {
-      "code": "GR",
-      "name": "Greece",
-      "flag": "🇬🇷",
+      "code": "ES",
+      "name": "Spain",
+      "flag": "🇪🇸",
       "region": "EU",
       "count": 1
     },
@@ -248,6 +248,13 @@
       "count": 1
     },
     {
+      "code": "UA",
+      "name": "Ukraine",
+      "flag": "🇺🇦",
+      "region": "EU",
+      "count": 1
+    },
+    {
       "code": "ZA",
       "name": "South Africa",
       "flag": "🇿🇦",
@@ -255,7 +262,7 @@
       "count": 1
     }
   ],
-  "country_count": 34,
+  "country_count": 35,
   "sources": {
     "total": 4,
     "ok": 4,
@@ -269,7 +276,7 @@
       "last_configs": 53,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 145,
+      "elapsed_ms": 173,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -277,10 +284,10 @@
     {
       "name": "AetrisVPN",
       "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt",
-      "last_configs": 528,
+      "last_configs": 484,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 1520,
+      "elapsed_ms": 1863,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -291,7 +298,7 @@
       "last_configs": 217,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 1119,
+      "elapsed_ms": 1379,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -299,10 +306,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 280,
+      "last_configs": 281,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 357,
+      "elapsed_ms": 198,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -310,9 +317,9 @@
   ],
   "per_source": {
     "patterniha": 53,
-    "AetrisVPN": 528,
+    "AetrisVPN": 484,
     "AetrisVPN-blacklist": 217,
-    "raw.githubusercontent.com": 280
+    "raw.githubusercontent.com": 281
   },
   "cache": {
     "enabled": true,
@@ -321,28 +328,28 @@
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "tcp",
-    "endpoints_total": 531,
-    "endpoints_probed": 531,
+    "mode": "off",
+    "endpoints_total": 0,
+    "endpoints_probed": 0,
     "endpoints_cached": 0,
-    "alive": 335,
-    "dead": 196,
-    "configs_alive": 566,
-    "configs_dead": 218,
-    "elapsed_ms": 12521,
-    "avg_latency_ms": 159
+    "alive": 0,
+    "dead": 0,
+    "configs_alive": 0,
+    "configs_dead": 0,
+    "elapsed_ms": 0,
+    "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 784,
+    "kept": 744,
     "dropped": 0,
-    "insecure": 18,
+    "insecure": 19,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
       "unknown-network": 22,
-      "allow-insecure": 18
+      "allow-insecure": 19
     },
     "dropped_reasons": {}
   },
-  "previous_total": 563
+  "previous_total": 784
 }

@@ -1,35 +1,34 @@
-![Total](https://img.shields.io/badge/CONFIGS-784-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-724-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-20-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-28-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-9-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-4%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-34-eab308?style=flat-square) | ![Verified](https://img.shields.io/badge/ALIVE-335-16a34a?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-744-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-683-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-20-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-28-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-10-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-4%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-35-eab308?style=flat-square)
 
-**Last update:** `2026-09-23 01:11:24 UTC` · **784 configs** (+221 vs previous run)
+**Last update:** `2026-09-23 06:03:08 UTC` · **744 configs** (-40 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
-| VLESS | 724 | 92.3% |
-| TROJAN | 28 | 3.6% |
-| VMESS | 20 | 2.6% |
-| SS | 9 | 1.1% |
+| VLESS | 683 | 91.8% |
+| TROJAN | 28 | 3.8% |
+| VMESS | 20 | 2.7% |
+| SS | 10 | 1.3% |
 | HY2 | 3 | 0.4% |
 
 | Top countries | Configs |
 | --- | ---: |
-| 🏳️ GLOBAL / Unknown | 248 |
-| 🇩🇪 Germany | 115 |
-| 🇳🇱 Netherlands | 102 |
-| 🇺🇸 United States | 82 |
+| 🏳️ GLOBAL / Unknown | 251 |
+| 🇩🇪 Germany | 93 |
+| 🇳🇱 Netherlands | 84 |
+| 🇺🇸 United States | 83 |
 | 🇷🇺 Russia | 66 |
-| 🇬🇧 United Kingdom | 32 |
+| 🇬🇧 United Kingdom | 25 |
 | 🇨🇦 Canada | 22 |
-| 🇫🇷 France | 18 |
+| 🇫🇷 France | 20 |
 
 <details><summary><b>Pipeline health</b></summary>
 
 - sources: **4/4** ok, 0 failed, 0 auto-paused
-- duplicates removed: **294**
-- invalid lines skipped: **87**
+- duplicates removed: **291**
+- invalid lines skipped: **131**
 - HTTP cache hit rate: **0%**
-- security flags: **18** insecure, **0** private hosts
-- liveness probe (tcp): **335** endpoints alive, 196 dead, avg 159 ms
-- run duration: **14175 ms**
+- security flags: **19** insecure, **0** private hosts
+- run duration: **2005 ms**
 
 </details>
 
@@ -38,28 +37,28 @@
 <details><summary><b>🌍 همهٔ لینک‌های کشورها در آخرین اجرا — Copyable</b></summary>
 
 ```text
-🏳️ GLOBAL / Unknown (248): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
-🇩🇪 Germany (115): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/de.txt
-🇳🇱 Netherlands (102): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/nl.txt
-🇺🇸 United States (82): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
+🏳️ GLOBAL / Unknown (251): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
+🇩🇪 Germany (93): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/de.txt
+🇳🇱 Netherlands (84): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/nl.txt
+🇺🇸 United States (83): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
 🇷🇺 Russia (66): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ru.txt
-🇬🇧 United Kingdom (32): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/gb.txt
+🇬🇧 United Kingdom (25): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/gb.txt
 🇨🇦 Canada (22): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ca.txt
-🇫🇷 France (18): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/fr.txt
+🇫🇷 France (20): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/fr.txt
 🇫🇮 Finland (15): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/fi.txt
 🇵🇱 Poland (15): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/pl.txt
 🇧🇪 Belgium (10): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/be.txt
 🇹🇷 Türkiye (10): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/tr.txt
-🇸🇪 Sweden (7): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/se.txt
+🇸🇪 Sweden (8): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/se.txt
 🇯🇵 Japan (5): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/jp.txt
 🇪🇪 Estonia (4): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ee.txt
 🇨🇭 Switzerland (3): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ch.txt
 🇮🇪 Ireland (3): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ie.txt
-🇰🇷 South Korea (3): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/kr.txt
 🇲🇩 Moldova (3): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/md.txt
 🇦🇪 United Arab Emirates (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ae.txt
 🇧🇬 Bulgaria (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/bg.txt
 🇨🇿 Czechia (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/cz.txt
+🇰🇷 South Korea (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/kr.txt
 🇰🇿 Kazakhstan (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/kz.txt
 🇱🇹 Lithuania (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/lt.txt
 🇸🇬 Singapore (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/sg.txt
@@ -67,10 +66,11 @@
 🇨🇳 China (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/cn.txt
 🇨🇾 Cyprus (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/cy.txt
 🇩🇰 Denmark (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/dk.txt
-🇬🇷 Greece (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/gr.txt
+🇪🇸 Spain (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/es.txt
 🇭🇺 Hungary (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/hu.txt
 🇮🇳 India (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/in.txt
 🇱🇻 Latvia (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/lv.txt
+🇺🇦 Ukraine (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ua.txt
 🇿🇦 South Africa (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/za.txt
 ```
 
