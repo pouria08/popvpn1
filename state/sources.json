@@ -1,44 +1,57 @@
 {
   "sources": {
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt": {
-      "attempts": 15,
-      "avg_ms": 1305,
-      "fail_streak": 2,
-      "last_configs": 0,
-      "last_error": "URLError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
-      "last_fail_at": 1790123929,
-      "last_ok_at": 1790120962,
-      "last_status": 0,
+      "attempts": 19,
+      "avg_ms": 1430,
+      "fail_streak": 0,
+      "last_configs": 479,
+      "last_error": "",
+      "last_fail_at": 0,
+      "last_ok_at": 1790163924,
+      "last_status": 200,
       "name": "AetrisVPN",
-      "reliability": 0.5625,
-      "successes": 13
+      "reliability": 1.0,
+      "successes": 19
     },
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt": {
-      "attempts": 15,
-      "avg_ms": 939,
-      "fail_streak": 2,
-      "last_configs": 0,
-      "last_error": "URLError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
-      "last_fail_at": 1790123929,
-      "last_ok_at": 1790120962,
-      "last_status": 0,
+      "attempts": 19,
+      "avg_ms": 979,
+      "fail_streak": 0,
+      "last_configs": 217,
+      "last_error": "",
+      "last_fail_at": 0,
+      "last_ok_at": 1790163924,
+      "last_status": 304,
       "name": "AetrisVPN-blacklist",
-      "reliability": 0.5625,
-      "successes": 13
+      "reliability": 1.0,
+      "successes": 19
+    },
+    "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt": {
+      "attempts": 4,
+      "avg_ms": 175,
+      "fail_streak": 0,
+      "last_configs": 291,
+      "last_error": "",
+      "last_fail_at": 0,
+      "last_ok_at": 1790163924,
+      "last_status": 304,
+      "name": "raw.githubusercontent.com",
+      "reliability": 1.0,
+      "successes": 4
     },
     "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt": {
-      "attempts": 15,
-      "avg_ms": 193,
-      "fail_streak": 2,
-      "last_configs": 0,
-      "last_error": "URLError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
-      "last_fail_at": 1790123929,
-      "last_ok_at": 1790120962,
-      "last_status": 0,
+      "attempts": 19,
+      "avg_ms": 131,
+      "fail_streak": 0,
+      "last_configs": 53,
+      "last_error": "",
+      "last_fail_at": 0,
+      "last_ok_at": 1790163924,
+      "last_status": 304,
       "name": "patterniha",
-      "reliability": 0.5625,
-      "successes": 13
+      "reliability": 1.0,
+      "successes": 19
     }
   },
-  "updated_at": 1790123929
+  "updated_at": 1790163924
 }

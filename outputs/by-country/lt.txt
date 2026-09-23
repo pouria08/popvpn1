@@ -1,0 +1,6 @@
+#profile-title: POPVPN X
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+
+vless://cfd29242-a9b1-454d-8f48-09eebb9a7d79@188.214.129.163:8443?type=xhttp&security=reality&path=%2Fapi%2Fv2%2Fsync&mode=auto&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22maxConcurrency%22%3A%228-16%22%2C%22maxConnections%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%7D%2C%22noGRPCHeader%22%3Afalse%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&sni=www.tradingview.com&pbk=NnDloDdLzhLM1CVF36kbOkc0JFzsqVaT3k1fYX_vXRY&sid=58ae8cd85cc31074&fp=firefox&encryption=none#POPVPN 0045 🇱🇹 LT VLESS REALITY
+vless://c6037cf7-d931-4027-af06-6bfb0f10684c@5.199.171.91:443?security=reality&encryption=none&pbk=m2b2LJrFWLTiy__FrxqnRKtnCK9g_eZPAz0Qnjdzbh4&headerType=none&fp=firefox&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=apiv81.jarvesitw.ru&sid=784aedb3#POPVPN 0282 🇱🇹 LT VLESS REALITY
