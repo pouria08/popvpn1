@@ -2,11 +2,8 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://256c5e3e-431d-0032-bed4-bfcf1334f64b@161.104.38.98:443?encryption=none&path=%2Fassets&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&security=reality&sid=8ba6e72ee60667f6&sni=donatov.net&type=xhttp&fp=chrome#POPVPN 0003 🇷🇺 RU VLESS REALITY
-vless://d877de0b-1e7c-4dd4-826f-6ffcd4331a98@ytnoads.applepie-recipe.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=ships.applepie-recipe.ru&alpn=http%2F1.1&fp=chrome#POPVPN 0045 🇷🇺 RU VLESS TLS
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru&alpn=h3#POPVPN 0140 🇷🇺 RU HY2 TLS
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=0&sni=hy.quattro-tech.ru#POPVPN 0162 🇷🇺 RU HY2 TLS
-hysteria2://617z9r1mbzbm1t5z@giftcard.gisora.ir:52000?security=tls&obfs=salamander&obfs-password=09p333uviv2qal0y&insecure=0&sni=giftcard.gisora.ir#POPVPN 0168 🇷🇺 RU HY2 TLS
-ss://YWVzLTI1Ni1nY206NmIzOWFlMzIzNGRmZDY4Yg==@185.22.155.162:10808#POPVPN 0277 🇷🇺 RU SS AES-256-GCM
-ss://YWVzLTI1Ni1nY206NmIzOWFlMzIzNGRmZDY4Yg@46.29.163.78:50111#POPVPN 0291 🇷🇺 RU SS AES-256-GCM
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoRi1xcWluMndZaFA3elM0N1N5UjBR@62.113.41.165:888#POPVPN 0295 🇷🇺 RU SS CHACHA20-IETF-POLY1305
+hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=0&sni=hy.quattro-tech.ru#POPVPN 0156 🇷🇺 RU HY2 TLS
+hysteria2://617z9r1mbzbm1t5z@giftcard.gisora.ir:52000?security=tls&obfs=salamander&obfs-password=09p333uviv2qal0y&insecure=0&sni=giftcard.gisora.ir#POPVPN 0161 🇷🇺 RU HY2 TLS
+hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=0&sni=msk.frkn.org#POPVPN 0162 🇷🇺 RU HY2 TLS
+ss://YWVzLTI1Ni1nY206NmIzOWFlMzIzNGRmZDY4Yg==@185.22.155.162:10808#POPVPN 0267 🇷🇺 RU SS AES-256-GCM
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@92.223.109.126:989#POPVPN 0298 🇷🇺 RU SS AES-256-CFB
