@@ -2,12 +2,11 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://256c5e3e-431d-0032-bed4-bfcf1334f64b@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=firefox#POPVPN 0003 🇷🇺 RU VLESS REALITY
-vless://ff6d2dda-7b90-404e-9951-34b3124bfdfa@176.98.176.86:9543?encryption=none&flow=xtls-rprx-vision&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&security=reality&sid=123abcdf&sni=storage.yandexcloud.net&type=tcp&fp=qq#POPVPN 0007 🇷🇺 RU VLESS REALITY
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru&alpn=h3#POPVPN 0142 🇷🇺 RU HY2 TLS
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=0&sni=hy.quattro-tech.ru#POPVPN 0164 🇷🇺 RU HY2 TLS
-hysteria2://617z9r1mbzbm1t5z@giftcard.gisora.ir:52000?security=tls&obfs=salamander&obfs-password=09p333uviv2qal0y&insecure=0&sni=giftcard.gisora.ir#POPVPN 0170 🇷🇺 RU HY2 TLS
-hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=0&sni=msk.frkn.org#POPVPN 0171 🇷🇺 RU HY2 TLS
+vless://256c5e3e-431d-0032-bed4-bfcf1334f64b@161.104.38.98:443?encryption=none&path=%2Fassets&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&security=reality&sid=8ba6e72ee60667f6&sni=donatov.net&type=xhttp&fp=chrome#POPVPN 0003 🇷🇺 RU VLESS REALITY
+vless://d877de0b-1e7c-4dd4-826f-6ffcd4331a98@ytnoads.applepie-recipe.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=ships.applepie-recipe.ru&alpn=http%2F1.1&fp=chrome#POPVPN 0045 🇷🇺 RU VLESS TLS
+hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru&alpn=h3#POPVPN 0140 🇷🇺 RU HY2 TLS
+hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=0&sni=hy.quattro-tech.ru#POPVPN 0162 🇷🇺 RU HY2 TLS
+hysteria2://617z9r1mbzbm1t5z@giftcard.gisora.ir:52000?security=tls&obfs=salamander&obfs-password=09p333uviv2qal0y&insecure=0&sni=giftcard.gisora.ir#POPVPN 0168 🇷🇺 RU HY2 TLS
 ss://YWVzLTI1Ni1nY206NmIzOWFlMzIzNGRmZDY4Yg==@185.22.155.162:10808#POPVPN 0277 🇷🇺 RU SS AES-256-GCM
 ss://YWVzLTI1Ni1nY206NmIzOWFlMzIzNGRmZDY4Yg@46.29.163.78:50111#POPVPN 0291 🇷🇺 RU SS AES-256-GCM
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoRi1xcWluMndZaFA3elM0N1N5UjBR@62.113.41.165:888#POPVPN 0296 🇷🇺 RU SS CHACHA20-IETF-POLY1305
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoRi1xcWluMndZaFA3elM0N1N5UjBR@62.113.41.165:888#POPVPN 0295 🇷🇺 RU SS CHACHA20-IETF-POLY1305
