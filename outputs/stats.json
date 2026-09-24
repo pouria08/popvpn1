@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24 04:59:01 UTC",
+  "generated_at": "2026-09-24 05:03:15 UTC",
   "version": "2.0.0",
-  "duration_ms": 2703,
+  "duration_ms": 12228,
   "total": 487,
   "unique": 487,
   "parsed": 1124,
@@ -9,8 +9,8 @@
   "duplicates": 637,
   "invalid": 22,
   "by_protocol": {
-    "vless": 40,
     "trojan": 176,
+    "vless": 40,
     "hy2": 30,
     "ss": 238,
     "vmess": 3
@@ -254,8 +254,8 @@
       "url": "https://kaveh.yebekhe.workers.dev/sub/donations",
       "last_configs": 1124,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 2610,
+      "from_cache": true,
+      "elapsed_ms": 0,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -266,21 +266,21 @@
   },
   "cache": {
     "enabled": true,
-    "hits": 0,
-    "misses": 1,
-    "hit_rate": 0.0
+    "hits": 1,
+    "misses": 0,
+    "hit_rate": 1.0
   },
   "probe": {
-    "mode": "off",
-    "endpoints_total": 0,
-    "endpoints_probed": 0,
+    "mode": "tcp",
+    "endpoints_total": 393,
+    "endpoints_probed": 393,
     "endpoints_cached": 0,
-    "alive": 0,
-    "dead": 0,
-    "configs_alive": 0,
-    "configs_dead": 0,
-    "elapsed_ms": 0,
-    "avg_latency_ms": 0
+    "alive": 236,
+    "dead": 157,
+    "configs_alive": 324,
+    "configs_dead": 163,
+    "elapsed_ms": 12132,
+    "avg_latency_ms": 125
   },
   "audit": {
     "kept": 487,
@@ -296,5 +296,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 534
+  "previous_total": 487
 }
