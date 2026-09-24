@@ -2,11 +2,11 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://93eb1b5e-94e0-418f-beff-1a5fe1e45bdb@3x-ui-production-efa6.up.railway.app:443?encryption=none&host=3x-ui-production-efa6.up.railway.app&path=%2Fin4&security=tls&sni=3x-ui-production-efa6.up.railway.app&type=httpupgrade#POPVPN 0042 🇬🇧 GB VLESS HTTPUPGRADE
-vless://1033d385-e971-461b-b8a9-658d1bde57e3@3x-ui-production-efa6.up.railway.app:443?encryption=none&host=3x-ui-production-efa6.up.railway.app&path=%2Fin4&security=tls&sni=3x-ui-production-efa6.up.railway.app&type=httpupgrade#POPVPN 0045 🇬🇧 GB VLESS HTTPUPGRADE
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@141.98.101.181:443#POPVPN 0202 🇬🇧 GB SS AES-128-GCM
-vmess://eyJhZGQiOiAiNjYuMTYzLjExNy41OCIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICJAUHJveHlWUE4xMSIsICJpZCI6ICIwNDYyMWJhZS1hYjM2LTExZWMtYjkwOS0wMjQyYWMxMjAwMDIiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyBAUHJveHlWUE4xMSIsICJwb3J0IjogIjIyMzI0IiwgInBzIjogIlBPUFZQTiAwMjI1IPCfh6zwn4enIEdCIFZNRVNTIE5PTkUiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6ME4xZFl0UUZtSG53QmVLdjUzbzVNSkRrUnpiR1lZMUtrTFhuYU5rV28zbz0@129.151.68.65:61312#POPVPN 0380 🇬🇧 GB SS 2022-BLAKE3-CHACHA20-POLY1305
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SlhWQ3YzTjc4VWxyL1YyUnNrMFVOOERKRXpEK3lDMGNidFdvOXpqR1RrZz0@144.24.225.39:61312#POPVPN 0392 🇬🇧 GB SS 2022-BLAKE3-CHACHA20-POLY1305
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNR1U0WmpWa01HTmhZMlkzWXpNME5tSXhNRGd5TkRRNU9HVmpaalkyWTJZPQ@144.24.226.223:61312#POPVPN 0393 🇬🇧 GB SS CHACHA20-IETF-POLY1305
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SG56SU4xQ0xHR0VoK21EL3V6YmJ2VFFjL0FscStoa21yQzdQbzNENGs0RT0=@46.38.143.236:60633?note=@FreeOnlineVPN#POPVPN 0446 🇬🇧 GB SS 2022-BLAKE3-CHACHA20-POLY1305
+vless://93eb1b5e-94e0-418f-beff-1a5fe1e45bdb@3x-ui-production-efa6.up.railway.app:443?encryption=none&host=3x-ui-production-efa6.up.railway.app&path=%2Fin4&security=tls&sni=3x-ui-production-efa6.up.railway.app&type=httpupgrade#POPVPN 0058 🇬🇧 GB VLESS HTTPUPGRADE
+vless://1033d385-e971-461b-b8a9-658d1bde57e3@3x-ui-production-efa6.up.railway.app:443?encryption=none&host=3x-ui-production-efa6.up.railway.app&path=%2Fin4&security=tls&sni=3x-ui-production-efa6.up.railway.app&type=httpupgrade#POPVPN 0061 🇬🇧 GB VLESS HTTPUPGRADE
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6ME4xZFl0UUZtSG53QmVLdjUzbzVNSkRrUnpiR1lZMUtrTFhuYU5rV28zbz0@129.151.68.65:61312#POPVPN 0255 🇬🇧 GB SS 2022-BLAKE3-CHACHA20-POLY1305
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@141.98.101.181:443#POPVPN 0263 🇬🇧 GB SS AES-128-GCM
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SlhWQ3YzTjc4VWxyL1YyUnNrMFVOOERKRXpEK3lDMGNidFdvOXpqR1RrZz0@144.24.225.39:61312#POPVPN 0264 🇬🇧 GB SS 2022-BLAKE3-CHACHA20-POLY1305
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNR1U0WmpWa01HTmhZMlkzWXpNME5tSXhNRGd5TkRRNU9HVmpaalkyWTJZPQ@144.24.226.223:61312#POPVPN 0265 🇬🇧 GB SS CHACHA20-IETF-POLY1305
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SG56SU4xQ0xHR0VoK21EL3V6YmJ2VFFjL0FscStoa21yQzdQbzNENGs0RT0=@46.38.143.236:60633?note=@FreeOnlineVPN#POPVPN 0292 🇬🇧 GB SS 2022-BLAKE3-CHACHA20-POLY1305
+vmess://eyJhZGQiOiAiNjYuMTYzLjExNy41OCIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICJAUHJveHlWUE4xMSIsICJpZCI6ICIwNDYyMWJhZS1hYjM2LTExZWMtYjkwOS0wMjQyYWMxMjAwMDIiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyBAUHJveHlWUE4xMSIsICJwb3J0IjogIjIyMzI0IiwgInBzIjogIlBPUFZQTiAwMzI1IPCfh6zwn4enIEdCIFZNRVNTIE5PTkUiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
