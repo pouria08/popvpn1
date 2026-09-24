@@ -36,6 +36,18 @@
     "paused": false
   },
   {
+    "url": "https://kaveh.yebekhe.workers.dev/sub/donations",
+    "name": "kaveh.yebekhe.workers.dev",
+    "attempts": 1,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 1173,
+    "avg_ms": 775,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
     "name": "barry-ss",
     "attempts": 12,

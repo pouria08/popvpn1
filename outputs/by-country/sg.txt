@@ -2,5 +2,7 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://e3f0c894-0f76-4683-a751-6a93da8fd14d@206.206.78.36:443?flow=xtls-rprx-vision&fp=chrome&packetencoding=none&pbk=UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ&security=reality&sid=133a3f10a1581047&sni=www.cloudflare.com&type=tcp#POPVPN 0177 🇸🇬 SG VLESS REALITY
-vless://44e1eece-99e8-4e15-89dc-86c584e543a1@34.124.172.154:443?encryption=none&security=reality&sni=www.tesla.com&pbk=LjGfW6X81U4RGmQX5KrlAmezzY8cn99qBu-kkGNLFVM&sid=0eb59680&fp=chrome&allowInsecure=0&flow=xtls-rprx-vision&type=tcp#POPVPN 0282 🇸🇬 SG VLESS REALITY
+vmess://eyJhZGQiOiAiMTQ5Ljg4LjIzLjIwNyIsICJhaWQiOiAiMCIsICJhbHBuIjogbnVsbCwgImZwIjogbnVsbCwgImhvc3QiOiAiIiwgImlkIjogImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsICJuYW1lIjogIvCfh7jwn4esIFNHIDEiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6IDE4MDAwLCAicHMiOiAiUE9QVlBOIDAyNTcg8J+HuPCfh6wgU0cgVk1FU1MgVENQIiwgInNjeSI6IG51bGwsICJzbmkiOiBudWxsLCAidGxzIjogIiIsICJ0eXBlIjogbnVsbCwgInYiOiBudWxsLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpURkVsRzJGVnF5cUc@176.97.64.144:8388#POPVPN 0258 🇸🇬 SG SS CHACHA20-IETF-POLY1305
+ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY@103.36.91.32:8388#POPVPN 0259 🇸🇬 SG SS CHACHA20-IETF
+trojan://BxceQaOe@43.198.13.210:41973?allowInsecure=1&sni=t.me/ripaojiedian&note=@FreeOnlineVPN#POPVPN 0531 🇸🇬 SG TROJAN TLS
