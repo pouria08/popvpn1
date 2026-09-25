@@ -2,4 +2,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4enc1ajlo@54.36.174.134:443#POPVPN 0296 🇵🇱 PL SS CHACHA20-IETF-POLY1305
+vless://d2e00857-9581-4030-96e2-9d1ed0b95049@178.176.128.128:443?type=httpupgrade&security=tls&sni=edge3.statiqedge.com&path=%2Fassets%2Fv1&host=edge3.statiqedge.com&fp=android#POPVPN 0072 🇵🇱 PL VLESS HTTPUPGRADE
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4enc1ajlo@54.36.174.134:443#POPVPN 0332 🇵🇱 PL SS CHACHA20-IETF-POLY1305
