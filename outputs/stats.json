@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-25 13:53:41 UTC",
+  "generated_at": "2026-09-25 18:41:23 UTC",
   "version": "2.0.0",
-  "duration_ms": 2811,
-  "total": 491,
-  "unique": 491,
-  "parsed": 1138,
-  "raw_lines": 1162,
-  "duplicates": 647,
-  "invalid": 24,
+  "duration_ms": 1621,
+  "total": 496,
+  "unique": 496,
+  "parsed": 1131,
+  "raw_lines": 1150,
+  "duplicates": 635,
+  "invalid": 19,
   "by_protocol": {
-    "vless": 39,
-    "trojan": 189,
-    "hy2": 31,
-    "ss": 227,
+    "vless": 40,
+    "trojan": 188,
+    "hy2": 30,
+    "ss": 233,
     "vmess": 5
   },
   "by_country": [
@@ -21,14 +21,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 352
+      "count": 358
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 22
+      "count": 23
     },
     {
       "code": "DE",
@@ -42,21 +42,21 @@
       "name": "Netherlands",
       "flag": "🇳🇱",
       "region": "EU",
-      "count": 17
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 9
+      "count": 16
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 7
+      "count": 10
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
+      "count": 8
     },
     {
       "code": "IR",
@@ -94,13 +94,6 @@
       "count": 5
     },
     {
-      "code": "BH",
-      "name": "Bahrain",
-      "flag": "🇧🇭",
-      "region": "AS",
-      "count": 4
-    },
-    {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
@@ -120,13 +113,6 @@
       "flag": "🇦🇹",
       "region": "EU",
       "count": 3
-    },
-    {
-      "code": "KR",
-      "name": "South Korea",
-      "flag": "🇰🇷",
-      "region": "",
-      "count": 2
     },
     {
       "code": "MX",
@@ -171,6 +157,13 @@
       "count": 1
     },
     {
+      "code": "EE",
+      "name": "Estonia",
+      "flag": "🇪🇪",
+      "region": "EU",
+      "count": 1
+    },
+    {
       "code": "ES",
       "name": "Spain",
       "flag": "🇪🇸",
@@ -199,10 +192,24 @@
       "count": 1
     },
     {
+      "code": "IS",
+      "name": "Iceland",
+      "flag": "🇮🇸",
+      "region": "EU",
+      "count": 1
+    },
+    {
       "code": "JP",
       "name": "Japan",
       "flag": "🇯🇵",
       "region": "AS",
+      "count": 1
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "region": "",
       "count": 1
     },
     {
@@ -241,7 +248,7 @@
       "count": 1
     }
   ],
-  "country_count": 32,
+  "country_count": 33,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -252,17 +259,17 @@
     {
       "name": "kaveh.yebekhe.workers.dev",
       "url": "https://kaveh.yebekhe.workers.dev/sub/donations",
-      "last_configs": 1138,
+      "last_configs": 1131,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 2734,
+      "elapsed_ms": 1551,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "kaveh.yebekhe.workers.dev": 1138
+    "kaveh.yebekhe.workers.dev": 1131
   },
   "cache": {
     "enabled": true,
@@ -283,18 +290,18 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 491,
+    "kept": 496,
     "dropped": 0,
     "insecure": 9,
     "private_hosts": 2,
     "placeholder_credentials": 2,
     "warnings": {
-      "unknown-network": 34,
+      "unknown-network": 33,
       "allow-insecure": 9,
       "private-host": 2,
       "weak-credential": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 518
+  "previous_total": 491
 }

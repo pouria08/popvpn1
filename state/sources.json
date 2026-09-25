@@ -27,17 +27,17 @@
       "successes": 23
     },
     "https://kaveh.yebekhe.workers.dev/sub/donations": {
-      "attempts": 10,
-      "avg_ms": 2675,
+      "attempts": 11,
+      "avg_ms": 2225,
       "fail_streak": 0,
-      "last_configs": 1138,
+      "last_configs": 1131,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790344421,
+      "last_ok_at": 1790361683,
       "last_status": 200,
       "name": "kaveh.yebekhe.workers.dev",
       "reliability": 1.0,
-      "successes": 10
+      "successes": 11
     },
     "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt": {
       "attempts": 8,
@@ -157,5 +157,5 @@
       "successes": 23
     }
   },
-  "updated_at": 1790344421
+  "updated_at": 1790361683
 }

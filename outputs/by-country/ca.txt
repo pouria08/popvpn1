@@ -2,10 +2,13 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-trojan://5855d6850594830f@104.21.8.63:443?path=/tr/w2O3K3xXNYDKIxwOIw7?ed=2560&security=tls&alpn=http/1.1&insecure=0&host=akbarian34.j9z65ce2uyks.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=AkbARIan34.j9Z65Ce2uyks.WoRKeRS.DEV#POPVPN 0016 🇨🇦 CA TROJAN WS
-trojan://humanity@104.16.174.121:443?path=//assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#POPVPN 0064 🇨🇦 CA TROJAN WS
-trojan://6c862415-30d2-4813-8e49-42e99a0bd415@104.16.72.101:443?security=tls&sni=space.byu.id.yxls.eu.cc&insecure=0&allowInsecure=0&type=ws&host=space.byu.id.yxls.eu.cc&path=/us-gllc@soskeynets#POPVPN 0065 🇨🇦 CA TROJAN WS
-trojan://humanity@104.21.13.204:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#POPVPN 0066 🇨🇦 CA TROJAN WS
-trojan://humanity@172.67.231.254:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#POPVPN 0067 🇨🇦 CA TROJAN WS
-trojan://humanity@www.speedtest.net:443?path=/assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#POPVPN 0069 🇨🇦 CA TROJAN WS
+trojan://humanity@104.21.33.59:443?path=/assignment&security=tls&alpn=http/1.1&fm={"tcp": [{"type": "fragment", "settings": {"packets": "tlshello", "lengths": ["5", "94", "1"], "delays": ["0"], "maxSplit": "0"}},{"type": "fragment", "settings": {"packets": "1-1", "lengths": ["109", "1"], "delays": ["1"], "maxSplit": "355"}}]}&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#POPVPN 0016 🇨🇦 CA TROJAN WS
+trojan://5855d6850594830f@104.21.8.63:443?path=/tr/w2O3K3xXNYDKIxwOIw7?ed=2560&security=tls&alpn=http/1.1&insecure=0&host=akbarian34.j9z65ce2uyks.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=AkbARIan34.j9Z65Ce2uyks.WoRKeRS.DEV#POPVPN 0017 🇨🇦 CA TROJAN WS
+trojan://humanity@172.67.217.240:443?path=/assignment&security=tls&fm={"tcp": [{"type": "fragment", "settings": {"packets": "tlshello", "lengths": ["5", "94", "1"], "delays": ["0"], "maxSplit": "0"}},{"type": "fragment", "settings": {"packets": "1-1", "lengths": ["109", "1"], "delays": ["1"], "maxSplit": "355"}}]}&insecure=0&host=www.calmlunch.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.calmlunch.com#POPVPN 0054 🇨🇦 CA TROJAN WS
+trojan://humanity@104.16.174.121:443?path=//assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#POPVPN 0066 🇨🇦 CA TROJAN WS
+trojan://6c862415-30d2-4813-8e49-42e99a0bd415@104.16.72.101:443?security=tls&sni=space.byu.id.yxls.eu.cc&insecure=0&allowInsecure=0&type=ws&host=space.byu.id.yxls.eu.cc&path=/us-gllc@soskeynets#POPVPN 0067 🇨🇦 CA TROJAN WS
+trojan://humanity@104.21.13.204:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#POPVPN 0068 🇨🇦 CA TROJAN WS
+trojan://humanity@172.67.231.254:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#POPVPN 0070 🇨🇦 CA TROJAN WS
+trojan://humanity@188.114.97.7:443?path=/assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#POPVPN 0071 🇨🇦 CA TROJAN WS
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@51.222.136.236:8882#POPVPN 0286 🇨🇦 CA SS AES-256-GCM
 ss://YWVzLTI1Ni1nY206ZXZlYWFUT2I4amk4eW50dzJaOXlXVUcwZDZJcjhMZDhtM3ltSDhUSGRDNWVnaVRIMW1YQ2lCYzBTa3I3RmliSA==@yyz-ca-01.blncvpn4u.cc:9443#POPVPN 0309 🇨🇦 CA SS AES-256-GCM
