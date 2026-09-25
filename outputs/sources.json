@@ -60,6 +60,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/mhcfpTopic/config/refs/heads/main/xray_final.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 1,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 624,
+    "avg_ms": 129,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
     "name": "epodonios-trojan",
     "attempts": 12,
@@ -132,13 +144,49 @@
     "paused": false
   },
   {
-    "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
-    "name": "patterniha",
-    "attempts": 23,
+    "url": "https://raw.githubusercontent.com/inaz266/In-az-26/refs/heads/main/filtee.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 1,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 33,
-    "avg_ms": 154,
+    "last_configs": 177,
+    "avg_ms": 36,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 1,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 149,
+    "avg_ms": 33,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 1,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 96,
+    "avg_ms": 105,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 24,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 15,
+    "avg_ms": 128,
     "reliability": 1.0,
     "last_error": "",
     "paused": false

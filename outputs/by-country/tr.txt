@@ -2,5 +2,6 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://93eb1b5e-94e0-418f-beff-1a5fe1e45bdb@3x-ui-production-efa6.up.railway.app:443?encryption=none&host=3x-ui-production-efa6.up.railway.app&path=%2Fin2&security=tls&sni=3x-ui-production-efa6.up.railway.app&type=httpupgrade#POPVPN 0060 🇹🇷 TR VLESS HTTPUPGRADE
-vless://1033d385-e971-461b-b8a9-658d1bde57e3@3x-ui-production-efa6.up.railway.app:443?encryption=none&host=3x-ui-production-efa6.up.railway.app&path=%2Fin2&security=tls&sni=3x-ui-production-efa6.up.railway.app&type=httpupgrade#POPVPN 0063 🇹🇷 TR VLESS HTTPUPGRADE
+vless://0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8@151.241.226.201:2053?type=tcp&security=reality&sni=www.apple.com&fp=chrome&pbk=bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104&sid=9e419c0759b54d6f#POPVPN 0043 🇹🇷 TR VLESS REALITY
+vmess://eyJhZGQiOiAiMTAzLjIxNS4yMTguMTU4IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICIwNDYyMWJhZS1hYjM2LTExZWMtYjkwOS0wMjQyYWMxMjAwMDIiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBjcyI6ICIiLCAicG9ydCI6ICIyMjMyNCIsICJwcyI6ICJQT1BWUE4gMDQ3NiDwn4e58J+HtyBUUiBWTUVTUyBOT05FIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgInZjbiI6ICIiLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
+vless://6e58f644-bc22-4dae-824a-4c3a760dc7a1@193.46.56.74:8443?mode=packet-up&path=%2Fh3-updates&security=tls&alpn=h3&encryption=none&insecure=0&host=dns.refprov.online&type=xhttp&allowInsecure=0&sni=dns.refprov.online#POPVPN 0557 🇹🇷 TR VLESS XHTTP

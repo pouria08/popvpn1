@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-de2.pleiades.codes:443?type=grpc&headerType=none&security=tls&encryption=none&sni=assets-de2.pleiades.codes&serviceName=cdn.v1.AssetService&fp=chrome#POPVPN 0042 🇷🇺 RU VLESS GRPC
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=0&sni=hy.quattro-tech.ru#POPVPN 0168 🇷🇺 RU HY2 TLS
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru#POPVPN 0169 🇷🇺 RU HY2 TLS
-hysteria2://617z9r1mbzbm1t5z@giftcard.gisora.ir:52000?security=tls&obfs=salamander&obfs-password=09p333uviv2qal0y&insecure=0&sni=giftcard.gisora.ir#POPVPN 0174 🇷🇺 RU HY2 TLS
-ss://YWVzLTI1Ni1nY206NmIzOWFlMzIzNGRmZDY4Yg==@185.22.155.162:10808#POPVPN 0274 🇷🇺 RU SS AES-256-GCM
+vless://61a22f4b-4025-4c5b-9fa5-861bf36e67dd@176.108.247.67:9881?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&type=grpc&authority=&serviceName=grpc-tunnel&mode=gun#POPVPN 0076 🇷🇺 RU VLESS REALITY
+vless://bc5ec86c-3e65-4272-994c-59a924c72a68@217.19.122.65:443?path=%2Fws%3Fed%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=fbsv6.guardora.pro&fp=firefox&type=ws&allowInsecure=0&sni=fbsv6.guardora.pro#POPVPN 0110 🇷🇺 RU VLESS WS
+vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@45.9.156.28:443?security=reality&encryption=none&pbk=k-vH6pkyAv26L1_dXKOFhp0Kesur9-FCUDoj-IIpVhc&fp=firefox&type=grpc&serviceName=cloud.v1.RelayService&sni=bg4.univesalsrv.com&sid=51f45d4fd58cc319#POPVPN 0129 🇷🇺 RU VLESS REALITY
