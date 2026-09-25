@@ -2,9 +2,10 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://a5d6acb2-d494-f5c2-f865-7c606b3854b1@x4g-production-7fdc.up.railway.app:443?encryption=none&security=tls&sni=x4g-production-7fdc.up.railway.app&fp=ios&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=x4g-production-7fdc.up.railway.app&path=%2Fws%2Fa5d6acb2-d494-f5c2-f865-7c606b3854b1#POPVPN 0022 🇮🇷 IR VLESS WS
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHNXA2d3c0bzY3SEI@108.181.0.177:8388#POPVPN 0226 🇮🇷 IR SS CHACHA20-IETF-POLY1305
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwTEdDUG5qMldnenhYMUllZFc4eWQ3dHJ3UmxYcWpMYQ@109.122.251.86:20700#POPVPN 0229 🇮🇷 IR SS CHACHA20-IETF-POLY1305
-ss://Y2hhY2hhMjAtcG9seTEzMDU6NmUzZTQzZjQtMTJiNy00MmYxLThiOTMtNDFhMTUyZDU2MTJk@78.38.246.150:8446?note=@FreeOnlineVPN#POPVPN 0288 🇮🇷 IR SS CHACHA20-POLY1305
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZaTVrMUo1S1ZiZlR1UDV2SHplTE84K1VEUHlBQzByU0ljWlVCaG5kK2lnPQ@e1.cover20.ir:51570#POPVPN 0305 🇮🇷 IR SS CHACHA20-IETF-POLY1305
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJbFNZK0QrdHR4cDhPTTh0WENDc1duS2gzRWg2S2w0ckFBdjNuRTBYMDhRPQ@e3.cover20.ir:56985#POPVPN 0306 🇮🇷 IR SS CHACHA20-IETF-POLY1305
+vless://a5d6acb2-d494-f5c2-f865-7c606b3854b1@x4g-production-7fdc.up.railway.app:443?encryption=none&security=tls&sni=x4g-production-7fdc.up.railway.app&fp=ios&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=x4g-production-7fdc.up.railway.app&path=%2Fws%2Fa5d6acb2-d494-f5c2-f865-7c606b3854b1#POPVPN 0015 🇮🇷 IR VLESS WS
+trojan://humanity@188.42.145.180:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.volumeroot.com&fp=chrome&type=ws&allowInsecure=0&sni=www.volumeroot.com#POPVPN 0032 🇮🇷 IR TROJAN WS
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHNXA2d3c0bzY3SEI@108.181.0.177:8388#POPVPN 0252 🇮🇷 IR SS CHACHA20-IETF-POLY1305
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwTEdDUG5qMldnenhYMUllZFc4eWQ3dHJ3UmxYcWpMYQ@109.122.251.86:20700#POPVPN 0253 🇮🇷 IR SS CHACHA20-IETF-POLY1305
+ss://Y2hhY2hhMjAtcG9seTEzMDU6NmUzZTQzZjQtMTJiNy00MmYxLThiOTMtNDFhMTUyZDU2MTJk@78.38.246.150:8446?note=@FreeOnlineVPN#POPVPN 0295 🇮🇷 IR SS CHACHA20-POLY1305
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZaTVrMUo1S1ZiZlR1UDV2SHplTE84K1VEUHlBQzByU0ljWlVCaG5kK2lnPQ@e1.cover20.ir:51570#POPVPN 0304 🇮🇷 IR SS CHACHA20-IETF-POLY1305
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJbFNZK0QrdHR4cDhPTTh0WENDc1duS2gzRWg2S2w0ckFBdjNuRTBYMDhRPQ@e3.cover20.ir:56985#POPVPN 0305 🇮🇷 IR SS CHACHA20-IETF-POLY1305

@@ -2,8 +2,7 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://6c7c19ea-9097-4439-b8b7-6fd063801dee@api.videoistok.cc:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=api.videoistok.cc&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&sid=a8&fp=chrome#POPVPN 0006 🇫🇷 FR VLESS REALITY
-vless://de6177cc-299b-958b-9c35-cf8c00000000@104.16.72.41:443?encryption=none&security=tls&sni=panel0-1.w570weeem1.workers.dev&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=panel0-1.w570weeem1.workers.dev&path=%2Fw570w#POPVPN 0051 🇫🇷 FR VLESS WS
-trojan://humanity@104.18.32.47:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com&note=@FreeOnlineVPN#POPVPN 0057 🇫🇷 FR TROJAN WS
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@51.83.192.80:8388#POPVPN 0280 🇫🇷 FR SS AES-256-GCM
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwcTV0RE5hOXFFRWpOOUVNNEFyeFF3@p1tun3.greewebservices.ir:2070#POPVPN 0309 🇫🇷 FR SS CHACHA20-IETF-POLY1305
+vless://de6177cc-299b-958b-9c35-cf8c00000000@104.16.72.41:443?encryption=none&security=tls&sni=panel0-1.w570weeem1.workers.dev&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=panel0-1.w570weeem1.workers.dev&path=%2Fw570w#POPVPN 0045 🇫🇷 FR VLESS WS
+trojan://humanity@104.18.32.47:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com&note=@FreeOnlineVPN#POPVPN 0053 🇫🇷 FR TROJAN WS
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@51.83.192.80:8388#POPVPN 0288 🇫🇷 FR SS AES-256-GCM
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwcTV0RE5hOXFFRWpOOUVNNEFyeFF3@p1tun3.greewebservices.ir:2070#POPVPN 0308 🇫🇷 FR SS CHACHA20-IETF-POLY1305
