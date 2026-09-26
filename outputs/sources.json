@@ -62,11 +62,11 @@
   {
     "url": "https://raw.githubusercontent.com/mhcfpTopic/config/refs/heads/main/xray_final.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 4,
+    "attempts": 5,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 594,
-    "avg_ms": 252,
+    "avg_ms": 239,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -146,11 +146,11 @@
   {
     "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 4,
+    "attempts": 5,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 148,
-    "avg_ms": 122,
+    "avg_ms": 140,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -158,23 +158,11 @@
   {
     "url": "https://raw.githubusercontent.com/inaz266/In-az-26/refs/heads/main/filtee.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 4,
+    "attempts": 5,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 73,
-    "avg_ms": 135,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 4,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 17,
-    "avg_ms": 187,
+    "avg_ms": 158,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -182,11 +170,23 @@
   {
     "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 27,
+    "attempts": 28,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 15,
-    "avg_ms": 118,
+    "avg_ms": 137,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 5,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 13,
+    "avg_ms": 236,
     "reliability": 1.0,
     "last_error": "",
     "paused": false

@@ -2,15 +2,16 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.75:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#POPVPN 0028 🇮🇷 IR VLESS REALITY
-vless://ebd1c0d6-7ff4-4b9f-8692-237517a27a64@tgfree.rush-server.com:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=anyfile2file.com&sid=64c1fe36c7846400#POPVPN 0076 🇮🇷 IR VLESS REALITY
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@185.141.227.180:2053?mode=auto&path=%2Fapi%2Fv1%2Fupload&security=tls&encryption=none&insecure=0&host=dismissaltree.net&fp=random&type=xhttp&allowInsecure=0&sni=dismissaltree.net#POPVPN 0194 🇮🇷 IR VLESS XHTTP
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.75:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#POPVPN 0029 🇮🇷 IR VLESS REALITY
+vless://ebd1c0d6-7ff4-4b9f-8692-237517a27a64@tgfree.rush-server.com:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=anyfile2file.com&sid=64c1fe36c7846400#POPVPN 0078 🇮🇷 IR VLESS REALITY
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@185.141.227.180:2053?mode=auto&path=%2Fapi%2Fv1%2Fupload&security=tls&encryption=none&insecure=0&host=dismissaltree.net&fp=random&type=xhttp&allowInsecure=0&sni=dismissaltree.net#POPVPN 0195 🇮🇷 IR VLESS XHTTP
 vless://3536e1fa-0850-44d1-b123-925ce12476cf@dey.lnmarketplace.net:443?mode=stream-one&path=%2Fkavir&security=tls&alpn=h2&encryption=none&insecure=0&host=dey.lnmarketplace.net&type=xhttp&allowInsecure=0&sni=dey.lnmarketplace.net#POPVPN 0204 🇮🇷 IR VLESS XHTTP
-vless://b9f5a731-ad7c-4185-9d86-89a4a043961d@185.233.131.236:443?&security=tls&fp=chrome&sni=v3p.sabermusic.ir&type=tcp&headerType=none&path=%2F#POPVPN 0217 🇮🇷 IR VLESS TLS
-vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?path=%2F&security=none&encryption=none&host=neth8.lunariai.ru&type=ws&sni=neth8.lunariai.ru#POPVPN 0324 🇮🇷 IR VLESS WS
-vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.42:2083?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&type=grpc&serviceName=vless#POPVPN 0335 🇮🇷 IR VLESS GRPC
-vless://c21631d5-36c9-4664-b575-97eca17456be@2.27.205.59:443?security=none&encryption=none&type=ws#POPVPN 0340 🇮🇷 IR VLESS WS
+vless://b9f5a731-ad7c-4185-9d86-89a4a043961d@185.233.131.236:443?&security=tls&fp=chrome&sni=v3p.sabermusic.ir&type=tcp&headerType=none&path=%2F#POPVPN 0216 🇮🇷 IR VLESS TLS
+vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?path=%2F&security=none&encryption=none&host=neth8.lunariai.ru&type=ws&sni=neth8.lunariai.ru#POPVPN 0322 🇮🇷 IR VLESS WS
+vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.42:2083?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&type=grpc&serviceName=vless#POPVPN 0334 🇮🇷 IR VLESS GRPC
+vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.43:2083?encryption=none&security=none&type=grpc&mode=gun&authority=&serviceName=vless#POPVPN 0335 🇮🇷 IR VLESS GRPC
+vless://c21631d5-36c9-4664-b575-97eca17456be@2.27.205.59:443?security=none&encryption=none&type=ws#POPVPN 0339 🇮🇷 IR VLESS WS
 vless://06c4e938-2954-478f-a870-ca1b163e30e9@94.183.170.135:443?path=%2F&security=none&encryption=none&type=ws#POPVPN 0341 🇮🇷 IR VLESS WS
 vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?path=%2F&security=&encryption=none&type=ws#POPVPN 0342 🇮🇷 IR VLESS WS
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoQ0NXT2NJc0s1d3JGejRPWDcwcldm@216.105.168.18:443#POPVPN 0373 🇮🇷 IR SS CHACHA20-IETF-POLY1305
-ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@51.222.12.127:445#POPVPN 0377 🇮🇷 IR SS AES-256-GCM
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoQ0NXT2NJc0s1d3JGejRPWDcwcldm@216.105.168.18:443#POPVPN 0375 🇮🇷 IR SS CHACHA20-IETF-POLY1305
+ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@51.222.12.127:445#POPVPN 0378 🇮🇷 IR SS AES-256-GCM

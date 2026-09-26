@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-26 07:48:08 UTC",
+  "generated_at": "2026-09-26 13:10:33 UTC",
   "version": "2.0.0",
-  "duration_ms": 406,
-  "total": 475,
-  "unique": 475,
-  "parsed": 847,
-  "raw_lines": 855,
-  "duplicates": 372,
+  "duration_ms": 414,
+  "total": 479,
+  "unique": 479,
+  "parsed": 843,
+  "raw_lines": 851,
+  "duplicates": 364,
   "invalid": 8,
   "by_protocol": {
-    "vless": 281,
-    "trojan": 60,
-    "vmess": 57,
+    "vless": 282,
+    "trojan": 61,
+    "vmess": 59,
     "hy2": 3,
     "ss": 74
   },
@@ -21,14 +21,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 230
+      "count": 233
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 58
+      "count": 59
     },
     {
       "code": "DE",
@@ -42,42 +42,35 @@
       "name": "Netherlands",
       "flag": "🇳🇱",
       "region": "EU",
-      "count": 20
+      "count": 23
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 17
+      "count": 16
     },
     {
       "code": "GB",
       "name": "United Kingdom",
       "flag": "🇬🇧",
       "region": "EU",
-      "count": 17
+      "count": 14
     },
     {
       "code": "IR",
       "name": "Iran",
       "flag": "🇮🇷",
       "region": "",
-      "count": 12
-    },
-    {
-      "code": "FR",
-      "name": "France",
-      "flag": "🇫🇷",
-      "region": "EU",
-      "count": 10
+      "count": 13
     },
     {
       "code": "CL",
       "name": "Chile",
       "flag": "🇨🇱",
       "region": "SA",
-      "count": 9
+      "count": 11
     },
     {
       "code": "FI",
@@ -87,38 +80,45 @@
       "count": 9
     },
     {
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
+      "region": "EU",
+      "count": 9
+    },
+    {
       "code": "SG",
       "name": "Singapore",
       "flag": "🇸🇬",
       "region": "AS",
-      "count": 8
+      "count": 9
     },
     {
       "code": "JP",
       "name": "Japan",
       "flag": "🇯🇵",
       "region": "AS",
-      "count": 7
-    },
-    {
-      "code": "HK",
-      "name": "Hong Kong",
-      "flag": "🇭🇰",
-      "region": "AS",
-      "count": 6
-    },
-    {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
-      "region": "",
-      "count": 6
+      "count": 8
     },
     {
       "code": "PL",
       "name": "Poland",
       "flag": "🇵🇱",
       "region": "EU",
+      "count": 6
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "flag": "🇭🇰",
+      "region": "AS",
+      "count": 5
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "flag": "🇹🇼",
+      "region": "AS",
       "count": 5
     },
     {
@@ -129,38 +129,45 @@
       "count": 4
     },
     {
-      "code": "TW",
-      "name": "Taiwan",
-      "flag": "🇹🇼",
-      "region": "AS",
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "region": "",
       "count": 4
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "flag": "🇮🇳",
+      "region": "AS",
+      "count": 3
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "region": "",
+      "count": 3
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "flag": "🇨🇿",
+      "region": "EU",
+      "count": 2
     },
     {
       "code": "MD",
       "name": "Moldova",
       "flag": "🇲🇩",
       "region": "EU",
-      "count": 3
+      "count": 2
     },
     {
       "code": "SE",
       "name": "Sweden",
       "flag": "🇸🇪",
       "region": "EU",
-      "count": 3
-    },
-    {
-      "code": "TR",
-      "name": "Türkiye",
-      "flag": "🇹🇷",
-      "region": "",
-      "count": 2
-    },
-    {
-      "code": "UZ",
-      "name": "Uzbekistan",
-      "flag": "🇺🇿",
-      "region": "AS",
       "count": 2
     },
     {
@@ -185,20 +192,6 @@
       "count": 1
     },
     {
-      "code": "CZ",
-      "name": "Czechia",
-      "flag": "🇨🇿",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "DK",
-      "name": "Denmark",
-      "flag": "🇩🇰",
-      "region": "EU",
-      "count": 1
-    },
-    {
       "code": "ES",
       "name": "Spain",
       "flag": "🇪🇸",
@@ -206,16 +199,9 @@
       "count": 1
     },
     {
-      "code": "IN",
-      "name": "India",
-      "flag": "🇮🇳",
-      "region": "AS",
-      "count": 1
-    },
-    {
-      "code": "IQ",
-      "name": "Iraq",
-      "flag": "🇮🇶",
+      "code": "IL",
+      "name": "Israel",
+      "flag": "🇮🇱",
       "region": "AS",
       "count": 1
     },
@@ -255,13 +241,6 @@
       "count": 1
     },
     {
-      "code": "TH",
-      "name": "Thailand",
-      "flag": "🇹🇭",
-      "region": "AS",
-      "count": 1
-    },
-    {
       "code": "ZA",
       "name": "South Africa",
       "flag": "🇿🇦",
@@ -269,7 +248,7 @@
       "count": 1
     }
   ],
-  "country_count": 36,
+  "country_count": 33,
   "sources": {
     "total": 5,
     "ok": 5,
@@ -280,10 +259,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt",
-      "last_configs": 17,
+      "last_configs": 13,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 300,
+      "elapsed_ms": 310,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -294,7 +273,7 @@
       "last_configs": 15,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 150,
+      "elapsed_ms": 167,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -305,7 +284,7 @@
       "last_configs": 73,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 200,
+      "elapsed_ms": 194,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -316,7 +295,7 @@
       "last_configs": 148,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 179,
+      "elapsed_ms": 168,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -327,7 +306,7 @@
       "last_configs": 594,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 239,
+      "elapsed_ms": 220,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -355,7 +334,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 475,
+    "kept": 479,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,
@@ -366,5 +345,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 539
+  "previous_total": 475
 }
