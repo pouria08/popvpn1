@@ -92,17 +92,17 @@
       "successes": 13
     },
     "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt": {
-      "attempts": 5,
-      "avg_ms": 236,
+      "attempts": 6,
+      "avg_ms": 206,
       "fail_streak": 0,
       "last_configs": 13,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790428233,
-      "last_status": 200,
+      "last_ok_at": 1790442852,
+      "last_status": 304,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt": {
       "attempts": 13,
@@ -157,57 +157,57 @@
       "successes": 12
     },
     "https://raw.githubusercontent.com/inaz266/In-az-26/refs/heads/main/filtee.txt": {
-      "attempts": 5,
-      "avg_ms": 158,
+      "attempts": 6,
+      "avg_ms": 155,
       "fail_streak": 0,
       "last_configs": 73,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790428233,
+      "last_ok_at": 1790442852,
       "last_status": 304,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/mhcfpTopic/config/refs/heads/main/xray_final.txt": {
-      "attempts": 5,
-      "avg_ms": 239,
+      "attempts": 6,
+      "avg_ms": 204,
       "fail_streak": 0,
       "last_configs": 594,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790428233,
+      "last_ok_at": 1790442852,
       "last_status": 304,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 6
     },
     "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt": {
-      "attempts": 28,
-      "avg_ms": 137,
+      "attempts": 29,
+      "avg_ms": 165,
       "fail_streak": 0,
-      "last_configs": 15,
+      "last_configs": 16,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1790428233,
-      "last_status": 304,
-      "name": "raw.githubusercontent.com",
-      "reliability": 1.0,
-      "successes": 28
-    },
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt": {
-      "attempts": 5,
-      "avg_ms": 140,
-      "fail_streak": 0,
-      "last_configs": 148,
-      "last_error": "",
-      "last_fail_at": 0,
-      "last_ok_at": 1790428233,
+      "last_ok_at": 1790442852,
       "last_status": 200,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 5
+      "successes": 29
+    },
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt": {
+      "attempts": 6,
+      "avg_ms": 121,
+      "fail_streak": 0,
+      "last_configs": 149,
+      "last_error": "",
+      "last_fail_at": 0,
+      "last_ok_at": 1790442852,
+      "last_status": 200,
+      "name": "raw.githubusercontent.com",
+      "reliability": 1.0,
+      "successes": 6
     }
   },
-  "updated_at": 1790428233
+  "updated_at": 1790442852
 }
