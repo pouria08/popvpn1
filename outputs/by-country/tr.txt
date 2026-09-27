@@ -2,4 +2,6 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://af2a0c18-b08c-471f-baa3-259ac2ce3a85@tr3.wba-pn.ru:443?encryption=none&security=tls&sni=tr3.wba-pn.ru&fp=random&type=ws&path=%2F#POPVPN 0218 🇹🇷 TR VLESS WS
+vless://af2a0c18-b08c-471f-baa3-259ac2ce3a85@tr3.wba-pn.ru:443?&security=tls&fp=random&sni=tr3.wba-pn.ru&type=ws&headerType=none&host=tr3.wba-pn.ru&path=%2F#POPVPN 0221 🇹🇷 TR VLESS WS
+vless://9ef61079-6f7d-4911-9608-943da85d8e6f@test.keoplentuio.xyz:2053?encryption=none&security=none&type=tcp#POPVPN 0383 🇹🇷 TR VLESS TCP
+vless://a54166f2-56c7-44f6-abc5-24dbed940bc3@turkey3fcsdkck432cjk423kck4c32klj4clk23cjldjslcrjkl32ckl4jdsckl.nevoxa.ir:32210?security=none&encryption=none&headerType=none&type=tcp#POPVPN 0384 🇹🇷 TR VLESS TCP
