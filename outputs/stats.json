@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-27 23:30:39 UTC",
+  "generated_at": "2026-09-28 00:54:21 UTC",
   "version": "2.0.0",
-  "duration_ms": 4499,
-  "total": 518,
-  "unique": 518,
-  "parsed": 925,
-  "raw_lines": 930,
-  "duplicates": 407,
+  "duration_ms": 435,
+  "total": 523,
+  "unique": 523,
+  "parsed": 933,
+  "raw_lines": 938,
+  "duplicates": 410,
   "invalid": 5,
   "by_protocol": {
-    "trojan": 94,
     "vless": 305,
-    "vmess": 38,
+    "trojan": 95,
+    "vmess": 36,
     "hy2": 2,
-    "ss": 79
+    "ss": 85
   },
   "by_country": [
     {
@@ -21,28 +21,28 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 257
+      "count": 251
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 62
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 32
+      "count": 60
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 26
+      "count": 32
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 31
     },
     {
       "code": "NL",
@@ -52,17 +52,17 @@
       "count": 23
     },
     {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
-      "count": 13
-    },
-    {
       "code": "GB",
       "name": "United Kingdom",
       "flag": "🇬🇧",
       "region": "EU",
+      "count": 13
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "region": "",
       "count": 12
     },
     {
@@ -105,7 +105,7 @@
       "name": "Hong Kong",
       "flag": "🇭🇰",
       "region": "AS",
-      "count": 5
+      "count": 6
     },
     {
       "code": "PL",
@@ -113,6 +113,27 @@
       "flag": "🇵🇱",
       "region": "EU",
       "count": 5
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "region": "EU",
+      "count": 5
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "region": "",
+      "count": 4
+    },
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "region": "",
+      "count": 4
     },
     {
       "code": "TW",
@@ -129,27 +150,6 @@
       "count": 3
     },
     {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
-      "region": "",
-      "count": 3
-    },
-    {
-      "code": "SE",
-      "name": "Sweden",
-      "flag": "🇸🇪",
-      "region": "EU",
-      "count": 3
-    },
-    {
-      "code": "TR",
-      "name": "Türkiye",
-      "flag": "🇹🇷",
-      "region": "",
-      "count": 3
-    },
-    {
       "code": "EE",
       "name": "Estonia",
       "flag": "🇪🇪",
@@ -160,6 +160,13 @@
       "code": "GE",
       "name": "Georgia",
       "flag": "🇬🇪",
+      "region": "AS",
+      "count": 2
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "flag": "🇮🇳",
       "region": "AS",
       "count": 2
     },
@@ -213,9 +220,23 @@
       "count": 1
     },
     {
+      "code": "CL",
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "region": "SA",
+      "count": 1
+    },
+    {
       "code": "CZ",
       "name": "Czechia",
       "flag": "🇨🇿",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "flag": "🇩🇰",
       "region": "EU",
       "count": 1
     },
@@ -224,13 +245,6 @@
       "name": "Spain",
       "flag": "🇪🇸",
       "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "IN",
-      "name": "India",
-      "flag": "🇮🇳",
-      "region": "AS",
       "count": 1
     },
     {
@@ -255,6 +269,13 @@
       "count": 1
     },
     {
+      "code": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "region": "NA",
+      "count": 1
+    },
+    {
       "code": "NO",
       "name": "Norway",
       "flag": "🇳🇴",
@@ -267,16 +288,9 @@
       "flag": "🇷🇸",
       "region": "EU",
       "count": 1
-    },
-    {
-      "code": "TH",
-      "name": "Thailand",
-      "flag": "🇹🇭",
-      "region": "AS",
-      "count": 1
     }
   ],
-  "country_count": 37,
+  "country_count": 39,
   "sources": {
     "total": 5,
     "ok": 5,
@@ -287,10 +301,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt",
-      "last_configs": 18,
+      "last_configs": 26,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 149,
+      "from_cache": false,
+      "elapsed_ms": 150,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -301,7 +315,7 @@
       "last_configs": 41,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 95,
+      "elapsed_ms": 89,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -312,7 +326,7 @@
       "last_configs": 74,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 175,
+      "elapsed_ms": 104,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -323,7 +337,7 @@
       "last_configs": 150,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 89,
+      "elapsed_ms": 82,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -333,8 +347,8 @@
       "url": "https://raw.githubusercontent.com/mhcfpTopic/config/refs/heads/main/xray_final.txt",
       "last_configs": 642,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 215,
+      "from_cache": true,
+      "elapsed_ms": 346,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -350,28 +364,28 @@
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "tcp",
-    "endpoints_total": 426,
-    "endpoints_probed": 426,
+    "mode": "off",
+    "endpoints_total": 0,
+    "endpoints_probed": 0,
     "endpoints_cached": 0,
-    "alive": 418,
-    "dead": 8,
-    "configs_alive": 510,
-    "configs_dead": 8,
-    "elapsed_ms": 4225,
-    "avg_latency_ms": 165
+    "alive": 0,
+    "dead": 0,
+    "configs_alive": 0,
+    "configs_dead": 0,
+    "elapsed_ms": 0,
+    "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 518,
+    "kept": 523,
     "dropped": 0,
-    "insecure": 3,
+    "insecure": 4,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 27,
-      "allow-insecure": 3
+      "unknown-network": 29,
+      "allow-insecure": 4
     },
     "dropped_reasons": {}
   },
-  "previous_total": 515
+  "previous_total": 518
 }
