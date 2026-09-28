@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-28 07:00:58 UTC",
+  "generated_at": "2026-09-28 07:40:57 UTC",
   "version": "2.0.0",
-  "duration_ms": 285,
-  "total": 541,
-  "unique": 541,
-  "parsed": 1077,
+  "duration_ms": 5248,
+  "total": 542,
+  "unique": 542,
+  "parsed": 1076,
   "raw_lines": 1084,
-  "duplicates": 536,
-  "invalid": 7,
+  "duplicates": 534,
+  "invalid": 8,
   "by_protocol": {
-    "vless": 318,
-    "trojan": 85,
+    "trojan": 84,
+    "vless": 319,
     "vmess": 49,
     "hy2": 2,
-    "ss": 87
+    "ss": 88
   },
   "by_country": [
     {
@@ -21,14 +21,21 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 232
+      "count": 231
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 58
+      "count": 56
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 38
     },
     {
       "code": "CA",
@@ -36,13 +43,6 @@
       "flag": "🇨🇦",
       "region": "NA",
       "count": 37
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 35
     },
     {
       "code": "NL",
@@ -80,6 +80,13 @@
       "count": 11
     },
     {
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "region": "EU",
+      "count": 10
+    },
+    {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
@@ -91,13 +98,6 @@
       "name": "Japan",
       "flag": "🇯🇵",
       "region": "AS",
-      "count": 9
-    },
-    {
-      "code": "PL",
-      "name": "Poland",
-      "flag": "🇵🇱",
-      "region": "EU",
       "count": 9
     },
     {
@@ -129,13 +129,6 @@
       "count": 4
     },
     {
-      "code": "SE",
-      "name": "Sweden",
-      "flag": "🇸🇪",
-      "region": "EU",
-      "count": 4
-    },
-    {
       "code": "CH",
       "name": "Switzerland",
       "flag": "🇨🇭",
@@ -154,6 +147,27 @@
       "name": "South Korea",
       "flag": "🇰🇷",
       "region": "",
+      "count": 3
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "flag": "🇰🇿",
+      "region": "AS",
+      "count": 3
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "flag": "🇷🇴",
+      "region": "EU",
+      "count": 3
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "region": "EU",
       "count": 3
     },
     {
@@ -199,23 +213,9 @@
       "count": 2
     },
     {
-      "code": "KZ",
-      "name": "Kazakhstan",
-      "flag": "🇰🇿",
-      "region": "AS",
-      "count": 2
-    },
-    {
       "code": "MD",
       "name": "Moldova",
       "flag": "🇲🇩",
-      "region": "EU",
-      "count": 2
-    },
-    {
-      "code": "RO",
-      "name": "Romania",
-      "flag": "🇷🇴",
       "region": "EU",
       "count": 2
     },
@@ -288,16 +288,9 @@
       "flag": "🇷🇸",
       "region": "EU",
       "count": 1
-    },
-    {
-      "code": "UZ",
-      "name": "Uzbekistan",
-      "flag": "🇺🇿",
-      "region": "AS",
-      "count": 1
     }
   ],
-  "country_count": 40,
+  "country_count": 39,
   "sources": {
     "total": 5,
     "ok": 5,
@@ -310,8 +303,8 @@
       "url": "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt",
       "last_configs": 57,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 126,
+      "from_cache": true,
+      "elapsed_ms": 220,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -322,7 +315,7 @@
       "last_configs": 41,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 115,
+      "elapsed_ms": 106,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -332,8 +325,8 @@
       "url": "https://raw.githubusercontent.com/inaz266/In-az-26/refs/heads/main/filtee.txt",
       "last_configs": 187,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 148,
+      "from_cache": true,
+      "elapsed_ms": 202,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -341,10 +334,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt",
-      "last_configs": 150,
+      "last_configs": 149,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 84,
+      "elapsed_ms": 178,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -355,7 +348,7 @@
       "last_configs": 642,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 121,
+      "elapsed_ms": 203,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -371,19 +364,19 @@
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "off",
-    "endpoints_total": 0,
-    "endpoints_probed": 0,
+    "mode": "tcp",
+    "endpoints_total": 451,
+    "endpoints_probed": 451,
     "endpoints_cached": 0,
-    "alive": 0,
-    "dead": 0,
-    "configs_alive": 0,
-    "configs_dead": 0,
-    "elapsed_ms": 0,
-    "avg_latency_ms": 0
+    "alive": 440,
+    "dead": 11,
+    "configs_alive": 531,
+    "configs_dead": 11,
+    "elapsed_ms": 4888,
+    "avg_latency_ms": 212
   },
   "audit": {
-    "kept": 541,
+    "kept": 542,
     "dropped": 0,
     "insecure": 2,
     "private_hosts": 0,
@@ -394,5 +387,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 523
+  "previous_total": 541
 }
