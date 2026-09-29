@@ -2,14 +2,12 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://e2b8b217-cffb-4d66-9b8b-eca6e4334032@13.231.19.51:11690?security=reality&encryption=none&pbk=Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.tesla.com&sid=034885e346fd30#POPVPN 0022 🇯🇵 JP VLESS REALITY
-vless://d56624b2-35bb-468c-9b2a-e0b0df7230c1@154.31.114.248:50159?security=reality&encryption=none&pbk=j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=091e1c5db8451757#POPVPN 0047 🇯🇵 JP VLESS REALITY
-vless://45d87ca1-d006-44ac-b62a-cb03d04c7130@45.202.255.24:8890?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=DcHXqq0OOR8N-bd92fSrMjy2yrcAsG1Es7PesCOc7gc&type=grpc&authority=&serviceName=grpc&mode=gun#POPVPN 0127 🇯🇵 JP VLESS REALITY
-vmess://eyJ2IjogIjIiLCAicHMiOiAiUE9QVlBOIDAzMjIg8J+Hr/Cfh7UgSlAgVk1FU1MgV1MiLCAiYWRkIjogIncxMi5sdW9saS5kZSIsICJwb3J0IjogIjQ0MyIsICJpZCI6ICI0MmE5OTY0NC1iOTBiLTM2MjctODgwOS1hMmQ2YzQwNzhiNTkiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAiIiwgInRscyI6ICJ0bHMiLCAiZnAiOiAiY2hyb21lIiwgInNuaSI6ICJ3MTIubHVvbGkuZGUiLCAicGF0aCI6ICIvdjJ3cyIsICJob3N0IjogIncxMi5sdW9saS5kZSIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZX0=
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@172.67.156.147:443?allowInsecure=1&encryption=none&fp=chrome&host=jp3.yohototo.top&path=/tyxyws&security=tls&sni=jp3.yohototo.top&type=ws#POPVPN 0348 🇯🇵 JP VLESS WS
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#POPVPN 0415 🇯🇵 JP SS AES-128-GCM
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.241:443#POPVPN 0416 🇯🇵 JP SS AES-128-GCM
-vmess://eyJ2IjogIjIiLCAicHMiOiAiUE9QVlBOIDA0MTcg8J+Hr/Cfh7UgSlAgVk1FU1MgVENQIiwgImFkZCI6ICI0NS4zMi41Ny4xMTgiLCAicG9ydCI6ICI0NDMzIiwgImlkIjogIjM1Yjg5ODMyLTBhN2MtNDhkZC04ZDFjLWEyODkxYjUyMjE5NSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiIiwgInRscyI6ICIiLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443#POPVPN 0418 🇯🇵 JP SS AES-128-GCM
-ss://YWVzLTI1Ni1nY206M2VPRmVOc3NkZTdQWVlNdg@84.247.155.196:80#POPVPN 0419 🇯🇵 JP SS AES-256-GCM
-vmess://eyJ2IjogIjIiLCAicHMiOiAiUE9QVlBOIDA0OTEg8J+Hr/Cfh7UgSlAgVk1FU1MgV1MiLCAiYWRkIjogIm9yLjUyMTE2Ni54eXoiLCAicG9ydCI6ICIyMDgzIiwgImlkIjogImFjMjUxMjM3LTU3NmYtNDBjOC1hNTQzLTU1NDk2MGM5NThiMSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICIiLCAidGxzIjogInRscyIsICJzbmkiOiAib3IuNTIxMTY2Lnh5eiIsICJwYXRoIjogIi9vcjMiLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
+vless://45d87ca1-d006-44ac-b62a-cb03d04c7130@45.202.255.24:8890?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=DcHXqq0OOR8N-bd92fSrMjy2yrcAsG1Es7PesCOc7gc&type=grpc&authority=&serviceName=grpc&mode=gun#POPVPN 0006 🇯🇵 JP VLESS REALITY
+vless://d56624b2-35bb-468c-9b2a-e0b0df7230c1@154.31.114.248:50159?security=reality&encryption=none&pbk=j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=091e1c5db8451757#POPVPN 0024 🇯🇵 JP VLESS REALITY
+vmess://eyJhZGQiOiAiMTcyLjY0LjE1NC4xMDMiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAib3IuNTIxMTY2Lnh5eiIsICJpZCI6ICJhYzI1MTIzNy01NzZmLTQwYzgtYTU0My01NTQ5NjBjOTU4YjEiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL29yMyIsICJwb3J0IjogIjIwODMiLCAicHMiOiAiUE9QVlBOIDAyNjMg8J+Hr/Cfh7UgSlAgVk1FU1MgV1MiLCAic2N5IjogImF1dG8iLCAic25pIjogIm9yLjUyMTE2Ni54eXoiLCAidGxzIjogInRscyIsICJ2IjogIjIiLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiUE9QVlBOIDAyNjcg8J+Hr/Cfh7UgSlAgVk1FU1MgV1MiLCAiYWRkIjogIncxMi5sdW9saS5kZSIsICJwb3J0IjogIjQ0MyIsICJpZCI6ICI0MmE5OTY0NC1iOTBiLTM2MjctODgwOS1hMmQ2YzQwNzhiNTkiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAiIiwgInRscyI6ICJ0bHMiLCAiZnAiOiAiY2hyb21lIiwgInNuaSI6ICJ3MTIubHVvbGkuZGUiLCAicGF0aCI6ICIvdjJ3cyIsICJob3N0IjogIncxMi5sdW9saS5kZSIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZX0=
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#POPVPN 0385 🇯🇵 JP SS AES-128-GCM
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443#POPVPN 0386 🇯🇵 JP SS AES-128-GCM
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.241:443#POPVPN 0387 🇯🇵 JP SS AES-128-GCM
+ss://YWVzLTI1Ni1nY206M2VPRmVOc3NkZTdQWVlNdg@84.247.155.196:80#POPVPN 0427 🇯🇵 JP SS AES-256-GCM
+vmess://eyJhZGQiOiAiNDUuMzIuNTcuMTE4IiwgImFpZCI6ICIwIiwgImlkIjogIjM1Yjg5ODMyLTBhN2MtNDhkZC04ZDFjLWEyODkxYjUyMjE5NSIsICJuZXQiOiAidGNwIiwgInBvcnQiOiAiNDQzMyIsICJwcyI6ICJQT1BWUE4gMDQzNSDwn4ev8J+HtSBKUCBWTUVTUyBUQ1AiLCAic2N5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
