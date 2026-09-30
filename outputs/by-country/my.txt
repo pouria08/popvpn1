@@ -2,4 +2,6 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-trojan://5931134d1cde66bf83a54acdfebe7ab2@47.250.84.25:443?security=tls#POPVPN 0308 🇲🇾 MY TROJAN TLS
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform101.golnamakcert.top:80?type=ws&host=platform101.halalkhor.info&path=/platform101#POPVPN 0419 🇲🇾 MY VLESS WS
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform102.golnamakcert.top:80?type=ws&path=%2Fplatform102&host=platform102.halalkhor.info&sni=platform102.golnamakcert.top#POPVPN 0420 🇲🇾 MY VLESS WS
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform103.golnamakcert.top:80?&sni=platform103.halalkhor.info&type=ws&headerType=none&host=platform103.halalkhor.info&path=/platform103#POPVPN 0422 🇲🇾 MY VLESS WS
