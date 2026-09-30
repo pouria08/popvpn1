@@ -2,4 +2,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://YWVzLTI1Ni1nY206cFgwdWhVM1pqVWNMV1lzMFZlejU1Qk8zSm9RclJsTA==@141.227.134.63:17000#POPVPN 0419 🇨🇿 CZ SS AES-256-GCM
+vless://4abdfe42-aec7-4b66-974d-3f891e2e8184@195.133.66.229:443?encryption=none&fp=&pbk=Zl6Fe6WYQuaFe_QNUB4qU7nRkGujy7LqjoQ96GO3jUc&security=reality&serviceName=grpc&sni=nlll.gaz-service.shop&type=grpc#POPVPN 0015 🇨🇿 CZ VLESS REALITY
+vless://4abdfe42-aec7-4b66-974d-3f891e2e8184@195.133.66.229:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng&security=reality&sid=b415b8d7a6106ace&sni=nlll.gaz-service.shop&type=tcp#POPVPN 0107 🇨🇿 CZ VLESS REALITY
