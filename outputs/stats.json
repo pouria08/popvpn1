@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30 13:44:29 UTC",
+  "generated_at": "2026-09-30 13:50:14 UTC",
   "version": "2.0.0",
-  "duration_ms": 5154,
+  "duration_ms": 127,
   "total": 583,
   "unique": 583,
   "parsed": 1004,
@@ -9,8 +9,8 @@
   "duplicates": 421,
   "invalid": 9,
   "by_protocol": {
-    "trojan": 93,
     "vless": 354,
+    "trojan": 93,
     "vmess": 57,
     "hy2": 2,
     "ss": 77
@@ -282,8 +282,8 @@
       "url": "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt",
       "last_configs": 28,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 174,
+      "from_cache": true,
+      "elapsed_ms": 0,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -294,7 +294,7 @@
       "last_configs": 39,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 135,
+      "elapsed_ms": 0,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -305,7 +305,7 @@
       "last_configs": 90,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 217,
+      "elapsed_ms": 0,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -315,8 +315,8 @@
       "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt",
       "last_configs": 150,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 156,
+      "from_cache": true,
+      "elapsed_ms": 0,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -327,7 +327,7 @@
       "last_configs": 697,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 173,
+      "elapsed_ms": 0,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -338,21 +338,21 @@
   },
   "cache": {
     "enabled": true,
-    "hits": 0,
-    "misses": 5,
-    "hit_rate": 0.0
+    "hits": 5,
+    "misses": 0,
+    "hit_rate": 1.0
   },
   "probe": {
-    "mode": "tcp",
-    "endpoints_total": 485,
-    "endpoints_probed": 485,
+    "mode": "off",
+    "endpoints_total": 0,
+    "endpoints_probed": 0,
     "endpoints_cached": 0,
-    "alive": 439,
-    "dead": 46,
-    "configs_alive": 532,
-    "configs_dead": 51,
-    "elapsed_ms": 4793,
-    "avg_latency_ms": 162
+    "alive": 0,
+    "dead": 0,
+    "configs_alive": 0,
+    "configs_dead": 0,
+    "elapsed_ms": 0,
+    "avg_latency_ms": 0
   },
   "audit": {
     "kept": 583,
@@ -366,5 +366,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 570
+  "previous_total": 583
 }
