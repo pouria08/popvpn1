@@ -2,4 +2,8 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw@132.243.175.144:8388#POPVPN 0442 🇨🇭 CH SS CHACHA20-IETF-POLY1305
+vless://0b21158e-00f5-4a2f-b242-e3e5574f68a0@ch.zango.tech:443?security=reality&encryption=none&pbk=B-q_vYkpKjiiaHyUfr7NutnusdvsmoWEeyr0QJfTfmw&fp=qq&spx=/&type=grpc&sni=bunny.net&sid=447abeb4fb111a9c#POPVPN 0010 🇨🇭 CH VLESS REALITY
+vless://e0bd9dfa-0cf9-47c0-92ac-7dba08ebcff8@179.237.103.152:443?security=reality&encryption=none&pbk=8PZTYkhNhSgagVdaI-iqSCPXJwDhHU23IUwZIu08zH4&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=9de8ae53dabf1dc2#POPVPN 0050 🇨🇭 CH VLESS REALITY
+vless://c0dd6d59-1573-43af-8b70-1470b2632a6d@208.69.78.217:2053?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&type=tcp&security=reality&fp=chrome&pbk=A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0&sid=ad86e2d52ff40ebd&sni=www.apple.com#POPVPN 0061 🇨🇭 CH VLESS REALITY
+vless://e3e9805a-6c8b-4edd-8ee8-621df79806eb@176.65.144.45:2096?&security=tls&fp=chrome&alpn=http%2F1.1&sni=ch.aksay.pro&type=ws&headerType=none&path=%2Fws#POPVPN 0187 🇨🇭 CH VLESS WS
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw@132.243.175.144:8388#POPVPN 0456 🇨🇭 CH SS CHACHA20-IETF-POLY1305
