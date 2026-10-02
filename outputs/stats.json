@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-02 12:44:57 UTC",
+  "generated_at": "2026-10-02 18:28:34 UTC",
   "version": "2.0.0",
-  "duration_ms": 258,
-  "total": 538,
-  "unique": 538,
-  "parsed": 938,
-  "raw_lines": 946,
-  "duplicates": 400,
-  "invalid": 8,
+  "duration_ms": 422,
+  "total": 597,
+  "unique": 597,
+  "parsed": 1011,
+  "raw_lines": 1018,
+  "duplicates": 414,
+  "invalid": 7,
   "by_protocol": {
-    "vless": 356,
-    "trojan": 40,
-    "vmess": 50,
-    "hy2": 2,
-    "ss": 90
+    "vless": 402,
+    "trojan": 48,
+    "vmess": 52,
+    "hy2": 4,
+    "ss": 91
   },
   "by_country": [
     {
@@ -21,70 +21,70 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 255
+      "count": 319
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 60
+      "count": 53
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 40
-    },
-    {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
-      "region": "EU",
-      "count": 27
+      "count": 41
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 21
+      "count": 30
     },
     {
-      "code": "HK",
-      "name": "Hong Kong",
-      "flag": "🇭🇰",
-      "region": "AS",
-      "count": 16
-    },
-    {
-      "code": "PL",
-      "name": "Poland",
-      "flag": "🇵🇱",
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
       "region": "EU",
-      "count": 13
+      "count": 23
     },
     {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
       "region": "EU",
-      "count": 12
+      "count": 14
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "flag": "🇭🇰",
+      "region": "AS",
+      "count": 13
     },
     {
       "code": "GB",
       "name": "United Kingdom",
       "flag": "🇬🇧",
       "region": "EU",
-      "count": 11
+      "count": 10
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "region": "EU",
+      "count": 10
     },
     {
       "code": "IR",
       "name": "Iran",
       "flag": "🇮🇷",
       "region": "",
-      "count": 11
+      "count": 9
     },
     {
       "code": "SG",
@@ -105,14 +105,21 @@
       "name": "Russia",
       "flag": "🇷🇺",
       "region": "",
+      "count": 8
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "region": "SA",
       "count": 6
     },
     {
-      "code": "SE",
-      "name": "Sweden",
-      "flag": "🇸🇪",
+      "code": "CH",
+      "name": "Switzerland",
+      "flag": "🇨🇭",
       "region": "EU",
-      "count": 5
+      "count": 4
     },
     {
       "code": "FI",
@@ -129,13 +136,6 @@
       "count": 4
     },
     {
-      "code": "CH",
-      "name": "Switzerland",
-      "flag": "🇨🇭",
-      "region": "EU",
-      "count": 3
-    },
-    {
       "code": "ES",
       "name": "Spain",
       "flag": "🇪🇸",
@@ -143,17 +143,17 @@
       "count": 3
     },
     {
-      "code": "KR",
-      "name": "South Korea",
-      "flag": "🇰🇷",
-      "region": "",
-      "count": 3
-    },
-    {
       "code": "MY",
       "name": "Malaysia",
       "flag": "🇲🇾",
       "region": "AS",
+      "count": 3
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "region": "EU",
       "count": 3
     },
     {
@@ -171,17 +171,24 @@
       "count": 2
     },
     {
-      "code": "CL",
-      "name": "Chile",
-      "flag": "🇨🇱",
-      "region": "SA",
+      "code": "EE",
+      "name": "Estonia",
+      "flag": "🇪🇪",
+      "region": "EU",
       "count": 2
     },
     {
-      "code": "TR",
-      "name": "Türkiye",
-      "flag": "🇹🇷",
+      "code": "KR",
+      "name": "South Korea",
+      "flag": "🇰🇷",
       "region": "",
+      "count": 2
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "flag": "🇷🇴",
+      "region": "EU",
       "count": 2
     },
     {
@@ -199,16 +206,9 @@
       "count": 1
     },
     {
-      "code": "BY",
-      "name": "Belarus",
-      "flag": "🇧🇾",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "EE",
-      "name": "Estonia",
-      "flag": "🇪🇪",
+      "code": "GR",
+      "name": "Greece",
+      "flag": "🇬🇷",
       "region": "EU",
       "count": 1
     },
@@ -248,30 +248,9 @@
       "count": 1
     },
     {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
-      "region": "NA",
-      "count": 1
-    },
-    {
       "code": "NO",
       "name": "Norway",
       "flag": "🇳🇴",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "PT",
-      "name": "Portugal",
-      "flag": "🇵🇹",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "RO",
-      "name": "Romania",
-      "flag": "🇷🇴",
       "region": "EU",
       "count": 1
     },
@@ -288,9 +267,16 @@
       "flag": "🇹🇭",
       "region": "AS",
       "count": 1
+    },
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "region": "",
+      "count": 1
     }
   ],
-  "country_count": 39,
+  "country_count": 37,
   "sources": {
     "total": 5,
     "ok": 5,
@@ -301,10 +287,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt",
-      "last_configs": 41,
+      "last_configs": 54,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 138,
+      "elapsed_ms": 290,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -312,10 +298,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
-      "last_configs": 14,
+      "last_configs": 26,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 70,
+      "from_cache": false,
+      "elapsed_ms": 85,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -323,10 +309,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/inaz266/In-az-26/refs/heads/main/filtee.txt",
-      "last_configs": 118,
+      "last_configs": 165,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 116,
+      "from_cache": false,
+      "elapsed_ms": 141,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -334,10 +320,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt",
-      "last_configs": 148,
+      "last_configs": 149,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 87,
+      "elapsed_ms": 132,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -348,7 +334,7 @@
       "last_configs": 617,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 129,
+      "elapsed_ms": 165,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -376,16 +362,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 538,
+    "kept": 597,
     "dropped": 0,
-    "insecure": 5,
+    "insecure": 6,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
       "unknown-network": 33,
-      "allow-insecure": 5
+      "allow-insecure": 6
     },
     "dropped_reasons": {}
   },
-  "previous_total": 540
+  "previous_total": 538
 }
