@@ -2,4 +2,6 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://9ef61079-6f7d-4911-9608-943da85d8e6f@test.keoplentuio.xyz:2053?encryption=none&security=none&type=tcp#POPVPN 0442 🇹🇷 TR VLESS TCP
+vless://c0e8fb58-a60f-4c15-9444-4e7c109797a8@176.96.131.251:1280?path=%2F&security=none&encryption=none&type=ws#POPVPN 0417 🇹🇷 TR VLESS WS
+vless://9ef61079-6f7d-4911-9608-943da85d8e6f@178.83.46.216:2053?#POPVPN 0423 🇹🇷 TR VLESS TCP
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2OG1MMlFrWkVCbHhXYTNoY3NsR0R3@bale.xv98.ir:5051#POPVPN 0472 🇹🇷 TR SS CHACHA20-IETF-POLY1305

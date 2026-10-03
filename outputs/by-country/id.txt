@@ -2,4 +2,4 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-trojan://018b8e7b-7813-4dcb-84a5-3c98f1521e00@104.18.32.87:443?path=/trojan&security=tls&fm={"tcp": [{"type": "fragment", "settings": {"packets": "tlshello", "lengths": ["0", "104", "1"], "delays": ["0"], "maxSplit": "0"}},{"type": "fragment", "settings": {"packets": "1-1", "lengths": ["114", "1"], "delays": ["1"], "maxSplit": "11"}}]}&insecure=0&host=id1.nathaya.web.id&fp=unsafe&type=ws&allowInsecure=0&sni=id1.nathaya.web.id#POPVPN 0239 🇮🇩 ID TROJAN WS
+vmess://eyJ2IjogIjIiLCAicHMiOiAiUE9QVlBOIDAzODEg8J+HrvCfh6kgSUQgVk1FU1MgVExTIiwgImFkZCI6ICIzZFRtTXNmcEFsYXFISTdiLnYuM2Rucy52aXAiLCAicG9ydCI6IDQ0MywgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICJ0bHMiLCAiaWQiOiAiOWIzMTQ5MGQtMTkwZS00ZWYxLWFmMGEtN2NjYWIzZTdjM2I1IiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIjNkVG1Nc2ZwQWxhcUhJN2Iudi4zZG5zLnZpcCIsICJob3N0IjogIjNkVG1Nc2ZwQWxhcUhJN2Iudi4zZG5zLnZpcCIsICJwYXRoIjogIi93cy12bWVzcyJ9
