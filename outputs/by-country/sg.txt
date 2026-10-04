@@ -2,17 +2,19 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?security=tls&fp=chrome&sni=u.srilankangrill.online&type=ws&headerType=none&host=u.srilankangrill.online&path=%2F#POPVPN 0195 🇸🇬 SG VLESS WS
-vless://7967bf59-57e3-4cde-9898-527b0fe60022@108.165.216.7:8443?sni=speed.dulacloud.store&type=ws&host=speed.dulacloud.store&path=/dula?Telegram-WangCai2fp=chrome&security=tls#POPVPN 0227 🇸🇬 SG VLESS WS
-trojan://UX82473651@glowing-marmoset.rooster465.autos:443?sni=glowing-marmoset.rooster465.autos&path=/#POPVPN 0280 🇸🇬 SG TROJAN TLS
-vless://9b0025a3-3a36-4915-b4e1-89c5cd65c9cb@support.zoom.us:80?type=ws&host=onhit.shalana.shop&path=/shalana#POPVPN 0392 🇸🇬 SG VLESS WS
-vless://f2eada1b-fdec-48c6-8638-18ade32993d4@5.223.41.93:80?type=ws&path=/#POPVPN 0404 🇸🇬 SG VLESS WS
-vmess://eyJ2IjogbnVsbCwgInBzIjogIlBPUFZQTiAwNDA4IPCfh7jwn4esIFNHIFZNRVNTIFRDUCIsICJhZGQiOiAiMTQ5Ljg4LjIzLjIwNyIsICJwb3J0IjogMTgwMDAsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAid3cxMS5sZXZpa29namdmZGQuaXIiLCAiYWxwbiI6IG51bGwsICJwYXRoIjogIi8iLCAidGxzIjogIm5vbmUiLCAic25pIjogbnVsbCwgImZwIjogbnVsbCwgIm5hbWUiOiAi8J+HuPCfh6wgMzUgLSBTRyAtIFZNZXNzIC0gMTgwMDAifQ==
-vless://c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3@47.237.74.17:16263?#POPVPN 0412 🇸🇬 SG VLESS TCP
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZXBwM285bmc4ZWo1OXV2@45.128.12.20:14249#POPVPN 0450 🇸🇬 SG SS CHACHA20-IETF-POLY1305
-trojan://UX82473651@desired-boxer.rooster465.autos:443?allowInsecure=1&sni=desired-boxer.rooster465.autos#POPVPN 0481 🇸🇬 SG TROJAN TLS
-trojan://UX82473651@glowing-marmoset.rooster465.autos:443?allowInsecure=1&sni=glowing-marmoset.rooster465.autos#POPVPN 0487 🇸🇬 SG TROJAN TLS
-trojan://UX82473651@pet-antelope.rooster465.autos:443?allowInsecure=1&sni=pet-antelope.rooster465.autos#POPVPN 0501 🇸🇬 SG TROJAN TLS
-trojan://UX82473651@real-cardinal.rooster465.autos:443?allowInsecure=1&sni=real-cardinal.rooster465.autos#POPVPN 0505 🇸🇬 SG TROJAN TLS
-vmess://eyJhZGQiOiAiMTQ5Ljg4LjIzLjIwNyIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJjcyI6ICIiLCAiZGlhbE1vZGUiOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJwY3MiOiAiIiwgInBvcnQiOiAiMTgwMDAiLCAicHMiOiAiUE9QVlBOIDA1MDgg8J+HuPCfh6wgU0cgVk1FU1MgVENQIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIiIsICJ2IjogIjIiLCAidmNuIjogIiJ9
-vmess://eyJhZGQiOiAid3cxMS5sZXZpa29namdmZGQuaXIiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiY3MiOiAiIiwgImRpYWxNb2RlIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICJUZWxlZ3JhbS1MZXZpa29fdjJyYXkiLCAiaWQiOiAiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwY3MiOiAiIiwgInBvcnQiOiAiMTgwMDAiLCAicHMiOiAiUE9QVlBOIDA1MTUg8J+HuPCfh6wgU0cgVk1FU1MgTk9ORSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?security=tls&type=ws&path=/&host=u.srilankangrill.online&packetEncoding=xudp&sni=u.srilankangrill.online&fp=chrome#POPVPN 0194 🇸🇬 SG VLESS WS
+trojan://UX82473651@glowing-marmoset.rooster465.autos:443?sni=glowing-marmoset.rooster465.autos&path=/#POPVPN 0286 🇸🇬 SG TROJAN TLS
+vless://9b0025a3-3a36-4915-b4e1-89c5cd65c9cb@support.zoom.us:80?encryption=none&path=/shalana&type=ws&security=none&host=onhit.shalana.shop#POPVPN 0373 🇸🇬 SG VLESS WS
+vless://f2eada1b-fdec-48c6-8638-18ade32993d4@5.223.41.93:80?encryption=none&type=ws&path=/&packetEncoding=xudp#POPVPN 0385 🇸🇬 SG VLESS WS
+vmess://eyJ2IjogbnVsbCwgInBzIjogIlBPUFZQTiAwMzkxIPCfh7jwn4esIFNHIFZNRVNTIFRDUCIsICJhZGQiOiAiMTQ5Ljg4LjIzLjIwNyIsICJwb3J0IjogMTgwMDAsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAid3cxMS5sZXZpa29namdmZGQuaXIiLCAiYWxwbiI6IG51bGwsICJwYXRoIjogIi8iLCAidGxzIjogIm5vbmUiLCAic25pIjogbnVsbCwgImZwIjogbnVsbCwgIm5hbWUiOiAi8J+HuPCfh6wgNDAgLSBTRyAtIFZNZXNzIC0gMTgwMDAifQ==
+vmess://eyJ2IjogbnVsbCwgInBzIjogIlBPUFZQTiAwMzkyIPCfh7jwn4esIFNHIFZNRVNTIFRDUCIsICJhZGQiOiAid3cxMS5sZXZpa29namdmZGQuaXIiLCAicG9ydCI6IDE4MDAwLCAiaWQiOiAiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6IG51bGwsICJob3N0IjogInd3MTEubGV2aWtvZ2pnZmRkLmlyIiwgImFscG4iOiBudWxsLCAicGF0aCI6ICIvIiwgInRscyI6ICJub25lIiwgInNuaSI6IG51bGwsICJmcCI6IG51bGwsICJuYW1lIjogIvCfh7jwn4esIDQxIC0gU0cgLSBWTWVzcyAtIDE4MDAwIn0=
+vless://c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3@47.237.74.17:16263?#POPVPN 0396 🇸🇬 SG VLESS TCP
+vless://0590ab38-cb22-41d3-8312-6f396a5cec58@129.150.51.127:34249?encryption=none&type=tcp&security=tls&sni=www.microsoft.com&allowInsecure=1#POPVPN 0407 🇸🇬 SG VLESS TLS
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206c1VSNk55OFk2UFN2SGhsL0RVeGNvbnd4ZzZWWnlGZHNkZmFWQ3ZFYXRKbz06N2JURWhIZ3BFcktpUmpFMWVnYStINnBjcEpzTkxGQjBDalFzZXVqQUhyQT0@129.150.59.74:14384#POPVPN 0411 🇸🇬 SG SS 2022-BLAKE3-AES-256-GCM
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZXBwM285bmc4ZWo1OXV2@45.128.12.20:14249#POPVPN 0436 🇸🇬 SG SS CHACHA20-IETF-POLY1305
+trojan://UX82473651@desired-boxer.rooster465.autos:443?allowInsecure=1&sni=desired-boxer.rooster465.autos#POPVPN 0467 🇸🇬 SG TROJAN TLS
+trojan://UX82473651@glowing-marmoset.rooster465.autos:443?allowInsecure=1&sni=glowing-marmoset.rooster465.autos#POPVPN 0473 🇸🇬 SG TROJAN TLS
+trojan://UX82473651@pet-antelope.rooster465.autos:443?allowInsecure=1&sni=pet-antelope.rooster465.autos#POPVPN 0487 🇸🇬 SG TROJAN TLS
+trojan://UX82473651@real-cardinal.rooster465.autos:443?allowInsecure=1&sni=real-cardinal.rooster465.autos#POPVPN 0491 🇸🇬 SG TROJAN TLS
+vmess://eyJhZGQiOiAiMTQ5Ljg4LjIzLjIwNyIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJjcyI6ICIiLCAiZGlhbE1vZGUiOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJwY3MiOiAiIiwgInBvcnQiOiAiMTgwMDAiLCAicHMiOiAiUE9QVlBOIDA0OTQg8J+HuPCfh6wgU0cgVk1FU1MgVENQIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIiIsICJ2IjogIjIiLCAidmNuIjogIiJ9
+vmess://eyJhZGQiOiAid3cxMS5sZXZpa29namdmZGQuaXIiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiY3MiOiAiIiwgImRpYWxNb2RlIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICJUZWxlZ3JhbS1MZXZpa29fdjJyYXkiLCAiaWQiOiAiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwY3MiOiAiIiwgInBvcnQiOiAiMTgwMDAiLCAicHMiOiAiUE9QVlBOIDA1MDQg8J+HuPCfh6wgU0cgVk1FU1MgTk9ORSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=

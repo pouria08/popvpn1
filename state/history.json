@@ -1,5 +1,5 @@
 {
- "updated_at": 1791135601,
+ "updated_at": 1791149673,
  "runs": [
   {
    "at": 1789932632,
@@ -1360,6 +1360,23 @@
    "alive": 0,
    "countries": 37,
    "duration_ms": 543
+  },
+  {
+   "at": 1791149673,
+   "total": 556,
+   "by_protocol": {
+    "vless": 297,
+    "trojan": 119,
+    "vmess": 51,
+    "hy2": 5,
+    "ss": 83,
+    "wireguard": 1
+   },
+   "sources_ok": 5,
+   "sources_total": 5,
+   "alive": 0,
+   "countries": 39,
+   "duration_ms": 665
   }
  ]
 }
