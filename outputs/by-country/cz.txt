@@ -2,4 +2,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://f4d71fd6-1c25-4748-836b-1dbda9268039@85.117.235.50:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cz1.animeteka.info&fp=random&pbk=PmdZ2ETkHc0zjYcs22xT_wyZk5fEpX7mg7RP396HBBc&sid=232b1b09e45325a4&type=tcp#POPVPN 0047 🇨🇿 CZ VLESS REALITY
+vless://f4d71fd6-1c25-4748-836b-1dbda9268039@85.117.235.50:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cz1.animeteka.info&fp=random&pbk=PmdZ2ETkHc0zjYcs22xT_wyZk5fEpX7mg7RP396HBBc&sid=232b1b09e45325a4&type=tcp#POPVPN 0054 🇨🇿 CZ VLESS REALITY
+trojan://f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km@cz-musicc.moritech.net:443?allowInsecure=1&alpn=h2&type=grpc&serviceName=grpcbeast#POPVPN 0390 🇨🇿 CZ TROJAN GRPC

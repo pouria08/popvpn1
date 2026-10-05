@@ -48,6 +48,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/mhcfpTopic/config/refs/heads/main/xray_final.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 53,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 676,
+    "avg_ms": 420,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
     "name": "barry-ss",
     "attempts": 12,
@@ -55,18 +67,6 @@
     "fail_streak": 0,
     "last_configs": 658,
     "avg_ms": 222,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/mhcfpTopic/config/refs/heads/main/xray_final.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 52,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 616,
-    "avg_ms": 474,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -146,11 +146,11 @@
   {
     "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 52,
+    "attempts": 53,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 150,
-    "avg_ms": 151,
+    "avg_ms": 168,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -158,11 +158,11 @@
   {
     "url": "https://raw.githubusercontent.com/inaz266/In-az-26/refs/heads/main/filtee.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 52,
+    "attempts": 53,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 83,
-    "avg_ms": 188,
+    "avg_ms": 161,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -170,11 +170,11 @@
   {
     "url": "https://raw.githubusercontent.com/SeyedNG/proxy/refs/heads/main/configs/proxy_configs_tested.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 52,
+    "attempts": 53,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 62,
-    "avg_ms": 256,
+    "last_configs": 43,
+    "avg_ms": 206,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -182,11 +182,11 @@
   {
     "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 75,
+    "attempts": 76,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 13,
-    "avg_ms": 165,
+    "avg_ms": 130,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
