@@ -2,9 +2,10 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://b18d5990-96eb-4587-a386-7f8ef7591e6a@31.77.13.19:2063?security=reality&type=tcp&packetEncoding=xudp&sni=rusbid.de&fp=chrome&flow=xtls-rprx-vision&pbk=MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM&encryption=none#POPVPN 0038 🇵🇱 PL VLESS REALITY
-vless://b1813cbd-831f-4cb3-baf8-5bc0cc8298bc@83.168.107.220:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=google.com&fp=safari&pbk=s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo&sid=c56d4f1c&type=tcp&headerType=none#POPVPN 0052 🇵🇱 PL VLESS REALITY
-vless://f28e0ce1-ed75-4e90-b069-5215a80dfb4a@83.168.95.145:443?security=reality&encryption=none&pbk=AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=d345ad4657adeef9#POPVPN 0053 🇵🇱 PL VLESS REALITY
-vless://b18d5990-96eb-4587-a386-7f8ef7591e6a@pl-waw.dontblockmepls.com:2063?security=reality&encryption=none&pbk=MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=rusbid.de#POPVPN 0069 🇵🇱 PL VLESS REALITY
-vless://bc659d88-a1e0-4c65-a49a-7b51b26a7a7f@179.254.71.20:52006?encryption=none&type=tcp&security=tls&sni=pl.setlisting.ru&alpn=h2%2Chttp%2F1.1&flow=xtls-rprx-vision&allowInsecure=0#POPVPN 0270 🇵🇱 PL VLESS TLS
-vless://d9c7ec1f-5aa3-469a-b860-760c686806b0@70.34.252.154:80?type=ws&path=/#POPVPN 0444 🇵🇱 PL VLESS WS
+vless://1bb2af63-4472-44ed-9c70-8f316258b68b@62.152.58.90:443?encryption=none&security=reality&sni=360.yandex.ru&fp=random&pbk=JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k&sid=27e53bbcab7593d7&spx=%2F&type=grpc&serviceName=&mode=gun#POPVPN 0003 🇵🇱 PL VLESS REALITY
+vless://b1813cbd-831f-4cb3-baf8-5bc0cc8298bc@83.168.107.220:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=google.com&fp=safari&pbk=s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo&sid=c56d4f1c&type=tcp&headerType=none#POPVPN 0057 🇵🇱 PL VLESS REALITY
+vless://f28e0ce1-ed75-4e90-b069-5215a80dfb4a@83.168.95.145:443?security=reality&encryption=none&pbk=AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=d345ad4657adeef9#POPVPN 0058 🇵🇱 PL VLESS REALITY
+vless://b18d5990-96eb-4587-a386-7f8ef7591e6a@pl-waw.dontblockmepls.com:2063?security=reality&encryption=none&pbk=MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=rusbid.de#POPVPN 0074 🇵🇱 PL VLESS REALITY
+vless://bc659d88-a1e0-4c65-a49a-7b51b26a7a7f@179.254.71.20:52006?encryption=none&type=tcp&security=tls&sni=pl.setlisting.ru&alpn=h2%2Chttp%2F1.1&flow=xtls-rprx-vision&allowInsecure=0#POPVPN 0295 🇵🇱 PL VLESS TLS
+vless://b18d5990-96eb-4587-a386-7f8ef7591e6a@31.77.13.19:2063?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=rusbid.de&fp=firefox&flow=xtls-rprx-vision&pbk=MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM#POPVPN 0467 🇵🇱 PL VLESS REALITY
+vless://d9c7ec1f-5aa3-469a-b860-760c686806b0@70.34.252.154:80?type=ws&path=/#POPVPN 0498 🇵🇱 PL VLESS WS
