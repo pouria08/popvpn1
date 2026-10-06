@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-06 10:26:55 UTC",
+  "generated_at": "2026-10-06 17:15:14 UTC",
   "version": "2.0.0",
-  "duration_ms": 169,
-  "total": 217,
-  "unique": 217,
-  "parsed": 285,
-  "raw_lines": 287,
-  "duplicates": 68,
-  "invalid": 2,
+  "duration_ms": 243,
+  "total": 238,
+  "unique": 238,
+  "parsed": 312,
+  "raw_lines": 315,
+  "duplicates": 74,
+  "invalid": 3,
   "by_protocol": {
-    "vless": 141,
+    "vless": 162,
     "trojan": 34,
     "hy2": 4,
-    "vmess": 5,
-    "ss": 32,
+    "vmess": 6,
+    "ss": 31,
     "wireguard": 1
   },
   "by_country": [
@@ -22,7 +22,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 212
+      "count": 233
     },
     {
       "code": "CA",
@@ -59,8 +59,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 114,
+      "from_cache": true,
+      "elapsed_ms": 89,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -68,17 +68,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 226,
+      "last_configs": 253,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 131,
+      "from_cache": false,
+      "elapsed_ms": 195,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 226
+    "raw.githubusercontent.com": 253
   },
   "cache": {
     "enabled": true,
@@ -99,16 +99,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 217,
+    "kept": 238,
     "dropped": 0,
-    "insecure": 3,
+    "insecure": 4,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 9,
-      "allow-insecure": 3
+      "unknown-network": 10,
+      "allow-insecure": 4
     },
     "dropped_reasons": {}
   },
-  "previous_total": 219
+  "previous_total": 217
 }
