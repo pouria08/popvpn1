@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-06 05:38:29 UTC",
+  "generated_at": "2026-10-06 10:26:55 UTC",
   "version": "2.0.0",
-  "duration_ms": 4589,
-  "total": 219,
-  "unique": 219,
+  "duration_ms": 169,
+  "total": 217,
+  "unique": 217,
   "parsed": 285,
   "raw_lines": 287,
-  "duplicates": 66,
+  "duplicates": 68,
   "invalid": 2,
   "by_protocol": {
-    "trojan": 32,
-    "vless": 142,
+    "vless": 141,
+    "trojan": 34,
     "hy2": 4,
-    "vmess": 6,
-    "ss": 34,
+    "vmess": 5,
+    "ss": 32,
     "wireguard": 1
   },
   "by_country": [
@@ -22,14 +22,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 213
+      "count": 212
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 4
+      "count": 3
     },
     {
       "code": "DE",
@@ -60,7 +60,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 152,
+      "elapsed_ms": 114,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -70,8 +70,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 226,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 357,
+      "from_cache": true,
+      "elapsed_ms": 131,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -87,28 +87,28 @@
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "tcp",
-    "endpoints_total": 185,
-    "endpoints_probed": 185,
+    "mode": "off",
+    "endpoints_total": 0,
+    "endpoints_probed": 0,
     "endpoints_cached": 0,
-    "alive": 143,
-    "dead": 42,
-    "configs_alive": 174,
-    "configs_dead": 45,
-    "elapsed_ms": 4204,
-    "avg_latency_ms": 164
+    "alive": 0,
+    "dead": 0,
+    "configs_alive": 0,
+    "configs_dead": 0,
+    "elapsed_ms": 0,
+    "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 219,
+    "kept": 217,
     "dropped": 0,
     "insecure": 3,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 10,
+      "unknown-network": 9,
       "allow-insecure": 3
     },
     "dropped_reasons": {}
   },
-  "previous_total": 638
+  "previous_total": 219
 }
