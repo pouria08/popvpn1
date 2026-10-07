@@ -120,6 +120,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 17,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 263,
+    "avg_ms": 353,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt",
     "name": "AetrisVPN-blacklist",
     "attempts": 23,
@@ -127,18 +139,6 @@
     "fail_streak": 0,
     "last_configs": 217,
     "avg_ms": 912,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 16,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 214,
-    "avg_ms": 299,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -182,11 +182,11 @@
   {
     "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 8,
+    "attempts": 9,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 59,
-    "avg_ms": 217,
+    "avg_ms": 205,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
