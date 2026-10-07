@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06 21:43:21 UTC",
+  "generated_at": "2026-10-07 01:36:52 UTC",
   "version": "2.0.0",
-  "duration_ms": 266,
+  "duration_ms": 451,
   "total": 247,
   "unique": 247,
   "parsed": 310,
@@ -72,8 +72,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 97,
+      "from_cache": true,
+      "elapsed_ms": 280,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -83,8 +83,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 251,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 227,
+      "from_cache": true,
+      "elapsed_ms": 407,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -123,5 +123,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 238
+  "previous_total": 247
 }
