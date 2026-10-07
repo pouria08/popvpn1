@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-07 08:46:14 UTC",
+  "generated_at": "2026-10-07 13:10:38 UTC",
   "version": "2.0.0",
-  "duration_ms": 155,
+  "duration_ms": 4569,
   "total": 223,
   "unique": 223,
   "parsed": 270,
@@ -9,8 +9,8 @@
   "duplicates": 47,
   "invalid": 6,
   "by_protocol": {
-    "vless": 164,
     "trojan": 20,
+    "vless": 164,
     "hy2": 1,
     "ss": 34,
     "vmess": 4
@@ -93,8 +93,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 56,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 36,
+      "from_cache": true,
+      "elapsed_ms": 165,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -104,8 +104,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 214,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 119,
+      "from_cache": true,
+      "elapsed_ms": 356,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -121,16 +121,16 @@
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "off",
-    "endpoints_total": 0,
-    "endpoints_probed": 0,
+    "mode": "tcp",
+    "endpoints_total": 202,
+    "endpoints_probed": 202,
     "endpoints_cached": 0,
-    "alive": 0,
-    "dead": 0,
-    "configs_alive": 0,
-    "configs_dead": 0,
-    "elapsed_ms": 0,
-    "avg_latency_ms": 0
+    "alive": 163,
+    "dead": 39,
+    "configs_alive": 179,
+    "configs_dead": 44,
+    "elapsed_ms": 4159,
+    "avg_latency_ms": 126
   },
   "audit": {
     "kept": 223,
@@ -144,5 +144,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 247
+  "previous_total": 223
 }
