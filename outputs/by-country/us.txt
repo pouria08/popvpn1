@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@15.204.246.132:7307#POPVPN 0206 🇺🇸 US SS AES-256-GCM
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.160:443#POPVPN 0210 🇺🇸 US SS AES-128-GCM
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.243:443#POPVPN 0211 🇺🇸 US SS AES-128-GCM
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.163:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#POPVPN 0001 🇺🇸 US VLESS REALITY
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.89:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#POPVPN 0003 🇺🇸 US VLESS REALITY
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@15.204.246.132:7307#POPVPN 0212 🇺🇸 US SS AES-256-GCM
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.160:443#POPVPN 0216 🇺🇸 US SS AES-128-GCM
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.243:443#POPVPN 0217 🇺🇸 US SS AES-128-GCM
