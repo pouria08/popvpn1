@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-08 02:00:38 UTC",
+  "generated_at": "2026-10-08 09:04:57 UTC",
   "version": "2.0.0",
-  "duration_ms": 270,
-  "total": 264,
-  "unique": 264,
+  "duration_ms": 183,
+  "total": 262,
+  "unique": 262,
   "parsed": 295,
   "raw_lines": 301,
-  "duplicates": 31,
+  "duplicates": 33,
   "invalid": 6,
   "by_protocol": {
-    "vless": 187,
-    "trojan": 18,
+    "vless": 186,
+    "trojan": 28,
     "hy2": 1,
     "vmess": 4,
-    "ss": 54
+    "ss": 43
   },
   "by_country": [
     {
@@ -21,59 +21,52 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 243
-    },
-    {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
-      "region": "EU",
-      "count": 5
+      "count": 240
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 5
+      "count": 9
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 3
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 3
+      "count": 5
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 2
+      "count": 4
     },
     {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "region": "AS",
-      "count": 2
-    },
-    {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
       "region": "EU",
+      "count": 2
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "region": "AS",
       "count": 1
     }
   ],
-  "country_count": 8,
+  "country_count": 7,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -87,7 +80,7 @@
       "last_configs": 57,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 167,
+      "elapsed_ms": 146,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -97,8 +90,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 238,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 231,
+      "from_cache": true,
+      "elapsed_ms": 133,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -126,7 +119,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 264,
+    "kept": 262,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -136,5 +129,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 285
+  "previous_total": 264
 }
