@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-09 09:15:19 UTC",
+  "generated_at": "2026-10-09 16:20:43 UTC",
   "version": "2.0.0",
-  "duration_ms": 145,
-  "total": 243,
-  "unique": 243,
-  "parsed": 281,
+  "duration_ms": 202,
+  "total": 246,
+  "unique": 246,
+  "parsed": 282,
   "raw_lines": 291,
-  "duplicates": 38,
-  "invalid": 10,
+  "duplicates": 36,
+  "invalid": 9,
   "by_protocol": {
-    "vless": 169,
-    "trojan": 17,
+    "vless": 167,
+    "trojan": 14,
     "vmess": 3,
-    "ss": 54
+    "ss": 62
   },
   "by_country": [
     {
@@ -20,52 +20,31 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 224
+      "count": 230
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 11
-    },
-    {
-      "code": "CA",
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "region": "NA",
-      "count": 2
+      "count": 8
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 2
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 2
-    },
-    {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "region": "AS",
-      "count": 1
+      "count": 5
     },
     {
       "code": "NL",
       "name": "Netherlands",
       "flag": "🇳🇱",
       "region": "EU",
-      "count": 1
+      "count": 3
     }
   ],
-  "country_count": 7,
+  "country_count": 4,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -76,10 +55,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
-      "last_configs": 57,
+      "last_configs": 58,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 81,
+      "elapsed_ms": 144,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -89,8 +68,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 224,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 111,
+      "from_cache": true,
+      "elapsed_ms": 159,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -118,7 +97,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 243,
+    "kept": 246,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,
@@ -129,5 +108,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 244
+  "previous_total": 243
 }

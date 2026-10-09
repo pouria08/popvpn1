@@ -30,16 +30,16 @@
       "type": "selector",
       "outbounds": [
         "POPVPN 0001 🇺🇸 US VLESS REALITY",
-        "POPVPN 0002 🇺🇸 US VLESS REALITY",
-        "POPVPN 0003 🇺🇸 US VLESS REALITY",
-        "POPVPN 0004 🇺🇸 US VLESS REALITY",
-        "POPVPN 0005 🇺🇸 US VLESS REALITY",
+        "POPVPN 0002 GLOBAL VLESS REALITY",
+        "POPVPN 0003 GLOBAL VLESS REALITY",
+        "POPVPN 0004 GLOBAL VLESS REALITY",
+        "POPVPN 0005 GLOBAL VLESS REALITY",
         "POPVPN 0006 GLOBAL VLESS REALITY",
-        "POPVPN 0007 GLOBAL VLESS REALITY",
+        "POPVPN 0007 GLOBAL TROJAN REALITY",
         "POPVPN 0008 GLOBAL VLESS REALITY",
         "POPVPN 0009 GLOBAL VLESS REALITY",
         "POPVPN 0010 GLOBAL VLESS REALITY",
-        "POPVPN 0011 GLOBAL TROJAN REALITY",
+        "POPVPN 0011 GLOBAL VLESS REALITY",
         "POPVPN 0012 GLOBAL VLESS REALITY",
         "POPVPN 0013 GLOBAL VLESS REALITY",
         "POPVPN 0014 GLOBAL VLESS REALITY",
@@ -103,12 +103,12 @@
         "POPVPN 0072 GLOBAL VLESS REALITY",
         "POPVPN 0073 GLOBAL VLESS REALITY",
         "POPVPN 0074 GLOBAL VLESS REALITY",
-        "POPVPN 0075 GLOBAL VLESS REALITY",
+        "POPVPN 0075 GLOBAL TROJAN REALITY",
         "POPVPN 0076 GLOBAL VLESS REALITY",
         "POPVPN 0077 GLOBAL VLESS REALITY",
         "POPVPN 0078 GLOBAL VLESS REALITY",
         "POPVPN 0079 GLOBAL VLESS REALITY",
-        "POPVPN 0080 GLOBAL TROJAN REALITY",
+        "POPVPN 0080 GLOBAL VLESS REALITY",
         "POPVPN 0081 GLOBAL VLESS REALITY",
         "POPVPN 0082 GLOBAL VLESS REALITY",
         "POPVPN 0083 GLOBAL VLESS REALITY",
@@ -118,66 +118,66 @@
         "POPVPN 0087 GLOBAL VLESS REALITY",
         "POPVPN 0088 GLOBAL VLESS REALITY",
         "POPVPN 0089 GLOBAL VLESS REALITY",
-        "POPVPN 0090 GLOBAL VLESS REALITY",
-        "POPVPN 0091 GLOBAL VLESS REALITY",
-        "POPVPN 0092 GLOBAL VLESS REALITY",
-        "POPVPN 0093 GLOBAL VLESS REALITY",
-        "POPVPN 0094 🇨🇦 CA TROJAN WS",
-        "POPVPN 0095 GLOBAL TROJAN GRPC",
+        "POPVPN 0090 GLOBAL TROJAN GRPC",
+        "POPVPN 0091 GLOBAL VLESS WS",
+        "POPVPN 0092 GLOBAL VLESS WS",
+        "POPVPN 0093 GLOBAL VLESS WS",
+        "POPVPN 0094 GLOBAL VLESS WS",
+        "POPVPN 0095 GLOBAL VLESS WS",
         "POPVPN 0096 GLOBAL VLESS WS",
-        "POPVPN 0097 GLOBAL VLESS WS",
-        "POPVPN 0098 GLOBAL VLESS WS",
-        "POPVPN 0099 GLOBAL VLESS WS",
+        "POPVPN 0097 GLOBAL VLESS XHTTP",
+        "POPVPN 0098 GLOBAL VLESS XHTTP",
+        "POPVPN 0099 GLOBAL VLESS XHTTP",
         "POPVPN 0100 GLOBAL VLESS WS",
-        "POPVPN 0101 GLOBAL VLESS XHTTP",
+        "POPVPN 0101 GLOBAL VLESS WS",
         "POPVPN 0102 GLOBAL VLESS XHTTP",
         "POPVPN 0103 GLOBAL VLESS XHTTP",
-        "POPVPN 0104 GLOBAL VLESS WS",
-        "POPVPN 0105 GLOBAL VLESS WS",
-        "POPVPN 0106 GLOBAL VLESS XHTTP",
+        "POPVPN 0104 GLOBAL VLESS XHTTP",
+        "POPVPN 0105 GLOBAL VLESS XHTTP",
+        "POPVPN 0106 GLOBAL VLESS WS",
         "POPVPN 0107 GLOBAL VLESS XHTTP",
         "POPVPN 0108 GLOBAL VLESS XHTTP",
         "POPVPN 0109 GLOBAL VLESS XHTTP",
-        "POPVPN 0110 GLOBAL VLESS WS",
-        "POPVPN 0111 GLOBAL VLESS XHTTP",
-        "POPVPN 0112 GLOBAL VLESS XHTTP",
-        "POPVPN 0113 GLOBAL VLESS XHTTP",
-        "POPVPN 0114 GLOBAL VLESS XHTTP",
-        "POPVPN 0115 GLOBAL VLESS WS",
-        "POPVPN 0116 GLOBAL VLESS WS",
+        "POPVPN 0110 GLOBAL VLESS XHTTP",
+        "POPVPN 0111 GLOBAL VLESS WS",
+        "POPVPN 0112 GLOBAL VLESS WS",
+        "POPVPN 0113 GLOBAL TROJAN WS",
+        "POPVPN 0114 GLOBAL TROJAN WS",
+        "POPVPN 0115 GLOBAL TROJAN WS",
+        "POPVPN 0116 GLOBAL TROJAN WS",
         "POPVPN 0117 GLOBAL TROJAN WS",
         "POPVPN 0118 GLOBAL TROJAN WS",
-        "POPVPN 0119 GLOBAL TROJAN WS",
-        "POPVPN 0120 GLOBAL TROJAN WS",
-        "POPVPN 0121 GLOBAL TROJAN WS",
-        "POPVPN 0122 GLOBAL TROJAN WS",
-        "POPVPN 0123 GLOBAL TROJAN WS",
-        "POPVPN 0124 GLOBAL VLESS WS",
+        "POPVPN 0119 GLOBAL VLESS WS",
+        "POPVPN 0120 GLOBAL VLESS WS",
+        "POPVPN 0121 GLOBAL VLESS WS",
+        "POPVPN 0122 GLOBAL VLESS TLS",
+        "POPVPN 0123 GLOBAL VLESS WS",
+        "POPVPN 0124 GLOBAL VLESS TLS",
         "POPVPN 0125 GLOBAL VLESS WS",
         "POPVPN 0126 GLOBAL VLESS WS",
-        "POPVPN 0127 GLOBAL VLESS TLS",
+        "POPVPN 0127 GLOBAL VLESS WS",
         "POPVPN 0128 GLOBAL VLESS WS",
         "POPVPN 0129 GLOBAL VLESS TLS",
-        "POPVPN 0130 GLOBAL VLESS WS",
-        "POPVPN 0131 GLOBAL VLESS WS",
-        "POPVPN 0132 GLOBAL VLESS WS",
-        "POPVPN 0133 GLOBAL VLESS WS",
-        "POPVPN 0134 GLOBAL VLESS TLS",
+        "POPVPN 0130 GLOBAL VLESS XHTTP",
+        "POPVPN 0131 GLOBAL VLESS XHTTP",
+        "POPVPN 0132 GLOBAL VLESS XHTTP",
+        "POPVPN 0133 GLOBAL VLESS XHTTP",
+        "POPVPN 0134 GLOBAL VLESS XHTTP",
         "POPVPN 0135 GLOBAL VLESS XHTTP",
         "POPVPN 0136 GLOBAL VLESS XHTTP",
-        "POPVPN 0137 GLOBAL VLESS XHTTP",
-        "POPVPN 0138 GLOBAL VLESS XHTTP",
-        "POPVPN 0139 GLOBAL VLESS XHTTP",
-        "POPVPN 0140 GLOBAL VLESS XHTTP",
-        "POPVPN 0141 GLOBAL VLESS XHTTP",
+        "POPVPN 0137 GLOBAL VLESS WS",
+        "POPVPN 0138 GLOBAL VLESS WS",
+        "POPVPN 0139 GLOBAL TROJAN WS",
+        "POPVPN 0140 GLOBAL TROJAN WS",
+        "POPVPN 0141 GLOBAL VLESS TLS",
         "POPVPN 0142 GLOBAL VLESS WS",
-        "POPVPN 0143 GLOBAL VLESS WS",
-        "POPVPN 0144 GLOBAL TROJAN WS",
-        "POPVPN 0145 GLOBAL TROJAN WS",
-        "POPVPN 0146 GLOBAL TROJAN WS",
-        "POPVPN 0147 GLOBAL VLESS TLS",
+        "POPVPN 0143 GLOBAL VLESS XHTTP",
+        "POPVPN 0144 GLOBAL VLESS WS",
+        "POPVPN 0145 GLOBAL VLESS WS",
+        "POPVPN 0146 GLOBAL VLESS WS",
+        "POPVPN 0147 GLOBAL VLESS WS",
         "POPVPN 0148 GLOBAL VLESS WS",
-        "POPVPN 0149 GLOBAL VLESS XHTTP",
+        "POPVPN 0149 GLOBAL VLESS WS",
         "POPVPN 0150 GLOBAL VLESS WS",
         "POPVPN 0151 GLOBAL VLESS WS",
         "POPVPN 0152 GLOBAL VLESS WS",
@@ -187,48 +187,48 @@
         "POPVPN 0156 GLOBAL VLESS WS",
         "POPVPN 0157 GLOBAL VLESS WS",
         "POPVPN 0158 GLOBAL VLESS WS",
-        "POPVPN 0159 GLOBAL VLESS WS",
-        "POPVPN 0160 GLOBAL VLESS WS",
+        "POPVPN 0159 GLOBAL VLESS TLS",
+        "POPVPN 0160 GLOBAL VLESS TLS",
         "POPVPN 0161 GLOBAL VLESS WS",
         "POPVPN 0162 GLOBAL VLESS WS",
-        "POPVPN 0163 GLOBAL VLESS WS",
-        "POPVPN 0164 GLOBAL VLESS WS",
-        "POPVPN 0165 GLOBAL VLESS TLS",
+        "POPVPN 0163 GLOBAL TROJAN WS",
+        "POPVPN 0164 GLOBAL TROJAN WS",
+        "POPVPN 0165 GLOBAL TROJAN WS",
         "POPVPN 0166 GLOBAL VLESS TLS",
-        "POPVPN 0167 GLOBAL VLESS WS",
-        "POPVPN 0168 GLOBAL VLESS WS",
-        "POPVPN 0169 GLOBAL TROJAN WS",
-        "POPVPN 0170 GLOBAL TROJAN WS",
-        "POPVPN 0171 GLOBAL TROJAN WS",
-        "POPVPN 0172 GLOBAL VLESS TLS",
-        "POPVPN 0173 🇺🇸 US VLESS REALITY",
-        "POPVPN 0174 GLOBAL VMESS TLS",
+        "POPVPN 0167 GLOBAL VMESS TLS",
+        "POPVPN 0168 GLOBAL VLESS REALITY",
+        "POPVPN 0169 GLOBAL VLESS WS",
+        "POPVPN 0170 GLOBAL VLESS WS",
+        "POPVPN 0171 GLOBAL VLESS WS",
+        "POPVPN 0172 GLOBAL VLESS WS",
+        "POPVPN 0173 GLOBAL VLESS WS",
+        "POPVPN 0174 GLOBAL VLESS WS",
         "POPVPN 0175 GLOBAL VLESS WS",
         "POPVPN 0176 GLOBAL VLESS WS",
-        "POPVPN 0177 GLOBAL VLESS WS",
+        "POPVPN 0177 GLOBAL VLESS XHTTP",
         "POPVPN 0178 GLOBAL VLESS WS",
-        "POPVPN 0179 GLOBAL VLESS WS",
-        "POPVPN 0180 GLOBAL VLESS WS",
-        "POPVPN 0181 GLOBAL VLESS WS",
-        "POPVPN 0182 GLOBAL VLESS WS",
-        "POPVPN 0183 GLOBAL VLESS XHTTP",
-        "POPVPN 0184 GLOBAL VLESS TCP",
-        "POPVPN 0185 GLOBAL VLESS TCP",
-        "POPVPN 0186 🇬🇧 GB SS AES-256-GCM",
-        "POPVPN 0187 🇩🇪 DE SS AES-256-GCM",
-        "POPVPN 0188 🇬🇧 GB SS AES-256-GCM",
-        "POPVPN 0189 🇯🇵 JP SS AES-128-GCM",
-        "POPVPN 0190 🇨🇦 CA SS AES-128-GCM",
-        "POPVPN 0191 🇺🇸 US SS AES-256-GCM",
-        "POPVPN 0192 🇺🇸 US SS AES-128-GCM",
-        "POPVPN 0193 🇺🇸 US SS AES-128-GCM",
-        "POPVPN 0194 🇺🇸 US SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0195 🇺🇸 US SS AES-128-GCM",
-        "POPVPN 0196 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0197 🇳🇱 NL SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0198 GLOBAL VLESS GRPC",
-        "POPVPN 0199 GLOBAL VLESS WS",
-        "POPVPN 0200 GLOBAL SS AES-256-GCM"
+        "POPVPN 0179 GLOBAL VLESS TCP",
+        "POPVPN 0180 GLOBAL VLESS TCP",
+        "POPVPN 0181 🇺🇸 US SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0182 🇩🇪 DE SS AES-256-GCM",
+        "POPVPN 0183 🇩🇪 DE SS AES-256-GCM",
+        "POPVPN 0184 🇺🇸 US SS AES-128-GCM",
+        "POPVPN 0185 🇺🇸 US SS AES-128-GCM",
+        "POPVPN 0186 🇩🇪 DE SS AES-256-GCM",
+        "POPVPN 0187 🇺🇸 US SS AES-128-GCM",
+        "POPVPN 0188 🇺🇸 US SS AES-128-GCM",
+        "POPVPN 0189 🇺🇸 US SS AES-128-GCM",
+        "POPVPN 0190 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0191 🇺🇸 US SS AES-128-GCM",
+        "POPVPN 0192 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0193 🇳🇱 NL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0194 🇳🇱 NL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0195 🇳🇱 NL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0196 GLOBAL VLESS GRPC",
+        "POPVPN 0197 GLOBAL VLESS WS",
+        "POPVPN 0198 GLOBAL SS AES-256-GCM",
+        "POPVPN 0199 GLOBAL SS AES-128-GCM",
+        "POPVPN 0200 GLOBAL SS AES-128-GCM"
       ]
     },
     {
@@ -245,69 +245,6 @@
     },
     {
       "tag": "POPVPN 0001 🇺🇸 US VLESS REALITY",
-      "server": "169.40.42.163",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0002 🇺🇸 US VLESS REALITY",
-      "server": "169.40.42.168",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0003 🇺🇸 US VLESS REALITY",
-      "server": "169.40.42.235",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0004 🇺🇸 US VLESS REALITY",
       "server": "169.40.42.35",
       "server_port": 443,
       "type": "vless",
@@ -328,28 +265,7 @@
       }
     },
     {
-      "tag": "POPVPN 0005 🇺🇸 US VLESS REALITY",
-      "server": "169.40.42.52",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0006 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0002 GLOBAL VLESS REALITY",
       "server": "109.120.152.26",
       "server_port": 443,
       "type": "vless",
@@ -372,7 +288,7 @@
       }
     },
     {
-      "tag": "POPVPN 0007 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0003 GLOBAL VLESS REALITY",
       "server": "176.108.249.189",
       "server_port": 9881,
       "type": "vless",
@@ -396,7 +312,7 @@
       }
     },
     {
-      "tag": "POPVPN 0008 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0004 GLOBAL VLESS REALITY",
       "server": "82.202.141.141",
       "server_port": 9892,
       "type": "vless",
@@ -420,7 +336,7 @@
       }
     },
     {
-      "tag": "POPVPN 0009 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0005 GLOBAL VLESS REALITY",
       "server": "87.239.135.112",
       "server_port": 443,
       "type": "vless",
@@ -443,7 +359,7 @@
       }
     },
     {
-      "tag": "POPVPN 0010 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0006 GLOBAL VLESS REALITY",
       "server": "bg5.univesalsrv.com",
       "server_port": 443,
       "type": "vless",
@@ -467,7 +383,7 @@
       }
     },
     {
-      "tag": "POPVPN 0011 GLOBAL TROJAN REALITY",
+      "tag": "POPVPN 0007 GLOBAL TROJAN REALITY",
       "server": "193.233.216.27",
       "server_port": 443,
       "type": "trojan",
@@ -486,7 +402,7 @@
       }
     },
     {
-      "tag": "POPVPN 0012 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0008 GLOBAL VLESS REALITY",
       "server": "31.56.227.199",
       "server_port": 48962,
       "type": "vless",
@@ -506,7 +422,7 @@
       }
     },
     {
-      "tag": "POPVPN 0013 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0009 GLOBAL VLESS REALITY",
       "server": "95.182.93.25",
       "server_port": 18570,
       "type": "vless",
@@ -526,7 +442,7 @@
       }
     },
     {
-      "tag": "POPVPN 0014 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0010 GLOBAL VLESS REALITY",
       "server": "gate1.ragnarok-it.ru",
       "server_port": 2044,
       "type": "vless",
@@ -546,7 +462,7 @@
       }
     },
     {
-      "tag": "POPVPN 0015 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0011 GLOBAL VLESS REALITY",
       "server": "sub.skyshopnet.ir",
       "server_port": 80,
       "type": "vless",
@@ -566,7 +482,7 @@
       }
     },
     {
-      "tag": "POPVPN 0016 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0012 GLOBAL VLESS REALITY",
       "server": "sub.skyshopnet.ir",
       "server_port": 443,
       "type": "vless",
@@ -586,7 +502,7 @@
       }
     },
     {
-      "tag": "POPVPN 0017 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0013 GLOBAL VLESS REALITY",
       "server": "tun12.momasvps.ir",
       "server_port": 5018,
       "type": "vless",
@@ -606,7 +522,7 @@
       }
     },
     {
-      "tag": "POPVPN 0018 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0014 GLOBAL VLESS REALITY",
       "server": "103.241.65.169",
       "server_port": 443,
       "type": "vless",
@@ -627,7 +543,7 @@
       }
     },
     {
-      "tag": "POPVPN 0019 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0015 GLOBAL VLESS REALITY",
       "server": "103.30.76.197",
       "server_port": 44988,
       "type": "vless",
@@ -648,7 +564,7 @@
       }
     },
     {
-      "tag": "POPVPN 0020 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0016 GLOBAL VLESS REALITY",
       "server": "109.120.152.26",
       "server_port": 443,
       "type": "vless",
@@ -669,7 +585,7 @@
       }
     },
     {
-      "tag": "POPVPN 0021 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0017 GLOBAL VLESS REALITY",
       "server": "137.74.16.237",
       "server_port": 443,
       "type": "vless",
@@ -690,7 +606,7 @@
       }
     },
     {
-      "tag": "POPVPN 0022 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0018 GLOBAL VLESS REALITY",
       "server": "144.31.215.227",
       "server_port": 443,
       "type": "vless",
@@ -711,7 +627,7 @@
       }
     },
     {
-      "tag": "POPVPN 0023 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0019 GLOBAL VLESS REALITY",
       "server": "144.31.62.242",
       "server_port": 443,
       "type": "vless",
@@ -732,7 +648,7 @@
       }
     },
     {
-      "tag": "POPVPN 0024 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0020 GLOBAL VLESS REALITY",
       "server": "159.194.250.154",
       "server_port": 443,
       "type": "vless",
@@ -752,7 +668,7 @@
       }
     },
     {
-      "tag": "POPVPN 0025 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0021 GLOBAL VLESS REALITY",
       "server": "163.245.52.91",
       "server_port": 443,
       "type": "vless",
@@ -773,8 +689,8 @@
       }
     },
     {
-      "tag": "POPVPN 0026 GLOBAL VLESS REALITY",
-      "server": "169.40.42.15",
+      "tag": "POPVPN 0022 GLOBAL VLESS REALITY",
+      "server": "169.40.42.133",
       "server_port": 443,
       "type": "vless",
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -794,8 +710,8 @@
       }
     },
     {
-      "tag": "POPVPN 0027 GLOBAL VLESS REALITY",
-      "server": "169.40.42.16",
+      "tag": "POPVPN 0023 GLOBAL VLESS REALITY",
+      "server": "169.40.42.173",
       "server_port": 443,
       "type": "vless",
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -815,7 +731,7 @@
       }
     },
     {
-      "tag": "POPVPN 0028 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0024 GLOBAL VLESS REALITY",
       "server": "169.40.42.179",
       "server_port": 443,
       "type": "vless",
@@ -836,7 +752,7 @@
       }
     },
     {
-      "tag": "POPVPN 0029 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0025 GLOBAL VLESS REALITY",
       "server": "169.40.42.184",
       "server_port": 443,
       "type": "vless",
@@ -857,28 +773,7 @@
       }
     },
     {
-      "tag": "POPVPN 0030 GLOBAL VLESS REALITY",
-      "server": "169.40.42.212",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0031 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0026 GLOBAL VLESS REALITY",
       "server": "169.40.42.223",
       "server_port": 443,
       "type": "vless",
@@ -899,8 +794,8 @@
       }
     },
     {
-      "tag": "POPVPN 0032 GLOBAL VLESS REALITY",
-      "server": "169.40.42.225",
+      "tag": "POPVPN 0027 GLOBAL VLESS REALITY",
+      "server": "169.40.42.231",
       "server_port": 443,
       "type": "vless",
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -910,7 +805,7 @@
         "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -920,7 +815,7 @@
       }
     },
     {
-      "tag": "POPVPN 0033 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0028 GLOBAL VLESS REALITY",
       "server": "169.40.42.232",
       "server_port": 443,
       "type": "vless",
@@ -941,7 +836,7 @@
       }
     },
     {
-      "tag": "POPVPN 0034 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0029 GLOBAL VLESS REALITY",
       "server": "169.40.42.75",
       "server_port": 443,
       "type": "vless",
@@ -962,7 +857,7 @@
       }
     },
     {
-      "tag": "POPVPN 0035 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0030 GLOBAL VLESS REALITY",
       "server": "179.198.49.99",
       "server_port": 443,
       "type": "vless",
@@ -983,7 +878,7 @@
       }
     },
     {
-      "tag": "POPVPN 0036 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0031 GLOBAL VLESS REALITY",
       "server": "186.246.21.156",
       "server_port": 40443,
       "type": "vless",
@@ -1004,7 +899,7 @@
       }
     },
     {
-      "tag": "POPVPN 0037 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0032 GLOBAL VLESS REALITY",
       "server": "188.130.209.227",
       "server_port": 8443,
       "type": "vless",
@@ -1025,7 +920,7 @@
       }
     },
     {
-      "tag": "POPVPN 0038 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0033 GLOBAL VLESS REALITY",
       "server": "193.202.113.5",
       "server_port": 443,
       "type": "vless",
@@ -1046,7 +941,7 @@
       }
     },
     {
-      "tag": "POPVPN 0039 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0034 GLOBAL VLESS REALITY",
       "server": "193.233.216.27",
       "server_port": 443,
       "type": "vless",
@@ -1067,7 +962,7 @@
       }
     },
     {
-      "tag": "POPVPN 0040 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0035 GLOBAL VLESS REALITY",
       "server": "193.233.245.205",
       "server_port": 443,
       "type": "vless",
@@ -1088,7 +983,7 @@
       }
     },
     {
-      "tag": "POPVPN 0041 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0036 GLOBAL VLESS REALITY",
       "server": "195.133.73.65",
       "server_port": 443,
       "type": "vless",
@@ -1109,7 +1004,7 @@
       }
     },
     {
-      "tag": "POPVPN 0042 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0037 GLOBAL VLESS REALITY",
       "server": "195.252.179.1",
       "server_port": 443,
       "type": "vless",
@@ -1130,7 +1025,7 @@
       }
     },
     {
-      "tag": "POPVPN 0043 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0038 GLOBAL VLESS REALITY",
       "server": "2.26.231.218",
       "server_port": 2063,
       "type": "vless",
@@ -1150,7 +1045,7 @@
       }
     },
     {
-      "tag": "POPVPN 0044 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0039 GLOBAL VLESS REALITY",
       "server": "2.27.211.38",
       "server_port": 443,
       "type": "vless",
@@ -1171,7 +1066,7 @@
       }
     },
     {
-      "tag": "POPVPN 0045 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0040 GLOBAL VLESS REALITY",
       "server": "2.28.142.170",
       "server_port": 443,
       "type": "vless",
@@ -1187,7 +1082,7 @@
       }
     },
     {
-      "tag": "POPVPN 0046 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0041 GLOBAL VLESS REALITY",
       "server": "205.237.110.254",
       "server_port": 443,
       "type": "vless",
@@ -1208,7 +1103,7 @@
       }
     },
     {
-      "tag": "POPVPN 0047 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0042 GLOBAL VLESS REALITY",
       "server": "216.173.71.43",
       "server_port": 443,
       "type": "vless",
@@ -1229,7 +1124,7 @@
       }
     },
     {
-      "tag": "POPVPN 0048 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0043 GLOBAL VLESS REALITY",
       "server": "31.76.35.27",
       "server_port": 443,
       "type": "vless",
@@ -1250,7 +1145,7 @@
       }
     },
     {
-      "tag": "POPVPN 0049 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0044 GLOBAL VLESS REALITY",
       "server": "31.76.8.154",
       "server_port": 443,
       "type": "vless",
@@ -1271,7 +1166,7 @@
       }
     },
     {
-      "tag": "POPVPN 0050 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0045 GLOBAL VLESS REALITY",
       "server": "31.77.13.19",
       "server_port": 2063,
       "type": "vless",
@@ -1291,7 +1186,7 @@
       }
     },
     {
-      "tag": "POPVPN 0051 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0046 GLOBAL VLESS REALITY",
       "server": "43.255.157.118",
       "server_port": 44988,
       "type": "vless",
@@ -1312,7 +1207,7 @@
       }
     },
     {
-      "tag": "POPVPN 0052 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0047 GLOBAL VLESS REALITY",
       "server": "47.253.226.114",
       "server_port": 443,
       "type": "vless",
@@ -1332,7 +1227,7 @@
       }
     },
     {
-      "tag": "POPVPN 0053 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0048 GLOBAL VLESS REALITY",
       "server": "5.42.99.64",
       "server_port": 8443,
       "type": "vless",
@@ -1353,7 +1248,7 @@
       }
     },
     {
-      "tag": "POPVPN 0054 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0049 GLOBAL VLESS REALITY",
       "server": "54.251.9.130",
       "server_port": 24146,
       "type": "vless",
@@ -1374,7 +1269,7 @@
       }
     },
     {
-      "tag": "POPVPN 0055 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0050 GLOBAL VLESS REALITY",
       "server": "80.47.239.184",
       "server_port": 443,
       "type": "vless",
@@ -1395,7 +1290,7 @@
       }
     },
     {
-      "tag": "POPVPN 0056 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0051 GLOBAL VLESS REALITY",
       "server": "85.8.231.100",
       "server_port": 8443,
       "type": "vless",
@@ -1415,7 +1310,7 @@
       }
     },
     {
-      "tag": "POPVPN 0057 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0052 GLOBAL VLESS REALITY",
       "server": "87.242.94.90",
       "server_port": 8443,
       "type": "vless",
@@ -1436,7 +1331,7 @@
       }
     },
     {
-      "tag": "POPVPN 0058 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0053 GLOBAL VLESS REALITY",
       "server": "areal4.greewebservices.ir",
       "server_port": 5455,
       "type": "vless",
@@ -1456,7 +1351,7 @@
       }
     },
     {
-      "tag": "POPVPN 0059 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0054 GLOBAL VLESS REALITY",
       "server": "asia.fire7263.ir",
       "server_port": 5527,
       "type": "vless",
@@ -1477,7 +1372,7 @@
       }
     },
     {
-      "tag": "POPVPN 0060 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0055 GLOBAL VLESS REALITY",
       "server": "dearv.moon-night.ir",
       "server_port": 443,
       "type": "vless",
@@ -1498,7 +1393,7 @@
       }
     },
     {
-      "tag": "POPVPN 0061 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0056 GLOBAL VLESS REALITY",
       "server": "dns5.m3hrzd.ir",
       "server_port": 8030,
       "type": "vless",
@@ -1518,7 +1413,7 @@
       }
     },
     {
-      "tag": "POPVPN 0062 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0057 GLOBAL VLESS REALITY",
       "server": "dns5.m3hrzd.ir",
       "server_port": 8030,
       "type": "vless",
@@ -1538,7 +1433,7 @@
       }
     },
     {
-      "tag": "POPVPN 0063 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0058 GLOBAL VLESS REALITY",
       "server": "dns6.m3hrzd.ir",
       "server_port": 8010,
       "type": "vless",
@@ -1558,7 +1453,7 @@
       }
     },
     {
-      "tag": "POPVPN 0064 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0059 GLOBAL VLESS REALITY",
       "server": "dns7.m3hrzd.ir",
       "server_port": 8030,
       "type": "vless",
@@ -1578,7 +1473,7 @@
       }
     },
     {
-      "tag": "POPVPN 0065 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0060 GLOBAL VLESS REALITY",
       "server": "dns8.m3hrzd.ir",
       "server_port": 8030,
       "type": "vless",
@@ -1598,7 +1493,7 @@
       }
     },
     {
-      "tag": "POPVPN 0066 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0061 GLOBAL VLESS REALITY",
       "server": "du-rov.secureservice.top",
       "server_port": 8443,
       "type": "vless",
@@ -1619,7 +1514,7 @@
       }
     },
     {
-      "tag": "POPVPN 0067 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0062 GLOBAL VLESS REALITY",
       "server": "efa11.lumariqis.com",
       "server_port": 443,
       "type": "vless",
@@ -1640,7 +1535,7 @@
       }
     },
     {
-      "tag": "POPVPN 0068 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0063 GLOBAL VLESS REALITY",
       "server": "fnil1.sublinkplas.ir",
       "server_port": 15694,
       "type": "vless",
@@ -1661,7 +1556,7 @@
       }
     },
     {
-      "tag": "POPVPN 0069 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0064 GLOBAL VLESS REALITY",
       "server": "gril1.sublinkplas.ir",
       "server_port": 12040,
       "type": "vless",
@@ -1682,7 +1577,7 @@
       }
     },
     {
-      "tag": "POPVPN 0070 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0065 GLOBAL VLESS REALITY",
       "server": "gw1.edgemedia.lol",
       "server_port": 13443,
       "type": "vless",
@@ -1703,7 +1598,7 @@
       }
     },
     {
-      "tag": "POPVPN 0071 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0066 GLOBAL VLESS REALITY",
       "server": "ir4.mobileemdad.top",
       "server_port": 443,
       "type": "vless",
@@ -1724,7 +1619,7 @@
       }
     },
     {
-      "tag": "POPVPN 0072 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0067 GLOBAL VLESS REALITY",
       "server": "p11real1.greewebservices.ir",
       "server_port": 1020,
       "type": "vless",
@@ -1744,7 +1639,7 @@
       }
     },
     {
-      "tag": "POPVPN 0073 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0068 GLOBAL VLESS REALITY",
       "server": "p1real4.greewebservices.ir",
       "server_port": 1260,
       "type": "vless",
@@ -1764,7 +1659,7 @@
       }
     },
     {
-      "tag": "POPVPN 0074 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0069 GLOBAL VLESS REALITY",
       "server": "p1tun01.greewebservices.ir",
       "server_port": 38830,
       "type": "vless",
@@ -1784,7 +1679,7 @@
       }
     },
     {
-      "tag": "POPVPN 0075 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0070 GLOBAL VLESS REALITY",
       "server": "p2real5.greewebservices.ir",
       "server_port": 1350,
       "type": "vless",
@@ -1804,7 +1699,7 @@
       }
     },
     {
-      "tag": "POPVPN 0076 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0071 GLOBAL VLESS REALITY",
       "server": "p2tun0.greewebservices.ir",
       "server_port": 28820,
       "type": "vless",
@@ -1824,7 +1719,7 @@
       }
     },
     {
-      "tag": "POPVPN 0077 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0072 GLOBAL VLESS REALITY",
       "server": "p2tun01.greewebservices.ir",
       "server_port": 28830,
       "type": "vless",
@@ -1844,7 +1739,7 @@
       }
     },
     {
-      "tag": "POPVPN 0078 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0073 GLOBAL VLESS REALITY",
       "server": "pl-waw.dontblockmepls.com",
       "server_port": 2063,
       "type": "vless",
@@ -1864,7 +1759,7 @@
       }
     },
     {
-      "tag": "POPVPN 0079 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0074 GLOBAL VLESS REALITY",
       "server": "sin-a-01.auuas.com",
       "server_port": 1891,
       "type": "vless",
@@ -1885,7 +1780,7 @@
       }
     },
     {
-      "tag": "POPVPN 0080 GLOBAL TROJAN REALITY",
+      "tag": "POPVPN 0075 GLOBAL TROJAN REALITY",
       "server": "195.15.202.111",
       "server_port": 4455,
       "type": "trojan",
@@ -1900,7 +1795,7 @@
       }
     },
     {
-      "tag": "POPVPN 0081 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0076 GLOBAL VLESS REALITY",
       "server": "15.204.97.219",
       "server_port": 23576,
       "type": "vless",
@@ -1916,7 +1811,24 @@
       }
     },
     {
-      "tag": "POPVPN 0082 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0077 GLOBAL VLESS REALITY",
+      "server": "169.40.42.104",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0078 GLOBAL VLESS REALITY",
       "server": "169.40.42.182",
       "server_port": 443,
       "type": "vless",
@@ -1933,7 +1845,7 @@
       }
     },
     {
-      "tag": "POPVPN 0083 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0079 GLOBAL VLESS REALITY",
       "server": "177.1.186.44",
       "server_port": 443,
       "type": "vless",
@@ -1950,7 +1862,7 @@
       }
     },
     {
-      "tag": "POPVPN 0084 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0080 GLOBAL VLESS REALITY",
       "server": "192.144.13.208",
       "server_port": 443,
       "type": "vless",
@@ -1967,7 +1879,7 @@
       }
     },
     {
-      "tag": "POPVPN 0085 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0081 GLOBAL VLESS REALITY",
       "server": "31.207.7.74",
       "server_port": 443,
       "type": "vless",
@@ -1984,7 +1896,7 @@
       }
     },
     {
-      "tag": "POPVPN 0086 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0082 GLOBAL VLESS REALITY",
       "server": "31.77.114.114",
       "server_port": 443,
       "type": "vless",
@@ -2001,7 +1913,7 @@
       }
     },
     {
-      "tag": "POPVPN 0087 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0083 GLOBAL VLESS REALITY",
       "server": "5.181.171.2",
       "server_port": 443,
       "type": "vless",
@@ -2017,7 +1929,7 @@
       }
     },
     {
-      "tag": "POPVPN 0088 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0084 GLOBAL VLESS REALITY",
       "server": "77.91.68.70",
       "server_port": 55983,
       "type": "vless",
@@ -2033,7 +1945,7 @@
       }
     },
     {
-      "tag": "POPVPN 0089 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0085 GLOBAL VLESS REALITY",
       "server": "82.39.171.12",
       "server_port": 443,
       "type": "vless",
@@ -2050,7 +1962,7 @@
       }
     },
     {
-      "tag": "POPVPN 0090 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0086 GLOBAL VLESS REALITY",
       "server": "arcturus.yokkastars.com",
       "server_port": 40443,
       "type": "vless",
@@ -2067,7 +1979,7 @@
       }
     },
     {
-      "tag": "POPVPN 0091 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0087 GLOBAL VLESS REALITY",
       "server": "de2.srv.vbuste.ru",
       "server_port": 443,
       "type": "vless",
@@ -2084,7 +1996,7 @@
       }
     },
     {
-      "tag": "POPVPN 0092 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0088 GLOBAL VLESS REALITY",
       "server": "private.netraidly.ru",
       "server_port": 40443,
       "type": "vless",
@@ -2101,7 +2013,7 @@
       }
     },
     {
-      "tag": "POPVPN 0093 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0089 GLOBAL VLESS REALITY",
       "server": "sub.skyshopnet.ir",
       "server_port": 80,
       "type": "vless",
@@ -2115,25 +2027,7 @@
       }
     },
     {
-      "tag": "POPVPN 0094 🇨🇦 CA TROJAN WS",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "type": "trojan",
-      "password": "1710442808",
-      "tls": {
-        "enabled": true,
-        "server_name": "subb.nrshop198.workers.dev"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "subb.nrshop198.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0095 GLOBAL TROJAN GRPC",
+      "tag": "POPVPN 0090 GLOBAL TROJAN GRPC",
       "server": "31.77.168.21",
       "server_port": 443,
       "type": "trojan",
@@ -2152,7 +2046,7 @@
       }
     },
     {
-      "tag": "POPVPN 0096 GLOBAL VLESS WS",
+      "tag": "POPVPN 0091 GLOBAL VLESS WS",
       "server": "104.19.4.176",
       "server_port": 8443,
       "type": "vless",
@@ -2174,7 +2068,7 @@
       }
     },
     {
-      "tag": "POPVPN 0097 GLOBAL VLESS WS",
+      "tag": "POPVPN 0092 GLOBAL VLESS WS",
       "server": "162.159.152.4",
       "server_port": 443,
       "type": "vless",
@@ -2196,7 +2090,29 @@
       }
     },
     {
-      "tag": "POPVPN 0098 GLOBAL VLESS WS",
+      "tag": "POPVPN 0093 GLOBAL VLESS WS",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "snip.edgeoneai.cc.cd",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "snip.edgeoneai.cc.cd"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0094 GLOBAL VLESS WS",
       "server": "188.114.97.6",
       "server_port": 443,
       "type": "vless",
@@ -2218,7 +2134,7 @@
       }
     },
     {
-      "tag": "POPVPN 0099 GLOBAL VLESS WS",
+      "tag": "POPVPN 0095 GLOBAL VLESS WS",
       "server": "188.114.97.6",
       "server_port": 443,
       "type": "vless",
@@ -2240,7 +2156,7 @@
       }
     },
     {
-      "tag": "POPVPN 0100 GLOBAL VLESS WS",
+      "tag": "POPVPN 0096 GLOBAL VLESS WS",
       "server": "188.114.97.6",
       "server_port": 443,
       "type": "vless",
@@ -2262,7 +2178,7 @@
       }
     },
     {
-      "tag": "POPVPN 0101 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0097 GLOBAL VLESS XHTTP",
       "server": "199.232.239.239",
       "server_port": 443,
       "type": "vless",
@@ -2277,7 +2193,7 @@
       }
     },
     {
-      "tag": "POPVPN 0102 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0098 GLOBAL VLESS XHTTP",
       "server": "199.232.78.143",
       "server_port": 443,
       "type": "vless",
@@ -2292,7 +2208,7 @@
       }
     },
     {
-      "tag": "POPVPN 0103 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0099 GLOBAL VLESS XHTTP",
       "server": "199.232.78.160",
       "server_port": 443,
       "type": "vless",
@@ -2307,7 +2223,7 @@
       }
     },
     {
-      "tag": "POPVPN 0104 GLOBAL VLESS WS",
+      "tag": "POPVPN 0100 GLOBAL VLESS WS",
       "server": "199.232.78.187",
       "server_port": 443,
       "type": "vless",
@@ -2329,7 +2245,7 @@
       }
     },
     {
-      "tag": "POPVPN 0105 GLOBAL VLESS WS",
+      "tag": "POPVPN 0101 GLOBAL VLESS WS",
       "server": "199.232.78.187",
       "server_port": 443,
       "type": "vless",
@@ -2351,7 +2267,7 @@
       }
     },
     {
-      "tag": "POPVPN 0106 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0102 GLOBAL VLESS XHTTP",
       "server": "206.71.158.124",
       "server_port": 443,
       "type": "vless",
@@ -2366,7 +2282,7 @@
       }
     },
     {
-      "tag": "POPVPN 0107 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0103 GLOBAL VLESS XHTTP",
       "server": "84.32.184.221",
       "server_port": 443,
       "type": "vless",
@@ -2381,7 +2297,7 @@
       }
     },
     {
-      "tag": "POPVPN 0108 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0104 GLOBAL VLESS XHTTP",
       "server": "f1.greewebservices.ir",
       "server_port": 443,
       "type": "vless",
@@ -2396,7 +2312,7 @@
       }
     },
     {
-      "tag": "POPVPN 0109 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0105 GLOBAL VLESS XHTTP",
       "server": "f1.greewebservices.ir",
       "server_port": 443,
       "type": "vless",
@@ -2411,7 +2327,7 @@
       }
     },
     {
-      "tag": "POPVPN 0110 GLOBAL VLESS WS",
+      "tag": "POPVPN 0106 GLOBAL VLESS WS",
       "server": "fr.api-music-fa.com",
       "server_port": 2053,
       "type": "vless",
@@ -2433,7 +2349,7 @@
       }
     },
     {
-      "tag": "POPVPN 0111 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0107 GLOBAL VLESS XHTTP",
       "server": "host.taghvimtime.ir",
       "server_port": 8443,
       "type": "vless",
@@ -2448,7 +2364,7 @@
       }
     },
     {
-      "tag": "POPVPN 0112 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0108 GLOBAL VLESS XHTTP",
       "server": "ijug.jffq.electrocitymarket.ru",
       "server_port": 443,
       "type": "vless",
@@ -2463,7 +2379,7 @@
       }
     },
     {
-      "tag": "POPVPN 0113 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0109 GLOBAL VLESS XHTTP",
       "server": "kala.fortresshost.ir",
       "server_port": 443,
       "type": "vless",
@@ -2478,7 +2394,7 @@
       }
     },
     {
-      "tag": "POPVPN 0114 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0110 GLOBAL VLESS XHTTP",
       "server": "woob.xetq.electrocitymarket.ru",
       "server_port": 443,
       "type": "vless",
@@ -2493,7 +2409,7 @@
       }
     },
     {
-      "tag": "POPVPN 0115 GLOBAL VLESS WS",
+      "tag": "POPVPN 0111 GLOBAL VLESS WS",
       "server": "www.comoiran.ir",
       "server_port": 443,
       "type": "vless",
@@ -2515,7 +2431,7 @@
       }
     },
     {
-      "tag": "POPVPN 0116 GLOBAL VLESS WS",
+      "tag": "POPVPN 0112 GLOBAL VLESS WS",
       "server": "www.mobocomcloud.ir",
       "server_port": 443,
       "type": "vless",
@@ -2537,29 +2453,7 @@
       }
     },
     {
-      "tag": "POPVPN 0117 GLOBAL TROJAN WS",
-      "server": "104.21.87.130",
-      "server_port": 443,
-      "type": "trojan",
-      "password": "Telegram_healer_config",
-      "tls": {
-        "enabled": true,
-        "server_name": "z6y-daox0hyhdtdy.r720kpbyx2l3i406.workers.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tr/UOAg5ubCk87OTaiIAxc0O?ed",
-        "headers": {
-          "Host": "z6y-daox0hyhdtdy.r720kpbyx2l3i406.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0118 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0113 GLOBAL TROJAN WS",
       "server": "151.101.38.7",
       "server_port": 443,
       "type": "trojan",
@@ -2580,7 +2474,7 @@
       }
     },
     {
-      "tag": "POPVPN 0119 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0114 GLOBAL TROJAN WS",
       "server": "167.82.76.27",
       "server_port": 443,
       "type": "trojan",
@@ -2601,7 +2495,7 @@
       }
     },
     {
-      "tag": "POPVPN 0120 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0115 GLOBAL TROJAN WS",
       "server": "188.42.145.180",
       "server_port": 443,
       "type": "trojan",
@@ -2623,7 +2517,7 @@
       }
     },
     {
-      "tag": "POPVPN 0121 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0116 GLOBAL TROJAN WS",
       "server": "199.232.78.160",
       "server_port": 443,
       "type": "trojan",
@@ -2644,7 +2538,7 @@
       }
     },
     {
-      "tag": "POPVPN 0122 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0117 GLOBAL TROJAN WS",
       "server": "199.232.78.160",
       "server_port": 443,
       "type": "trojan",
@@ -2666,7 +2560,7 @@
       }
     },
     {
-      "tag": "POPVPN 0123 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0118 GLOBAL TROJAN WS",
       "server": "199.232.78.160",
       "server_port": 443,
       "type": "trojan",
@@ -2688,7 +2582,7 @@
       }
     },
     {
-      "tag": "POPVPN 0124 GLOBAL VLESS WS",
+      "tag": "POPVPN 0119 GLOBAL VLESS WS",
       "server": "104.26.14.229",
       "server_port": 443,
       "type": "vless",
@@ -2710,7 +2604,7 @@
       }
     },
     {
-      "tag": "POPVPN 0125 GLOBAL VLESS WS",
+      "tag": "POPVPN 0120 GLOBAL VLESS WS",
       "server": "155.103.71.159",
       "server_port": 443,
       "type": "vless",
@@ -2732,7 +2626,7 @@
       }
     },
     {
-      "tag": "POPVPN 0126 GLOBAL VLESS WS",
+      "tag": "POPVPN 0121 GLOBAL VLESS WS",
       "server": "155.103.71.159",
       "server_port": 443,
       "type": "vless",
@@ -2750,7 +2644,7 @@
       }
     },
     {
-      "tag": "POPVPN 0127 GLOBAL VLESS TLS",
+      "tag": "POPVPN 0122 GLOBAL VLESS TLS",
       "server": "165.231.99.45",
       "server_port": 8443,
       "type": "vless",
@@ -2766,7 +2660,7 @@
       }
     },
     {
-      "tag": "POPVPN 0128 GLOBAL VLESS WS",
+      "tag": "POPVPN 0123 GLOBAL VLESS WS",
       "server": "188.114.97.6",
       "server_port": 443,
       "type": "vless",
@@ -2784,7 +2678,7 @@
       }
     },
     {
-      "tag": "POPVPN 0129 GLOBAL VLESS TLS",
+      "tag": "POPVPN 0124 GLOBAL VLESS TLS",
       "server": "189.74.124.83",
       "server_port": 443,
       "type": "vless",
@@ -2800,7 +2694,7 @@
       }
     },
     {
-      "tag": "POPVPN 0130 GLOBAL VLESS WS",
+      "tag": "POPVPN 0125 GLOBAL VLESS WS",
       "server": "203.202.232.211",
       "server_port": 443,
       "type": "vless",
@@ -2818,7 +2712,7 @@
       }
     },
     {
-      "tag": "POPVPN 0131 GLOBAL VLESS WS",
+      "tag": "POPVPN 0126 GLOBAL VLESS WS",
       "server": "216.173.67.59",
       "server_port": 443,
       "type": "vless",
@@ -2840,7 +2734,7 @@
       }
     },
     {
-      "tag": "POPVPN 0132 GLOBAL VLESS WS",
+      "tag": "POPVPN 0127 GLOBAL VLESS WS",
       "server": "216.173.67.59",
       "server_port": 443,
       "type": "vless",
@@ -2862,7 +2756,7 @@
       }
     },
     {
-      "tag": "POPVPN 0133 GLOBAL VLESS WS",
+      "tag": "POPVPN 0128 GLOBAL VLESS WS",
       "server": "43.174.193.1",
       "server_port": 443,
       "type": "vless",
@@ -2884,7 +2778,7 @@
       }
     },
     {
-      "tag": "POPVPN 0134 GLOBAL VLESS TLS",
+      "tag": "POPVPN 0129 GLOBAL VLESS TLS",
       "server": "comoiran.ir",
       "server_port": 443,
       "type": "vless",
@@ -2900,7 +2794,7 @@
       }
     },
     {
-      "tag": "POPVPN 0135 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0130 GLOBAL VLESS XHTTP",
       "server": "f2.greewebservices.ir",
       "server_port": 443,
       "type": "vless",
@@ -2915,7 +2809,7 @@
       }
     },
     {
-      "tag": "POPVPN 0136 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0131 GLOBAL VLESS XHTTP",
       "server": "f2.greewebservices.ir",
       "server_port": 443,
       "type": "vless",
@@ -2930,7 +2824,7 @@
       }
     },
     {
-      "tag": "POPVPN 0137 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0132 GLOBAL VLESS XHTTP",
       "server": "fzjo.fbbv.electrocitymarket.ru",
       "server_port": 443,
       "type": "vless",
@@ -2941,7 +2835,7 @@
       }
     },
     {
-      "tag": "POPVPN 0138 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0133 GLOBAL VLESS XHTTP",
       "server": "pp-fx2.firelinkservers.ir",
       "server_port": 443,
       "type": "vless",
@@ -2956,7 +2850,7 @@
       }
     },
     {
-      "tag": "POPVPN 0139 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0134 GLOBAL VLESS XHTTP",
       "server": "tg1.cdnphotos.org",
       "server_port": 443,
       "type": "vless",
@@ -2971,7 +2865,7 @@
       }
     },
     {
-      "tag": "POPVPN 0140 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0135 GLOBAL VLESS XHTTP",
       "server": "tg1.cdnphotos.org",
       "server_port": 443,
       "type": "vless",
@@ -2986,7 +2880,7 @@
       }
     },
     {
-      "tag": "POPVPN 0141 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0136 GLOBAL VLESS XHTTP",
       "server": "tg1.cdnphotos.org",
       "server_port": 443,
       "type": "vless",
@@ -3001,7 +2895,7 @@
       }
     },
     {
-      "tag": "POPVPN 0142 GLOBAL VLESS WS",
+      "tag": "POPVPN 0137 GLOBAL VLESS WS",
       "server": "www.speedtest.net",
       "server_port": 8443,
       "type": "vless",
@@ -3023,7 +2917,7 @@
       }
     },
     {
-      "tag": "POPVPN 0143 GLOBAL VLESS WS",
+      "tag": "POPVPN 0138 GLOBAL VLESS WS",
       "server": "www.speedtest.net",
       "server_port": 8443,
       "type": "vless",
@@ -3045,25 +2939,7 @@
       }
     },
     {
-      "tag": "POPVPN 0144 GLOBAL TROJAN WS",
-      "server": "104.21.87.120",
-      "server_port": 443,
-      "type": "trojan",
-      "password": "bd85f5fe32d9446a8b1f59e4f710455b",
-      "tls": {
-        "enabled": true,
-        "server_name": "bpb-panel-62c3.mlm-ee9a3b83.workers.dev"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560",
-        "headers": {
-          "Host": "bpb-panel-62c3.mlm-ee9a3b83.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0145 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0139 GLOBAL TROJAN WS",
       "server": "155.103.71.159",
       "server_port": 443,
       "type": "trojan",
@@ -3081,7 +2957,7 @@
       }
     },
     {
-      "tag": "POPVPN 0146 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0140 GLOBAL TROJAN WS",
       "server": "203.202.232.211",
       "server_port": 443,
       "type": "trojan",
@@ -3099,7 +2975,7 @@
       }
     },
     {
-      "tag": "POPVPN 0147 GLOBAL VLESS TLS",
+      "tag": "POPVPN 0141 GLOBAL VLESS TLS",
       "server": "141.98.7.193",
       "server_port": 2053,
       "type": "vless",
@@ -3114,7 +2990,7 @@
       }
     },
     {
-      "tag": "POPVPN 0148 GLOBAL VLESS WS",
+      "tag": "POPVPN 0142 GLOBAL VLESS WS",
       "server": "155.103.71.159",
       "server_port": 443,
       "type": "vless",
@@ -3132,7 +3008,7 @@
       }
     },
     {
-      "tag": "POPVPN 0149 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0143 GLOBAL VLESS XHTTP",
       "server": "167.82.75.113",
       "server_port": 443,
       "type": "vless",
@@ -3143,7 +3019,7 @@
       }
     },
     {
-      "tag": "POPVPN 0150 GLOBAL VLESS WS",
+      "tag": "POPVPN 0144 GLOBAL VLESS WS",
       "server": "188.114.97.6",
       "server_port": 443,
       "type": "vless",
@@ -3161,7 +3037,7 @@
       }
     },
     {
-      "tag": "POPVPN 0151 GLOBAL VLESS WS",
+      "tag": "POPVPN 0145 GLOBAL VLESS WS",
       "server": "199.232.78.159",
       "server_port": 443,
       "type": "vless",
@@ -3179,7 +3055,7 @@
       }
     },
     {
-      "tag": "POPVPN 0152 GLOBAL VLESS WS",
+      "tag": "POPVPN 0146 GLOBAL VLESS WS",
       "server": "199.232.78.159",
       "server_port": 443,
       "type": "vless",
@@ -3197,7 +3073,7 @@
       }
     },
     {
-      "tag": "POPVPN 0153 GLOBAL VLESS WS",
+      "tag": "POPVPN 0147 GLOBAL VLESS WS",
       "server": "199.232.78.159",
       "server_port": 443,
       "type": "vless",
@@ -3214,7 +3090,7 @@
       }
     },
     {
-      "tag": "POPVPN 0154 GLOBAL VLESS WS",
+      "tag": "POPVPN 0148 GLOBAL VLESS WS",
       "server": "199.232.78.159",
       "server_port": 443,
       "type": "vless",
@@ -3232,7 +3108,7 @@
       }
     },
     {
-      "tag": "POPVPN 0155 GLOBAL VLESS WS",
+      "tag": "POPVPN 0149 GLOBAL VLESS WS",
       "server": "199.232.78.159",
       "server_port": 443,
       "type": "vless",
@@ -3250,7 +3126,7 @@
       }
     },
     {
-      "tag": "POPVPN 0156 GLOBAL VLESS WS",
+      "tag": "POPVPN 0150 GLOBAL VLESS WS",
       "server": "199.232.78.159",
       "server_port": 443,
       "type": "vless",
@@ -3268,7 +3144,7 @@
       }
     },
     {
-      "tag": "POPVPN 0157 GLOBAL VLESS WS",
+      "tag": "POPVPN 0151 GLOBAL VLESS WS",
       "server": "199.232.78.159",
       "server_port": 443,
       "type": "vless",
@@ -3285,7 +3161,7 @@
       }
     },
     {
-      "tag": "POPVPN 0158 GLOBAL VLESS WS",
+      "tag": "POPVPN 0152 GLOBAL VLESS WS",
       "server": "199.232.78.159",
       "server_port": 443,
       "type": "vless",
@@ -3303,7 +3179,7 @@
       }
     },
     {
-      "tag": "POPVPN 0159 GLOBAL VLESS WS",
+      "tag": "POPVPN 0153 GLOBAL VLESS WS",
       "server": "199.232.78.159",
       "server_port": 443,
       "type": "vless",
@@ -3320,7 +3196,7 @@
       }
     },
     {
-      "tag": "POPVPN 0160 GLOBAL VLESS WS",
+      "tag": "POPVPN 0154 GLOBAL VLESS WS",
       "server": "199.232.9.254",
       "server_port": 443,
       "type": "vless",
@@ -3338,7 +3214,7 @@
       }
     },
     {
-      "tag": "POPVPN 0161 GLOBAL VLESS WS",
+      "tag": "POPVPN 0155 GLOBAL VLESS WS",
       "server": "200.165.231.209",
       "server_port": 443,
       "type": "vless",
@@ -3356,7 +3232,7 @@
       }
     },
     {
-      "tag": "POPVPN 0162 GLOBAL VLESS WS",
+      "tag": "POPVPN 0156 GLOBAL VLESS WS",
       "server": "200.165.231.209",
       "server_port": 443,
       "type": "vless",
@@ -3374,7 +3250,7 @@
       }
     },
     {
-      "tag": "POPVPN 0163 GLOBAL VLESS WS",
+      "tag": "POPVPN 0157 GLOBAL VLESS WS",
       "server": "203.202.232.211",
       "server_port": 443,
       "type": "vless",
@@ -3392,7 +3268,7 @@
       }
     },
     {
-      "tag": "POPVPN 0164 GLOBAL VLESS WS",
+      "tag": "POPVPN 0158 GLOBAL VLESS WS",
       "server": "203.202.232.211",
       "server_port": 443,
       "type": "vless",
@@ -3410,7 +3286,7 @@
       }
     },
     {
-      "tag": "POPVPN 0165 GLOBAL VLESS TLS",
+      "tag": "POPVPN 0159 GLOBAL VLESS TLS",
       "server": "31.131.251.17",
       "server_port": 443,
       "type": "vless",
@@ -3426,7 +3302,7 @@
       }
     },
     {
-      "tag": "POPVPN 0166 GLOBAL VLESS TLS",
+      "tag": "POPVPN 0160 GLOBAL VLESS TLS",
       "server": "64.176.73.20",
       "server_port": 443,
       "type": "vless",
@@ -3438,7 +3314,7 @@
       }
     },
     {
-      "tag": "POPVPN 0167 GLOBAL VLESS WS",
+      "tag": "POPVPN 0161 GLOBAL VLESS WS",
       "server": "77.72.85.247",
       "server_port": 8443,
       "type": "vless",
@@ -3456,7 +3332,7 @@
       }
     },
     {
-      "tag": "POPVPN 0168 GLOBAL VLESS WS",
+      "tag": "POPVPN 0162 GLOBAL VLESS WS",
       "server": "win-lin-production.up.railway.app",
       "server_port": 443,
       "type": "vless",
@@ -3474,7 +3350,7 @@
       }
     },
     {
-      "tag": "POPVPN 0169 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0163 GLOBAL TROJAN WS",
       "server": "141.193.213.172",
       "server_port": 443,
       "type": "trojan",
@@ -3492,7 +3368,7 @@
       }
     },
     {
-      "tag": "POPVPN 0170 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0164 GLOBAL TROJAN WS",
       "server": "188.114.97.6",
       "server_port": 443,
       "type": "trojan",
@@ -3510,7 +3386,7 @@
       }
     },
     {
-      "tag": "POPVPN 0171 GLOBAL TROJAN WS",
+      "tag": "POPVPN 0165 GLOBAL TROJAN WS",
       "server": "www.speedtest.net",
       "server_port": 443,
       "type": "trojan",
@@ -3528,7 +3404,7 @@
       }
     },
     {
-      "tag": "POPVPN 0172 GLOBAL VLESS TLS",
+      "tag": "POPVPN 0166 GLOBAL VLESS TLS",
       "server": "51.255.166.202",
       "server_port": 443,
       "type": "vless",
@@ -3540,29 +3416,7 @@
       }
     },
     {
-      "tag": "POPVPN 0173 🇺🇸 US VLESS REALITY",
-      "server": "169.40.42.231",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "POPVPN 0174 GLOBAL VMESS TLS",
+      "tag": "POPVPN 0167 GLOBAL VMESS TLS",
       "server": "ir2.fastraytel9880.ir",
       "server_port": 26557,
       "type": "vmess",
@@ -3575,7 +3429,29 @@
       }
     },
     {
-      "tag": "POPVPN 0175 GLOBAL VLESS WS",
+      "tag": "POPVPN 0168 GLOBAL VLESS REALITY",
+      "server": "169.40.42.16",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "POPVPN 0169 GLOBAL VLESS WS",
       "server": "104.18.0.181",
       "server_port": 2082,
       "type": "vless",
@@ -3589,7 +3465,7 @@
       }
     },
     {
-      "tag": "POPVPN 0176 GLOBAL VLESS WS",
+      "tag": "POPVPN 0170 GLOBAL VLESS WS",
       "server": "155.254.60.222",
       "server_port": 80,
       "type": "vless",
@@ -3603,7 +3479,7 @@
       }
     },
     {
-      "tag": "POPVPN 0177 GLOBAL VLESS WS",
+      "tag": "POPVPN 0171 GLOBAL VLESS WS",
       "server": "167.233.96.254",
       "server_port": 1280,
       "type": "vless",
@@ -3617,7 +3493,7 @@
       }
     },
     {
-      "tag": "POPVPN 0178 GLOBAL VLESS WS",
+      "tag": "POPVPN 0172 GLOBAL VLESS WS",
       "server": "172.64.150.28",
       "server_port": 2082,
       "type": "vless",
@@ -3631,7 +3507,7 @@
       }
     },
     {
-      "tag": "POPVPN 0179 GLOBAL VLESS WS",
+      "tag": "POPVPN 0173 GLOBAL VLESS WS",
       "server": "172.67.181.232",
       "server_port": 2052,
       "type": "vless",
@@ -3645,7 +3521,7 @@
       }
     },
     {
-      "tag": "POPVPN 0180 GLOBAL VLESS WS",
+      "tag": "POPVPN 0174 GLOBAL VLESS WS",
       "server": "45.195.69.230",
       "server_port": 80,
       "type": "vless",
@@ -3659,7 +3535,7 @@
       }
     },
     {
-      "tag": "POPVPN 0181 GLOBAL VLESS WS",
+      "tag": "POPVPN 0175 GLOBAL VLESS WS",
       "server": "51.75.118.165",
       "server_port": 20023,
       "type": "vless",
@@ -3673,7 +3549,7 @@
       }
     },
     {
-      "tag": "POPVPN 0182 GLOBAL VLESS WS",
+      "tag": "POPVPN 0176 GLOBAL VLESS WS",
       "server": "psf-3.weedly.top",
       "server_port": 80,
       "type": "vless",
@@ -3687,108 +3563,114 @@
       }
     },
     {
-      "tag": "POPVPN 0183 GLOBAL VLESS XHTTP",
+      "tag": "POPVPN 0177 GLOBAL VLESS XHTTP",
       "server": "s12.nimnewssup.com",
       "server_port": 1022,
       "type": "vless",
       "uuid": "b70df1e7-9d23-4df6-8f7a-41e0a17a6f32"
     },
     {
-      "tag": "POPVPN 0184 GLOBAL VLESS TCP",
+      "tag": "POPVPN 0178 GLOBAL VLESS WS",
+      "server": "uspanel.unixzone.us",
+      "server_port": 30016,
+      "type": "vless",
+      "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+      "transport": {
+        "type": "ws",
+        "path": "/usserver",
+        "headers": {
+          "Host": "uspanel.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0179 GLOBAL VLESS TCP",
       "server": "65.109.176.245",
       "server_port": 2023,
       "type": "vless",
       "uuid": "afd1fb0c-7c51-4c4c-a1ed-07e8493030d2"
     },
     {
-      "tag": "POPVPN 0185 GLOBAL VLESS TCP",
+      "tag": "POPVPN 0180 GLOBAL VLESS TCP",
       "server": "91.107.249.185",
       "server_port": 6065,
       "type": "vless",
       "uuid": "9804f109-f750-4dec-9c3a-091982320501"
     },
     {
-      "tag": "POPVPN 0186 🇬🇧 GB SS AES-256-GCM",
-      "server": "149.102.132.184",
-      "server_port": 80,
-      "type": "shadowsocks",
-      "method": "aes-256-gcm",
-      "password": "g5h5jleTRSyO3Rk4"
-    },
-    {
-      "tag": "POPVPN 0187 🇩🇪 DE SS AES-256-GCM",
-      "server": "149.102.149.207",
-      "server_port": 80,
-      "type": "shadowsocks",
-      "method": "aes-256-gcm",
-      "password": "LXchLsIwtCeUAUgu"
-    },
-    {
-      "tag": "POPVPN 0188 🇬🇧 GB SS AES-256-GCM",
-      "server": "149.102.149.207",
-      "server_port": 443,
-      "type": "shadowsocks",
-      "method": "aes-256-gcm",
-      "password": "LXchLsIwtCeUAUgu"
-    },
-    {
-      "tag": "POPVPN 0189 🇯🇵 JP SS AES-128-GCM",
-      "server": "149.22.87.204",
-      "server_port": 443,
-      "type": "shadowsocks",
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "POPVPN 0190 🇨🇦 CA SS AES-128-GCM",
-      "server": "149.22.95.183",
-      "server_port": 443,
-      "type": "shadowsocks",
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "POPVPN 0191 🇺🇸 US SS AES-256-GCM",
-      "server": "15.204.246.132",
-      "server_port": 7307,
-      "type": "shadowsocks",
-      "method": "aes-256-gcm",
-      "password": "FoOiGlkAA9yPEGP"
-    },
-    {
-      "tag": "POPVPN 0192 🇺🇸 US SS AES-128-GCM",
-      "server": "173.244.56.6",
-      "server_port": 443,
-      "type": "shadowsocks",
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "POPVPN 0193 🇺🇸 US SS AES-128-GCM",
-      "server": "173.244.56.9",
-      "server_port": 443,
-      "type": "shadowsocks",
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "POPVPN 0194 🇺🇸 US SS CHACHA20-IETF-POLY1305",
-      "server": "198.98.53.130",
-      "server_port": 443,
+      "tag": "POPVPN 0181 🇺🇸 US SS CHACHA20-IETF-POLY1305",
+      "server": "108.181.118.10",
+      "server_port": 8388,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
-      "password": "eDfN7SODQceIOmIAbtJJtK"
+      "password": "G5p6ww4o67HB"
     },
     {
-      "tag": "POPVPN 0195 🇺🇸 US SS AES-128-GCM",
-      "server": "37.19.198.160",
+      "tag": "POPVPN 0182 🇩🇪 DE SS AES-256-GCM",
+      "server": "149.102.149.207",
+      "server_port": 80,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "LXchLsIwtCeUAUgu"
+    },
+    {
+      "tag": "POPVPN 0183 🇩🇪 DE SS AES-256-GCM",
+      "server": "149.102.149.207",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "LXchLsIwtCeUAUgu"
+    },
+    {
+      "tag": "POPVPN 0184 🇺🇸 US SS AES-128-GCM",
+      "server": "156.146.38.168",
       "server_port": 443,
       "type": "shadowsocks",
       "method": "aes-128-gcm",
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0196 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0185 🇺🇸 US SS AES-128-GCM",
+      "server": "156.146.38.170",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "POPVPN 0186 🇩🇪 DE SS AES-256-GCM",
+      "server": "2.58.81.221",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "kKEd0rBrd56Furjz"
+    },
+    {
+      "tag": "POPVPN 0187 🇺🇸 US SS AES-128-GCM",
+      "server": "37.19.198.236",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "POPVPN 0188 🇺🇸 US SS AES-128-GCM",
+      "server": "37.19.198.243",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "POPVPN 0189 🇺🇸 US SS AES-128-GCM",
+      "server": "37.19.198.244",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "POPVPN 0190 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
       "server": "51.195.126.38",
       "server_port": 8388,
       "type": "shadowsocks",
@@ -3796,15 +3678,47 @@
       "password": "2YdE4lFOid5a"
     },
     {
-      "tag": "POPVPN 0197 🇳🇱 NL SS CHACHA20-IETF-POLY1305",
-      "server": "82.38.31.149",
+      "tag": "POPVPN 0191 🇺🇸 US SS AES-128-GCM",
+      "server": "64.74.161.147",
+      "server_port": 17200,
+      "type": "shadowsocks",
+      "method": "aes-128-gcm",
+      "password": "1cbb3e347ee86e1980a7c731e9dd00a0"
+    },
+    {
+      "tag": "POPVPN 0192 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
+      "server": "8.209.74.72",
+      "server_port": 20001,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "PWpjPo3tqhPN4yRZ"
+    },
+    {
+      "tag": "POPVPN 0193 🇳🇱 NL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.213",
+      "server_port": 8080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "tag": "POPVPN 0194 🇳🇱 NL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.34",
       "server_port": 8080,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
-      "tag": "POPVPN 0198 GLOBAL VLESS GRPC",
+      "tag": "POPVPN 0195 🇳🇱 NL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.42",
+      "server_port": 8080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "tag": "POPVPN 0196 GLOBAL VLESS GRPC",
       "server": "86.62.52.4",
       "server_port": 2085,
       "type": "vless",
@@ -3815,7 +3729,7 @@
       }
     },
     {
-      "tag": "POPVPN 0199 GLOBAL VLESS WS",
+      "tag": "POPVPN 0197 GLOBAL VLESS WS",
       "server": "130.185.121.69",
       "server_port": 443,
       "type": "vless",
@@ -3826,7 +3740,7 @@
       }
     },
     {
-      "tag": "POPVPN 0200 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0198 GLOBAL SS AES-256-GCM",
       "server": "15.204.233.41",
       "server_port": 8882,
       "type": "shadowsocks",
@@ -3834,15 +3748,7 @@
       "password": "kDWvXYZoTBcGkC4"
     },
     {
-      "tag": "POPVPN 0201 GLOBAL SS AES-256-GCM",
-      "server": "15.204.246.107",
-      "server_port": 8888,
-      "type": "shadowsocks",
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "tag": "POPVPN 0202 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0199 GLOBAL SS AES-128-GCM",
       "server": "156.146.38.167",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3850,7 +3756,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0203 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0200 GLOBAL SS AES-128-GCM",
       "server": "156.146.38.169",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3858,7 +3764,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0204 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0201 GLOBAL SS AES-128-GCM",
       "server": "158.173.20.208",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3866,7 +3772,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0205 GLOBAL SS NONE",
+      "tag": "POPVPN 0202 GLOBAL SS NONE",
       "server": "185.188.104.10",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3874,7 +3780,7 @@
       "password": "RSzEIkk2EsHEAVj15N5E/A=="
     },
     {
-      "tag": "POPVPN 0206 GLOBAL SS NONE",
+      "tag": "POPVPN 0203 GLOBAL SS NONE",
       "server": "185.188.104.11",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3882,7 +3788,7 @@
       "password": "RSzEIkk2EsHEAVj15N5E/A=="
     },
     {
-      "tag": "POPVPN 0207 GLOBAL SS NONE",
+      "tag": "POPVPN 0204 GLOBAL SS NONE",
       "server": "185.188.104.12",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3890,7 +3796,7 @@
       "password": "RSzEIkk2EsHEAVj15N5E/A=="
     },
     {
-      "tag": "POPVPN 0208 GLOBAL SS NONE",
+      "tag": "POPVPN 0205 GLOBAL SS NONE",
       "server": "185.188.105.11",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3898,7 +3804,7 @@
       "password": "RSzEIkk2EsHEAVj15N5E/A=="
     },
     {
-      "tag": "POPVPN 0209 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0206 GLOBAL SS AES-128-GCM",
       "server": "185.212.171.202",
       "server_port": 18670,
       "type": "shadowsocks",
@@ -3906,7 +3812,7 @@
       "password": "59ded1591b0b45f0b1e9361334c0f7d9"
     },
     {
-      "tag": "POPVPN 0210 GLOBAL SS NONE",
+      "tag": "POPVPN 0207 GLOBAL SS NONE",
       "server": "188.239.21.47",
       "server_port": 8443,
       "type": "shadowsocks",
@@ -3914,7 +3820,7 @@
       "password": "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
     },
     {
-      "tag": "POPVPN 0211 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0208 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "193.29.139.147",
       "server_port": 8080,
       "type": "shadowsocks",
@@ -3922,7 +3828,7 @@
       "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
-      "tag": "POPVPN 0212 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0209 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "193.29.139.168",
       "server_port": 8080,
       "type": "shadowsocks",
@@ -3930,7 +3836,7 @@
       "password": "QCXDxuDlTTMD7jtgHUjIoj"
     },
     {
-      "tag": "POPVPN 0213 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0210 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "193.29.139.197",
       "server_port": 8080,
       "type": "shadowsocks",
@@ -3938,7 +3844,7 @@
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
-      "tag": "POPVPN 0214 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0211 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "193.29.139.212",
       "server_port": 8080,
       "type": "shadowsocks",
@@ -3946,7 +3852,23 @@
       "password": "QCXDxuDlTTMD7jtgHUjIoj"
     },
     {
-      "tag": "POPVPN 0215 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0212 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "193.29.139.234",
+      "server_port": 8080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "4a2rfixophdjffa8KVA4Aa"
+    },
+    {
+      "tag": "POPVPN 0213 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "198.98.53.130",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
+    },
+    {
+      "tag": "POPVPN 0214 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "20.101.46.229",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3954,7 +3876,7 @@
       "password": "y7KeRTzmH0vXT2kp"
     },
     {
-      "tag": "POPVPN 0216 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0215 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "20.164.212.146",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3962,7 +3884,7 @@
       "password": "e6UqAb4130ycM7qM"
     },
     {
-      "tag": "POPVPN 0217 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0216 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "20.223.236.165",
       "server_port": 443,
       "type": "shadowsocks",
@@ -3970,7 +3892,7 @@
       "password": "CNL3mxdfZKiPKizL"
     },
     {
-      "tag": "POPVPN 0218 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0217 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "31.56.196.126",
       "server_port": 1080,
       "type": "shadowsocks",
@@ -3978,7 +3900,7 @@
       "password": "0M6yQu2T8AmZGfJikjM15ua5FO6BEoKD"
     },
     {
-      "tag": "POPVPN 0219 GLOBAL SS 2022-BLAKE3-AES-256-GCM",
+      "tag": "POPVPN 0218 GLOBAL SS 2022-BLAKE3-AES-256-GCM",
       "server": "31.57.185.253",
       "server_port": 49143,
       "type": "shadowsocks",
@@ -3986,7 +3908,7 @@
       "password": "U0CNvKnt8lVDd+vt9pTJ8bcyZwC1BFNZFzofM+l6eDA=:SQlBCHM9Ug6aCRE6XIykIzIjKl40eV2nh0rvP99U/po="
     },
     {
-      "tag": "POPVPN 0220 GLOBAL SS NONE",
+      "tag": "POPVPN 0219 GLOBAL SS NONE",
       "server": "47.250.212.59",
       "server_port": 2053,
       "type": "shadowsocks",
@@ -3994,12 +3916,20 @@
       "password": "59fc5f8c-5697-4eb8-acf2-8ae363f203a2"
     },
     {
-      "tag": "POPVPN 0221 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0220 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "5.78.51.123",
       "server_port": 1080,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
       "password": "8tmnvX5zYuWGVIDP2jglZw"
+    },
+    {
+      "tag": "POPVPN 0221 GLOBAL SS 2022-BLAKE3-AES-256-GCM",
+      "server": "51.222.107.43",
+      "server_port": 2083,
+      "type": "shadowsocks",
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:HWFFJN19JkvbTKo/79AfnbRBK9uHUUaFNZJyLjEoJGs="
     },
     {
       "tag": "POPVPN 0222 GLOBAL SS AES-256-GCM",
@@ -4011,22 +3941,6 @@
     },
     {
       "tag": "POPVPN 0223 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "51.255.13.232",
-      "server_port": 8388,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "BqnqToih0PbU"
-    },
-    {
-      "tag": "POPVPN 0224 GLOBAL SS 2022-BLAKE3-AES-256-GCM",
-      "server": "51.38.71.51",
-      "server_port": 2083,
-      "type": "shadowsocks",
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
-    },
-    {
-      "tag": "POPVPN 0225 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "51.77.225.200",
       "server_port": 8388,
       "type": "shadowsocks",
@@ -4034,7 +3948,7 @@
       "password": "zRZNBszYyWo5"
     },
     {
-      "tag": "POPVPN 0226 GLOBAL SS NONE",
+      "tag": "POPVPN 0224 GLOBAL SS NONE",
       "server": "58.151.107.230",
       "server_port": 14000,
       "type": "shadowsocks",
@@ -4042,15 +3956,7 @@
       "password": "59fc5f8c-5697-4eb8-acf2-8ae363f203a2"
     },
     {
-      "tag": "POPVPN 0227 GLOBAL SS AES-128-GCM",
-      "server": "64.74.163.69",
-      "server_port": 18766,
-      "type": "shadowsocks",
-      "method": "aes-128-gcm",
-      "password": "4efe1af272e7292139b889f6a63ee071"
-    },
-    {
-      "tag": "POPVPN 0228 GLOBAL SS NONE",
+      "tag": "POPVPN 0225 GLOBAL SS NONE",
       "server": "69.84.182.16",
       "server_port": 443,
       "type": "shadowsocks",
@@ -4058,15 +3964,31 @@
       "password": "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
     },
     {
-      "tag": "POPVPN 0229 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "82.38.31.162",
+      "tag": "POPVPN 0226 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.155",
+      "server_port": 8080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "tag": "POPVPN 0227 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.156",
+      "server_port": 8080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "tag": "POPVPN 0228 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.159",
       "server_port": 443,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
-      "tag": "POPVPN 0230 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0229 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "82.38.31.17",
       "server_port": 8080,
       "type": "shadowsocks",
@@ -4074,8 +3996,16 @@
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
+      "tag": "POPVPN 0230 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.176",
+      "server_port": 8080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
       "tag": "POPVPN 0231 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "82.38.31.191",
+      "server": "82.38.31.193",
       "server_port": 8080,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
@@ -4083,7 +4013,7 @@
     },
     {
       "tag": "POPVPN 0232 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "82.38.31.192",
+      "server": "82.38.31.199",
       "server_port": 8080,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
@@ -4091,7 +4021,7 @@
     },
     {
       "tag": "POPVPN 0233 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "82.38.31.205",
+      "server": "82.38.31.212",
       "server_port": 8080,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
@@ -4099,7 +4029,7 @@
     },
     {
       "tag": "POPVPN 0234 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "82.38.31.66",
+      "server": "82.38.31.35",
       "server_port": 8080,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
@@ -4107,6 +4037,30 @@
     },
     {
       "tag": "POPVPN 0235 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.62",
+      "server_port": 8080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "tag": "POPVPN 0236 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.66",
+      "server_port": 8080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "tag": "POPVPN 0237 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "82.38.31.7",
+      "server_port": 8080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "tag": "POPVPN 0238 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "89.167.109.177",
       "server_port": 888,
       "type": "shadowsocks",
@@ -4114,7 +4068,7 @@
       "password": "oFFaDyWYm6C-fk6wGQ82Gg"
     },
     {
-      "tag": "POPVPN 0236 GLOBAL SS NONE",
+      "tag": "POPVPN 0239 GLOBAL SS NONE",
       "server": "94.159.102.107",
       "server_port": 8443,
       "type": "shadowsocks",
@@ -4122,7 +4076,7 @@
       "password": "3e96ef7d-8637-42c2-ac73-75182196e755"
     },
     {
-      "tag": "POPVPN 0237 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0240 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "c3.nastuh.link",
       "server_port": 443,
       "type": "shadowsocks",
@@ -4130,7 +4084,7 @@
       "password": "y7KeRTzmH0vXT2kp"
     },
     {
-      "tag": "POPVPN 0238 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0241 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "p1tun2.greewebservices.ir",
       "server_port": 2060,
       "type": "shadowsocks",
@@ -4138,7 +4092,7 @@
       "password": "aW4KvGdoS8ldtmRCS58iHg"
     },
     {
-      "tag": "POPVPN 0239 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0242 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "p2tun1.greewebservices.ir",
       "server_port": 1010,
       "type": "shadowsocks",
@@ -4146,7 +4100,7 @@
       "password": "ueWtfPaGavAj6Pc-suQgBg"
     },
     {
-      "tag": "POPVPN 0240 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0243 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "p2tun2.greewebservices.ir",
       "server_port": 1020,
       "type": "shadowsocks",
@@ -4154,7 +4108,7 @@
       "password": "ueWtfPaGavAj6Pc-suQgBg"
     },
     {
-      "tag": "POPVPN 0241 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0244 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "p2tun3.greewebservices.ir",
       "server_port": 1030,
       "type": "shadowsocks",
@@ -4162,7 +4116,7 @@
       "password": "XPjTkv8alWK_UQdMpznwPg"
     },
     {
-      "tag": "POPVPN 0242 GLOBAL VMESS NONE",
+      "tag": "POPVPN 0245 GLOBAL VMESS NONE",
       "server": "65.109.186.55",
       "server_port": 8080,
       "type": "vmess",
@@ -4171,7 +4125,7 @@
       "alter_id": 0
     },
     {
-      "tag": "POPVPN 0243 GLOBAL VMESS NONE",
+      "tag": "POPVPN 0246 GLOBAL VMESS NONE",
       "server": "fertest3.povrak.ir",
       "server_port": 55277,
       "type": "vmess",
@@ -4202,7 +4156,7 @@
   },
   "_meta": {
     "title": "POPVPN X",
-    "generated_at": "2026-10-09 09:15:19 UTC",
-    "count": 243
+    "generated_at": "2026-10-09 16:20:43 UTC",
+    "count": 246
   }
 }
