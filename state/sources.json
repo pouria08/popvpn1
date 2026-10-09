@@ -40,30 +40,30 @@
       "successes": 11
     },
     "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt": {
-      "attempts": 13,
-      "avg_ms": 137,
+      "attempts": 14,
+      "avg_ms": 144,
       "fail_streak": 0,
-      "last_configs": 59,
+      "last_configs": 57,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1791497327,
-      "last_status": 304,
+      "last_ok_at": 1791512084,
+      "last_status": 200,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 13
+      "successes": 14
     },
     "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt": {
-      "attempts": 21,
-      "avg_ms": 233,
+      "attempts": 22,
+      "avg_ms": 222,
       "fail_streak": 0,
       "last_configs": 229,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1791497327,
-      "last_status": 200,
+      "last_ok_at": 1791512084,
+      "last_status": 304,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 21
+      "successes": 22
     },
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt": {
       "attempts": 13,
@@ -222,5 +222,5 @@
       "successes": 57
     }
   },
-  "updated_at": 1791497327
+  "updated_at": 1791512084
 }
