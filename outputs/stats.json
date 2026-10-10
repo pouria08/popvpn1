@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-10 01:47:08 UTC",
+  "generated_at": "2026-10-10 08:35:14 UTC",
   "version": "2.0.0",
-  "duration_ms": 246,
-  "total": 247,
-  "unique": 247,
-  "parsed": 313,
-  "raw_lines": 322,
-  "duplicates": 66,
-  "invalid": 9,
+  "duration_ms": 198,
+  "total": 211,
+  "unique": 211,
+  "parsed": 258,
+  "raw_lines": 265,
+  "duplicates": 47,
+  "invalid": 7,
   "by_protocol": {
-    "vless": 191,
-    "trojan": 14,
+    "vless": 151,
+    "trojan": 15,
     "hy2": 2,
-    "ss": 37,
+    "ss": 40,
     "vmess": 3
   },
   "by_country": [
@@ -21,35 +21,42 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 228
+      "count": 185
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 9
+      "count": 16
     },
     {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
       "region": "EU",
       "count": 4
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "region": "AS",
+      "count": 2
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 2
+      "count": 1
     },
     {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
       "region": "EU",
-      "count": 2
+      "count": 1
     },
     {
       "code": "FI",
@@ -59,14 +66,14 @@
       "count": 1
     },
     {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
       "region": "EU",
       "count": 1
     }
   ],
-  "country_count": 7,
+  "country_count": 8,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -77,10 +84,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
-      "last_configs": 57,
+      "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 110,
+      "elapsed_ms": 104,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -88,17 +95,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 256,
+      "last_configs": 199,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 189,
+      "elapsed_ms": 159,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 256
+    "raw.githubusercontent.com": 199
   },
   "cache": {
     "enabled": true,
@@ -119,7 +126,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 247,
+    "kept": 211,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -129,5 +136,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 274
+  "previous_total": 247
 }
