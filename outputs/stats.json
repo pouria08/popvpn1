@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-10 15:25:32 UTC",
+  "generated_at": "2026-10-10 20:07:50 UTC",
   "version": "2.0.0",
-  "duration_ms": 313,
-  "total": 209,
-  "unique": 209,
-  "parsed": 256,
-  "raw_lines": 265,
-  "duplicates": 47,
-  "invalid": 9,
+  "duration_ms": 126,
+  "total": 238,
+  "unique": 238,
+  "parsed": 291,
+  "raw_lines": 298,
+  "duplicates": 53,
+  "invalid": 7,
   "by_protocol": {
-    "vless": 150,
+    "vless": 177,
     "trojan": 12,
     "hy2": 2,
     "ss": 42,
-    "vmess": 3
+    "vmess": 5
   },
   "by_country": [
     {
@@ -21,7 +21,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 187
+      "count": 216
     },
     {
       "code": "US",
@@ -72,8 +72,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 57,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 150,
+      "from_cache": true,
+      "elapsed_ms": 55,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -81,17 +81,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 199,
+      "last_configs": 234,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 201,
+      "from_cache": false,
+      "elapsed_ms": 95,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 199
+    "raw.githubusercontent.com": 234
   },
   "cache": {
     "enabled": true,
@@ -112,16 +112,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 209,
+    "kept": 238,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 5,
+      "unknown-network": 7,
       "allow-insecure": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 211
+  "previous_total": 209
 }

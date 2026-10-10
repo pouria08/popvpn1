@@ -1,23 +1,23 @@
 ==============================================================
   POPVPN X — subscription statistics
 ==============================================================
-  generated      : 2026-10-10 15:25:32 UTC
-  run duration   : 313 ms
-  total configs  : 209
-  unique configs : 209
-  duplicates     : 47
-  invalid lines  : 9
+  generated      : 2026-10-10 20:07:50 UTC
+  run duration   : 126 ms
+  total configs  : 238
+  unique configs : 238
+  duplicates     : 53
+  invalid lines  : 7
 
   per protocol:
-    VLESS        150
+    VLESS        177
     SS           42
     TROJAN       12
-    VMESS        3
+    VMESS        5
     HY2          2
 
   countries      : 6
   top countries :
-    🏳️ ? Unknown              187
+    🏳️ ? Unknown              216
     🇺🇸 US United States        9
     🇳🇱 NL Netherlands          7
     🇩🇪 DE Germany              3
