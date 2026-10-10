@@ -2,11 +2,12 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#POPVPN 0001 🇺🇸 US VLESS REALITY
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHNXA2d3c0bzY3SEI=@108.181.118.10:8388#POPVPN 0206 🇺🇸 US SS CHACHA20-IETF-POLY1305
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.168:443#POPVPN 0209 🇺🇸 US SS AES-128-GCM
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.170:443#POPVPN 0210 🇺🇸 US SS AES-128-GCM
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.163:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#POPVPN 0001 🇺🇸 US VLESS REALITY
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.235:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#POPVPN 0005 🇺🇸 US VLESS REALITY
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#POPVPN 0006 🇺🇸 US VLESS REALITY
+vless://1e405815-4c78-4967-8f07-1e73270056ae@188.114.97.6:443?encryption=none&security=tls&type=xhttp&host=kosnaneaakhund.kirpeople2sepahkosnaneh.com&path=%2Fapi%2Fv2%2Fcdn&mode=auto&sni=kosnaneaakhund.kirpeople2sepahkosnaneh.com&alpn=h2&fp=chrome&ech=cloudflare-ech.com%2Budp%3A%2F%2F1.1.1.1&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&x_padding_bytes=100-1000#POPVPN 0044 🇺🇸 US VLESS XHTTP
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSU281MlNieFc0MHI=@108.181.57.93:8388#POPVPN 0205 🇺🇸 US SS CHACHA20-IETF-POLY1305
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoQ0NXT2NJc0s1d3JGejRPWDcwcldm@216.105.168.18:443#POPVPN 0211 🇺🇸 US SS CHACHA20-IETF-POLY1305
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.236:443#POPVPN 0212 🇺🇸 US SS AES-128-GCM
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.243:443#POPVPN 0213 🇺🇸 US SS AES-128-GCM
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.244:443#POPVPN 0214 🇺🇸 US SS AES-128-GCM
-ss://YWVzLTEyOC1nY206MWNiYjNlMzQ3ZWU4NmUxOTgwYTdjNzMxZTlkZDAwYTA@64.74.161.147:17200#POPVPN 0216 🇺🇸 US SS AES-128-GCM
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.244:443#POPVPN 0213 🇺🇸 US SS AES-128-GCM
+ss://YWVzLTEyOC1nY206ODlkM2EwMzc1YTI3OWY2ZTc0M2ZlYTc2ZTcyOTUyYTg@66.23.204.214:16999#POPVPN 0216 🇺🇸 US SS AES-128-GCM
