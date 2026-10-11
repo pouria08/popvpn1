@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-11 05:55:14 UTC",
+  "generated_at": "2026-10-11 12:59:12 UTC",
   "version": "2.0.0",
-  "duration_ms": 203,
-  "total": 244,
-  "unique": 244,
-  "parsed": 305,
+  "duration_ms": 350,
+  "total": 251,
+  "unique": 251,
+  "parsed": 304,
   "raw_lines": 309,
-  "duplicates": 61,
-  "invalid": 4,
+  "duplicates": 53,
+  "invalid": 5,
   "by_protocol": {
-    "vless": 191,
-    "trojan": 14,
+    "vless": 192,
+    "trojan": 16,
     "hy2": 3,
-    "ss": 30,
+    "ss": 34,
     "vmess": 6
   },
   "by_country": [
@@ -21,31 +21,45 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 234
+      "count": 228
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 6
+      "count": 15
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 2
+      "count": 5
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 2
+      "count": 1
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "region": "AS",
+      "count": 1
     }
   ],
-  "country_count": 4,
+  "country_count": 6,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -56,10 +70,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
-      "last_configs": 58,
+      "last_configs": 57,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 156,
+      "from_cache": false,
+      "elapsed_ms": 308,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -69,8 +83,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 247,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 150,
+      "from_cache": true,
+      "elapsed_ms": 211,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -98,15 +112,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 244,
+    "kept": 251,
     "dropped": 0,
-    "insecure": 0,
+    "insecure": 1,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 9
+      "unknown-network": 9,
+      "allow-insecure": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 234
+  "previous_total": 244
 }
