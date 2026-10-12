@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-12 01:22:51 UTC",
+  "generated_at": "2026-10-12 09:20:03 UTC",
   "version": "2.0.0",
-  "duration_ms": 154,
-  "total": 267,
-  "unique": 267,
-  "parsed": 335,
-  "raw_lines": 339,
-  "duplicates": 68,
-  "invalid": 4,
+  "duration_ms": 180,
+  "total": 246,
+  "unique": 246,
+  "parsed": 301,
+  "raw_lines": 304,
+  "duplicates": 55,
+  "invalid": 3,
   "by_protocol": {
-    "vless": 204,
-    "trojan": 15,
-    "hy2": 2,
-    "ss": 40,
+    "vless": 182,
+    "trojan": 18,
+    "hy2": 1,
+    "ss": 39,
     "vmess": 5,
     "wireguard": 1
   },
@@ -22,14 +22,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 247
+      "count": 224
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 12
+      "count": 13
     },
     {
       "code": "CA",
@@ -44,9 +44,16 @@
       "flag": "🇩🇪",
       "region": "EU",
       "count": 1
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "region": "EU",
+      "count": 1
     }
   ],
-  "country_count": 4,
+  "country_count": 5,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -60,7 +67,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 52,
+      "elapsed_ms": 113,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -68,17 +75,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 276,
+      "last_configs": 242,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 104,
+      "elapsed_ms": 139,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 276
+    "raw.githubusercontent.com": 242
   },
   "cache": {
     "enabled": true,
@@ -99,16 +106,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 267,
+    "kept": 246,
     "dropped": 0,
     "insecure": 2,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 8,
+      "unknown-network": 7,
       "allow-insecure": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 263
+  "previous_total": 267
 }
