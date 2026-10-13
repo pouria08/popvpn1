@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-13 17:37:56 UTC",
+  "generated_at": "2026-10-13 22:50:59 UTC",
   "version": "2.0.0",
-  "duration_ms": 196,
-  "total": 236,
-  "unique": 236,
-  "parsed": 307,
-  "raw_lines": 315,
-  "duplicates": 71,
+  "duration_ms": 171,
+  "total": 252,
+  "unique": 252,
+  "parsed": 313,
+  "raw_lines": 321,
+  "duplicates": 61,
   "invalid": 8,
   "by_protocol": {
-    "vless": 184,
-    "trojan": 14,
+    "vless": 193,
+    "trojan": 21,
     "hy2": 1,
-    "ss": 31,
-    "vmess": 5,
+    "ss": 30,
+    "vmess": 6,
     "wireguard": 1
   },
   "by_country": [
@@ -22,7 +22,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 214
+      "count": 230
     },
     {
       "code": "US",
@@ -66,8 +66,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 57,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 117,
+      "from_cache": true,
+      "elapsed_ms": 47,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -75,17 +75,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 250,
+      "last_configs": 256,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 148,
+      "elapsed_ms": 123,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 250
+    "raw.githubusercontent.com": 256
   },
   "cache": {
     "enabled": true,
@@ -106,14 +106,14 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 236,
+    "kept": 252,
     "dropped": 0,
-    "insecure": 2,
+    "insecure": 3,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 7,
-      "allow-insecure": 2
+      "unknown-network": 8,
+      "allow-insecure": 3
     },
     "dropped_reasons": {}
   },
