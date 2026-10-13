@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-13 09:30:04 UTC",
+  "generated_at": "2026-10-13 17:37:56 UTC",
   "version": "2.0.0",
-  "duration_ms": 430,
+  "duration_ms": 196,
   "total": 236,
   "unique": 236,
-  "parsed": 295,
-  "raw_lines": 302,
-  "duplicates": 59,
-  "invalid": 7,
+  "parsed": 307,
+  "raw_lines": 315,
+  "duplicates": 71,
+  "invalid": 8,
   "by_protocol": {
-    "vless": 172,
-    "trojan": 13,
+    "vless": 184,
+    "trojan": 14,
     "hy2": 1,
-    "ss": 46,
-    "vmess": 3,
+    "ss": 31,
+    "vmess": 5,
     "wireguard": 1
   },
   "by_country": [
@@ -29,38 +29,31 @@
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 10
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 4
+      "count": 11
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 3
+      "count": 9
     },
     {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "region": "AS",
-      "count": 3
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
       "region": "EU",
-      "count": 2
+      "count": 1
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "region": "EU",
+      "count": 1
     }
   ],
-  "country_count": 6,
+  "country_count": 5,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -73,8 +66,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 57,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 354,
+      "from_cache": false,
+      "elapsed_ms": 117,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -82,17 +75,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 238,
+      "last_configs": 250,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 379,
+      "from_cache": false,
+      "elapsed_ms": 148,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 238
+    "raw.githubusercontent.com": 250
   },
   "cache": {
     "enabled": true,
@@ -115,12 +108,12 @@
   "audit": {
     "kept": 236,
     "dropped": 0,
-    "insecure": 4,
+    "insecure": 2,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 5,
-      "allow-insecure": 4
+      "unknown-network": 7,
+      "allow-insecure": 2
     },
     "dropped_reasons": {}
   },
