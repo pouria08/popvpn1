@@ -108,6 +108,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 46,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 306,
+    "avg_ms": 180,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
     "name": "barry-vmess",
     "attempts": 12,
@@ -115,18 +127,6 @@
     "fail_streak": 0,
     "last_configs": 296,
     "avg_ms": 232,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 45,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 244,
-    "avg_ms": 190,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -182,11 +182,11 @@
   {
     "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 37,
+    "attempts": 38,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 58,
-    "avg_ms": 138,
+    "avg_ms": 147,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
