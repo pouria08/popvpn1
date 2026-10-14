@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-14 07:43:26 UTC",
+  "generated_at": "2026-10-14 13:47:35 UTC",
   "version": "2.0.0",
-  "duration_ms": 201,
-  "total": 240,
-  "unique": 240,
-  "parsed": 287,
-  "raw_lines": 293,
-  "duplicates": 47,
-  "invalid": 6,
+  "duration_ms": 182,
+  "total": 225,
+  "unique": 225,
+  "parsed": 279,
+  "raw_lines": 286,
+  "duplicates": 54,
+  "invalid": 7,
   "by_protocol": {
-    "vless": 176,
-    "trojan": 25,
+    "vless": 173,
+    "trojan": 22,
     "hy2": 1,
-    "ss": 32,
+    "ss": 23,
     "vmess": 6
   },
   "by_country": [
@@ -21,21 +21,21 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 216
-    },
-    {
-      "code": "US",
-      "name": "United States",
-      "flag": "🇺🇸",
-      "region": "NA",
-      "count": 12
+      "count": 209
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 8
+      "count": 6
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "region": "NA",
+      "count": 5
     },
     {
       "code": "DE",
@@ -50,9 +50,16 @@
       "flag": "🇫🇷",
       "region": "EU",
       "count": 1
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "EU",
+      "count": 1
     }
   ],
-  "country_count": 5,
+  "country_count": 6,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -63,10 +70,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
-      "last_configs": 59,
+      "last_configs": 58,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 68,
+      "elapsed_ms": 58,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -74,17 +81,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 228,
+      "last_configs": 221,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 157,
+      "elapsed_ms": 136,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 228
+    "raw.githubusercontent.com": 221
   },
   "cache": {
     "enabled": true,
@@ -105,16 +112,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 240,
+    "kept": 225,
     "dropped": 0,
-    "insecure": 2,
+    "insecure": 1,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
       "unknown-network": 7,
-      "allow-insecure": 2
+      "allow-insecure": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 261
+  "previous_total": 240
 }
