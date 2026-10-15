@@ -166,21 +166,21 @@ https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/globa
 
 <!-- POPVPN:STATS:START -->
 
-![Total](https://img.shields.io/badge/CONFIGS-286-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-227-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-7-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-27-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-24-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-2%2F2-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-5-eab308?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-214-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-174-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-5-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-21-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-13-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-2%2F2-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-5-eab308?style=flat-square)
 
-**Last update:** `2026-10-14 22:20:29 UTC` · **286 configs** (+41 vs previous run)
+**Last update:** `2026-10-15 01:31:54 UTC` · **214 configs** (-72 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
-| VLESS | 227 | 79.4% |
-| TROJAN | 27 | 9.4% |
-| SS | 24 | 8.4% |
-| VMESS | 7 | 2.4% |
-| HY2 | 1 | 0.3% |
+| VLESS | 174 | 81.3% |
+| TROJAN | 21 | 9.8% |
+| SS | 13 | 6.1% |
+| VMESS | 5 | 2.3% |
+| HY2 | 1 | 0.5% |
 
 | Top countries | Configs |
 | --- | ---: |
-| 🏳️ GLOBAL / Unknown | 269 |
+| 🏳️ GLOBAL / Unknown | 197 |
 | 🇺🇸 United States | 8 |
 | 🇨🇦 Canada | 7 |
 | 🇩🇪 Germany | 1 |
@@ -189,11 +189,11 @@ https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/globa
 <details><summary><b>Pipeline health</b></summary>
 
 - sources: **2/2** ok, 0 failed, 0 auto-paused
-- duplicates removed: **78**
-- invalid lines skipped: **8**
+- duplicates removed: **65**
+- invalid lines skipped: **6**
 - HTTP cache hit rate: **0%**
 - security flags: **2** insecure, **0** private hosts
-- run duration: **337 ms**
+- run duration: **171 ms**
 
 </details>
 
@@ -202,7 +202,7 @@ https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/globa
 <details><summary><b>🌍 همهٔ لینک‌های کشورها در آخرین اجرا — Copyable</b></summary>
 
 ```text
-🏳️ GLOBAL / Unknown (269): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
+🏳️ GLOBAL / Unknown (197): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
 🇺🇸 United States (8): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
 🇨🇦 Canada (7): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ca.txt
 🇩🇪 Germany (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/de.txt

@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-14 22:20:29 UTC",
+  "generated_at": "2026-10-15 01:31:54 UTC",
   "version": "2.0.0",
-  "duration_ms": 337,
-  "total": 286,
-  "unique": 286,
-  "parsed": 364,
-  "raw_lines": 372,
-  "duplicates": 78,
-  "invalid": 8,
+  "duration_ms": 171,
+  "total": 214,
+  "unique": 214,
+  "parsed": 279,
+  "raw_lines": 285,
+  "duplicates": 65,
+  "invalid": 6,
   "by_protocol": {
-    "vless": 227,
-    "trojan": 27,
+    "vless": 174,
+    "trojan": 21,
     "hy2": 1,
-    "ss": 24,
-    "vmess": 7
+    "ss": 13,
+    "vmess": 5
   },
   "by_country": [
     {
@@ -21,7 +21,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 269
+      "count": 197
     },
     {
       "code": "US",
@@ -65,8 +65,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 58,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 161,
+      "from_cache": true,
+      "elapsed_ms": 111,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -74,17 +74,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 306,
+      "last_configs": 221,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 167,
+      "elapsed_ms": 118,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 306
+    "raw.githubusercontent.com": 221
   },
   "cache": {
     "enabled": true,
@@ -105,16 +105,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 286,
+    "kept": 214,
     "dropped": 0,
     "insecure": 2,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 7,
+      "unknown-network": 5,
       "allow-insecure": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 245
+  "previous_total": 286
 }
