@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-15 01:31:54 UTC",
+  "generated_at": "2026-10-15 07:31:15 UTC",
   "version": "2.0.0",
-  "duration_ms": 171,
-  "total": 214,
-  "unique": 214,
-  "parsed": 279,
-  "raw_lines": 285,
-  "duplicates": 65,
-  "invalid": 6,
+  "duration_ms": 414,
+  "total": 199,
+  "unique": 199,
+  "parsed": 261,
+  "raw_lines": 266,
+  "duplicates": 62,
+  "invalid": 5,
   "by_protocol": {
-    "vless": 174,
-    "trojan": 21,
+    "vless": 155,
+    "trojan": 22,
     "hy2": 1,
-    "ss": 13,
+    "ss": 16,
     "vmess": 5
   },
   "by_country": [
@@ -21,14 +21,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 197
-    },
-    {
-      "code": "US",
-      "name": "United States",
-      "flag": "🇺🇸",
-      "region": "NA",
-      "count": 8
+      "count": 185
     },
     {
       "code": "CA",
@@ -38,21 +31,14 @@
       "count": 7
     },
     {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
-      "count": 1
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "region": "NA",
+      "count": 7
     }
   ],
-  "country_count": 5,
+  "country_count": 3,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -63,10 +49,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
-      "last_configs": 58,
+      "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 111,
+      "from_cache": false,
+      "elapsed_ms": 375,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -74,17 +60,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 221,
+      "last_configs": 202,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 118,
+      "elapsed_ms": 381,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 221
+    "raw.githubusercontent.com": 202
   },
   "cache": {
     "enabled": true,
@@ -105,16 +91,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 214,
+    "kept": 199,
     "dropped": 0,
-    "insecure": 2,
+    "insecure": 1,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
       "unknown-network": 5,
-      "allow-insecure": 2
+      "allow-insecure": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 286
+  "previous_total": 214
 }
