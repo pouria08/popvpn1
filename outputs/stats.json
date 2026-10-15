@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-15 18:20:57 UTC",
+  "generated_at": "2026-10-15 22:24:31 UTC",
   "version": "2.0.0",
-  "duration_ms": 395,
-  "total": 234,
-  "unique": 234,
-  "parsed": 301,
-  "raw_lines": 305,
-  "duplicates": 67,
-  "invalid": 4,
+  "duration_ms": 322,
+  "total": 250,
+  "unique": 250,
+  "parsed": 311,
+  "raw_lines": 316,
+  "duplicates": 61,
+  "invalid": 5,
   "by_protocol": {
-    "vless": 182,
-    "trojan": 19,
+    "vless": 195,
+    "trojan": 21,
     "hy2": 1,
-    "ss": 25,
+    "ss": 26,
     "vmess": 7
   },
   "by_country": [
@@ -21,7 +21,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 217
+      "count": 231
     },
     {
       "code": "CA",
@@ -35,14 +35,14 @@
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 5
+      "count": 6
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 1
+      "count": 2
     },
     {
       "code": "FR",
@@ -70,10 +70,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
-      "last_configs": 59,
+      "last_configs": 58,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 297,
+      "elapsed_ms": 179,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -81,17 +81,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 242,
+      "last_configs": 253,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 344,
+      "elapsed_ms": 291,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 242
+    "raw.githubusercontent.com": 253
   },
   "cache": {
     "enabled": true,
@@ -112,16 +112,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 234,
+    "kept": 250,
     "dropped": 0,
-    "insecure": 1,
+    "insecure": 2,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
       "unknown-network": 7,
-      "allow-insecure": 1
+      "allow-insecure": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 202
+  "previous_total": 234
 }
