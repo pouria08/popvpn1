@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-15 22:24:31 UTC",
+  "generated_at": "2026-10-16 01:26:11 UTC",
   "version": "2.0.0",
-  "duration_ms": 322,
-  "total": 250,
-  "unique": 250,
-  "parsed": 311,
-  "raw_lines": 316,
-  "duplicates": 61,
-  "invalid": 5,
+  "duration_ms": 302,
+  "total": 217,
+  "unique": 217,
+  "parsed": 272,
+  "raw_lines": 276,
+  "duplicates": 55,
+  "invalid": 4,
   "by_protocol": {
-    "vless": 195,
-    "trojan": 21,
+    "vless": 169,
+    "trojan": 18,
     "hy2": 1,
-    "ss": 26,
-    "vmess": 7
+    "ss": 23,
+    "vmess": 6
   },
   "by_country": [
     {
@@ -21,7 +21,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 231
+      "count": 198
     },
     {
       "code": "CA",
@@ -72,8 +72,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 58,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 179,
+      "from_cache": true,
+      "elapsed_ms": 165,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -81,17 +81,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 253,
+      "last_configs": 214,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 291,
+      "elapsed_ms": 278,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 253
+    "raw.githubusercontent.com": 214
   },
   "cache": {
     "enabled": true,
@@ -112,16 +112,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 250,
+    "kept": 217,
     "dropped": 0,
-    "insecure": 2,
+    "insecure": 1,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 7,
-      "allow-insecure": 2
+      "unknown-network": 6,
+      "allow-insecure": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 234
+  "previous_total": 250
 }
