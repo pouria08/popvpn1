@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-17 17:17:36 UTC",
+  "generated_at": "2026-10-17 20:40:46 UTC",
   "version": "2.0.0",
-  "duration_ms": 197,
-  "total": 247,
-  "unique": 247,
-  "parsed": 290,
-  "raw_lines": 292,
-  "duplicates": 43,
-  "invalid": 2,
+  "duration_ms": 218,
+  "total": 218,
+  "unique": 218,
+  "parsed": 259,
+  "raw_lines": 262,
+  "duplicates": 41,
+  "invalid": 3,
   "by_protocol": {
-    "vless": 185,
-    "trojan": 16,
-    "hy2": 2,
-    "ss": 39,
-    "vmess": 4,
+    "vless": 167,
+    "trojan": 17,
+    "hy2": 1,
+    "ss": 31,
+    "vmess": 1,
     "wireguard": 1
   },
   "by_country": [
@@ -22,7 +22,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 224
+      "count": 195
     },
     {
       "code": "CA",
@@ -66,8 +66,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 58,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 136,
+      "from_cache": true,
+      "elapsed_ms": 128,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -75,17 +75,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 232,
+      "last_configs": 201,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 159,
+      "from_cache": false,
+      "elapsed_ms": 170,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 232
+    "raw.githubusercontent.com": 201
   },
   "cache": {
     "enabled": true,
@@ -106,15 +106,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 247,
+    "kept": 218,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 7
+      "unknown-network": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 236
+  "previous_total": 247
 }
