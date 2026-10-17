@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-10-17 05:38:28 UTC",
+  "generated_at": "2026-10-17 10:51:43 UTC",
   "version": "2.0.0",
-  "duration_ms": 252,
-  "total": 220,
-  "unique": 220,
-  "parsed": 271,
-  "raw_lines": 272,
-  "duplicates": 51,
+  "duration_ms": 330,
+  "total": 231,
+  "unique": 231,
+  "parsed": 284,
+  "raw_lines": 285,
+  "duplicates": 53,
   "invalid": 1,
   "by_protocol": {
-    "vless": 169,
-    "trojan": 11,
+    "vless": 174,
+    "trojan": 12,
     "hy2": 1,
-    "ss": 35,
-    "vmess": 4
+    "ss": 39,
+    "vmess": 4,
+    "wireguard": 1
   },
   "by_country": [
     {
@@ -21,7 +22,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 205
+      "count": 216
     },
     {
       "code": "CA",
@@ -72,8 +73,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 141,
+      "from_cache": true,
+      "elapsed_ms": 134,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -81,17 +82,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 212,
+      "last_configs": 225,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 187,
+      "elapsed_ms": 295,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 212
+    "raw.githubusercontent.com": 225
   },
   "cache": {
     "enabled": true,
@@ -112,16 +113,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 220,
+    "kept": 231,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
     "placeholder_credentials": 1,
     "warnings": {
-      "unknown-network": 5,
+      "unknown-network": 6,
       "weak-credential": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 234
+  "previous_total": 220
 }
