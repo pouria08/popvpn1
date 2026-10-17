@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-17 10:51:43 UTC",
+  "generated_at": "2026-10-17 14:14:13 UTC",
   "version": "2.0.0",
-  "duration_ms": 330,
-  "total": 231,
-  "unique": 231,
-  "parsed": 284,
-  "raw_lines": 285,
-  "duplicates": 53,
+  "duration_ms": 205,
+  "total": 236,
+  "unique": 236,
+  "parsed": 291,
+  "raw_lines": 292,
+  "duplicates": 55,
   "invalid": 1,
   "by_protocol": {
-    "vless": 174,
-    "trojan": 12,
-    "hy2": 1,
-    "ss": 39,
+    "vless": 177,
+    "trojan": 16,
+    "hy2": 2,
+    "ss": 36,
     "vmess": 4,
     "wireguard": 1
   },
@@ -22,21 +22,21 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 216
+      "count": 225
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 6
+      "count": 5
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 6
+      "count": 3
     },
     {
       "code": "CZ",
@@ -73,8 +73,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 134,
+      "from_cache": false,
+      "elapsed_ms": 153,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -82,17 +82,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 225,
+      "last_configs": 232,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 295,
+      "elapsed_ms": 180,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 225
+    "raw.githubusercontent.com": 232
   },
   "cache": {
     "enabled": true,
@@ -113,16 +113,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 231,
+    "kept": 236,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
-    "placeholder_credentials": 1,
+    "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 6,
-      "weak-credential": 1
+      "unknown-network": 7
     },
     "dropped_reasons": {}
   },
-  "previous_total": 220
+  "previous_total": 231
 }
