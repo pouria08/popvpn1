@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-17 00:32:21 UTC",
+  "generated_at": "2026-10-17 05:38:28 UTC",
   "version": "2.0.0",
-  "duration_ms": 224,
-  "total": 234,
-  "unique": 234,
-  "parsed": 276,
-  "raw_lines": 278,
-  "duplicates": 42,
-  "invalid": 2,
+  "duration_ms": 252,
+  "total": 220,
+  "unique": 220,
+  "parsed": 271,
+  "raw_lines": 272,
+  "duplicates": 51,
+  "invalid": 1,
   "by_protocol": {
-    "vless": 178,
-    "trojan": 12,
+    "vless": 169,
+    "trojan": 11,
     "hy2": 1,
-    "ss": 39,
+    "ss": 35,
     "vmess": 4
   },
   "by_country": [
@@ -21,14 +21,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 212
-    },
-    {
-      "code": "US",
-      "name": "United States",
-      "flag": "🇺🇸",
-      "region": "NA",
-      "count": 12
+      "count": 205
     },
     {
       "code": "CA",
@@ -38,11 +31,11 @@
       "count": 6
     },
     {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 2
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "region": "NA",
+      "count": 6
     },
     {
       "code": "CZ",
@@ -52,10 +45,17 @@
       "count": 1
     },
     {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
       "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "region": "AS",
       "count": 1
     }
   ],
@@ -73,7 +73,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 158,
+      "elapsed_ms": 141,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -81,17 +81,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 217,
+      "last_configs": 212,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 174,
+      "elapsed_ms": 187,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 217
+    "raw.githubusercontent.com": 212
   },
   "cache": {
     "enabled": true,
@@ -112,7 +112,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 234,
+    "kept": 220,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -123,5 +123,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 248
+  "previous_total": 234
 }
