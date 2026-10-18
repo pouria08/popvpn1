@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-18 05:59:23 UTC",
+  "generated_at": "2026-10-18 11:16:38 UTC",
   "version": "2.0.0",
-  "duration_ms": 309,
-  "total": 211,
-  "unique": 211,
-  "parsed": 264,
-  "raw_lines": 266,
+  "duration_ms": 257,
+  "total": 221,
+  "unique": 221,
+  "parsed": 274,
+  "raw_lines": 276,
   "duplicates": 53,
   "invalid": 2,
   "by_protocol": {
-    "vless": 171,
-    "trojan": 13,
+    "vless": 183,
+    "trojan": 10,
     "hy2": 1,
-    "ss": 24,
+    "ss": 25,
     "vmess": 1,
     "wireguard": 1
   },
@@ -22,7 +22,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 193
+      "count": 203
     },
     {
       "code": "CA",
@@ -66,8 +66,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 235,
+      "from_cache": true,
+      "elapsed_ms": 206,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -75,17 +75,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 205,
+      "last_configs": 215,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 262,
+      "elapsed_ms": 199,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 205
+    "raw.githubusercontent.com": 215
   },
   "cache": {
     "enabled": true,
@@ -106,7 +106,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 211,
+    "kept": 221,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -116,5 +116,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 228
+  "previous_total": 211
 }

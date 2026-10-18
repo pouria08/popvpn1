@@ -1,19 +1,19 @@
-![Total](https://img.shields.io/badge/CONFIGS-211-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-171-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-1-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-13-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-24-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-2%2F2-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-5-eab308?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-221-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-183-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-1-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-10-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-25-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-2%2F2-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-5-eab308?style=flat-square)
 
-**Last update:** `2026-10-18 05:59:23 UTC` · **211 configs** (-17 vs previous run)
+**Last update:** `2026-10-18 11:16:38 UTC` · **221 configs** (+10 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
-| VLESS | 171 | 81.0% |
-| SS | 24 | 11.4% |
-| TROJAN | 13 | 6.2% |
+| VLESS | 183 | 82.8% |
+| SS | 25 | 11.3% |
+| TROJAN | 10 | 4.5% |
 | HY2 | 1 | 0.5% |
 | VMESS | 1 | 0.5% |
 | WIREGUARD | 1 | 0.5% |
 
 | Top countries | Configs |
 | --- | ---: |
-| 🏳️ GLOBAL / Unknown | 193 |
+| 🏳️ GLOBAL / Unknown | 203 |
 | 🇨🇦 Canada | 14 |
 | 🇺🇸 United States | 2 |
 | 🇩🇪 Germany | 1 |
@@ -26,7 +26,7 @@
 - invalid lines skipped: **2**
 - HTTP cache hit rate: **0%**
 - security flags: **0** insecure, **0** private hosts
-- run duration: **309 ms**
+- run duration: **257 ms**
 
 </details>
 
@@ -35,7 +35,7 @@
 <details><summary><b>🌍 همهٔ لینک‌های کشورها در آخرین اجرا — Copyable</b></summary>
 
 ```text
-🏳️ GLOBAL / Unknown (193): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
+🏳️ GLOBAL / Unknown (203): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
 🇨🇦 Canada (14): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ca.txt
 🇺🇸 United States (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
 🇩🇪 Germany (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/de.txt
