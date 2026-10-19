@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19 10:51:15 UTC",
+  "generated_at": "2026-10-19 17:31:38 UTC",
   "version": "2.0.0",
-  "duration_ms": 242,
+  "duration_ms": 565,
   "total": 160,
   "unique": 160,
   "parsed": 201,
@@ -9,10 +9,10 @@
   "duplicates": 41,
   "invalid": 2,
   "by_protocol": {
-    "vless": 125,
+    "vless": 131,
     "trojan": 12,
     "hy2": 1,
-    "ss": 20,
+    "ss": 14,
     "vmess": 2
   },
   "by_country": [
@@ -21,45 +21,38 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 141
+      "count": 144
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 8
+      "count": 10
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 8
-    },
-    {
-      "code": "CZ",
-      "name": "Czechia",
-      "flag": "🇨🇿",
-      "region": "EU",
-      "count": 1
+      "count": 3
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 1
+      "count": 2
     },
     {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
+      "region": "EU",
       "count": 1
     }
   ],
-  "country_count": 6,
+  "country_count": 5,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -73,7 +66,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 148,
+      "elapsed_ms": 529,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -83,8 +76,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 142,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 210,
+      "from_cache": true,
+      "elapsed_ms": 247,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -122,5 +115,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 177
+  "previous_total": 160
 }
