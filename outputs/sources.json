@@ -132,6 +132,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 74,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 185,
+    "avg_ms": 206,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
     "name": "raw.githubusercontent.com",
     "attempts": 80,
@@ -156,18 +168,6 @@
     "paused": false
   },
   {
-    "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 73,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 142,
-    "avg_ms": 242,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
     "url": "https://raw.githubusercontent.com/inaz266/In-az-26/refs/heads/main/filtee.txt",
     "name": "raw.githubusercontent.com",
     "attempts": 57,
@@ -182,11 +182,11 @@
   {
     "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 65,
+    "attempts": 66,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 59,
-    "avg_ms": 320,
+    "avg_ms": 250,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
