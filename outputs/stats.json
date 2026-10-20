@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-20 13:36:48 UTC",
+  "generated_at": "2026-10-20 18:30:12 UTC",
   "version": "2.0.0",
-  "duration_ms": 329,
-  "total": 177,
-  "unique": 177,
-  "parsed": 224,
-  "raw_lines": 228,
-  "duplicates": 47,
-  "invalid": 4,
+  "duration_ms": 286,
+  "total": 186,
+  "unique": 186,
+  "parsed": 236,
+  "raw_lines": 241,
+  "duplicates": 50,
+  "invalid": 5,
   "by_protocol": {
-    "vless": 124,
-    "trojan": 22,
+    "vless": 150,
+    "trojan": 21,
     "vmess": 2,
-    "ss": 28,
+    "ss": 12,
     "wireguard": 1
   },
   "by_country": [
@@ -21,28 +21,28 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 167
-    },
-    {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
-      "region": "EU",
-      "count": 4
+      "count": 165
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 3
+      "count": 15
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 3
+      "count": 4
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 2
     }
   ],
   "country_count": 4,
@@ -59,7 +59,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 167,
+      "elapsed_ms": 120,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -67,17 +67,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 165,
+      "last_configs": 177,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 293,
+      "elapsed_ms": 263,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 165
+    "raw.githubusercontent.com": 177
   },
   "cache": {
     "enabled": true,
@@ -98,7 +98,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 177,
+    "kept": 186,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -108,5 +108,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 186
+  "previous_total": 177
 }
