@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-19 22:25:22 UTC",
+  "generated_at": "2026-10-20 01:52:38 UTC",
   "version": "2.0.0",
-  "duration_ms": 193,
-  "total": 192,
-  "unique": 192,
+  "duration_ms": 171,
+  "total": 204,
+  "unique": 204,
   "parsed": 244,
   "raw_lines": 247,
-  "duplicates": 52,
+  "duplicates": 40,
   "invalid": 3,
   "by_protocol": {
-    "vless": 153,
+    "vless": 164,
     "trojan": 22,
     "vmess": 2,
-    "ss": 14,
+    "ss": 15,
     "wireguard": 1
   },
   "by_country": [
@@ -21,34 +21,34 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 176
+      "count": 179
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 10
+      "count": 19
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 3
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 2
+      "count": 4
     },
     {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
       "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "region": "",
       "count": 1
     }
   ],
@@ -65,8 +65,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 147,
+      "from_cache": false,
+      "elapsed_ms": 81,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -76,8 +76,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 185,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 152,
+      "from_cache": true,
+      "elapsed_ms": 130,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -105,7 +105,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 192,
+    "kept": 204,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -115,5 +115,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 160
+  "previous_total": 192
 }
