@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-10-20 18:30:12 UTC",
+  "generated_at": "2026-10-20 22:21:13 UTC",
   "version": "2.0.0",
-  "duration_ms": 286,
-  "total": 186,
-  "unique": 186,
-  "parsed": 236,
-  "raw_lines": 241,
-  "duplicates": 50,
-  "invalid": 5,
+  "duration_ms": 219,
+  "total": 213,
+  "unique": 213,
+  "parsed": 259,
+  "raw_lines": 265,
+  "duplicates": 46,
+  "invalid": 6,
   "by_protocol": {
-    "vless": 150,
-    "trojan": 21,
+    "vless": 163,
+    "trojan": 24,
+    "hy2": 1,
     "vmess": 2,
-    "ss": 12,
+    "ss": 22,
     "wireguard": 1
   },
   "by_country": [
@@ -21,21 +22,21 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 165
+      "count": 193
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 15
+      "count": 12
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 4
+      "count": 6
     },
     {
       "code": "DE",
@@ -59,7 +60,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 120,
+      "elapsed_ms": 141,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -67,17 +68,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 177,
+      "last_configs": 200,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 263,
+      "elapsed_ms": 173,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 177
+    "raw.githubusercontent.com": 200
   },
   "cache": {
     "enabled": true,
@@ -98,15 +99,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 186,
+    "kept": 213,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 3
+      "unknown-network": 4
     },
     "dropped_reasons": {}
   },
-  "previous_total": 177
+  "previous_total": 186
 }
