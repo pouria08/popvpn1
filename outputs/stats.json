@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-21 07:44:45 UTC",
+  "generated_at": "2026-10-21 13:52:51 UTC",
   "version": "2.0.0",
-  "duration_ms": 206,
-  "total": 216,
-  "unique": 216,
-  "parsed": 256,
-  "raw_lines": 261,
-  "duplicates": 40,
+  "duration_ms": 297,
+  "total": 226,
+  "unique": 226,
+  "parsed": 278,
+  "raw_lines": 283,
+  "duplicates": 52,
   "invalid": 5,
   "by_protocol": {
-    "vless": 170,
-    "trojan": 21,
+    "vless": 179,
+    "trojan": 22,
     "hy2": 1,
     "vmess": 1,
     "ss": 22,
@@ -22,21 +22,21 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 193
+      "count": 204
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 15
+      "count": 17
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 5
+      "count": 4
     },
     {
       "code": "DE",
@@ -44,23 +44,9 @@
       "flag": "🇩🇪",
       "region": "EU",
       "count": 1
-    },
-    {
-      "code": "HK",
-      "name": "Hong Kong",
-      "flag": "🇭🇰",
-      "region": "AS",
-      "count": 1
-    },
-    {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
-      "region": "EU",
-      "count": 1
     }
   ],
-  "country_count": 6,
+  "country_count": 4,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -74,7 +60,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 44,
+      "elapsed_ms": 205,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -82,17 +68,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 197,
+      "last_configs": 219,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 159,
+      "elapsed_ms": 248,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 197
+    "raw.githubusercontent.com": 219
   },
   "cache": {
     "enabled": true,
@@ -113,7 +99,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 216,
+    "kept": 226,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -123,5 +109,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 212
+  "previous_total": 216
 }
