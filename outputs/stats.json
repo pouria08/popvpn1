@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-10-21 18:42:22 UTC",
+  "generated_at": "2026-10-22 18:35:25 UTC",
   "version": "2.0.0",
-  "duration_ms": 308,
-  "total": 245,
-  "unique": 245,
-  "parsed": 289,
-  "raw_lines": 294,
-  "duplicates": 44,
-  "invalid": 5,
+  "duration_ms": 212,
+  "total": 232,
+  "unique": 232,
+  "parsed": 279,
+  "raw_lines": 282,
+  "duplicates": 47,
+  "invalid": 3,
   "by_protocol": {
-    "vless": 199,
-    "trojan": 22,
+    "vless": 183,
+    "trojan": 20,
     "hy2": 1,
-    "vmess": 1,
-    "ss": 21,
-    "wireguard": 1
+    "vmess": 4,
+    "ss": 24
   },
   "by_country": [
     {
@@ -22,21 +21,21 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 217
+      "count": 191
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 23
+      "count": 35
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 2
+      "count": 5
     },
     {
       "code": "DE",
@@ -44,23 +43,9 @@
       "flag": "🇩🇪",
       "region": "EU",
       "count": 1
-    },
-    {
-      "code": "FR",
-      "name": "France",
-      "flag": "🇫🇷",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
-      "count": 1
     }
   ],
-  "country_count": 6,
+  "country_count": 4,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -74,7 +59,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 189,
+      "elapsed_ms": 92,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -82,17 +67,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 230,
+      "last_configs": 220,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 262,
+      "elapsed_ms": 134,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 230
+    "raw.githubusercontent.com": 220
   },
   "cache": {
     "enabled": true,
@@ -113,15 +98,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 245,
+    "kept": 232,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 3
+      "unknown-network": 5
     },
     "dropped_reasons": {}
   },
-  "previous_total": 226
+  "previous_total": 245
 }
