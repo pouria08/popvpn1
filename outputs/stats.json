@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-22 18:35:25 UTC",
+  "generated_at": "2026-10-22 22:24:10 UTC",
   "version": "2.0.0",
-  "duration_ms": 212,
-  "total": 232,
-  "unique": 232,
+  "duration_ms": 303,
+  "total": 231,
+  "unique": 231,
   "parsed": 279,
   "raw_lines": 282,
-  "duplicates": 47,
+  "duplicates": 48,
   "invalid": 3,
   "by_protocol": {
-    "vless": 183,
+    "vless": 178,
     "trojan": 20,
     "hy2": 1,
     "vmess": 4,
-    "ss": 24
+    "ss": 28
   },
   "by_country": [
     {
@@ -21,31 +21,38 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 191
+      "count": 199
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 35
-    },
-    {
-      "code": "US",
-      "name": "United States",
-      "flag": "🇺🇸",
-      "region": "NA",
-      "count": 5
+      "count": 27
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
+      "count": 2
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "region": "NA",
+      "count": 2
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "flag": "🇭🇰",
+      "region": "AS",
       "count": 1
     }
   ],
-  "country_count": 4,
+  "country_count": 5,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -59,7 +66,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 92,
+      "elapsed_ms": 71,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -69,8 +76,8 @@
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
       "last_configs": 220,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 134,
+      "from_cache": true,
+      "elapsed_ms": 261,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -98,7 +105,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 232,
+    "kept": 231,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -108,5 +115,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 245
+  "previous_total": 232
 }
