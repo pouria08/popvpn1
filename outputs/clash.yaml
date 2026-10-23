@@ -1,6 +1,6 @@
 # POPVPN X — Clash / Mihomo profile
-# generated: 2026-10-23 01:34:50 UTC
-# configs: 231
+# generated: 2026-10-23 07:37:43 UTC
+# configs: 224
 
 mixed-port: 7890
 allow-lan: false
@@ -250,132 +250,7 @@ proxies:
     reality-opts:
       public-key: wpZDT_592emHu309qN-7-qceofbMJzoAdIx9m9RFJGg
       short-id: 98753667b2406829
-  - name: POPVPN 0018 🇺🇸 US VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM-TOOTFFARANGI
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0019 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0020 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: "/fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed"
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0021 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: "/cart/docs/www/proxyip?ed#Telegram"
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0022 🇭🇰 HK VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0023 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0024 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0025 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?Telegram---Vpney
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0026 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /Chanel0111Net
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0027 🇨🇦 CA VLESS WS
+  - name: POPVPN 0018 🇨🇦 CA VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -389,63 +264,7 @@ proxies:
       path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0028 🇩🇪 DE VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0029 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: ?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0030 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /cart/docs/www/proxyip?ed
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0031 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?Telegram---bored_vpn
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0032 🇨🇦 CA VLESS WS
+  - name: POPVPN 0019 🇨🇦 CA VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -459,21 +278,7 @@ proxies:
       path: ?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0033 🇩🇪 DE VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0034 🇨🇦 CA VLESS WS
+  - name: POPVPN 0020 🇨🇦 CA VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -484,10 +289,164 @@ proxies:
     client-fingerprint: unsafe
     network: ws
     ws-opts:
-      path: /
+      path: /?Telegram---V2ray_confiig?ed
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0035 🇨🇦 CA VLESS WS
+  - name: POPVPN 0021 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    udp: true
+    tls: true
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /fd
+      headers:
+        Host: snip.edgeoneai.cc.cd
+  - name: POPVPN 0022 🇺🇸 US VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    udp: true
+    tls: true
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM-TOOTFFARANGI
+      headers:
+        Host: snip.edgeoneai.cc.cd
+  - name: POPVPN 0023 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: "/?---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---"
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0024 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0025 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2048
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0026 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: ?TELEGRAM----ICV2RAY?ed
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0027 🇭🇰 HK VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0028 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: "/?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome"
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0029 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?Telegram---V2ray_confiig?edfp=chrome
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0030 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    udp: true
+    tls: true
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
+      headers:
+        Host: snip.edgeoneai.cc.cd
+  - name: POPVPN 0031 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?Telegram---TEHRANARGOfp=chrome
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0032 🇨🇦 CA VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -501,119 +460,7 @@ proxies:
       path: /?Telegram---mehrosaboran
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0036 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0037 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: ?Telegram---mehrosaboran?ed
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0038 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: "/fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560"
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0039 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: ?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0040 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0041 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: "/?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome"
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0042 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0043 🇨🇦 CA VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0044 🇨🇦 CA VLESS WS
+  - name: POPVPN 0033 🇨🇦 CA VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -627,7 +474,7 @@ proxies:
       path: /?Telegram---mehrosaboranfp=chrome
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0045 🇨🇦 CA VLESS WS
+  - name: POPVPN 0034 🇨🇦 CA VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -638,10 +485,24 @@ proxies:
     client-fingerprint: unsafe
     network: ws
     ws-opts:
-      path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
+      path: ?Telegram---mehrosaboranfp=chrome
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0046 🇨🇦 CA VLESS WS
+  - name: POPVPN 0035 🇺🇸 US VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    udp: true
+    tls: true
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /fdip
+      headers:
+        Host: snip.edgeoneai.cc.cd
+  - name: POPVPN 0036 🇨🇦 CA VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -652,10 +513,24 @@ proxies:
     client-fingerprint: unsafe
     network: ws
     ws-opts:
-      path: /cart
+      path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0047 🇨🇦 CA VLESS WS
+  - name: POPVPN 0037 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    udp: true
+    tls: true
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: "/fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560"
+      headers:
+        Host: snip.edgeoneai.cc.cd
+  - name: POPVPN 0038 🇨🇦 CA VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -666,10 +541,65 @@ proxies:
     client-fingerprint: unsafe
     network: ws
     ws-opts:
-      path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+      path: "?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome"
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0048 🇨🇦 CA VLESS WS
+  - name: POPVPN 0039 🇺🇸 US VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: "3"
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0040 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /cart/docs/www/proxyipfp=chrome
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0041 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?Telegram---TEHRANARGO
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0042 🇺🇸 US VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0043 🇨🇦 CA VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -683,7 +613,119 @@ proxies:
       path: /?SAFEWEBS
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0049 GLOBAL VLESS REALITY
+  - name: POPVPN 0044 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0045 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: ?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0046 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0047 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0048 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: "/?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome"
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0049 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0050 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0051 🇨🇦 CA VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /fp=chrome
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0052 GLOBAL VLESS REALITY
     server: 195.189.98.123
     port: 443
     type: vless
@@ -696,7 +738,7 @@ proxies:
     reality-opts:
       public-key: 7dxSNJKvSZNySuiKjuv6wwddd3hYJeJy6X55OcwOPDk
       short-id: 16fbc56c
-  - name: POPVPN 0050 GLOBAL VLESS REALITY
+  - name: POPVPN 0053 GLOBAL VLESS REALITY
     server: 45.144.30.86
     port: 443
     type: vless
@@ -708,21 +750,7 @@ proxies:
     client-fingerprint: firefox
     reality-opts:
       public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
-  - name: POPVPN 0051 GLOBAL VLESS REALITY
-    server: 51.38.127.93
-    port: 8080
-    type: vless
-    uuid: 261cdc0d-9a73-4b75-b61b-e99980e3d668
-    udp: true
-    tls: true
-    servername: icloud.com
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: vKnJBC8MN4hGDqu7_C6luBwjVnhq9Wjb6BWkuK_8_z0
-      short-id: dee5ab9e
-    xudp: true
-  - name: POPVPN 0052 GLOBAL VLESS REALITY
+  - name: POPVPN 0054 GLOBAL VLESS REALITY
     server: 72.56.52.44
     port: 443
     type: vless
@@ -735,7 +763,7 @@ proxies:
     reality-opts:
       public-key: Fi8t03_zdkmRdXLEgNEXyntW-4Srn6QUeI63ADZ-FhQ
       short-id: 43389196e02ca78b
-  - name: POPVPN 0053 GLOBAL VLESS REALITY
+  - name: POPVPN 0055 GLOBAL VLESS REALITY
     server: 78.159.250.214
     port: 443
     type: vless
@@ -748,46 +776,7 @@ proxies:
     reality-opts:
       public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
       short-id: "00000000"
-  - name: POPVPN 0054 GLOBAL VLESS REALITY
-    server: 82.202.179.111
-    port: 15443
-    type: vless
-    uuid: 1ba0439d-384c-4a6e-9560-0439698beb2a
-    udp: true
-    tls: true
-    servername: smartcaptcha.yandexcloud.net
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: MNmqM2p3nUYZIqo0sTMXRXGzB5HquF-czSycvdqn3U4
-      short-id: b74f54b7
-  - name: POPVPN 0055 GLOBAL VLESS REALITY
-    server: 82.202.182.42
-    port: 3443
-    type: vless
-    uuid: 1ba0439d-384c-4a6e-9560-0439698beb2a
-    udp: true
-    tls: true
-    servername: smartcaptcha.yandexcloud.net
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: YIXOvwrCFxQYKOP_GwdhbzZLlwgBIVVISXDpFZQBt0c
-      short-id: a5bb22e6a41ff20a
   - name: POPVPN 0056 GLOBAL VLESS REALITY
-    server: 93.89.220.37
-    port: 443
-    type: vless
-    uuid: 185e2bb3-2934-48d0-bbd5-dd20d16e83ee
-    udp: true
-    tls: true
-    servername: ibm.com
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: lwKaUQ81wJUJRsqAPsfTPj5V_f9N50UYEwzRI_nuq2g
-      short-id: e88cb983f3c97528
-  - name: POPVPN 0057 GLOBAL VLESS REALITY
     server: a652768e4c2240fc.tunvi.w-ert.org
     port: 448
     type: vless
@@ -799,7 +788,7 @@ proxies:
     reality-opts:
       public-key: woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU
       short-id: ca4134a0ed2592b6
-  - name: POPVPN 0058 GLOBAL VLESS REALITY
+  - name: POPVPN 0057 GLOBAL VLESS REALITY
     server: assets.halyvanedorogo.ru
     port: 11515
     type: vless
@@ -812,7 +801,7 @@ proxies:
     reality-opts:
       public-key: A826RSu-yeVM_t6v7kwHKasHSdfI9KOzUw3WaIa9SWc
       short-id: 65149fc5ba
-  - name: POPVPN 0059 GLOBAL VLESS REALITY
+  - name: POPVPN 0058 GLOBAL VLESS REALITY
     server: edge.bookmai.com
     port: 443
     type: vless
@@ -824,7 +813,7 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  - name: POPVPN 0060 GLOBAL VLESS REALITY
+  - name: POPVPN 0059 GLOBAL VLESS REALITY
     server: funagfrdfs.alixxplay.com
     port: 35544
     type: vless
@@ -837,7 +826,7 @@ proxies:
     reality-opts:
       public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
       short-id: 25c79e5856c7
-  - name: POPVPN 0061 GLOBAL VLESS REALITY
+  - name: POPVPN 0060 GLOBAL VLESS REALITY
     server: nl1.fluxorvpn.net
     port: 443
     type: vless
@@ -850,7 +839,7 @@ proxies:
     reality-opts:
       public-key: JWDpSUaLgiXGXpgZzzxfDnYGvi4MBFcadN6cHZ-He1E
       short-id: b8c6965f3596688a
-  - name: POPVPN 0062 GLOBAL VLESS REALITY
+  - name: POPVPN 0061 GLOBAL VLESS REALITY
     server: p2real22.greewebservices.ir
     port: 1320
     type: vless
@@ -862,7 +851,7 @@ proxies:
     reality-opts:
       public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
       short-id: 9b60d3
-  - name: POPVPN 0063 GLOBAL VLESS REALITY
+  - name: POPVPN 0062 GLOBAL VLESS REALITY
     server: p2real4.greewebservices.ir
     port: 1340
     type: vless
@@ -874,7 +863,7 @@ proxies:
     reality-opts:
       public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
       short-id: 9b60d3
-  - name: POPVPN 0064 GLOBAL VLESS REALITY
+  - name: POPVPN 0063 GLOBAL VLESS REALITY
     server: pub-07h33f.mydevelopertool.xyz
     port: 8000
     type: vless
@@ -887,7 +876,7 @@ proxies:
     reality-opts:
       public-key: 2dv8gNuhbvuxFB2A2bsxGj1lQ_ApOmj_-5qXejNxRwY
       short-id: e0954def98b22710
-  - name: POPVPN 0065 GLOBAL VLESS REALITY
+  - name: POPVPN 0064 GLOBAL VLESS REALITY
     server: sable56.fars-remen.ir
     port: 8446
     type: vless
@@ -899,7 +888,7 @@ proxies:
     reality-opts:
       public-key: 7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04
       short-id: 73da8baa63f8d537
-  - name: POPVPN 0066 GLOBAL VLESS REALITY
+  - name: POPVPN 0065 GLOBAL VLESS REALITY
     server: tgfree.rush-server.com
     port: 443
     type: vless
@@ -912,7 +901,7 @@ proxies:
     reality-opts:
       public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
       short-id: 64c1fe36c7846400
-  - name: POPVPN 0067 GLOBAL VLESS REALITY
+  - name: POPVPN 0066 GLOBAL VLESS REALITY
     server: tickets.betust.net
     port: 443
     type: vless
@@ -925,7 +914,7 @@ proxies:
     reality-opts:
       public-key: TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw
       short-id: f70764f8
-  - name: POPVPN 0068 GLOBAL VLESS REALITY
+  - name: POPVPN 0067 GLOBAL VLESS REALITY
     server: 103.91.147.212
     port: 443
     type: vless
@@ -937,7 +926,7 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  - name: POPVPN 0069 GLOBAL VLESS REALITY
+  - name: POPVPN 0068 GLOBAL VLESS REALITY
     server: 104.171.133.209
     port: 443
     type: vless
@@ -950,7 +939,7 @@ proxies:
     reality-opts:
       public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
       short-id: 64c1fe36c7846400
-  - name: POPVPN 0070 GLOBAL VLESS REALITY
+  - name: POPVPN 0069 GLOBAL VLESS REALITY
     server: 88.216.63.75
     port: 443
     type: vless
@@ -963,7 +952,7 @@ proxies:
     reality-opts:
       public-key: tEjpJHMrZU8Lx9935ubHem8HoKTx636RBiG3Cnwx8mM
       short-id: 11a4389e0f
-  - name: POPVPN 0071 GLOBAL VLESS REALITY
+  - name: POPVPN 0070 GLOBAL VLESS REALITY
     server: funagfrdfs.alixxplay.com
     port: 30892
     type: vless
@@ -976,7 +965,7 @@ proxies:
     reality-opts:
       public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
       short-id: 3d31326f95
-  - name: POPVPN 0072 GLOBAL VLESS REALITY
+  - name: POPVPN 0071 GLOBAL VLESS REALITY
     server: funagfrdfs.alixxplay.com
     port: 34379
     type: vless
@@ -989,7 +978,7 @@ proxies:
     reality-opts:
       public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
       short-id: e51285e3
-  - name: POPVPN 0073 GLOBAL VLESS REALITY
+  - name: POPVPN 0072 GLOBAL VLESS REALITY
     server: funagfrdfs.alixxplay.com
     port: 46105
     type: vless
@@ -1002,7 +991,7 @@ proxies:
     reality-opts:
       public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
       short-id: 28f5c1f8f98a
-  - name: POPVPN 0074 GLOBAL VLESS REALITY
+  - name: POPVPN 0073 GLOBAL VLESS REALITY
     server: funagfrdfs.alixxplay.com
     port: 56415
     type: vless
@@ -1015,7 +1004,7 @@ proxies:
     reality-opts:
       public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
       short-id: cbd39bea0805e2
-  - name: POPVPN 0075 GLOBAL VLESS REALITY
+  - name: POPVPN 0074 GLOBAL VLESS REALITY
     server: tun2.w-ert.org
     port: 56841
     type: vless
@@ -1027,7 +1016,7 @@ proxies:
     reality-opts:
       public-key: woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU
       short-id: ca4134a0ed2592b6
-  - name: POPVPN 0076 GLOBAL VLESS GRPC
+  - name: POPVPN 0075 GLOBAL VLESS GRPC
     server: 111.88.128.167
     port: 8517
     type: vless
@@ -1039,7 +1028,7 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: api.v1.StreamService
-  - name: POPVPN 0077 GLOBAL VLESS WS
+  - name: POPVPN 0076 GLOBAL VLESS WS
     server: 104.21.91.244
     port: 443
     type: vless
@@ -1053,6 +1042,15 @@ proxies:
       path: "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---@MTMVPN---@MTMVPN---@MTMVPN---@MTMVPN"
       headers:
         Host: lucasjow.us.ci
+  - name: POPVPN 0077 GLOBAL VLESS XHTTP
+    server: 146.75.57.238
+    port: 443
+    type: vless
+    uuid: 2373eb03-66b2-4f42-bb40-95db8b210877
+    udp: true
+    tls: true
+    servername: cdn.akamai.steamstatic.com
+    client-fingerprint: chrome
   - name: POPVPN 0078 GLOBAL VLESS XHTTP
     server: 146.75.57.238
     port: 443
@@ -1066,7 +1064,7 @@ proxies:
     server: 146.75.57.238
     port: 443
     type: vless
-    uuid: 2373eb03-66b2-4f42-bb40-95db8b210877
+    uuid: fcdfed39-51aa-4bb5-beb7-61b0357e36b9
     udp: true
     tls: true
     servername: cdn.akamai.steamstatic.com
@@ -1098,16 +1096,7 @@ proxies:
     tls: true
     servername: cdn.akamai.steamstatic.com
     client-fingerprint: chrome
-  - name: POPVPN 0083 GLOBAL VLESS XHTTP
-    server: 146.75.57.238
-    port: 443
-    type: vless
-    uuid: fcdfed39-51aa-4bb5-beb7-61b0357e36b9
-    udp: true
-    tls: true
-    servername: cdn.akamai.steamstatic.com
-    client-fingerprint: chrome
-  - name: POPVPN 0084 GLOBAL VLESS WS
+  - name: POPVPN 0083 GLOBAL VLESS WS
     server: 188.114.97.6
     port: 443
     type: vless
@@ -1121,7 +1110,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0085 GLOBAL VLESS WS
+  - name: POPVPN 0084 GLOBAL VLESS WS
     server: 188.114.97.6
     port: 443
     type: vless
@@ -1135,217 +1124,7 @@ proxies:
       path: "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---@MTMVPN"
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0086 GLOBAL VLESS WS
-    server: 188.114.97.6
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0087 GLOBAL VLESS WS
-    server: 188.114.97.6
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/cart/docs/www/proxyip=108.160.132.132?ed#"
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0088 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: "/?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---"
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0089 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2048
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0090 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM-TOOTFFARANGI
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0091 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0092 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0093 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: "/fdip#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512"
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0094 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0095 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0096 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    udp: true
-    tls: true
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /fdip
-      headers:
-        Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0097 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?Telegram---i10VPN
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0098 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0099 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0100 GLOBAL VLESS WS
-    server: 188.114.98.0
-    port: 443
-    type: vless
-    uuid: e6df2095-a73c-4043-8693-8d5a03686870
-    udp: true
-    tls: true
-    servername: lucasjow.us.ci
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /V2ray_confiig---V2ray_confiig---V2ray_confiig?ed=1024
-      headers:
-        Host: lucasjow.us.ci
-  - name: POPVPN 0101 GLOBAL VLESS WS
+  - name: POPVPN 0085 GLOBAL VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -1359,7 +1138,161 @@ proxies:
       path: /?Telegram---mehrosaboran?ed=2560
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0102 GLOBAL VLESS WS
+  - name: POPVPN 0086 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /V2ray_confiig---V2ray_confiig---V2ray_confiig?ed=1024
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0087 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM--i10VPN?ed
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0088 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0089 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM----ICV2RAY?ed
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0090 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    udp: true
+    tls: true
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM-TOOTFFARANGIfp=chrome
+      headers:
+        Host: snip.edgeoneai.cc.cd
+  - name: POPVPN 0091 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    udp: true
+    tls: true
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: "/fdip#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512"
+      headers:
+        Host: snip.edgeoneai.cc.cd
+  - name: POPVPN 0092 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0093 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /cart/docs/www/proxyip?ed
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0094 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: "/cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI"
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0095 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0096 GLOBAL VLESS WS
+    server: 188.114.98.0
+    port: 443
+    type: vless
+    uuid: e6df2095-a73c-4043-8693-8d5a03686870
+    udp: true
+    tls: true
+    servername: lucasjow.us.ci
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
+      headers:
+        Host: lucasjow.us.ci
+  - name: POPVPN 0097 GLOBAL VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -1373,7 +1306,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
       headers:
         Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0103 GLOBAL VLESS WS
+  - name: POPVPN 0098 GLOBAL VLESS WS
     server: 188.114.98.0
     port: 443
     type: vless
@@ -1387,7 +1320,7 @@ proxies:
       path: "/fdip=sstp://vpn:vpn@vpn771984099.opengw.net:1770?ed=2560"
       headers:
         Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0104 GLOBAL VLESS WS
+  - name: POPVPN 0099 GLOBAL VLESS WS
     server: 190.93.246.21
     port: 443
     type: vless
@@ -1401,7 +1334,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0105 GLOBAL VLESS XHTTP
+  - name: POPVPN 0100 GLOBAL VLESS XHTTP
     server: 199.232.20.113
     port: 443
     type: vless
@@ -1410,7 +1343,7 @@ proxies:
     tls: true
     servername: www.firefox.com
     client-fingerprint: chrome
-  - name: POPVPN 0106 GLOBAL VLESS XHTTP
+  - name: POPVPN 0101 GLOBAL VLESS XHTTP
     server: 199.232.20.113
     port: 443
     type: vless
@@ -1419,7 +1352,7 @@ proxies:
     tls: true
     servername: www.firefox.com
     client-fingerprint: chrome
-  - name: POPVPN 0107 GLOBAL VLESS XHTTP
+  - name: POPVPN 0102 GLOBAL VLESS XHTTP
     server: 199.232.20.113
     port: 443
     type: vless
@@ -1428,7 +1361,7 @@ proxies:
     tls: true
     servername: www.firefox.com
     client-fingerprint: chrome
-  - name: POPVPN 0108 GLOBAL VLESS XHTTP
+  - name: POPVPN 0103 GLOBAL VLESS XHTTP
     server: 199.232.20.113
     port: 443
     type: vless
@@ -1437,7 +1370,7 @@ proxies:
     tls: true
     servername: www.firefox.com
     client-fingerprint: chrome
-  - name: POPVPN 0109 GLOBAL VLESS XHTTP
+  - name: POPVPN 0104 GLOBAL VLESS XHTTP
     server: 199.232.20.113
     port: 443
     type: vless
@@ -1446,7 +1379,7 @@ proxies:
     tls: true
     servername: www.firefox.com
     client-fingerprint: chrome
-  - name: POPVPN 0110 GLOBAL VLESS WS
+  - name: POPVPN 0105 GLOBAL VLESS WS
     server: 199.232.239.239
     port: 443
     type: vless
@@ -1460,7 +1393,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
         Host: firefox.com
-  - name: POPVPN 0111 GLOBAL VLESS WS
+  - name: POPVPN 0106 GLOBAL VLESS WS
     server: 199.232.239.239
     port: 443
     type: vless
@@ -1474,7 +1407,7 @@ proxies:
       path: "/?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
       headers:
         Host: firefox.com
-  - name: POPVPN 0112 GLOBAL VLESS XHTTP
+  - name: POPVPN 0107 GLOBAL VLESS XHTTP
     server: 78.159.246.179
     port: 2053
     type: vless
@@ -1483,7 +1416,7 @@ proxies:
     tls: true
     servername: randomquaint.net
     client-fingerprint: firefox
-  - name: POPVPN 0113 GLOBAL VLESS WS
+  - name: POPVPN 0108 GLOBAL VLESS WS
     server: b2n.ir
     port: 443
     type: vless
@@ -1497,7 +1430,7 @@ proxies:
       path: "/cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---@MTMVPN---@MTMVPN---@MTMVPN---@MTMVPN"
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0114 GLOBAL VLESS WS
+  - name: POPVPN 0109 GLOBAL VLESS WS
     server: fun.zovip2.ir
     port: 443
     type: vless
@@ -1511,7 +1444,7 @@ proxies:
       path: /api/v3/pulse
       headers:
         Host: fun.zovip2.ir
-  - name: POPVPN 0115 GLOBAL VLESS XHTTP
+  - name: POPVPN 0110 GLOBAL VLESS XHTTP
     server: kala.fortresshost.ir
     port: 443
     type: vless
@@ -1521,7 +1454,7 @@ proxies:
     servername: kala.fortresshost.ir
     client-fingerprint: chrome
     xudp: true
-  - name: POPVPN 0116 GLOBAL VLESS XHTTP
+  - name: POPVPN 0111 GLOBAL VLESS XHTTP
     server: mpokwi.goalir.co.uk
     port: 443
     type: vless
@@ -1530,7 +1463,7 @@ proxies:
     tls: true
     servername: www.firefox.com
     client-fingerprint: chrome
-  - name: POPVPN 0117 GLOBAL VLESS XHTTP
+  - name: POPVPN 0112 GLOBAL VLESS XHTTP
     server: tamiiiiz.aryan-sport.ir
     port: 2053
     type: vless
@@ -1539,7 +1472,7 @@ proxies:
     tls: true
     servername: dr2.aryan-sport.ir
     client-fingerprint: firefox
-  - name: POPVPN 0118 GLOBAL VLESS XHTTP
+  - name: POPVPN 0113 GLOBAL VLESS XHTTP
     server: tamiiiiz.aryan-sport.ir
     port: 2053
     type: vless
@@ -1548,7 +1481,7 @@ proxies:
     tls: true
     servername: dr.aryan-sport.ir
     client-fingerprint: firefox
-  - name: POPVPN 0119 GLOBAL VLESS XHTTP
+  - name: POPVPN 0114 GLOBAL VLESS XHTTP
     server: tamiiiiz.aryan-sport.ir
     port: 2053
     type: vless
@@ -1557,7 +1490,7 @@ proxies:
     tls: true
     servername: dr6.aryan-sport.ir
     client-fingerprint: firefox
-  - name: POPVPN 0120 GLOBAL VLESS WS
+  - name: POPVPN 0115 GLOBAL VLESS WS
     server: varzesh3.com
     port: 443
     type: vless
@@ -1571,7 +1504,7 @@ proxies:
       path: "/movie#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048"
       headers:
         Host: nginx-3b1e7ed824-abol.apps.ir-central1.arvancaas.ir
-  - name: POPVPN 0121 GLOBAL VLESS WS
+  - name: POPVPN 0116 GLOBAL VLESS WS
     server: www.speedtest.net
     port: 443
     type: vless
@@ -1585,7 +1518,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
         Host: zfhtkktu21.dangerius.com
-  - name: POPVPN 0122 GLOBAL VLESS WS
+  - name: POPVPN 0117 GLOBAL VLESS WS
     server: www.speedtest.net
     port: 443
     type: vless
@@ -1599,7 +1532,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
         Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0123 GLOBAL TROJAN WS
+  - name: POPVPN 0118 GLOBAL TROJAN WS
     server: 188.114.97.6
     port: 443
     type: trojan
@@ -1611,7 +1544,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.volumeroot.com
-  - name: POPVPN 0124 GLOBAL TROJAN WS
+  - name: POPVPN 0119 GLOBAL TROJAN WS
     server: 188.114.97.6
     port: 443
     type: trojan
@@ -1623,7 +1556,7 @@ proxies:
       path: "/assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
       headers:
         Host: www.volumeroot.com
-  - name: POPVPN 0125 GLOBAL TROJAN WS
+  - name: POPVPN 0120 GLOBAL TROJAN WS
     server: 188.114.98.0
     port: 443
     type: trojan
@@ -1635,7 +1568,7 @@ proxies:
       path: //assignment
       headers:
         Host: www.calmlunch.com
-  - name: POPVPN 0126 GLOBAL TROJAN WS
+  - name: POPVPN 0121 GLOBAL TROJAN WS
     server: 188.114.98.0
     port: 443
     type: trojan
@@ -1647,7 +1580,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmlunch.com
-  - name: POPVPN 0127 GLOBAL TROJAN WS
+  - name: POPVPN 0122 GLOBAL TROJAN WS
     server: 188.114.98.0
     port: 443
     type: trojan
@@ -1659,7 +1592,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.volumeroot.com
-  - name: POPVPN 0128 GLOBAL TROJAN WS
+  - name: POPVPN 0123 GLOBAL TROJAN WS
     server: 188.114.98.0
     port: 443
     type: trojan
@@ -1671,7 +1604,7 @@ proxies:
       path: "/assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
       headers:
         Host: www.volumeroot.com
-  - name: POPVPN 0129 GLOBAL VLESS WS
+  - name: POPVPN 0124 GLOBAL VLESS WS
     server: 161.118.198.68
     port: 443
     type: vless
@@ -1685,7 +1618,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
       headers:
         Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0130 GLOBAL VLESS WS
+  - name: POPVPN 0125 GLOBAL VLESS WS
     server: 172.64.158.170
     port: 443
     type: vless
@@ -1699,7 +1632,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
         Host: ccc.010304.xyz
-  - name: POPVPN 0131 GLOBAL VLESS WS
+  - name: POPVPN 0126 GLOBAL VLESS WS
     server: 199.232.237.79
     port: 443
     type: vless
@@ -1714,7 +1647,7 @@ proxies:
       path: /
       headers:
         Host: play.google.com
-  - name: POPVPN 0132 GLOBAL VLESS WS
+  - name: POPVPN 0127 GLOBAL VLESS WS
     server: 200.180.163.38
     port: 443
     type: vless
@@ -1728,7 +1661,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
       headers:
         Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0133 GLOBAL VLESS WS
+  - name: POPVPN 0128 GLOBAL VLESS WS
     server: 31.57.190.15
     port: 443
     type: vless
@@ -1742,7 +1675,7 @@ proxies:
       path: /fp=chrome
       headers:
         Host: ccc.010304.xyz
-  - name: POPVPN 0134 GLOBAL VLESS WS
+  - name: POPVPN 0129 GLOBAL VLESS WS
     server: 93.127.223.238
     port: 8443
     type: vless
@@ -1756,7 +1689,7 @@ proxies:
       path: /
       headers:
         Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0135 GLOBAL VLESS XHTTP
+  - name: POPVPN 0130 GLOBAL VLESS XHTTP
     server: cdn.mamad.web.tr
     port: 443
     type: vless
@@ -1765,7 +1698,7 @@ proxies:
     tls: true
     servername: cdn.akamai.steamstatic.com
     client-fingerprint: firefox
-  - name: POPVPN 0136 GLOBAL VLESS TLS
+  - name: POPVPN 0131 GLOBAL VLESS TLS
     server: de2w5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir
     port: 2083
     type: vless
@@ -1774,7 +1707,7 @@ proxies:
     tls: true
     servername: de2xw5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir
     client-fingerprint: chrome
-  - name: POPVPN 0137 GLOBAL VLESS TLS
+  - name: POPVPN 0132 GLOBAL VLESS TLS
     server: de4w5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir
     port: 2083
     type: vless
@@ -1783,7 +1716,7 @@ proxies:
     tls: true
     servername: de4xw5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir
     client-fingerprint: chrome
-  - name: POPVPN 0138 GLOBAL VLESS WS
+  - name: POPVPN 0133 GLOBAL VLESS WS
     server: hoert1rert.localip.ir
     port: 2087
     type: vless
@@ -1796,7 +1729,7 @@ proxies:
       path: /hokm
       headers:
         Host: hoert1rert.localip.ir
-  - name: POPVPN 0139 GLOBAL VLESS TLS
+  - name: POPVPN 0134 GLOBAL VLESS TLS
     server: lili-nl9.stone-bridge.org
     port: 8443
     type: vless
@@ -1806,7 +1739,7 @@ proxies:
     servername: lili-nl9.stone-bridge.org
     flow: xtls-rprx-vision
     client-fingerprint: firefox
-  - name: POPVPN 0140 GLOBAL VLESS TLS
+  - name: POPVPN 0135 GLOBAL VLESS TLS
     server: us1g9zmvwp2okc6m2zrzpeo8l26jhey7l.fanavarancenter24.ir
     port: 8443
     type: vless
@@ -1815,7 +1748,7 @@ proxies:
     tls: true
     servername: usx1g9zmvwp2okc6m2zrzpeo8l26jhey7l.fanavarancenter24.ir
     client-fingerprint: chrome
-  - name: POPVPN 0141 GLOBAL VLESS WS
+  - name: POPVPN 0136 GLOBAL VLESS WS
     server: wwww.qarvian.ir
     port: 443
     type: vless
@@ -1828,7 +1761,7 @@ proxies:
       path: /
       headers:
         Host: firefox.com
-  - name: POPVPN 0142 GLOBAL TROJAN WS
+  - name: POPVPN 0137 GLOBAL TROJAN WS
     server: 104.18.32.47
     port: 443
     type: trojan
@@ -1840,7 +1773,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmlunch.com
-  - name: POPVPN 0143 GLOBAL TROJAN WS
+  - name: POPVPN 0138 GLOBAL TROJAN WS
     server: 31.57.190.71
     port: 443
     type: trojan
@@ -1852,42 +1785,42 @@ proxies:
       path: /assignment
       headers:
         Host: www.pleadcourt.org
-  - name: POPVPN 0144 GLOBAL TROJAN TLS
+  - name: POPVPN 0139 GLOBAL TROJAN TLS
     server: de10.dedushka.top
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: de10.dedushka.top
-  - name: POPVPN 0145 GLOBAL TROJAN TLS
+  - name: POPVPN 0140 GLOBAL TROJAN TLS
     server: de3.dedushka.top
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: de3.dedushka.top
-  - name: POPVPN 0146 GLOBAL TROJAN TLS
+  - name: POPVPN 0141 GLOBAL TROJAN TLS
     server: de4.dedushka.top
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: de4.dedushka.top
-  - name: POPVPN 0147 GLOBAL TROJAN TLS
+  - name: POPVPN 0142 GLOBAL TROJAN TLS
     server: de5.dedushka.top
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: de5.dedushka.top
-  - name: POPVPN 0148 GLOBAL TROJAN TLS
+  - name: POPVPN 0143 GLOBAL TROJAN TLS
     server: de6.dedushka.top
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: de6.dedushka.top
-  - name: POPVPN 0149 GLOBAL VLESS WS
+  - name: POPVPN 0144 GLOBAL VLESS WS
     server: 146.75.57.238
     port: 443
     type: vless
@@ -1899,7 +1832,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0150 GLOBAL VLESS WS
+  - name: POPVPN 0145 GLOBAL VLESS WS
     server: 146.75.59.186
     port: 443
     type: vless
@@ -1912,7 +1845,7 @@ proxies:
       path: /
       headers:
         Host: firefox.com
-  - name: POPVPN 0151 GLOBAL VLESS WS
+  - name: POPVPN 0146 GLOBAL VLESS WS
     server: 146.75.59.186
     port: 443
     type: vless
@@ -1924,7 +1857,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0152 GLOBAL VLESS WS
+  - name: POPVPN 0147 GLOBAL VLESS WS
     server: 146.75.59.186
     port: 443
     type: vless
@@ -1936,7 +1869,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0153 GLOBAL VLESS WS
+  - name: POPVPN 0148 GLOBAL VLESS WS
     server: 146.75.59.186
     port: 443
     type: vless
@@ -1949,7 +1882,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
         Host: firefox.com
-  - name: POPVPN 0154 GLOBAL VLESS WS
+  - name: POPVPN 0149 GLOBAL VLESS WS
     server: 146.75.59.186
     port: 443
     type: vless
@@ -1961,7 +1894,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0155 GLOBAL VLESS WS
+  - name: POPVPN 0150 GLOBAL VLESS WS
     server: 146.75.59.186
     port: 443
     type: vless
@@ -1973,7 +1906,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0156 GLOBAL VLESS WS
+  - name: POPVPN 0151 GLOBAL VLESS WS
     server: 146.75.59.186
     port: 443
     type: vless
@@ -1986,7 +1919,7 @@ proxies:
       path: /?DailYCOnfIGs
       headers:
         Host: firefox.com
-  - name: POPVPN 0157 GLOBAL VLESS WS
+  - name: POPVPN 0152 GLOBAL VLESS WS
     server: 172.67.155.65
     port: 2053
     type: vless
@@ -1999,7 +1932,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0158 GLOBAL VLESS WS
+  - name: POPVPN 0153 GLOBAL VLESS WS
     server: 172.67.155.65
     port: 8443
     type: vless
@@ -2012,7 +1945,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0159 GLOBAL VLESS WS
+  - name: POPVPN 0154 GLOBAL VLESS WS
     server: 172.67.155.65
     port: 8443
     type: vless
@@ -2025,7 +1958,7 @@ proxies:
       path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0160 GLOBAL VLESS WS
+  - name: POPVPN 0155 GLOBAL VLESS WS
     server: 172.67.155.65
     port: 8443
     type: vless
@@ -2038,7 +1971,7 @@ proxies:
       path: /cart/docs/www/proxyip
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0161 GLOBAL VLESS WS
+  - name: POPVPN 0156 GLOBAL VLESS WS
     server: 172.67.155.65
     port: 8443
     type: vless
@@ -2051,7 +1984,7 @@ proxies:
       path: "/cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
       headers:
         Host: lucasjow.us.ci
-  - name: POPVPN 0162 GLOBAL VLESS WS
+  - name: POPVPN 0157 GLOBAL VLESS WS
     server: 193.36.95.34
     port: 443
     type: vless
@@ -2064,7 +1997,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
         Host: snip.edgeoneai.cc.cd
-  - name: POPVPN 0163 GLOBAL VLESS WS
+  - name: POPVPN 0158 GLOBAL VLESS WS
     server: 199.232.78.159
     port: 443
     type: vless
@@ -2077,7 +2010,7 @@ proxies:
       path: /
       headers:
         Host: firefox.com
-  - name: POPVPN 0164 GLOBAL VLESS WS
+  - name: POPVPN 0159 GLOBAL VLESS WS
     server: 199.232.78.159
     port: 443
     type: vless
@@ -2089,7 +2022,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0165 GLOBAL VLESS WS
+  - name: POPVPN 0160 GLOBAL VLESS WS
     server: 199.232.78.159
     port: 443
     type: vless
@@ -2101,7 +2034,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0166 GLOBAL VLESS WS
+  - name: POPVPN 0161 GLOBAL VLESS WS
     server: 199.232.78.159
     port: 443
     type: vless
@@ -2113,7 +2046,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0167 GLOBAL VLESS WS
+  - name: POPVPN 0162 GLOBAL VLESS WS
     server: 199.232.78.159
     port: 443
     type: vless
@@ -2126,7 +2059,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
       headers:
         Host: firefox.com
-  - name: POPVPN 0168 GLOBAL VLESS WS
+  - name: POPVPN 0163 GLOBAL VLESS WS
     server: 199.232.78.159
     port: 443
     type: vless
@@ -2138,7 +2071,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0169 GLOBAL VLESS WS
+  - name: POPVPN 0164 GLOBAL VLESS WS
     server: 200.165.231.209
     port: 443
     type: vless
@@ -2151,7 +2084,7 @@ proxies:
       path: /api/connect
       headers:
         Host: wstg.datasynctrue.online
-  - name: POPVPN 0170 GLOBAL VLESS WS
+  - name: POPVPN 0165 GLOBAL VLESS WS
     server: wwww.qarvian.ir
     port: 443
     type: vless
@@ -2163,7 +2096,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0171 GLOBAL VLESS WS
+  - name: POPVPN 0166 GLOBAL VLESS WS
     server: wwww.qarvian.ir
     port: 443
     type: vless
@@ -2175,7 +2108,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0172 GLOBAL VLESS WS
+  - name: POPVPN 0167 GLOBAL VLESS WS
     server: wwww.qarvian.ir
     port: 443
     type: vless
@@ -2188,7 +2121,7 @@ proxies:
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
       headers:
         Host: firefox.com
-  - name: POPVPN 0173 GLOBAL VLESS WS
+  - name: POPVPN 0168 GLOBAL VLESS WS
     server: wwww.qarvian.ir
     port: 443
     type: vless
@@ -2200,7 +2133,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0174 GLOBAL VLESS WS
+  - name: POPVPN 0169 GLOBAL VLESS WS
     server: wwww.qarvian.ir
     port: 443
     type: vless
@@ -2212,7 +2145,7 @@ proxies:
     ws-opts:
       headers:
         Host: firefox.com
-  - name: POPVPN 0175 GLOBAL VLESS WS
+  - name: POPVPN 0170 GLOBAL VLESS WS
     server: wwww.qarvian.ir
     port: 443
     type: vless
@@ -2225,7 +2158,7 @@ proxies:
       path: /
       headers:
         Host: firefox.com
-  - name: POPVPN 0176 GLOBAL TROJAN WS
+  - name: POPVPN 0171 GLOBAL TROJAN WS
     server: 172.64.152.23
     port: 443
     type: trojan
@@ -2237,35 +2170,35 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmlunch.com
-  - name: POPVPN 0177 GLOBAL TROJAN TLS
+  - name: POPVPN 0172 GLOBAL TROJAN TLS
     server: 188.241.241.236
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: de10.dedushka.top
-  - name: POPVPN 0178 GLOBAL TROJAN TLS
+  - name: POPVPN 0173 GLOBAL TROJAN TLS
     server: de8.dedushka.top
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: de8.dedushka.top
-  - name: POPVPN 0179 GLOBAL TROJAN TLS
+  - name: POPVPN 0174 GLOBAL TROJAN TLS
     server: pl1.dedushka.top
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: pl1.dedushka.top
-  - name: POPVPN 0180 GLOBAL TROJAN TLS
+  - name: POPVPN 0175 GLOBAL TROJAN TLS
     server: pl2.dedushka.top
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: pl2.dedushka.top
-  - name: POPVPN 0181 GLOBAL TROJAN WS
+  - name: POPVPN 0176 GLOBAL TROJAN WS
     server: www.speedtest.net
     port: 443
     type: trojan
@@ -2277,14 +2210,14 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmlunch.com
-  - name: POPVPN 0182 GLOBAL TROJAN TLS
+  - name: POPVPN 0177 GLOBAL TROJAN TLS
     server: de7.dedushka.top
     port: 443
     type: trojan
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     udp: true
     sni: de7.dedushka.top
-  - name: POPVPN 0183 GLOBAL HY2 TLS
+  - name: POPVPN 0178 GLOBAL HY2 TLS
     server: 179.61.138.145
     port: 36264
     type: hysteria2
@@ -2293,20 +2226,7 @@ proxies:
     sni: de2.jey.cc.cd
     obfs: salamander
     obfs-password: "Telegram@vpnjey"
-  - name: POPVPN 0184 🇺🇸 US VLESS WS
-    server: 172.64.150.28
-    port: 2082
-    type: vless
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-    udp: true
-    servername: hhlfy.twiladaphne.ndjp.net
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /fp
-      headers:
-        Host: hhlfy.twiladaphne.ndjp.net
-  - name: POPVPN 0185 GLOBAL VMESS TLS
+  - name: POPVPN 0179 GLOBAL VMESS TLS
     server: defe.sync-bridge.ir
     port: 443
     type: vmess
@@ -2316,7 +2236,7 @@ proxies:
     udp: true
     tls: true
     servername: defe.sync-bridge.ir
-  - name: POPVPN 0186 GLOBAL VMESS TLS
+  - name: POPVPN 0180 GLOBAL VMESS TLS
     server: nl3.downbala.com
     port: 443
     type: vmess
@@ -2326,14 +2246,14 @@ proxies:
     udp: true
     tls: true
     servername: t0.m.awsstatic.com
-  - name: POPVPN 0187 GLOBAL VLESS XHTTP
+  - name: POPVPN 0181 GLOBAL VLESS XHTTP
     server: arsnew.netbazshop.ir
     port: 32634
     type: vless
     uuid: feef6320-c5b5-44f6-a44b-5acbc4524457
     udp: true
     servername: cafeariel.ir
-  - name: POPVPN 0188 GLOBAL VLESS TCP
+  - name: POPVPN 0182 GLOBAL VLESS TCP
     server: tr-biu.korluma.ir
     port: 8010
     type: vless
@@ -2341,7 +2261,7 @@ proxies:
     udp: true
     servername: netmeli.korluma.ir
     xudp: true
-  - name: POPVPN 0189 GLOBAL VLESS TCP
+  - name: POPVPN 0183 GLOBAL VLESS TCP
     server: vip-tun.korluma.ir
     port: 8010
     type: vless
@@ -2349,7 +2269,7 @@ proxies:
     udp: true
     servername: netmeli.korluma.ir
     xudp: true
-  - name: POPVPN 0190 GLOBAL VLESS TCP
+  - name: POPVPN 0184 GLOBAL VLESS TCP
     server: vip-tun.korluma.ir
     port: 14256
     type: vless
@@ -2357,7 +2277,7 @@ proxies:
     udp: true
     servername: netmeli.korluma.ir
     xudp: true
-  - name: POPVPN 0191 GLOBAL VLESS TCP
+  - name: POPVPN 0185 GLOBAL VLESS TCP
     server: vip-tun.korluma.ir
     port: 15088
     type: vless
@@ -2365,7 +2285,7 @@ proxies:
     udp: true
     servername: netmeli.korluma.ir
     xudp: true
-  - name: POPVPN 0192 GLOBAL VLESS TCP
+  - name: POPVPN 0186 GLOBAL VLESS TCP
     server: vip-tun.korluma.ir
     port: 22068
     type: vless
@@ -2373,7 +2293,7 @@ proxies:
     udp: true
     servername: play.google.com
     xudp: true
-  - name: POPVPN 0193 GLOBAL VLESS GRPC
+  - name: POPVPN 0187 GLOBAL VLESS GRPC
     server: 213.182.201.14
     port: 3090
     type: vless
@@ -2382,7 +2302,7 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: vless
-  - name: POPVPN 0194 GLOBAL VLESS WS
+  - name: POPVPN 0188 GLOBAL VLESS WS
     server: 38.107.232.36
     port: 80
     type: vless
@@ -2391,7 +2311,7 @@ proxies:
     network: ws
     ws-opts:
       path: /vless/
-  - name: POPVPN 0195 GLOBAL VLESS WS
+  - name: POPVPN 0189 GLOBAL VLESS WS
     server: crm2.play98.ir
     port: 52862
     type: vless
@@ -2401,230 +2321,224 @@ proxies:
     network: ws
     ws-opts:
       path: /
+  - name: POPVPN 0190 GLOBAL VLESS TCP
+    server: 13.134.170.98
+    port: 22222
+    type: vless
+    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+    udp: true
+  - name: POPVPN 0191 GLOBAL VLESS TCP
+    server: 13.134.170.98
+    port: 22223
+    type: vless
+    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+    udp: true
+  - name: POPVPN 0192 GLOBAL VLESS TCP
+    server: 13.134.170.98
+    port: 22224
+    type: vless
+    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+    udp: true
+  - name: POPVPN 0193 GLOBAL VLESS TCP
+    server: 3.11.48.149
+    port: 22222
+    type: vless
+    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+    udp: true
+  - name: POPVPN 0194 GLOBAL VLESS TCP
+    server: 3.11.48.149
+    port: 22223
+    type: vless
+    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+    udp: true
+  - name: POPVPN 0195 GLOBAL VLESS TCP
+    server: 3.11.48.149
+    port: 22224
+    type: vless
+    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+    udp: true
   - name: POPVPN 0196 GLOBAL VLESS TCP
-    server: 13.134.170.98
-    port: 22222
-    type: vless
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    udp: true
-  - name: POPVPN 0197 GLOBAL VLESS TCP
-    server: 13.134.170.98
-    port: 22223
-    type: vless
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    udp: true
-  - name: POPVPN 0198 GLOBAL VLESS TCP
-    server: 13.134.170.98
-    port: 22224
-    type: vless
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    udp: true
-  - name: POPVPN 0199 GLOBAL VLESS TCP
-    server: 3.11.48.149
-    port: 22222
-    type: vless
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    udp: true
-  - name: POPVPN 0200 GLOBAL VLESS TCP
-    server: 3.11.48.149
-    port: 22223
-    type: vless
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    udp: true
-  - name: POPVPN 0201 GLOBAL VLESS TCP
-    server: 3.11.48.149
-    port: 22224
-    type: vless
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    udp: true
-  - name: POPVPN 0202 GLOBAL VLESS TCP
-    server: 31.77.148.89
-    port: 45021
-    type: vless
-    uuid: ad263f1c-199e-4aaf-bf22-c3ad0407d377
-    udp: true
-  - name: POPVPN 0203 GLOBAL VLESS TCP
     server: edge-2.navard.net
     port: 80
     type: vless
     uuid: e3fccbeb-dd45-435b-844f-69dadc1877b1
     udp: true
-  - name: POPVPN 0204 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0197 GLOBAL SS AES-256-GCM
     server: 176.32.34.253
     port: 18443
     type: ss
     cipher: aes-256-gcm
     password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
     udp: true
-  - name: POPVPN 0205 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0198 GLOBAL SS AES-256-GCM
     server: 185.176.204.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0206 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0199 GLOBAL SS AES-256-GCM
     server: 185.176.206.9
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0207 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0200 GLOBAL SS AES-256-GCM
     server: 185.215.132.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0208 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0201 GLOBAL SS AES-256-GCM
     server: 185.215.132.9
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0209 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0202 GLOBAL SS AES-256-GCM
     server: 185.230.230.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0210 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0203 GLOBAL SS AES-256-GCM
     server: 188.121.121.178
     port: 11109
     type: ss
     cipher: aes-256-gcm
     password: ZjgyNjNiZThkZWZhNGUxYmE0MDUzZWM0NGNjM2Vh
     udp: true
-  - name: POPVPN 0211 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0204 GLOBAL SS AES-256-GCM
     server: 193.151.163.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0212 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0205 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 193.29.139.147
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
     udp: true
-  - name: POPVPN 0213 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0206 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 193.29.139.197
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: oZIoA69Q8yhcQV8ka3Pa3A
     udp: true
-  - name: POPVPN 0214 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0207 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 193.29.139.212
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: QCXDxuDlTTMD7jtgHUjIoj
     udp: true
-  - name: POPVPN 0215 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0208 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 193.29.139.225
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: oZIoA69Q8yhcQV8ka3Pa3A
     udp: true
-  - name: POPVPN 0216 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0209 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 193.29.139.234
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 4a2rfixophdjffa8KVA4Aa
     udp: true
-  - name: POPVPN 0217 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0210 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 20.166.51.228
     port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
     password: LVMlhvK82To1FGsy
     udp: true
-  - name: POPVPN 0218 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0211 GLOBAL SS AES-256-GCM
     server: 202.50.253.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0219 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0212 GLOBAL SS AES-256-GCM
     server: 202.50.253.27
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0220 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0213 GLOBAL SS AES-256-GCM
     server: 202.50.253.36
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0221 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0214 GLOBAL SS AES-256-GCM
     server: 202.50.253.45
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0222 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0215 GLOBAL SS AES-256-GCM
     server: 202.50.253.54
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0223 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0216 GLOBAL SS AES-256-GCM
     server: 202.50.253.72
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0224 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0217 GLOBAL SS AES-256-GCM
     server: 45.86.51.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0225 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0218 GLOBAL SS AES-256-GCM
     server: 51.222.12.127
     port: 445
     type: ss
     cipher: aes-256-gcm
     password: zDNVedRFPQexG9v
     udp: true
-  - name: POPVPN 0226 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0219 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 57.129.113.16
     port: 8388
     type: ss
     cipher: chacha20-ietf-poly1305
     password: NcAXc0UZI6yQJE1p8QmOv8
     udp: true
-  - name: POPVPN 0227 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0220 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 82.38.31.169
     port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
     password: oZIoA69Q8yhcQV8ka3Pa3A
     udp: true
-  - name: POPVPN 0228 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0221 GLOBAL SS AES-256-GCM
     server: 84.247.155.196
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: 3eOFeNssde7PYYMv
     udp: true
-  - name: POPVPN 0229 GLOBAL VMESS ---
+  - name: POPVPN 0222 GLOBAL VMESS ---
     server: 145.239.55.210
     port: 80
     type: vmess
@@ -2633,7 +2547,7 @@ proxies:
     cipher: auto
     udp: true
     servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  - name: POPVPN 0230 GLOBAL VMESS ---
+  - name: POPVPN 0223 GLOBAL VMESS ---
     server: 54.37.131.126
     port: 80
     type: vmess
@@ -2642,7 +2556,7 @@ proxies:
     cipher: auto
     udp: true
     servername: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-  - name: POPVPN 0231 GLOBAL VMESS NONE
+  - name: POPVPN 0224 GLOBAL VMESS NONE
     server: 193.24.120.226
     port: 54112
     type: vmess
@@ -2671,40 +2585,40 @@ proxy-groups:
       - POPVPN 0015 GLOBAL VLESS REALITY
       - POPVPN 0016 GLOBAL VLESS REALITY
       - POPVPN 0017 GLOBAL VLESS REALITY
-      - POPVPN 0018 🇺🇸 US VLESS WS
+      - POPVPN 0018 🇨🇦 CA VLESS WS
       - POPVPN 0019 🇨🇦 CA VLESS WS
       - POPVPN 0020 🇨🇦 CA VLESS WS
       - POPVPN 0021 🇨🇦 CA VLESS WS
-      - POPVPN 0022 🇭🇰 HK VLESS WS
+      - POPVPN 0022 🇺🇸 US VLESS WS
       - POPVPN 0023 🇨🇦 CA VLESS WS
       - POPVPN 0024 🇨🇦 CA VLESS WS
       - POPVPN 0025 🇨🇦 CA VLESS WS
       - POPVPN 0026 🇨🇦 CA VLESS WS
-      - POPVPN 0027 🇨🇦 CA VLESS WS
-      - POPVPN 0028 🇩🇪 DE VLESS WS
+      - POPVPN 0027 🇭🇰 HK VLESS WS
+      - POPVPN 0028 🇨🇦 CA VLESS WS
       - POPVPN 0029 🇨🇦 CA VLESS WS
       - POPVPN 0030 🇨🇦 CA VLESS WS
       - POPVPN 0031 🇨🇦 CA VLESS WS
       - POPVPN 0032 🇨🇦 CA VLESS WS
-      - POPVPN 0033 🇩🇪 DE VLESS WS
+      - POPVPN 0033 🇨🇦 CA VLESS WS
       - POPVPN 0034 🇨🇦 CA VLESS WS
-      - POPVPN 0035 🇨🇦 CA VLESS WS
+      - POPVPN 0035 🇺🇸 US VLESS WS
       - POPVPN 0036 🇨🇦 CA VLESS WS
       - POPVPN 0037 🇨🇦 CA VLESS WS
       - POPVPN 0038 🇨🇦 CA VLESS WS
-      - POPVPN 0039 🇨🇦 CA VLESS WS
+      - POPVPN 0039 🇺🇸 US VLESS WS
       - POPVPN 0040 🇨🇦 CA VLESS WS
       - POPVPN 0041 🇨🇦 CA VLESS WS
-      - POPVPN 0042 🇨🇦 CA VLESS WS
+      - POPVPN 0042 🇺🇸 US VLESS WS
       - POPVPN 0043 🇨🇦 CA VLESS WS
       - POPVPN 0044 🇨🇦 CA VLESS WS
       - POPVPN 0045 🇨🇦 CA VLESS WS
       - POPVPN 0046 🇨🇦 CA VLESS WS
       - POPVPN 0047 🇨🇦 CA VLESS WS
       - POPVPN 0048 🇨🇦 CA VLESS WS
-      - POPVPN 0049 GLOBAL VLESS REALITY
-      - POPVPN 0050 GLOBAL VLESS REALITY
-      - POPVPN 0051 GLOBAL VLESS REALITY
+      - POPVPN 0049 🇨🇦 CA VLESS WS
+      - POPVPN 0050 🇨🇦 CA VLESS WS
+      - POPVPN 0051 🇨🇦 CA VLESS WS
       - POPVPN 0052 GLOBAL VLESS REALITY
       - POPVPN 0053 GLOBAL VLESS REALITY
       - POPVPN 0054 GLOBAL VLESS REALITY
@@ -2728,15 +2642,15 @@ proxy-groups:
       - POPVPN 0072 GLOBAL VLESS REALITY
       - POPVPN 0073 GLOBAL VLESS REALITY
       - POPVPN 0074 GLOBAL VLESS REALITY
-      - POPVPN 0075 GLOBAL VLESS REALITY
-      - POPVPN 0076 GLOBAL VLESS GRPC
-      - POPVPN 0077 GLOBAL VLESS WS
+      - POPVPN 0075 GLOBAL VLESS GRPC
+      - POPVPN 0076 GLOBAL VLESS WS
+      - POPVPN 0077 GLOBAL VLESS XHTTP
       - POPVPN 0078 GLOBAL VLESS XHTTP
       - POPVPN 0079 GLOBAL VLESS XHTTP
       - POPVPN 0080 GLOBAL VLESS XHTTP
       - POPVPN 0081 GLOBAL VLESS XHTTP
       - POPVPN 0082 GLOBAL VLESS XHTTP
-      - POPVPN 0083 GLOBAL VLESS XHTTP
+      - POPVPN 0083 GLOBAL VLESS WS
       - POPVPN 0084 GLOBAL VLESS WS
       - POPVPN 0085 GLOBAL VLESS WS
       - POPVPN 0086 GLOBAL VLESS WS
@@ -2753,55 +2667,55 @@ proxy-groups:
       - POPVPN 0097 GLOBAL VLESS WS
       - POPVPN 0098 GLOBAL VLESS WS
       - POPVPN 0099 GLOBAL VLESS WS
-      - POPVPN 0100 GLOBAL VLESS WS
-      - POPVPN 0101 GLOBAL VLESS WS
-      - POPVPN 0102 GLOBAL VLESS WS
-      - POPVPN 0103 GLOBAL VLESS WS
-      - POPVPN 0104 GLOBAL VLESS WS
-      - POPVPN 0105 GLOBAL VLESS XHTTP
-      - POPVPN 0106 GLOBAL VLESS XHTTP
+      - POPVPN 0100 GLOBAL VLESS XHTTP
+      - POPVPN 0101 GLOBAL VLESS XHTTP
+      - POPVPN 0102 GLOBAL VLESS XHTTP
+      - POPVPN 0103 GLOBAL VLESS XHTTP
+      - POPVPN 0104 GLOBAL VLESS XHTTP
+      - POPVPN 0105 GLOBAL VLESS WS
+      - POPVPN 0106 GLOBAL VLESS WS
       - POPVPN 0107 GLOBAL VLESS XHTTP
-      - POPVPN 0108 GLOBAL VLESS XHTTP
-      - POPVPN 0109 GLOBAL VLESS XHTTP
-      - POPVPN 0110 GLOBAL VLESS WS
-      - POPVPN 0111 GLOBAL VLESS WS
+      - POPVPN 0108 GLOBAL VLESS WS
+      - POPVPN 0109 GLOBAL VLESS WS
+      - POPVPN 0110 GLOBAL VLESS XHTTP
+      - POPVPN 0111 GLOBAL VLESS XHTTP
       - POPVPN 0112 GLOBAL VLESS XHTTP
-      - POPVPN 0113 GLOBAL VLESS WS
-      - POPVPN 0114 GLOBAL VLESS WS
-      - POPVPN 0115 GLOBAL VLESS XHTTP
-      - POPVPN 0116 GLOBAL VLESS XHTTP
-      - POPVPN 0117 GLOBAL VLESS XHTTP
-      - POPVPN 0118 GLOBAL VLESS XHTTP
-      - POPVPN 0119 GLOBAL VLESS XHTTP
-      - POPVPN 0120 GLOBAL VLESS WS
-      - POPVPN 0121 GLOBAL VLESS WS
-      - POPVPN 0122 GLOBAL VLESS WS
+      - POPVPN 0113 GLOBAL VLESS XHTTP
+      - POPVPN 0114 GLOBAL VLESS XHTTP
+      - POPVPN 0115 GLOBAL VLESS WS
+      - POPVPN 0116 GLOBAL VLESS WS
+      - POPVPN 0117 GLOBAL VLESS WS
+      - POPVPN 0118 GLOBAL TROJAN WS
+      - POPVPN 0119 GLOBAL TROJAN WS
+      - POPVPN 0120 GLOBAL TROJAN WS
+      - POPVPN 0121 GLOBAL TROJAN WS
+      - POPVPN 0122 GLOBAL TROJAN WS
       - POPVPN 0123 GLOBAL TROJAN WS
-      - POPVPN 0124 GLOBAL TROJAN WS
-      - POPVPN 0125 GLOBAL TROJAN WS
-      - POPVPN 0126 GLOBAL TROJAN WS
-      - POPVPN 0127 GLOBAL TROJAN WS
-      - POPVPN 0128 GLOBAL TROJAN WS
+      - POPVPN 0124 GLOBAL VLESS WS
+      - POPVPN 0125 GLOBAL VLESS WS
+      - POPVPN 0126 GLOBAL VLESS WS
+      - POPVPN 0127 GLOBAL VLESS WS
+      - POPVPN 0128 GLOBAL VLESS WS
       - POPVPN 0129 GLOBAL VLESS WS
-      - POPVPN 0130 GLOBAL VLESS WS
-      - POPVPN 0131 GLOBAL VLESS WS
-      - POPVPN 0132 GLOBAL VLESS WS
+      - POPVPN 0130 GLOBAL VLESS XHTTP
+      - POPVPN 0131 GLOBAL VLESS TLS
+      - POPVPN 0132 GLOBAL VLESS TLS
       - POPVPN 0133 GLOBAL VLESS WS
-      - POPVPN 0134 GLOBAL VLESS WS
-      - POPVPN 0135 GLOBAL VLESS XHTTP
-      - POPVPN 0136 GLOBAL VLESS TLS
-      - POPVPN 0137 GLOBAL VLESS TLS
-      - POPVPN 0138 GLOBAL VLESS WS
-      - POPVPN 0139 GLOBAL VLESS TLS
-      - POPVPN 0140 GLOBAL VLESS TLS
-      - POPVPN 0141 GLOBAL VLESS WS
-      - POPVPN 0142 GLOBAL TROJAN WS
-      - POPVPN 0143 GLOBAL TROJAN WS
-      - POPVPN 0144 GLOBAL TROJAN TLS
-      - POPVPN 0145 GLOBAL TROJAN TLS
-      - POPVPN 0146 GLOBAL TROJAN TLS
-      - POPVPN 0147 GLOBAL TROJAN TLS
-      - POPVPN 0148 GLOBAL TROJAN TLS
+      - POPVPN 0134 GLOBAL VLESS TLS
+      - POPVPN 0135 GLOBAL VLESS TLS
+      - POPVPN 0136 GLOBAL VLESS WS
+      - POPVPN 0137 GLOBAL TROJAN WS
+      - POPVPN 0138 GLOBAL TROJAN WS
+      - POPVPN 0139 GLOBAL TROJAN TLS
+      - POPVPN 0140 GLOBAL TROJAN TLS
+      - POPVPN 0141 GLOBAL TROJAN TLS
+      - POPVPN 0142 GLOBAL TROJAN TLS
+      - POPVPN 0143 GLOBAL TROJAN TLS
+      - POPVPN 0144 GLOBAL VLESS WS
+      - POPVPN 0145 GLOBAL VLESS WS
+      - POPVPN 0146 GLOBAL VLESS WS
+      - POPVPN 0147 GLOBAL VLESS WS
+      - POPVPN 0148 GLOBAL VLESS WS
       - POPVPN 0149 GLOBAL VLESS WS
       - POPVPN 0150 GLOBAL VLESS WS
       - POPVPN 0151 GLOBAL VLESS WS
@@ -2824,36 +2738,36 @@ proxy-groups:
       - POPVPN 0168 GLOBAL VLESS WS
       - POPVPN 0169 GLOBAL VLESS WS
       - POPVPN 0170 GLOBAL VLESS WS
-      - POPVPN 0171 GLOBAL VLESS WS
-      - POPVPN 0172 GLOBAL VLESS WS
-      - POPVPN 0173 GLOBAL VLESS WS
-      - POPVPN 0174 GLOBAL VLESS WS
-      - POPVPN 0175 GLOBAL VLESS WS
+      - POPVPN 0171 GLOBAL TROJAN WS
+      - POPVPN 0172 GLOBAL TROJAN TLS
+      - POPVPN 0173 GLOBAL TROJAN TLS
+      - POPVPN 0174 GLOBAL TROJAN TLS
+      - POPVPN 0175 GLOBAL TROJAN TLS
       - POPVPN 0176 GLOBAL TROJAN WS
       - POPVPN 0177 GLOBAL TROJAN TLS
-      - POPVPN 0178 GLOBAL TROJAN TLS
-      - POPVPN 0179 GLOBAL TROJAN TLS
-      - POPVPN 0180 GLOBAL TROJAN TLS
-      - POPVPN 0181 GLOBAL TROJAN WS
-      - POPVPN 0182 GLOBAL TROJAN TLS
-      - POPVPN 0183 GLOBAL HY2 TLS
-      - POPVPN 0184 🇺🇸 US VLESS WS
-      - POPVPN 0185 GLOBAL VMESS TLS
-      - POPVPN 0186 GLOBAL VMESS TLS
-      - POPVPN 0187 GLOBAL VLESS XHTTP
-      - POPVPN 0188 GLOBAL VLESS TCP
-      - POPVPN 0189 GLOBAL VLESS TCP
+      - POPVPN 0178 GLOBAL HY2 TLS
+      - POPVPN 0179 GLOBAL VMESS TLS
+      - POPVPN 0180 GLOBAL VMESS TLS
+      - POPVPN 0181 GLOBAL VLESS XHTTP
+      - POPVPN 0182 GLOBAL VLESS TCP
+      - POPVPN 0183 GLOBAL VLESS TCP
+      - POPVPN 0184 GLOBAL VLESS TCP
+      - POPVPN 0185 GLOBAL VLESS TCP
+      - POPVPN 0186 GLOBAL VLESS TCP
+      - POPVPN 0187 GLOBAL VLESS GRPC
+      - POPVPN 0188 GLOBAL VLESS WS
+      - POPVPN 0189 GLOBAL VLESS WS
       - POPVPN 0190 GLOBAL VLESS TCP
       - POPVPN 0191 GLOBAL VLESS TCP
       - POPVPN 0192 GLOBAL VLESS TCP
-      - POPVPN 0193 GLOBAL VLESS GRPC
-      - POPVPN 0194 GLOBAL VLESS WS
-      - POPVPN 0195 GLOBAL VLESS WS
+      - POPVPN 0193 GLOBAL VLESS TCP
+      - POPVPN 0194 GLOBAL VLESS TCP
+      - POPVPN 0195 GLOBAL VLESS TCP
       - POPVPN 0196 GLOBAL VLESS TCP
-      - POPVPN 0197 GLOBAL VLESS TCP
-      - POPVPN 0198 GLOBAL VLESS TCP
-      - POPVPN 0199 GLOBAL VLESS TCP
-      - POPVPN 0200 GLOBAL VLESS TCP
+      - POPVPN 0197 GLOBAL SS AES-256-GCM
+      - POPVPN 0198 GLOBAL SS AES-256-GCM
+      - POPVPN 0199 GLOBAL SS AES-256-GCM
+      - POPVPN 0200 GLOBAL SS AES-256-GCM
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
@@ -2878,40 +2792,40 @@ proxy-groups:
       - POPVPN 0015 GLOBAL VLESS REALITY
       - POPVPN 0016 GLOBAL VLESS REALITY
       - POPVPN 0017 GLOBAL VLESS REALITY
-      - POPVPN 0018 🇺🇸 US VLESS WS
+      - POPVPN 0018 🇨🇦 CA VLESS WS
       - POPVPN 0019 🇨🇦 CA VLESS WS
       - POPVPN 0020 🇨🇦 CA VLESS WS
       - POPVPN 0021 🇨🇦 CA VLESS WS
-      - POPVPN 0022 🇭🇰 HK VLESS WS
+      - POPVPN 0022 🇺🇸 US VLESS WS
       - POPVPN 0023 🇨🇦 CA VLESS WS
       - POPVPN 0024 🇨🇦 CA VLESS WS
       - POPVPN 0025 🇨🇦 CA VLESS WS
       - POPVPN 0026 🇨🇦 CA VLESS WS
-      - POPVPN 0027 🇨🇦 CA VLESS WS
-      - POPVPN 0028 🇩🇪 DE VLESS WS
+      - POPVPN 0027 🇭🇰 HK VLESS WS
+      - POPVPN 0028 🇨🇦 CA VLESS WS
       - POPVPN 0029 🇨🇦 CA VLESS WS
       - POPVPN 0030 🇨🇦 CA VLESS WS
       - POPVPN 0031 🇨🇦 CA VLESS WS
       - POPVPN 0032 🇨🇦 CA VLESS WS
-      - POPVPN 0033 🇩🇪 DE VLESS WS
+      - POPVPN 0033 🇨🇦 CA VLESS WS
       - POPVPN 0034 🇨🇦 CA VLESS WS
-      - POPVPN 0035 🇨🇦 CA VLESS WS
+      - POPVPN 0035 🇺🇸 US VLESS WS
       - POPVPN 0036 🇨🇦 CA VLESS WS
       - POPVPN 0037 🇨🇦 CA VLESS WS
       - POPVPN 0038 🇨🇦 CA VLESS WS
-      - POPVPN 0039 🇨🇦 CA VLESS WS
+      - POPVPN 0039 🇺🇸 US VLESS WS
       - POPVPN 0040 🇨🇦 CA VLESS WS
       - POPVPN 0041 🇨🇦 CA VLESS WS
-      - POPVPN 0042 🇨🇦 CA VLESS WS
+      - POPVPN 0042 🇺🇸 US VLESS WS
       - POPVPN 0043 🇨🇦 CA VLESS WS
       - POPVPN 0044 🇨🇦 CA VLESS WS
       - POPVPN 0045 🇨🇦 CA VLESS WS
       - POPVPN 0046 🇨🇦 CA VLESS WS
       - POPVPN 0047 🇨🇦 CA VLESS WS
       - POPVPN 0048 🇨🇦 CA VLESS WS
-      - POPVPN 0049 GLOBAL VLESS REALITY
-      - POPVPN 0050 GLOBAL VLESS REALITY
-      - POPVPN 0051 GLOBAL VLESS REALITY
+      - POPVPN 0049 🇨🇦 CA VLESS WS
+      - POPVPN 0050 🇨🇦 CA VLESS WS
+      - POPVPN 0051 🇨🇦 CA VLESS WS
       - POPVPN 0052 GLOBAL VLESS REALITY
       - POPVPN 0053 GLOBAL VLESS REALITY
       - POPVPN 0054 GLOBAL VLESS REALITY
@@ -2935,15 +2849,15 @@ proxy-groups:
       - POPVPN 0072 GLOBAL VLESS REALITY
       - POPVPN 0073 GLOBAL VLESS REALITY
       - POPVPN 0074 GLOBAL VLESS REALITY
-      - POPVPN 0075 GLOBAL VLESS REALITY
-      - POPVPN 0076 GLOBAL VLESS GRPC
-      - POPVPN 0077 GLOBAL VLESS WS
+      - POPVPN 0075 GLOBAL VLESS GRPC
+      - POPVPN 0076 GLOBAL VLESS WS
+      - POPVPN 0077 GLOBAL VLESS XHTTP
       - POPVPN 0078 GLOBAL VLESS XHTTP
       - POPVPN 0079 GLOBAL VLESS XHTTP
       - POPVPN 0080 GLOBAL VLESS XHTTP
       - POPVPN 0081 GLOBAL VLESS XHTTP
       - POPVPN 0082 GLOBAL VLESS XHTTP
-      - POPVPN 0083 GLOBAL VLESS XHTTP
+      - POPVPN 0083 GLOBAL VLESS WS
       - POPVPN 0084 GLOBAL VLESS WS
       - POPVPN 0085 GLOBAL VLESS WS
       - POPVPN 0086 GLOBAL VLESS WS
@@ -2960,66 +2874,66 @@ proxy-groups:
       - POPVPN 0097 GLOBAL VLESS WS
       - POPVPN 0098 GLOBAL VLESS WS
       - POPVPN 0099 GLOBAL VLESS WS
-      - POPVPN 0100 GLOBAL VLESS WS
+      - POPVPN 0100 GLOBAL VLESS XHTTP
   - name: HY2
     type: url-test
     proxies:
-      - POPVPN 0183 GLOBAL HY2 TLS
+      - POPVPN 0178 GLOBAL HY2 TLS
     url: "https://www.gstatic.com/generate_204"
     interval: 300
   - name: SS
     type: url-test
     proxies:
+      - POPVPN 0197 GLOBAL SS AES-256-GCM
+      - POPVPN 0198 GLOBAL SS AES-256-GCM
+      - POPVPN 0199 GLOBAL SS AES-256-GCM
+      - POPVPN 0200 GLOBAL SS AES-256-GCM
+      - POPVPN 0201 GLOBAL SS AES-256-GCM
+      - POPVPN 0202 GLOBAL SS AES-256-GCM
+      - POPVPN 0203 GLOBAL SS AES-256-GCM
       - POPVPN 0204 GLOBAL SS AES-256-GCM
-      - POPVPN 0205 GLOBAL SS AES-256-GCM
-      - POPVPN 0206 GLOBAL SS AES-256-GCM
-      - POPVPN 0207 GLOBAL SS AES-256-GCM
-      - POPVPN 0208 GLOBAL SS AES-256-GCM
-      - POPVPN 0209 GLOBAL SS AES-256-GCM
-      - POPVPN 0210 GLOBAL SS AES-256-GCM
+      - POPVPN 0205 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0206 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0207 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0208 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0209 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0210 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0211 GLOBAL SS AES-256-GCM
-      - POPVPN 0212 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0213 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0214 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0215 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0216 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0217 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0212 GLOBAL SS AES-256-GCM
+      - POPVPN 0213 GLOBAL SS AES-256-GCM
+      - POPVPN 0214 GLOBAL SS AES-256-GCM
+      - POPVPN 0215 GLOBAL SS AES-256-GCM
+      - POPVPN 0216 GLOBAL SS AES-256-GCM
+      - POPVPN 0217 GLOBAL SS AES-256-GCM
       - POPVPN 0218 GLOBAL SS AES-256-GCM
-      - POPVPN 0219 GLOBAL SS AES-256-GCM
-      - POPVPN 0220 GLOBAL SS AES-256-GCM
+      - POPVPN 0219 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0220 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0221 GLOBAL SS AES-256-GCM
-      - POPVPN 0222 GLOBAL SS AES-256-GCM
-      - POPVPN 0223 GLOBAL SS AES-256-GCM
-      - POPVPN 0224 GLOBAL SS AES-256-GCM
-      - POPVPN 0225 GLOBAL SS AES-256-GCM
-      - POPVPN 0226 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0227 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0228 GLOBAL SS AES-256-GCM
     url: "https://www.gstatic.com/generate_204"
     interval: 300
   - name: TROJAN
     type: url-test
     proxies:
+      - POPVPN 0118 GLOBAL TROJAN WS
+      - POPVPN 0119 GLOBAL TROJAN WS
+      - POPVPN 0120 GLOBAL TROJAN WS
+      - POPVPN 0121 GLOBAL TROJAN WS
+      - POPVPN 0122 GLOBAL TROJAN WS
       - POPVPN 0123 GLOBAL TROJAN WS
-      - POPVPN 0124 GLOBAL TROJAN WS
-      - POPVPN 0125 GLOBAL TROJAN WS
-      - POPVPN 0126 GLOBAL TROJAN WS
-      - POPVPN 0127 GLOBAL TROJAN WS
-      - POPVPN 0128 GLOBAL TROJAN WS
-      - POPVPN 0142 GLOBAL TROJAN WS
-      - POPVPN 0143 GLOBAL TROJAN WS
-      - POPVPN 0144 GLOBAL TROJAN TLS
-      - POPVPN 0145 GLOBAL TROJAN TLS
-      - POPVPN 0146 GLOBAL TROJAN TLS
-      - POPVPN 0147 GLOBAL TROJAN TLS
-      - POPVPN 0148 GLOBAL TROJAN TLS
+      - POPVPN 0137 GLOBAL TROJAN WS
+      - POPVPN 0138 GLOBAL TROJAN WS
+      - POPVPN 0139 GLOBAL TROJAN TLS
+      - POPVPN 0140 GLOBAL TROJAN TLS
+      - POPVPN 0141 GLOBAL TROJAN TLS
+      - POPVPN 0142 GLOBAL TROJAN TLS
+      - POPVPN 0143 GLOBAL TROJAN TLS
+      - POPVPN 0171 GLOBAL TROJAN WS
+      - POPVPN 0172 GLOBAL TROJAN TLS
+      - POPVPN 0173 GLOBAL TROJAN TLS
+      - POPVPN 0174 GLOBAL TROJAN TLS
+      - POPVPN 0175 GLOBAL TROJAN TLS
       - POPVPN 0176 GLOBAL TROJAN WS
       - POPVPN 0177 GLOBAL TROJAN TLS
-      - POPVPN 0178 GLOBAL TROJAN TLS
-      - POPVPN 0179 GLOBAL TROJAN TLS
-      - POPVPN 0180 GLOBAL TROJAN TLS
-      - POPVPN 0181 GLOBAL TROJAN WS
-      - POPVPN 0182 GLOBAL TROJAN TLS
     url: "https://www.gstatic.com/generate_204"
     interval: 300
   - name: VLESS
@@ -3042,40 +2956,40 @@ proxy-groups:
       - POPVPN 0015 GLOBAL VLESS REALITY
       - POPVPN 0016 GLOBAL VLESS REALITY
       - POPVPN 0017 GLOBAL VLESS REALITY
-      - POPVPN 0018 🇺🇸 US VLESS WS
+      - POPVPN 0018 🇨🇦 CA VLESS WS
       - POPVPN 0019 🇨🇦 CA VLESS WS
       - POPVPN 0020 🇨🇦 CA VLESS WS
       - POPVPN 0021 🇨🇦 CA VLESS WS
-      - POPVPN 0022 🇭🇰 HK VLESS WS
+      - POPVPN 0022 🇺🇸 US VLESS WS
       - POPVPN 0023 🇨🇦 CA VLESS WS
       - POPVPN 0024 🇨🇦 CA VLESS WS
       - POPVPN 0025 🇨🇦 CA VLESS WS
       - POPVPN 0026 🇨🇦 CA VLESS WS
-      - POPVPN 0027 🇨🇦 CA VLESS WS
-      - POPVPN 0028 🇩🇪 DE VLESS WS
+      - POPVPN 0027 🇭🇰 HK VLESS WS
+      - POPVPN 0028 🇨🇦 CA VLESS WS
       - POPVPN 0029 🇨🇦 CA VLESS WS
       - POPVPN 0030 🇨🇦 CA VLESS WS
       - POPVPN 0031 🇨🇦 CA VLESS WS
       - POPVPN 0032 🇨🇦 CA VLESS WS
-      - POPVPN 0033 🇩🇪 DE VLESS WS
+      - POPVPN 0033 🇨🇦 CA VLESS WS
       - POPVPN 0034 🇨🇦 CA VLESS WS
-      - POPVPN 0035 🇨🇦 CA VLESS WS
+      - POPVPN 0035 🇺🇸 US VLESS WS
       - POPVPN 0036 🇨🇦 CA VLESS WS
       - POPVPN 0037 🇨🇦 CA VLESS WS
       - POPVPN 0038 🇨🇦 CA VLESS WS
-      - POPVPN 0039 🇨🇦 CA VLESS WS
+      - POPVPN 0039 🇺🇸 US VLESS WS
       - POPVPN 0040 🇨🇦 CA VLESS WS
       - POPVPN 0041 🇨🇦 CA VLESS WS
-      - POPVPN 0042 🇨🇦 CA VLESS WS
+      - POPVPN 0042 🇺🇸 US VLESS WS
       - POPVPN 0043 🇨🇦 CA VLESS WS
       - POPVPN 0044 🇨🇦 CA VLESS WS
       - POPVPN 0045 🇨🇦 CA VLESS WS
       - POPVPN 0046 🇨🇦 CA VLESS WS
       - POPVPN 0047 🇨🇦 CA VLESS WS
       - POPVPN 0048 🇨🇦 CA VLESS WS
-      - POPVPN 0049 GLOBAL VLESS REALITY
-      - POPVPN 0050 GLOBAL VLESS REALITY
-      - POPVPN 0051 GLOBAL VLESS REALITY
+      - POPVPN 0049 🇨🇦 CA VLESS WS
+      - POPVPN 0050 🇨🇦 CA VLESS WS
+      - POPVPN 0051 🇨🇦 CA VLESS WS
       - POPVPN 0052 GLOBAL VLESS REALITY
       - POPVPN 0053 GLOBAL VLESS REALITY
       - POPVPN 0054 GLOBAL VLESS REALITY
@@ -3099,15 +3013,15 @@ proxy-groups:
       - POPVPN 0072 GLOBAL VLESS REALITY
       - POPVPN 0073 GLOBAL VLESS REALITY
       - POPVPN 0074 GLOBAL VLESS REALITY
-      - POPVPN 0075 GLOBAL VLESS REALITY
-      - POPVPN 0076 GLOBAL VLESS GRPC
-      - POPVPN 0077 GLOBAL VLESS WS
+      - POPVPN 0075 GLOBAL VLESS GRPC
+      - POPVPN 0076 GLOBAL VLESS WS
+      - POPVPN 0077 GLOBAL VLESS XHTTP
       - POPVPN 0078 GLOBAL VLESS XHTTP
       - POPVPN 0079 GLOBAL VLESS XHTTP
       - POPVPN 0080 GLOBAL VLESS XHTTP
       - POPVPN 0081 GLOBAL VLESS XHTTP
       - POPVPN 0082 GLOBAL VLESS XHTTP
-      - POPVPN 0083 GLOBAL VLESS XHTTP
+      - POPVPN 0083 GLOBAL VLESS WS
       - POPVPN 0084 GLOBAL VLESS WS
       - POPVPN 0085 GLOBAL VLESS WS
       - POPVPN 0086 GLOBAL VLESS WS
@@ -3124,17 +3038,17 @@ proxy-groups:
       - POPVPN 0097 GLOBAL VLESS WS
       - POPVPN 0098 GLOBAL VLESS WS
       - POPVPN 0099 GLOBAL VLESS WS
-      - POPVPN 0100 GLOBAL VLESS WS
+      - POPVPN 0100 GLOBAL VLESS XHTTP
     url: "https://www.gstatic.com/generate_204"
     interval: 300
   - name: VMESS
     type: url-test
     proxies:
-      - POPVPN 0185 GLOBAL VMESS TLS
-      - POPVPN 0186 GLOBAL VMESS TLS
-      - POPVPN 0229 GLOBAL VMESS ---
-      - POPVPN 0230 GLOBAL VMESS ---
-      - POPVPN 0231 GLOBAL VMESS NONE
+      - POPVPN 0179 GLOBAL VMESS TLS
+      - POPVPN 0180 GLOBAL VMESS TLS
+      - POPVPN 0222 GLOBAL VMESS ---
+      - POPVPN 0223 GLOBAL VMESS ---
+      - POPVPN 0224 GLOBAL VMESS NONE
     url: "https://www.gstatic.com/generate_204"
     interval: 300
 rules:

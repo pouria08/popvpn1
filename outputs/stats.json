@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-23 01:34:50 UTC",
+  "generated_at": "2026-10-23 07:37:43 UTC",
   "version": "2.0.0",
-  "duration_ms": 272,
-  "total": 231,
-  "unique": 231,
-  "parsed": 270,
-  "raw_lines": 273,
-  "duplicates": 39,
+  "duration_ms": 302,
+  "total": 224,
+  "unique": 224,
+  "parsed": 262,
+  "raw_lines": 265,
+  "duplicates": 38,
   "invalid": 3,
   "by_protocol": {
-    "vless": 180,
+    "vless": 173,
     "trojan": 20,
     "hy2": 1,
     "vmess": 5,
@@ -21,28 +21,21 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 199
+      "count": 190
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 27
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 2
+      "count": 29
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 2
+      "count": 4
     },
     {
       "code": "HK",
@@ -52,7 +45,7 @@
       "count": 1
     }
   ],
-  "country_count": 5,
+  "country_count": 4,
   "sources": {
     "total": 2,
     "ok": 2,
@@ -65,8 +58,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 135,
+      "from_cache": false,
+      "elapsed_ms": 244,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -74,17 +67,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 211,
+      "last_configs": 203,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 246,
+      "elapsed_ms": 248,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 211
+    "raw.githubusercontent.com": 203
   },
   "cache": {
     "enabled": true,
@@ -105,7 +98,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 231,
+    "kept": 224,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
