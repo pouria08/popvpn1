@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-25 04:51:00 UTC",
+  "generated_at": "2026-10-25 09:52:29 UTC",
   "version": "2.0.0",
-  "duration_ms": 145,
-  "total": 47,
-  "unique": 47,
-  "parsed": 129,
-  "raw_lines": 129,
-  "duplicates": 82,
+  "duration_ms": 220,
+  "total": 42,
+  "unique": 42,
+  "parsed": 118,
+  "raw_lines": 118,
+  "duplicates": 76,
   "invalid": 0,
   "by_protocol": {
-    "vless": 32,
-    "vmess": 9,
+    "vless": 28,
+    "vmess": 8,
     "trojan": 2,
     "ss": 4
   },
@@ -20,21 +20,7 @@
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 10
-    },
-    {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "region": "AS",
-      "count": 5
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 4
+      "count": 9
     },
     {
       "code": "HK",
@@ -44,17 +30,31 @@
       "count": 4
     },
     {
-      "code": "US",
-      "name": "United States",
-      "flag": "🇺🇸",
-      "region": "NA",
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "region": "AS",
       "count": 4
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
+      "count": 3
     },
     {
       "code": "TR",
       "name": "Türkiye",
       "flag": "🇹🇷",
       "region": "",
+      "count": 3
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "region": "NA",
       "count": 3
     },
     {
@@ -107,13 +107,6 @@
       "count": 1
     },
     {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
-      "region": "EU",
-      "count": 1
-    },
-    {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
@@ -149,7 +142,7 @@
       "count": 1
     }
   ],
-  "country_count": 19,
+  "country_count": 18,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -160,17 +153,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
-      "last_configs": 129,
+      "last_configs": 118,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 123,
+      "elapsed_ms": 199,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 129
+    "raw.githubusercontent.com": 118
   },
   "cache": {
     "enabled": true,
@@ -191,16 +184,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 47,
+    "kept": 42,
     "dropped": 0,
     "insecure": 2,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 8,
+      "unknown-network": 7,
       "allow-insecure": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 42
+  "previous_total": 47
 }
