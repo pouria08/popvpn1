@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-25 14:25:48 UTC",
+  "generated_at": "2026-10-25 18:26:20 UTC",
   "version": "2.0.0",
-  "duration_ms": 219,
-  "total": 48,
-  "unique": 48,
-  "parsed": 124,
-  "raw_lines": 124,
-  "duplicates": 76,
+  "duration_ms": 250,
+  "total": 50,
+  "unique": 50,
+  "parsed": 128,
+  "raw_lines": 128,
+  "duplicates": 78,
   "invalid": 0,
   "by_protocol": {
-    "vless": 35,
+    "vless": 36,
     "vmess": 7,
     "trojan": 2,
-    "ss": 4
+    "ss": 5
   },
   "by_country": [
     {
@@ -28,6 +28,13 @@
       "flag": "🇵🇱",
       "region": "EU",
       "count": 7
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
+      "count": 4
     },
     {
       "code": "HK",
@@ -55,13 +62,6 @@
       "name": "Australia",
       "flag": "🇦🇺",
       "region": "OC",
-      "count": 2
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
       "count": 2
     },
     {
@@ -160,17 +160,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
-      "last_configs": 124,
+      "last_configs": 128,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 202,
+      "elapsed_ms": 235,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 124
+    "raw.githubusercontent.com": 128
   },
   "cache": {
     "enabled": true,
@@ -191,7 +191,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 48,
+    "kept": 50,
     "dropped": 0,
     "insecure": 2,
     "private_hosts": 0,
@@ -202,5 +202,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 42
+  "previous_total": 48
 }
