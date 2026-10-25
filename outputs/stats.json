@@ -1,40 +1,96 @@
 {
-  "generated_at": "2026-10-24 23:20:06 UTC",
+  "generated_at": "2026-10-25 00:42:48 UTC",
   "version": "2.0.0",
-  "duration_ms": 185,
-  "total": 213,
-  "unique": 213,
-  "parsed": 254,
-  "raw_lines": 261,
-  "duplicates": 41,
-  "invalid": 7,
+  "duration_ms": 4355,
+  "total": 42,
+  "unique": 42,
+  "parsed": 123,
+  "raw_lines": 123,
+  "duplicates": 81,
+  "invalid": 0,
   "by_protocol": {
-    "vless": 133,
-    "trojan": 13,
-    "vmess": 10,
-    "ss": 57
+    "vless": 28,
+    "vmess": 8,
+    "trojan": 2,
+    "ss": 4
   },
   "by_country": [
     {
-      "code": "?",
-      "name": "Unknown",
-      "flag": "🏳️",
-      "region": "",
-      "count": 206
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 8
     },
     {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
       "region": "EU",
-      "count": 2
+      "count": 4
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "flag": "🇭🇰",
+      "region": "AS",
+      "count": 4
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "region": "AS",
+      "count": 4
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
+      "count": 4
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "region": "EU",
       "count": 2
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "region": "EU",
+      "count": 2
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "region": "AS",
+      "count": 2
+    },
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "region": "",
+      "count": 2
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "flag": "🇦🇹",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "region": "OC",
+      "count": 1
     },
     {
       "code": "CA",
@@ -44,82 +100,107 @@
       "count": 1
     },
     {
-      "code": "CH",
-      "name": "Switzerland",
-      "flag": "🇨🇭",
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
       "region": "EU",
       "count": 1
     },
     {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "flag": "🇮🇪",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "flag": "🇷🇴",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "region": "AS",
+      "count": 1
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "region": "AS",
       "count": 1
     }
   ],
-  "country_count": 6,
+  "country_count": 19,
   "sources": {
-    "total": 2,
-    "ok": 2,
+    "total": 1,
+    "ok": 1,
     "failed": 0,
     "paused": 0
   },
   "source_list": [
     {
       "name": "raw.githubusercontent.com",
-      "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
-      "last_configs": 58,
+      "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
+      "last_configs": 123,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 111,
-      "error": "",
-      "success_rate": 1.0,
-      "paused": false
-    },
-    {
-      "name": "raw.githubusercontent.com",
-      "url": "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt",
-      "last_configs": 196,
-      "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 152,
+      "elapsed_ms": 155,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 196
+    "raw.githubusercontent.com": 123
   },
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 2,
+    "misses": 1,
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "off",
-    "endpoints_total": 0,
-    "endpoints_probed": 0,
+    "mode": "tcp",
+    "endpoints_total": 38,
+    "endpoints_probed": 38,
     "endpoints_cached": 0,
-    "alive": 0,
-    "dead": 0,
-    "configs_alive": 0,
-    "configs_dead": 0,
-    "elapsed_ms": 0,
-    "avg_latency_ms": 0
+    "alive": 29,
+    "dead": 9,
+    "configs_alive": 32,
+    "configs_dead": 10,
+    "elapsed_ms": 4190,
+    "avg_latency_ms": 403
   },
   "audit": {
-    "kept": 213,
+    "kept": 42,
     "dropped": 0,
-    "insecure": 0,
+    "insecure": 2,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 10
+      "unknown-network": 7,
+      "allow-insecure": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 224
+  "previous_total": 213
 }

@@ -2,16 +2,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-trojan://mitivpn@167.82.64.46:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn.ac.ir&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com#POPVPN 0077 GLOBAL TROJAN WS
-trojan://humanity@172.66.40.99:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.trusteeforward.com&fp=firefox&type=ws&allowInsecure=0&sni=www.trusteeforward.com#POPVPN 0078 GLOBAL TROJAN WS
-trojan://mitivpn@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn.ac.ir&fp=chrome&type=ws&allowInsecure=0&sni=firefox.com#POPVPN 0079 GLOBAL TROJAN WS
-trojan://humanity@31.57.190.71:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&type=ws&allowInsecure=0&sni=www.pleadcourt.org#POPVPN 0097 GLOBAL TROJAN WS
-trojan://humanity@8.47.69.0:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#POPVPN 0098 GLOBAL TROJAN WS
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de10.dedushka.top:443?security=tls&alpn=http%2F1.1&headerType=none&fp=chrome&type=tcp&sni=de10.dedushka.top#POPVPN 0099 GLOBAL TROJAN TLS
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de5.dedushka.top:443?security=tls&alpn=http%2F1.1&headerType=none&fp=chrome&type=tcp&sni=de5.dedushka.top#POPVPN 0100 GLOBAL TROJAN TLS
-trojan://humanity@108.162.194.134:443?path=%2Fassignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#POPVPN 0124 GLOBAL TROJAN WS
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.236:443?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=de10.dedushka.top#POPVPN 0125 GLOBAL TROJAN TLS
-trojan://humanity@212.183.88.136:443?path=%2F%252Fassignment&security=tls&host=www.calmlunch.com&type=ws&sni=www.calmlunch.com#POPVPN 0126 GLOBAL TROJAN WS
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@pl1.dedushka.top:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=pl1.dedushka.top#POPVPN 0127 GLOBAL TROJAN TLS
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@pl2.dedushka.top:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=pl2.dedushka.top#POPVPN 0128 GLOBAL TROJAN TLS
-trojan://cMCQxnflDO@31.76.10.180:36508?type=tcp&security=none#POPVPN 0154 GLOBAL TROJAN TCP
+trojan://8yup05o4lz0csoxb@216.24.57.225:2083?allowInsecure=1&alpn=h2,http/1.1,h3&fp=chrome&host=fin.netvia.ir&path=/YaujaGsyr&security=tls&sni=fin.netvia.ir&type=ws#POPVPN 0013 🇬🇧 GB TROJAN WS
+trojan://va3E77I9fZCnCVcGKkxBCfz5@vpn.liumr.top:443?allowInsecure=1&sni=vpn.liumr.top#POPVPN 0032 🇺🇸 US TROJAN TLS

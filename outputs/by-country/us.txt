@@ -2,5 +2,7 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@173.244.56.9:443#POPVPN 0142 🇺🇸 US SS AES-128-GCM
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@198.98.53.130:443#POPVPN 0144 🇺🇸 US SS CHACHA20-IETF-POLY1305
+vless://f1e7eafa-0d6f-441e-8565-29f34171aef2@23.160.56.99:2087?encryption=none&security=none&type=tcp#POPVPN 0014 🇺🇸 US VLESS TCP
+vmess://eyJhZGQiOiAiMjMuMjU0LjE5NC4yMTUiLCAiYWlkIjogMCwgImhvc3QiOiAid3d3LmJpbmcuY29tIiwgImlkIjogIjNjNzVhNTUxLTgxZDYtNDZkMC04NzZkLTc5NTE5NzE5YmIyMiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIzYzc1YTU1MS04MWQ2LTQ2ZDAtODc2ZC03OTUxOTcxOWJiMjItdm0iLCAicG9ydCI6ICI4MDgwIiwgInBzIjogIlBPUFZQTiAwMDE3IPCfh7rwn4e4IFVTIFZNRVNTIE5PTkUiLCAic25pIjogInd3dy5iaW5nLmNvbSIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
+trojan://va3E77I9fZCnCVcGKkxBCfz5@vpn.liumr.top:443?allowInsecure=1&sni=vpn.liumr.top#POPVPN 0032 🇺🇸 US TROJAN TLS
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:30892?security=reality&encryption=none&pbk=YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=us1p1.xn--ghq880n3na965a.com&sid=3d31326f95#POPVPN 0035 🇺🇸 US VLESS REALITY
