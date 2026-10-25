@@ -170,11 +170,11 @@
   {
     "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 3,
+    "attempts": 4,
     "success_rate": 1.0,
     "fail_streak": 0,
-    "last_configs": 118,
-    "avg_ms": 131,
+    "last_configs": 124,
+    "avg_ms": 159,
     "reliability": 1.0,
     "last_error": "",
     "paused": false

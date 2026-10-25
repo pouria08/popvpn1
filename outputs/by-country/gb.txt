@@ -2,6 +2,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://b6c67edd-763b-4929-b655-4f328d13a279@131.123.35.56:443?security=reality&encryption=none&pbk=D3LM6JIYP6kL--jSCj-BPj-qy-J7rzX0Jp9Z4ygNeV4&headerType=&type=tcp&flow=xtls-rprx-vision&sni=seznam.cz&sid=7791e189a518d69e#POPVPN 0010 🇬🇧 GB VLESS REALITY
-trojan://8yup05o4lz0csoxb@216.24.57.225:2083?allowInsecure=1&alpn=h2,http/1.1,h3&fp=chrome&host=fin.netvia.ir&path=/YaujaGsyr&security=tls&sni=fin.netvia.ir&type=ws#POPVPN 0023 🇬🇧 GB TROJAN WS
-vless://c6362720-0931-4b91-b187-d8ecf3149734@connect.hondamotor.site:10002?security=&encryption=none&headerType=none&type=tcp#POPVPN 0028 🇬🇧 GB VLESS TCP
+trojan://8yup05o4lz0csoxb@216.24.57.225:2083?allowInsecure=1&alpn=h2,http/1.1,h3&fp=chrome&host=fin.netvia.ir&path=/YaujaGsyr&security=tls&sni=fin.netvia.ir&type=ws#POPVPN 0030 🇬🇧 GB TROJAN WS
+vless://c6362720-0931-4b91-b187-d8ecf3149734@connect.hondamotor.site:10002?security=&encryption=none&headerType=none&type=tcp#POPVPN 0035 🇬🇧 GB VLESS TCP
