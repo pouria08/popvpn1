@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-25 00:42:48 UTC",
+  "generated_at": "2026-10-25 04:51:00 UTC",
   "version": "2.0.0",
-  "duration_ms": 4355,
-  "total": 42,
-  "unique": 42,
-  "parsed": 123,
-  "raw_lines": 123,
-  "duplicates": 81,
+  "duration_ms": 145,
+  "total": 47,
+  "unique": 47,
+  "parsed": 129,
+  "raw_lines": 129,
+  "duplicates": 82,
   "invalid": 0,
   "by_protocol": {
-    "vless": 28,
-    "vmess": 8,
+    "vless": 32,
+    "vmess": 9,
     "trojan": 2,
     "ss": 4
   },
@@ -20,7 +20,14 @@
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 8
+      "count": 10
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "region": "AS",
+      "count": 5
     },
     {
       "code": "GB",
@@ -37,18 +44,25 @@
       "count": 4
     },
     {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "region": "AS",
-      "count": 4
-    },
-    {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
       "count": 4
+    },
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "region": "",
+      "count": 3
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "EU",
+      "count": 2
     },
     {
       "code": "PL",
@@ -72,20 +86,6 @@
       "count": 2
     },
     {
-      "code": "TR",
-      "name": "Türkiye",
-      "flag": "🇹🇷",
-      "region": "",
-      "count": 2
-    },
-    {
-      "code": "AT",
-      "name": "Austria",
-      "flag": "🇦🇹",
-      "region": "EU",
-      "count": 1
-    },
-    {
       "code": "AU",
       "name": "Australia",
       "flag": "🇦🇺",
@@ -97,6 +97,13 @@
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
+      "count": 1
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "flag": "🇩🇰",
+      "region": "EU",
       "count": 1
     },
     {
@@ -117,13 +124,6 @@
       "code": "IE",
       "name": "Ireland",
       "flag": "🇮🇪",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
       "region": "EU",
       "count": 1
     },
@@ -160,17 +160,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
-      "last_configs": 123,
+      "last_configs": 129,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 155,
+      "elapsed_ms": 123,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 123
+    "raw.githubusercontent.com": 129
   },
   "cache": {
     "enabled": true,
@@ -179,28 +179,28 @@
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "tcp",
-    "endpoints_total": 38,
-    "endpoints_probed": 38,
+    "mode": "off",
+    "endpoints_total": 0,
+    "endpoints_probed": 0,
     "endpoints_cached": 0,
-    "alive": 29,
-    "dead": 9,
-    "configs_alive": 32,
-    "configs_dead": 10,
-    "elapsed_ms": 4190,
-    "avg_latency_ms": 403
+    "alive": 0,
+    "dead": 0,
+    "configs_alive": 0,
+    "configs_dead": 0,
+    "elapsed_ms": 0,
+    "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 42,
+    "kept": 47,
     "dropped": 0,
     "insecure": 2,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 7,
+      "unknown-network": 8,
       "allow-insecure": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 213
+  "previous_total": 42
 }
