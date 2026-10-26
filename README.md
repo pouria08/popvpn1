@@ -166,9 +166,9 @@ https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/globa
 
 <!-- POPVPN:STATS:START -->
 
-![Total](https://img.shields.io/badge/CONFIGS-68-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-49-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-12-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-2-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-5-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-1%2F1-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-19-eab308?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-68-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-49-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-12-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-2-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-5-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-1%2F1-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-19-eab308?style=flat-square) | ![Verified](https://img.shields.io/badge/ALIVE-57-16a34a?style=flat-square)
 
-**Last update:** `2026-10-26 14:21:03 UTC` · **68 configs** (-8 vs previous run)
+**Last update:** `2026-10-26 15:20:11 UTC` · **68 configs** (±0 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
@@ -195,7 +195,8 @@ https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/globa
 - invalid lines skipped: **0**
 - HTTP cache hit rate: **0%**
 - security flags: **2** insecure, **0** private hosts
-- run duration: **155 ms**
+- liveness probe (tcp): **57** endpoints alive, 6 dead, avg 293 ms
+- run duration: **4510 ms**
 
 </details>
 

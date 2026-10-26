@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26 14:21:03 UTC",
+  "generated_at": "2026-10-26 15:20:11 UTC",
   "version": "2.0.0",
-  "duration_ms": 155,
+  "duration_ms": 4510,
   "total": 68,
   "unique": 68,
   "parsed": 170,
@@ -11,8 +11,8 @@
   "by_protocol": {
     "vless": 49,
     "ss": 5,
-    "trojan": 2,
-    "vmess": 12
+    "vmess": 12,
+    "trojan": 2
   },
   "by_country": [
     {
@@ -162,8 +162,8 @@
       "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
       "last_configs": 170,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 130,
+      "from_cache": true,
+      "elapsed_ms": 454,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -179,16 +179,16 @@
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "off",
-    "endpoints_total": 0,
-    "endpoints_probed": 0,
+    "mode": "tcp",
+    "endpoints_total": 63,
+    "endpoints_probed": 63,
     "endpoints_cached": 0,
-    "alive": 0,
-    "dead": 0,
-    "configs_alive": 0,
-    "configs_dead": 0,
-    "elapsed_ms": 0,
-    "avg_latency_ms": 0
+    "alive": 57,
+    "dead": 6,
+    "configs_alive": 61,
+    "configs_dead": 7,
+    "elapsed_ms": 4032,
+    "avg_latency_ms": 293
   },
   "audit": {
     "kept": 68,
@@ -202,5 +202,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 76
+  "previous_total": 68
 }

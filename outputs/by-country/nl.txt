@@ -2,7 +2,7 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://2b0e5676-fb62-4bf0-9607-6e7818421e8e@nl6.pad-sservice.lat:8443?path=/NL6W&security=tls&encryption=none&insecure=0&host=nl6.pad-service.com&type=ws&allowInsecure=0&sni=nl6.pad-sservice.lat#POPVPN 0034 🇳🇱 NL VLESS WS
-vless://2b0e5676-fb62-4bf0-9607-6e7818421e8e@nl7.pad-sservice.lat:8443?path=/NL7W&security=tls&encryption=none&insecure=0&host=nl7.pad-service.com&type=ws&allowInsecure=0&sni=nl7.pad-sservice.lat#POPVPN 0035 🇳🇱 NL VLESS WS
-vless://2b0e5676-fb62-4bf0-9607-6e7818421e8e@nl8.pad-sservice.lat:8443?path=/NL8W&security=tls&encryption=none&insecure=0&host=nl8.pad-service.com&type=ws&allowInsecure=0&sni=nl8.pad-sservice.lat#POPVPN 0036 🇳🇱 NL VLESS WS
-vless://9c5a98e3-8c6f-42a1-8e7d-c53ec93d5b2e@94.182.145.175:37311?security=&encryption=mlkem768x25519plus.native.0rtt.Y_GFOgnyqynLFKHJjXwhbFSdNPhveAlV-uhTUMx8Q20&headerType=none&type=tcp#POPVPN 0045 🇳🇱 NL VLESS TCP
+vless://2b0e5676-fb62-4bf0-9607-6e7818421e8e@nl7.pad-sservice.lat:8443?path=/NL7W&security=tls&encryption=none&insecure=0&host=nl7.pad-service.com&type=ws&allowInsecure=0&sni=nl7.pad-sservice.lat#POPVPN 0023 🇳🇱 NL VLESS WS
+vless://2b0e5676-fb62-4bf0-9607-6e7818421e8e@nl6.pad-sservice.lat:8443?path=/NL6W&security=tls&encryption=none&insecure=0&host=nl6.pad-service.com&type=ws&allowInsecure=0&sni=nl6.pad-sservice.lat#POPVPN 0028 🇳🇱 NL VLESS WS
+vless://2b0e5676-fb62-4bf0-9607-6e7818421e8e@nl8.pad-sservice.lat:8443?path=/NL8W&security=tls&encryption=none&insecure=0&host=nl8.pad-service.com&type=ws&allowInsecure=0&sni=nl8.pad-sservice.lat#POPVPN 0031 🇳🇱 NL VLESS WS
+vless://9c5a98e3-8c6f-42a1-8e7d-c53ec93d5b2e@94.182.145.175:37311?security=&encryption=mlkem768x25519plus.native.0rtt.Y_GFOgnyqynLFKHJjXwhbFSdNPhveAlV-uhTUMx8Q20&headerType=none&type=tcp#POPVPN 0065 🇳🇱 NL VLESS TCP
