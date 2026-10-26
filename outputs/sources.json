@@ -144,6 +144,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 8,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 172,
+    "avg_ms": 142,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
     "name": "raw.githubusercontent.com",
     "attempts": 80,
@@ -163,18 +175,6 @@
     "fail_streak": 0,
     "last_configs": 149,
     "avg_ms": 190,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 7,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 139,
-    "avg_ms": 164,
     "reliability": 1.0,
     "last_error": "",
     "paused": false

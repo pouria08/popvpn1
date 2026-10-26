@@ -2,6 +2,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://689e46e9-dcc2-4c5c-8301-8623024ad6f0@tun2.w-ert.org:40285?security=tls&encryption=mlkem768x25519plus.native.0rtt.g4zPsP8_Ju17nfVQ9cRaBqzWPbv0Ve4ELGpzE9yf8CA&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=ask.w-ert.org#POPVPN 0028 🇹🇷 TR VLESS TLS
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnSVFOTF9GTW9rdlh4ZjJodDBUYzRwWXd2dC10UTBlOQ@87.107.169.30:905#POPVPN 0042 🇹🇷 TR SS CHACHA20-IETF-POLY1305
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxdU81R2FtYTZBR1RFRFU0a0VLRlg1UkljUFZscjlBdQ@trtn.fusetea.ir:4050?#POPVPN 0046 🇹🇷 TR SS CHACHA20-IETF-POLY1305
+vless://689e46e9-dcc2-4c5c-8301-8623024ad6f0@tun2.w-ert.org:40285?security=tls&encryption=mlkem768x25519plus.native.0rtt.g4zPsP8_Ju17nfVQ9cRaBqzWPbv0Ve4ELGpzE9yf8CA&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=ask.w-ert.org#POPVPN 0044 🇹🇷 TR VLESS TLS
+vless://b7d3a581-74d6-4ead-9235-ce9dedf08152@trdatair.egekaradecojistik.net.tr:35577?encryption=none&host=play.google.com&path=/&security=none&type=ws#POPVPN 0047 🇹🇷 TR VLESS WS
