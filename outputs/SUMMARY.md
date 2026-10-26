@@ -1,6 +1,6 @@
 ![Total](https://img.shields.io/badge/CONFIGS-57-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-40-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-9-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-3-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-5-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-1%2F1-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-20-eab308?style=flat-square)
 
-**Last update:** `2026-10-25 21:51:40 UTC` · **57 configs** (+7 vs previous run)
+**Last update:** `2026-10-26 00:26:18 UTC` · **57 configs** (±0 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
@@ -27,7 +27,7 @@
 - invalid lines skipped: **0**
 - HTTP cache hit rate: **0%**
 - security flags: **3** insecure, **0** private hosts
-- run duration: **216 ms**
+- run duration: **151 ms**
 
 </details>
 
