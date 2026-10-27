@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-27 00:31:22 UTC",
+  "generated_at": "2026-10-27 06:21:51 UTC",
   "version": "2.0.0",
-  "duration_ms": 393,
-  "total": 66,
-  "unique": 66,
-  "parsed": 157,
-  "raw_lines": 157,
-  "duplicates": 91,
+  "duration_ms": 221,
+  "total": 71,
+  "unique": 71,
+  "parsed": 159,
+  "raw_lines": 159,
+  "duplicates": 88,
   "invalid": 0,
   "by_protocol": {
-    "vless": 43,
-    "ss": 8,
-    "trojan": 2,
-    "vmess": 13
+    "vless": 37,
+    "ss": 14,
+    "trojan": 1,
+    "vmess": 19
   },
   "by_country": [
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 15
-    },
     {
       "code": "HK",
       "name": "Hong Kong",
       "flag": "🇭🇰",
       "region": "AS",
-      "count": 10
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 7
+      "count": 14
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 7
+      "count": 12
     },
     {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
+      "count": 11
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 8
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "flag": "🇧🇬",
       "region": "EU",
       "count": 5
     },
@@ -54,13 +54,6 @@
       "code": "PL",
       "name": "Poland",
       "flag": "🇵🇱",
-      "region": "EU",
-      "count": 4
-    },
-    {
-      "code": "AT",
-      "name": "Austria",
-      "flag": "🇦🇹",
       "region": "EU",
       "count": 3
     },
@@ -72,9 +65,9 @@
       "count": 2
     },
     {
-      "code": "BG",
-      "name": "Bulgaria",
-      "flag": "🇧🇬",
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
       "region": "EU",
       "count": 2
     },
@@ -83,6 +76,20 @@
       "name": "Singapore",
       "flag": "🇸🇬",
       "region": "AS",
+      "count": 2
+    },
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "region": "",
+      "count": 2
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "region": "AF",
       "count": 2
     },
     {
@@ -100,9 +107,9 @@
       "count": 1
     },
     {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
+      "code": "ES",
+      "name": "Spain",
+      "flag": "🇪🇸",
       "region": "EU",
       "count": 1
     },
@@ -114,13 +121,6 @@
       "count": 1
     },
     {
-      "code": "RO",
-      "name": "Romania",
-      "flag": "🇷🇴",
-      "region": "EU",
-      "count": 1
-    },
-    {
       "code": "RU",
       "name": "Russia",
       "flag": "🇷🇺",
@@ -128,10 +128,17 @@
       "count": 1
     },
     {
-      "code": "TR",
-      "name": "Türkiye",
-      "flag": "🇹🇷",
-      "region": "",
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "region": "AS",
       "count": 1
     },
     {
@@ -139,13 +146,6 @@
       "name": "Vietnam",
       "flag": "🇻🇳",
       "region": "AS",
-      "count": 1
-    },
-    {
-      "code": "ZA",
-      "name": "South Africa",
-      "flag": "🇿🇦",
-      "region": "AF",
       "count": 1
     }
   ],
@@ -160,17 +160,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
-      "last_configs": 157,
+      "last_configs": 159,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 373,
+      "elapsed_ms": 186,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 157
+    "raw.githubusercontent.com": 159
   },
   "cache": {
     "enabled": true,
@@ -191,14 +191,14 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 66,
+    "kept": 71,
     "dropped": 0,
-    "insecure": 5,
+    "insecure": 4,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 13,
-      "allow-insecure": 5
+      "unknown-network": 19,
+      "allow-insecure": 4
     },
     "dropped_reasons": {}
   },
