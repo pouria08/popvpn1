@@ -48,6 +48,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 16,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 770,
+    "avg_ms": 267,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://raw.githubusercontent.com/mhcfpTopic/config/refs/heads/main/xray_final.txt",
     "name": "raw.githubusercontent.com",
     "attempts": 57,
@@ -55,18 +67,6 @@
     "fail_streak": 0,
     "last_configs": 727,
     "avg_ms": 376,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 15,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 666,
-    "avg_ms": 252,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
