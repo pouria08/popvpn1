@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26 20:33:32 UTC",
+  "generated_at": "2026-10-27 00:31:22 UTC",
   "version": "2.0.0",
-  "duration_ms": 185,
+  "duration_ms": 393,
   "total": 66,
   "unique": 66,
   "parsed": 157,
@@ -9,8 +9,8 @@
   "duplicates": 91,
   "invalid": 0,
   "by_protocol": {
-    "vless": 45,
-    "ss": 6,
+    "vless": 43,
+    "ss": 8,
     "trojan": 2,
     "vmess": 13
   },
@@ -30,18 +30,18 @@
       "count": 10
     },
     {
-      "code": "US",
-      "name": "United States",
-      "flag": "🇺🇸",
-      "region": "NA",
-      "count": 6
-    },
-    {
       "code": "GB",
       "name": "United Kingdom",
       "flag": "🇬🇧",
       "region": "EU",
-      "count": 5
+      "count": 7
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "region": "NA",
+      "count": 7
     },
     {
       "code": "NL",
@@ -61,13 +61,6 @@
       "code": "AT",
       "name": "Austria",
       "flag": "🇦🇹",
-      "region": "EU",
-      "count": 3
-    },
-    {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
       "region": "EU",
       "count": 3
     },
@@ -107,6 +100,13 @@
       "count": 1
     },
     {
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "region": "EU",
+      "count": 1
+    },
+    {
       "code": "JP",
       "name": "Japan",
       "flag": "🇯🇵",
@@ -135,13 +135,6 @@
       "count": 1
     },
     {
-      "code": "TW",
-      "name": "Taiwan",
-      "flag": "🇹🇼",
-      "region": "AS",
-      "count": 1
-    },
-    {
       "code": "VN",
       "name": "Vietnam",
       "flag": "🇻🇳",
@@ -156,7 +149,7 @@
       "count": 1
     }
   ],
-  "country_count": 20,
+  "country_count": 19,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -170,7 +163,7 @@
       "last_configs": 157,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 167,
+      "elapsed_ms": 373,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -209,5 +202,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 68
+  "previous_total": 66
 }
