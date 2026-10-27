@@ -60,6 +60,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 15,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 666,
+    "avg_ms": 252,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
     "name": "barry-ss",
     "attempts": 12,
@@ -103,18 +115,6 @@
     "fail_streak": 0,
     "last_configs": 514,
     "avg_ms": 1500,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 14,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 381,
-    "avg_ms": 226,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
