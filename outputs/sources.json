@@ -36,6 +36,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 18,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 1263,
+    "avg_ms": 238,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://kaveh.yebekhe.workers.dev/sub/donations",
     "name": "kaveh.yebekhe.workers.dev",
     "attempts": 11,
@@ -43,18 +55,6 @@
     "fail_streak": 0,
     "last_configs": 1131,
     "avg_ms": 2225,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
-    "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 17,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 1062,
-    "avg_ms": 283,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
