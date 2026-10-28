@@ -2,7 +2,11 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&type=raw&packetEncoding=xudp&sni=www.apple.com&fp=chrome&sid=29e8dcd2b37aaa7f&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk#POPVPN 0057 🇪🇸 ES VLESS REALITY
-vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&sid=29e8dcd2b37aaa7f&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk#POPVPN 0058 🇪🇸 ES VLESS REALITY
-vless://827a147f-cb71-4a8c-9021-47864c839665@sos.samsunge.site:27001?security=reality&encryption=none&pbk=Ic55MeEDDTTwIkpTokdVwjIE3-4SZEKW64VnjlkaAHw&host=google.com&headerType=http&fp=chrome&type=tcp&sni=cafebazaar.ir&sid=4af73bcaf12723dd#POPVPN 0115 🇪🇸 ES VLESS REALITY
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&headerType=none&type=tcp&sni=api.discovergreatjobsandadvanceyourcareer.com#POPVPN 0179 🇪🇸 ES TROJAN TLS
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&type=raw&packetEncoding=xudp&sni=www.apple.com&fp=chrome&sid=29e8dcd2b37aaa7f&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk#POPVPN 0078 🇪🇸 ES VLESS REALITY
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&sid=29e8dcd2b37aaa7f&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk#POPVPN 0079 🇪🇸 ES VLESS REALITY
+vless://295009c6-5a47-4f77-b9ac-9be24a61da48@sinavm.soft10.ir:8443?alpn=http/1.1,h2&encryption=none&fp=chrome&host=sinavm.soft10.ir&path=/SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM&security=tls&sni=sinavm.soft10.ir&type=ws#POPVPN 0200 🇪🇸 ES VLESS WS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.131:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.discovergreatjobsandadvanceyourcareer.com#POPVPN 0290 🇪🇸 ES TROJAN TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.166:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.discovergreatjobsandadvanceyourcareer.com#POPVPN 0291 🇪🇸 ES TROJAN TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&headerType=none&type=tcp&sni=api.discovergreatjobsandadvanceyourcareer.com#POPVPN 0292 🇪🇸 ES TROJAN TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?insecure=0&type=tcp&headerType=none&security=tls&sni=courses.discovergreatjobsandadvanceyourcareer.com&allowInsecure=0#POPVPN 0293 🇪🇸 ES TROJAN TLS
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMekVlTGoyT1AwRFFtcFBEdFZUYXpkR0MwY0hjVDBLbg@dns22.m3hrzd.ir:1354#POPVPN 0541 🇪🇸 ES SS CHACHA20-IETF-POLY1305
