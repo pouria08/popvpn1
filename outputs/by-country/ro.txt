@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@178.83.45.226:2052?security=&type=tcp&encryption=none#POPVPN 0478 🇷🇴 RO VLESS TCP
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@178.83.45.226:2052?security=none&type=raw#POPVPN 0479 🇷🇴 RO VLESS RAW
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?encryption=none&security=none&type=tcp&headerType=none#POPVPN 0486 🇷🇴 RO VLESS TCP
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?sni=edge10.cyrionflare.com#POPVPN 0587 🇷🇴 RO VLESS TCP
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?&security=false&fp=chrome&type=tcp&headerType=none&host=edge10.cyrionflare.com&path=%2F#POPVPN 0593 🇷🇴 RO VLESS TCP
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@178.83.45.226:2052?security=&type=tcp&encryption=none#POPVPN 0638 🇷🇴 RO VLESS TCP
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@178.83.45.226:2052?security=none&type=raw#POPVPN 0639 🇷🇴 RO VLESS RAW
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?encryption=none&security=none&type=tcp&headerType=none#POPVPN 0646 🇷🇴 RO VLESS TCP
