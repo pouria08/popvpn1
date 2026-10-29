@@ -2,5 +2,6 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@au001.zestapp778.com:35652?&security=tls&fp=chrome&sni=au001.zestapp778.com&type=tcp&headerType=none&host=au001.zestapp778.com&path=%2F#POPVPN 0326 🇦🇺 AU VLESS TLS
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@au001.zestapp778.com:35652?fp=chrome&security=tls&sni=au001.zestapp778.com&type=tcp#POPVPN 0327 🇦🇺 AU VLESS TLS
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@149.28.177.190:35652?encryption=none&fp=firefox&security=tls&sni=au001.zestapp778.com&type=tcp#POPVPN 0314 🇦🇺 AU VLESS TLS
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@au001.zestapp778.com:35652?&security=tls&fp=chrome&sni=au001.zestapp778.com&type=tcp&headerType=none&host=au001.zestapp778.com&path=%2F#POPVPN 0325 🇦🇺 AU VLESS TLS
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@au001.zestapp778.com:35652?fp=chrome&security=tls&sni=au001.zestapp778.com&type=tcp#POPVPN 0326 🇦🇺 AU VLESS TLS

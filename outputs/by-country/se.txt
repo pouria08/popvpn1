@@ -2,4 +2,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNT0R6aVdMYTlxTXVXLTR5UGEwcmZ3@msk2.rvpn.app:8388#POPVPN 0740 🇸🇪 SE SS CHACHA20-IETF-POLY1305
+vless://76ef5ab3-7075-4e23-b445-f3b1bd05d431@193.233.252.100:443?sni=swe.qik-fin.uk&type=grpc&serviceName=assets&fp=chrome&security=tls#POPVPN 0271 🇸🇪 SE VLESS GRPC
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNT0R6aVdMYTlxTXVXLTR5UGEwcmZ3@msk2.rvpn.app:8388#POPVPN 0716 🇸🇪 SE SS CHACHA20-IETF-POLY1305

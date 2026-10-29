@@ -1,117 +1,117 @@
 {
-  "generated_at": "2026-10-29 16:57:24 UTC",
+  "generated_at": "2026-10-29 21:51:07 UTC",
   "version": "2.0.0",
-  "duration_ms": 373,
-  "total": 895,
-  "unique": 895,
-  "parsed": 2177,
-  "raw_lines": 2183,
-  "duplicates": 1282,
-  "invalid": 6,
+  "duration_ms": 507,
+  "total": 884,
+  "unique": 884,
+  "parsed": 2194,
+  "raw_lines": 2199,
+  "duplicates": 1310,
+  "invalid": 5,
   "by_protocol": {
-    "vless": 419,
-    "trojan": 101,
-    "vmess": 251,
-    "ss": 124
+    "vless": 423,
+    "trojan": 102,
+    "vmess": 253,
+    "ss": 106
   },
   "by_country": [
-    {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
-      "region": "EU",
-      "count": 172
-    },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 172
+      "count": 169
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "EU",
+      "count": 154
     },
     {
       "code": "SG",
       "name": "Singapore",
       "flag": "🇸🇬",
       "region": "AS",
-      "count": 74
+      "count": 75
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 72
+      "count": 73
     },
     {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
       "region": "EU",
-      "count": 50
-    },
-    {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "region": "AS",
-      "count": 40
-    },
-    {
-      "code": "HK",
-      "name": "Hong Kong",
-      "flag": "🇭🇰",
-      "region": "AS",
-      "count": 35
-    },
-    {
-      "code": "CA",
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "region": "NA",
-      "count": 34
-    },
-    {
-      "code": "KR",
-      "name": "South Korea",
-      "flag": "🇰🇷",
-      "region": "",
-      "count": 32
+      "count": 54
     },
     {
       "code": "IN",
       "name": "India",
       "flag": "🇮🇳",
       "region": "AS",
-      "count": 30
+      "count": 41
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "region": "NA",
+      "count": 36
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "flag": "🇭🇰",
+      "region": "AS",
+      "count": 36
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "region": "AS",
+      "count": 35
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "region": "",
+      "count": 31
     },
     {
       "code": "GB",
       "name": "United Kingdom",
       "flag": "🇬🇧",
       "region": "EU",
-      "count": 28
-    },
-    {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
-      "region": "EU",
-      "count": 25
+      "count": 27
     },
     {
       "code": "KZ",
       "name": "Kazakhstan",
       "flag": "🇰🇿",
       "region": "AS",
-      "count": 24
+      "count": 25
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "region": "EU",
+      "count": 19
     },
     {
       "code": "PL",
       "name": "Poland",
       "flag": "🇵🇱",
       "region": "EU",
-      "count": 18
+      "count": 19
     },
     {
       "code": "BG",
@@ -128,13 +128,6 @@
       "count": 8
     },
     {
-      "code": "MD",
-      "name": "Moldova",
-      "flag": "🇲🇩",
-      "region": "EU",
-      "count": 7
-    },
-    {
       "code": "RO",
       "name": "Romania",
       "flag": "🇷🇴",
@@ -142,11 +135,25 @@
       "count": 7
     },
     {
-      "code": "RS",
-      "name": "Serbia",
-      "flag": "🇷🇸",
+      "code": "IR",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "region": "",
+      "count": 6
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "flag": "🇲🇩",
       "region": "EU",
-      "count": 7
+      "count": 6
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "region": "",
+      "count": 6
     },
     {
       "code": "AE",
@@ -156,16 +163,30 @@
       "count": 5
     },
     {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
+      "code": "RS",
+      "name": "Serbia",
+      "flag": "🇷🇸",
+      "region": "EU",
       "count": 5
     },
     {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
+      "code": "EE",
+      "name": "Estonia",
+      "flag": "🇪🇪",
+      "region": "EU",
+      "count": 4
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "flag": "🇮🇱",
+      "region": "AS",
+      "count": 4
+    },
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
       "region": "",
       "count": 4
     },
@@ -177,24 +198,10 @@
       "count": 3
     },
     {
-      "code": "IL",
-      "name": "Israel",
-      "flag": "🇮🇱",
-      "region": "AS",
-      "count": 3
-    },
-    {
-      "code": "IT",
-      "name": "Italy",
-      "flag": "🇮🇹",
-      "region": "EU",
-      "count": 3
-    },
-    {
-      "code": "TR",
-      "name": "Türkiye",
-      "flag": "🇹🇷",
-      "region": "",
+      "code": "AU",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "region": "OC",
       "count": 3
     },
     {
@@ -212,31 +219,10 @@
       "count": 2
     },
     {
-      "code": "AU",
-      "name": "Australia",
-      "flag": "🇦🇺",
-      "region": "OC",
-      "count": 2
-    },
-    {
-      "code": "CH",
-      "name": "Switzerland",
-      "flag": "🇨🇭",
+      "code": "IT",
+      "name": "Italy",
+      "flag": "🇮🇹",
       "region": "EU",
-      "count": 2
-    },
-    {
-      "code": "EE",
-      "name": "Estonia",
-      "flag": "🇪🇪",
-      "region": "EU",
-      "count": 2
-    },
-    {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
-      "region": "NA",
       "count": 2
     },
     {
@@ -244,6 +230,13 @@
       "name": "Malaysia",
       "flag": "🇲🇾",
       "region": "AS",
+      "count": 2
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "region": "EU",
       "count": 2
     },
     {
@@ -268,6 +261,13 @@
       "count": 1
     },
     {
+      "code": "CH",
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "region": "EU",
+      "count": 1
+    },
+    {
       "code": "CL",
       "name": "Chile",
       "flag": "🇨🇱",
@@ -282,10 +282,10 @@
       "count": 1
     },
     {
-      "code": "LV",
-      "name": "Latvia",
-      "flag": "🇱🇻",
-      "region": "EU",
+      "code": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "region": "NA",
       "count": 1
     },
     {
@@ -294,23 +294,9 @@
       "flag": "🇳🇴",
       "region": "EU",
       "count": 1
-    },
-    {
-      "code": "SE",
-      "name": "Sweden",
-      "flag": "🇸🇪",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "ZA",
-      "name": "South Africa",
-      "flag": "🇿🇦",
-      "region": "AF",
-      "count": 1
     }
   ],
-  "country_count": 42,
+  "country_count": 40,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -321,17 +307,17 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt",
-      "last_configs": 2177,
+      "last_configs": 2194,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 129,
+      "elapsed_ms": 268,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "raw.githubusercontent.com": 2177
+    "raw.githubusercontent.com": 2194
   },
   "cache": {
     "enabled": true,
@@ -352,17 +338,17 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 895,
+    "kept": 884,
     "dropped": 0,
-    "insecure": 21,
+    "insecure": 23,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 183,
-      "allow-insecure": 21,
-      "unknown-security": 14
+      "unknown-network": 178,
+      "allow-insecure": 23,
+      "unknown-security": 15
     },
     "dropped_reasons": {}
   },
-  "previous_total": 873
+  "previous_total": 895
 }

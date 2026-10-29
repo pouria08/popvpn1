@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://2446e2e2-1ce3-4502-9050-1dd32bacc68c@tr2.h1cloud.net:25021?encryption=none&sni=www.samsung.com&security=reality&fp=firefox&pbk=od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg&sid=17fa3af0924c88b3&flow=xtls-rprx-vision&type=tcp&headerType=none#POPVPN 0224 🇹🇷 TR VLESS REALITY
-vless://2446e2e2-1ce3-4502-9050-1dd32bacc68c@tr2.h1cloud.net:25021?&security=reality&flow=xtls-rprx-vision&pbk=od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg&sid=17fa3af0924c88b3&fp=chrome&sni=www.samsung.com&type=tcp&headerType=none&host=www.samsung.com&path=%2F#POPVPN 0225 🇹🇷 TR VLESS REALITY
-vless://7c730089-1791-4828-89b2-86e7e1663063@tr.privatevip.ir:448?encryption=none&host=tr.privatevip.ir&path=/&security=none&type=ws#POPVPN 0521 🇹🇷 TR VLESS WS
+vless://42a64b9a-ab79-4094-8656-30366a7c2ea3@tr.peregrine-sub.net:8443?encryption=none&type=xhttp&path=/&security=reality&fp=firefox&sni=tr.peregrine-sub.net&pbk=PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI&sid=7b6803a79bba5c52#POPVPN 0038 🇹🇷 TR VLESS REALITY
+vless://2446e2e2-1ce3-4502-9050-1dd32bacc68c@tr2.h1cloud.net:25021?encryption=none&sni=www.samsung.com&security=reality&fp=chrome&pbk=od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg&sid=17fa3af0924c88b3&flow=xtls-rprx-vision&type=tcp&headerType=none#POPVPN 0223 🇹🇷 TR VLESS REALITY
+vless://2446e2e2-1ce3-4502-9050-1dd32bacc68c@tr2.h1cloud.net:25021?&security=reality&flow=xtls-rprx-vision&pbk=od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg&sid=17fa3af0924c88b3&fp=chrome&sni=www.samsung.com&type=tcp&headerType=none&host=www.samsung.com&path=%2F#POPVPN 0224 🇹🇷 TR VLESS REALITY
+vless://7c730089-1791-4828-89b2-86e7e1663063@tr.privatevip.ir:448?encryption=none&host=tr.privatevip.ir&path=/&security=none&type=ws#POPVPN 0509 🇹🇷 TR VLESS WS
