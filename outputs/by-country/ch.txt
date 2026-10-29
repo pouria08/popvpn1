@@ -2,8 +2,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://a7e9fc98-25a2-4801-961c-7a6ed9d69328@areal5.greewebservices.ir:5455?encryption=none&fp=edge&pbk=xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8&security=reality&sid=e3085d4fc679ba12&sni=amp-api-edge.apps.apple.com&type=tcp#POPVPN 0208 🇨🇭 CH VLESS REALITY
-vless://a7e9fc98-25a2-4801-961c-7a6ed9d69328@p2real5.greewebservices.ir:1350?encryption=none&fp=ios&pbk=xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8&security=reality&sid=9b60d3&sni=play.googleapis.com&type=tcp#POPVPN 0223 🇨🇭 CH VLESS REALITY
-vless://a7e9fc98-25a2-4801-961c-7a6ed9d69328@p2real5.greewebservices.ir:1350?fp=ios&pbk=xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8&security=reality&sid=9b60d3&sni=play.googleapis.com&type=raw#POPVPN 0224 🇨🇭 CH VLESS REALITY
-vless://054362fb-e485-4a3f-9568-4c5b0f60e074@149.33.15.213:443?alpn=h2%2Chttp%2F1.1&fp=chrome&security=tls&sni=swz.proxyplankton.ru&type=tcp#POPVPN 0318 🇨🇭 CH VLESS TLS
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw==@132.243.175.144:8388#POPVPN 0675 🇨🇭 CH SS CHACHA20-IETF-POLY1305
+vless://054362fb-e485-4a3f-9568-4c5b0f60e074@149.33.15.213:443?encryption=none&fp=firefox&security=tls&sni=swz.proxyplankton.ru&type=tcp#POPVPN 0333 🇨🇭 CH VLESS TLS
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw==@132.243.175.144:8388#POPVPN 0613 🇨🇭 CH SS CHACHA20-IETF-POLY1305

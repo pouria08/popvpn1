@@ -2,4 +2,4 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-trojan://Trojan%4082164024@au.tronsg.com:443?allowInsecure=1&sni=au.tronsg.com&type=tcp#POPVPN 0830 🇦🇺 AU TROJAN TLS
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@149.28.177.190:35652?encryption=none&fp=firefox&security=tls&sni=au001.zestapp778.com&type=tcp#POPVPN 0332 🇦🇺 AU VLESS TLS
