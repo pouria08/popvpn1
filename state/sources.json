@@ -196,17 +196,17 @@
       "successes": 57
     },
     "https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector4/main/subscription_base64.txt": {
-      "attempts": 22,
-      "avg_ms": 211,
+      "attempts": 23,
+      "avg_ms": 178,
       "fail_streak": 0,
-      "last_configs": 2014,
+      "last_configs": 2177,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1793268396,
+      "last_ok_at": 1793293044,
       "last_status": 200,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 22
+      "successes": 23
     },
     "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt": {
       "attempts": 80,
@@ -235,5 +235,5 @@
       "successes": 57
     }
   },
-  "updated_at": 1793268396
+  "updated_at": 1793293044
 }

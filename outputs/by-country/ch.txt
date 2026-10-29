@@ -2,5 +2,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://054362fb-e485-4a3f-9568-4c5b0f60e074@149.33.15.213:443?encryption=none&fp=firefox&security=tls&sni=swz.proxyplankton.ru&type=tcp#POPVPN 0333 🇨🇭 CH VLESS TLS
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw==@132.243.175.144:8388#POPVPN 0613 🇨🇭 CH SS CHACHA20-IETF-POLY1305
+vless://054362fb-e485-4a3f-9568-4c5b0f60e074@149.33.15.213:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=swz.proxyplankton.ru#POPVPN 0365 🇨🇭 CH VLESS TLS
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw==@132.243.175.144:8388#POPVPN 0618 🇨🇭 CH SS CHACHA20-IETF-POLY1305
