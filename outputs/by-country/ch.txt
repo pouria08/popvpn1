@@ -2,8 +2,10 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.19:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.yourultimateprofessionalcareerhub.com#POPVPN 0559 🇨🇭 CH TROJAN TLS
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.29:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.yourultimateprofessionalcareerhub.com#POPVPN 0560 🇨🇭 CH TROJAN TLS
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.60:443?sni=cdn.yourultimateprofessionalcareerhub.com&type=tcp#POPVPN 0561 🇨🇭 CH TROJAN TLS
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw==@132.243.175.144:8388#POPVPN 0839 🇨🇭 CH SS CHACHA20-IETF-POLY1305
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.208:443?allowInsecure=1&sni=resources.yourultimateprofessionalcareerhub.com&type=tcp#POPVPN 0957 🇨🇭 CH TROJAN TLS
+vless://054362fb-e485-4a3f-9568-4c5b0f60e074@149.33.15.213:443?&security=tls&sni=swz.proxyplankton.ru&type=tcp&headerType=none&path=%2F#POPVPN 0460 🇨🇭 CH VLESS TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.158:443?sni=api.yourultimateprofessionalcareerhub.com&type=tcp#POPVPN 0486 🇨🇭 CH TROJAN TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.19:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.yourultimateprofessionalcareerhub.com#POPVPN 0487 🇨🇭 CH TROJAN TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.29:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.yourultimateprofessionalcareerhub.com#POPVPN 0488 🇨🇭 CH TROJAN TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.60:443?sni=cdn.yourultimateprofessionalcareerhub.com&type=tcp#POPVPN 0489 🇨🇭 CH TROJAN TLS
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw==@132.243.175.144:8388#POPVPN 0787 🇨🇭 CH SS CHACHA20-IETF-POLY1305
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.208:443?allowInsecure=1&sni=resources.yourultimateprofessionalcareerhub.com&type=tcp#POPVPN 0908 🇨🇭 CH TROJAN TLS
