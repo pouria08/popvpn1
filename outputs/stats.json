@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-31 18:36:53 UTC",
+  "generated_at": "2026-10-31 22:32:42 UTC",
   "version": "2.0.0",
-  "duration_ms": 859,
-  "total": 90,
-  "unique": 90,
+  "duration_ms": 530,
+  "total": 97,
+  "unique": 97,
   "parsed": 141,
   "raw_lines": 144,
-  "duplicates": 51,
+  "duplicates": 44,
   "invalid": 3,
   "by_protocol": {
     "vless": 1,
-    "trojan": 53,
+    "trojan": 57,
     "hy2": 1,
-    "ss": 35
+    "ss": 38
   },
   "by_country": [
     {
@@ -20,21 +20,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 83
+      "count": 86
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 4
-    },
-    {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
-      "count": 2
+      "count": 8
     },
     {
       "code": "CA",
@@ -42,14 +35,28 @@
       "flag": "🇨🇦",
       "region": "NA",
       "count": 1
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "region": "",
+      "count": 1
     }
   ],
-  "country_count": 4,
+  "country_count": 5,
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 0,
-    "paused": 1
+    "failed": 1,
+    "paused": 0
   },
   "source_list": [
     {
@@ -58,7 +65,7 @@
       "last_configs": 82,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 175,
+      "elapsed_ms": 180,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -69,9 +76,9 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 0,
-      "error": "auto-paused after repeated failures",
-      "success_rate": 0.422,
+      "elapsed_ms": 125,
+      "error": "HTTP 403",
+      "success_rate": 0.316,
       "paused": true
     },
     {
@@ -80,7 +87,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 838,
+      "elapsed_ms": 513,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -90,8 +97,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 163,
+      "from_cache": false,
+      "elapsed_ms": 158,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -104,7 +111,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 3,
+    "misses": 4,
     "hit_rate": 0.0
   },
   "probe": {
@@ -120,7 +127,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 90,
+    "kept": 97,
     "dropped": 0,
     "insecure": 3,
     "private_hosts": 0,
