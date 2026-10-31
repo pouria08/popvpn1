@@ -2,12 +2,10 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?type=ws&host=uae.unixzone.us&path=/#POPVPN 0644 🇦🇪 AE VLESS WS
-vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?host=uae.unixzone.us&security=none&type=ws#POPVPN 0645 🇦🇪 AE VLESS WS
-vless://7c730089-1791-4828-89b2-86e7e1663063@94.237.28.66:450?security=none&type=ws&path=%2F&host=ae.privatevip.ir#POPVPN 0647 🇦🇪 AE VLESS WS
-vless://7c730089-1791-4828-89b2-86e7e1663063@ae.privatevip.ir:450?encryption=none&host=ae.privatevip.ir&path=/&security=none&type=ws#POPVPN 0648 🇦🇪 AE VLESS WS
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?security=none&type=ws&path=/&host=uae.unixzone.us&packetEncoding=xudp&sni=uae.unixzone.us#POPVPN 0670 🇦🇪 AE VLESS WS
-vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?fp=chrome&host=uae.unixzone.us&path=%2F&security=false&type=ws#POPVPN 0676 🇦🇪 AE VLESS WS
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?&security=false&fp=chrome&type=ws&headerType=none&host=uae.unixzone.us&path=%2F#POPVPN 0682 🇦🇪 AE VLESS WS
-vless://7c730089-1791-4828-89b2-86e7e1663063@ae.privatevip.ir:450?path=%2F&security=none&type=ws#POPVPN 0733 🇦🇪 AE VLESS WS
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=&type=ws#POPVPN 0746 🇦🇪 AE VLESS WS
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?type=ws&host=uae.unixzone.us&path=/#POPVPN 0698 🇦🇪 AE VLESS WS
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?host=uae.unixzone.us&security=none&type=ws#POPVPN 0699 🇦🇪 AE VLESS WS
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=none&type=ws&host=uae.unixzone.us&path=/#POPVPN 0714 🇦🇪 AE VLESS WS
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?fp=chrome&host=uae.unixzone.us&path=%2F&security=false&type=ws#POPVPN 0721 🇦🇪 AE VLESS WS
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?&security=false&fp=chrome&type=ws&headerType=none&host=uae.unixzone.us&path=%2F#POPVPN 0727 🇦🇪 AE VLESS WS
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=&type=ws#POPVPN 0794 🇦🇪 AE VLESS WS
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?fp=chrome&path=%2F&security=false&type=ws#POPVPN 0798 🇦🇪 AE VLESS WS

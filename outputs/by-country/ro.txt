@@ -2,11 +2,12 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?sni=edge10.cyrionflare.com#POPVPN 0686 🇷🇴 RO VLESS TCP
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?&type=tcp&headerType=none&host=edge10.cyrionflare.com&path=%2F#POPVPN 0687 🇷🇴 RO VLESS TCP
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?host=edge10.cyrionflare.com&security=none&type=raw#POPVPN 0688 🇷🇴 RO VLESS RAW
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?&security=false&fp=chrome&type=tcp&headerType=none&host=edge10.cyrionflare.com&path=%2F#POPVPN 0696 🇷🇴 RO VLESS TCP
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@178.83.45.226:2052?security=&type=tcp&encryption=none#POPVPN 0756 🇷🇴 RO VLESS TCP
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@178.83.45.226:2052?security=none&type=raw#POPVPN 0757 🇷🇴 RO VLESS RAW
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?security=&encryption=none&headerType=none&type=tcp#POPVPN 0768 🇷🇴 RO VLESS TCP
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?fp=chrome&path=%2F&security=false&type=tcp#POPVPN 0786 🇷🇴 RO VLESS TCP
+vless://07680ffb-0666-4836-b6ad-ec0de62bc38f@app-ms-90.next-gen-shopping.com:443?security=reality&encryption=none&pbk=HA8RX24k72lyACy0T1mCDeYcUQh22XRlT4wuhj3Onl4&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=assets-ms-90.next-gen-shopping.com&sid=36b707a341db758d#POPVPN 0252 🇷🇴 RO VLESS REALITY
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?fp=chrome&security=none&sni=edge10.cyrionflare.com&type=tcp#POPVPN 0704 🇷🇴 RO VLESS TCP
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?host=edge10.cyrionflare.com&path=%2F&security=none&type=tcp#POPVPN 0731 🇷🇴 RO VLESS TCP
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?host=edge10.cyrionflare.com&security=none&type=raw#POPVPN 0732 🇷🇴 RO VLESS RAW
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?&security=false&fp=chrome&type=tcp&headerType=none&host=edge10.cyrionflare.com&path=%2F#POPVPN 0741 🇷🇴 RO VLESS TCP
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@178.83.45.226:2052?security=&type=tcp&encryption=none#POPVPN 0805 🇷🇴 RO VLESS TCP
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@178.83.45.226:2052?security=none&type=raw#POPVPN 0806 🇷🇴 RO VLESS RAW
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?encryption=none&security=none&type=tcp&headerType=none#POPVPN 0818 🇷🇴 RO VLESS TCP
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?fp=chrome&path=%2F&security=false&type=tcp#POPVPN 0838 🇷🇴 RO VLESS TCP
