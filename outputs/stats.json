@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-31 13:41:37 UTC",
+  "generated_at": "2026-10-31 18:36:53 UTC",
   "version": "2.0.0",
-  "duration_ms": 821,
+  "duration_ms": 859,
   "total": 90,
   "unique": 90,
   "parsed": 141,
@@ -48,8 +48,8 @@
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 1,
-    "paused": 0
+    "failed": 0,
+    "paused": 1
   },
   "source_list": [
     {
@@ -58,7 +58,7 @@
       "last_configs": 82,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 134,
+      "elapsed_ms": 175,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -69,8 +69,8 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 117,
-      "error": "HTTP 403",
+      "elapsed_ms": 0,
+      "error": "auto-paused after repeated failures",
       "success_rate": 0.422,
       "paused": true
     },
@@ -80,7 +80,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 798,
+      "elapsed_ms": 838,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -90,8 +90,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 126,
+      "from_cache": true,
+      "elapsed_ms": 163,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -104,7 +104,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 4,
+    "misses": 3,
     "hit_rate": 0.0
   },
   "probe": {
@@ -131,5 +131,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 89
+  "previous_total": 90
 }
