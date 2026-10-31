@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-31 08:05:12 UTC",
+  "generated_at": "2026-10-31 13:41:37 UTC",
   "version": "2.0.0",
-  "duration_ms": 4854,
-  "total": 89,
-  "unique": 89,
+  "duration_ms": 821,
+  "total": 90,
+  "unique": 90,
   "parsed": 141,
   "raw_lines": 144,
-  "duplicates": 52,
+  "duplicates": 51,
   "invalid": 3,
   "by_protocol": {
     "vless": 1,
-    "trojan": 54,
-    "ss": 33,
-    "hy2": 1
+    "trojan": 53,
+    "hy2": 1,
+    "ss": 35
   },
   "by_country": [
     {
@@ -20,7 +20,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 84
+      "count": 83
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "region": "NA",
+      "count": 4
     },
     {
       "code": "IR",
@@ -30,17 +37,10 @@
       "count": 2
     },
     {
-      "code": "US",
-      "name": "United States",
-      "flag": "🇺🇸",
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
       "region": "NA",
-      "count": 2
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
       "count": 1
     }
   ],
@@ -58,7 +58,7 @@
       "last_configs": 82,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 310,
+      "elapsed_ms": 134,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -69,10 +69,10 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 128,
+      "elapsed_ms": 117,
       "error": "HTTP 403",
-      "success_rate": 0.562,
-      "paused": false
+      "success_rate": 0.422,
+      "paused": true
     },
     {
       "name": "opti.testspeedpro.ir",
@@ -80,7 +80,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 835,
+      "elapsed_ms": 798,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -91,7 +91,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 168,
+      "elapsed_ms": 126,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -108,19 +108,19 @@
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "tcp",
-    "endpoints_total": 89,
-    "endpoints_probed": 89,
+    "mode": "off",
+    "endpoints_total": 0,
+    "endpoints_probed": 0,
     "endpoints_cached": 0,
-    "alive": 88,
-    "dead": 1,
-    "configs_alive": 88,
-    "configs_dead": 1,
-    "elapsed_ms": 4008,
-    "avg_latency_ms": 66
+    "alive": 0,
+    "dead": 0,
+    "configs_alive": 0,
+    "configs_dead": 0,
+    "elapsed_ms": 0,
+    "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 89,
+    "kept": 90,
     "dropped": 0,
     "insecure": 3,
     "private_hosts": 0,
@@ -131,5 +131,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 73
+  "previous_total": 89
 }

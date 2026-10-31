@@ -1,6 +1,6 @@
 # POPVPN X — Clash / Mihomo profile
-# generated: 2026-10-31 08:05:12 UTC
-# configs: 89
+# generated: 2026-10-31 13:41:37 UTC
+# configs: 90
 
 mixed-port: 7890
 allow-lan: false
@@ -64,292 +64,292 @@ proxies:
     udp: true
     sni: courses.unlockyourfuturefindyourperfectcareer.com
   - name: POPVPN 0005 GLOBAL TROJAN TLS
-    server: 216.152.155.131
+    server: 167.88.61.193
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: www.nextjobopportunityandclaimyouridealrole.com
+    sni: browseseniorrolesandenhanceyourcareertoday.com
   - name: POPVPN 0006 GLOBAL TROJAN TLS
-    server: 216.152.155.158
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: resources.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0007 GLOBAL TROJAN TLS
-    server: 216.152.147.48
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0008 GLOBAL TROJAN TLS
-    server: 216.152.155.176
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0009 GLOBAL TROJAN TLS
-    server: 216.152.147.79
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0010 GLOBAL TROJAN TLS
-    server: 216.152.155.54
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: learn.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0011 GLOBAL TROJAN TLS
-    server: 66.163.114.166
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0012 GLOBAL TROJAN TLS
-    server: 66.163.114.245
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0013 GLOBAL TROJAN TLS
-    server: 66.163.114.45
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0014 GLOBAL TROJAN TLS
-    server: 66.163.114.106
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0015 GLOBAL TROJAN TLS
-    server: 66.163.114.126
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0016 GLOBAL TROJAN TLS
-    server: 216.152.155.23
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0017 GLOBAL TROJAN TLS
-    server: 216.152.155.59
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0018 GLOBAL TROJAN TLS
-    server: 66.163.122.113
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.searchnationwidecareerchangehelperandguidancetoday.com
-  - name: POPVPN 0019 GLOBAL TROJAN TLS
-    server: 66.163.122.81
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
-  - name: POPVPN 0020 GLOBAL TROJAN TLS
-    server: 216.152.156.49
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0021 GLOBAL TROJAN TLS
-    server: 170.101.101.112
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: POPVPN 0022 GLOBAL TROJAN TLS
-    server: 216.152.156.65
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0023 GLOBAL TROJAN TLS
-    server: 216.152.156.81
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0024 GLOBAL TROJAN TLS
-    server: 216.152.156.212
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0025 GLOBAL TROJAN TLS
-    server: 170.101.101.131
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: POPVPN 0026 GLOBAL TROJAN TLS
-    server: 216.152.147.85
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0027 GLOBAL TROJAN TLS
-    server: 216.152.156.42
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0028 GLOBAL TROJAN TLS
-    server: 170.101.101.53
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: POPVPN 0029 GLOBAL TROJAN TLS
-    server: 216.152.147.89
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0030 GLOBAL TROJAN TLS
-    server: 216.152.147.93
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0031 GLOBAL TROJAN TLS
-    server: 66.163.112.142
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0032 GLOBAL TROJAN TLS
-    server: 66.163.112.121
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0033 GLOBAL TROJAN TLS
-    server: 66.163.112.76
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0034 GLOBAL TROJAN TLS
-    server: 66.163.112.171
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: learn.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0035 GLOBAL TROJAN TLS
     server: 169.197.140.171
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0036 GLOBAL TROJAN TLS
-    server: 169.197.140.218
+  - name: POPVPN 0007 GLOBAL TROJAN TLS
+    server: 170.101.101.112
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0037 GLOBAL TROJAN TLS
-    server: 169.197.140.224
+    sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
+  - name: POPVPN 0008 GLOBAL TROJAN TLS
+    server: 170.101.101.131
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0038 GLOBAL TROJAN TLS
-    server: 169.197.140.245
+    sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
+  - name: POPVPN 0009 GLOBAL TROJAN TLS
+    server: 170.101.101.53
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0039 GLOBAL TROJAN TLS
-    server: 169.197.140.169
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0040 GLOBAL TROJAN TLS
-    server: 169.197.140.214
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0041 GLOBAL TROJAN TLS
-    server: 216.106.186.66
-    port: 443
-    type: trojan
-    password: 242a3d8eee5e4ed1a6bfa4141d549a25
-    udp: true
-    sni: www.findlocaljobnetworkandbuildcommunityconnections.com
-  - name: POPVPN 0042 GLOBAL TROJAN TLS
-    server: 66.163.112.242
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: resources.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0043 GLOBAL TROJAN TLS
-    server: 216.238.80.100
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: connectwithtopemployersandfindidealjobs.com
-  - name: POPVPN 0044 GLOBAL TROJAN TLS
-    server: www.findlocaljobnetworkandbuildcommunityconnections.com
-    port: 443
-    type: trojan
-    password: 242a3d8eee5e4ed1a6bfa4141d549a25
-    udp: true
-    sni: www.findlocaljobnetworkandbuildcommunityconnections.com
-  - name: POPVPN 0045 GLOBAL TROJAN TLS
+    sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
+  - name: POPVPN 0010 GLOBAL TROJAN TLS
     server: 193.108.119.29
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: blog.iloverussia2026.com
+  - name: POPVPN 0011 GLOBAL TROJAN TLS
+    server: 208.69.78.19
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: www.yourultimateprofessionalcareerhub.com
+  - name: POPVPN 0012 GLOBAL TROJAN TLS
+    server: 208.69.78.29
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: learn.yourultimateprofessionalcareerhub.com
+  - name: POPVPN 0013 GLOBAL TROJAN TLS
+    server: 216.106.186.32
+    port: 443
+    type: trojan
+    password: dba20dcb635e430fa4d3bfc303a149d2
+    udp: true
+    sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  - name: POPVPN 0014 GLOBAL TROJAN TLS
+    server: 216.106.186.33
+    port: 443
+    type: trojan
+    password: f0eb8c92ce8946aaba856569cff1a16b
+    udp: true
+    sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  - name: POPVPN 0015 GLOBAL TROJAN TLS
+    server: 216.106.186.66
+    port: 443
+    type: trojan
+    password: 242a3d8eee5e4ed1a6bfa4141d549a25
+    udp: true
+    sni: www.findlocaljobnetworkandbuildcommunityconnections.com
+  - name: POPVPN 0016 GLOBAL TROJAN TLS
+    server: 216.152.147.48
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: courses.connectingpeoplewithgreatjobs.com
+  - name: POPVPN 0017 GLOBAL TROJAN TLS
+    server: 216.152.147.79
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: blog.connectingpeoplewithgreatjobs.com
+  - name: POPVPN 0018 GLOBAL TROJAN TLS
+    server: 216.152.147.85
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: cdn.connectingpeoplewithgreatjobs.com
+  - name: POPVPN 0019 GLOBAL TROJAN TLS
+    server: 216.152.147.89
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: www.connectingpeoplewithgreatjobs.com
+  - name: POPVPN 0020 GLOBAL TROJAN TLS
+    server: 216.152.147.93
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: connectingpeoplewithgreatjobs.com
+  - name: POPVPN 0021 GLOBAL TROJAN TLS
+    server: 216.152.155.131
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: www.nextjobopportunityandclaimyouridealrole.com
+  - name: POPVPN 0022 GLOBAL TROJAN TLS
+    server: 216.152.155.158
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: resources.nextjobopportunityandclaimyouridealrole.com
+  - name: POPVPN 0023 GLOBAL TROJAN TLS
+    server: 216.152.155.176
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: blog.nextjobopportunityandclaimyouridealrole.com
+  - name: POPVPN 0024 GLOBAL TROJAN TLS
+    server: 216.152.155.23
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: courses.nextjobopportunityandclaimyouridealrole.com
+  - name: POPVPN 0025 GLOBAL TROJAN TLS
+    server: 216.152.155.54
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: learn.nextjobopportunityandclaimyouridealrole.com
+  - name: POPVPN 0026 GLOBAL TROJAN TLS
+    server: 216.152.155.59
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: api.nextjobopportunityandclaimyouridealrole.com
+  - name: POPVPN 0027 GLOBAL TROJAN TLS
+    server: 216.152.156.212
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  - name: POPVPN 0028 GLOBAL TROJAN TLS
+    server: 216.152.156.42
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  - name: POPVPN 0029 GLOBAL TROJAN TLS
+    server: 216.152.156.49
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  - name: POPVPN 0030 GLOBAL TROJAN TLS
+    server: 216.152.156.65
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  - name: POPVPN 0031 GLOBAL TROJAN TLS
+    server: 216.152.156.81
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  - name: POPVPN 0032 GLOBAL TROJAN TLS
+    server: 216.238.104.154
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  - name: POPVPN 0033 GLOBAL TROJAN TLS
+    server: 216.238.80.100
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: connectwithtopemployersandfindidealjobs.com
+  - name: POPVPN 0034 GLOBAL TROJAN TLS
+    server: 64.176.7.205
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
+  - name: POPVPN 0035 GLOBAL TROJAN TLS
+    server: 66.163.112.121
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: www.unlockyourfuturefindyourperfectcareer.com
+  - name: POPVPN 0036 GLOBAL TROJAN TLS
+    server: 66.163.112.142
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: cdn.unlockyourfuturefindyourperfectcareer.com
+  - name: POPVPN 0037 GLOBAL TROJAN TLS
+    server: 66.163.112.171
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: learn.unlockyourfuturefindyourperfectcareer.com
+  - name: POPVPN 0038 GLOBAL TROJAN TLS
+    server: 66.163.112.242
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: resources.unlockyourfuturefindyourperfectcareer.com
+  - name: POPVPN 0039 GLOBAL TROJAN TLS
+    server: 66.163.112.76
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: api.unlockyourfuturefindyourperfectcareer.com
+  - name: POPVPN 0040 GLOBAL TROJAN TLS
+    server: 66.163.114.106
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+  - name: POPVPN 0041 GLOBAL TROJAN TLS
+    server: 66.163.114.114
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  - name: POPVPN 0042 GLOBAL TROJAN TLS
+    server: 66.163.114.126
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
+  - name: POPVPN 0043 GLOBAL TROJAN TLS
+    server: 66.163.114.166
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  - name: POPVPN 0044 GLOBAL TROJAN TLS
+    server: 66.163.114.245
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: findconnectwithemployersandbuildprofessionalnetwork.com
+  - name: POPVPN 0045 GLOBAL TROJAN TLS
+    server: 66.163.114.45
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
   - name: POPVPN 0046 GLOBAL TROJAN TLS
     server: 66.163.118.166
     port: 443
@@ -372,69 +372,85 @@ proxies:
     udp: true
     sni: courses.discovergreatjobsandadvanceyourcareer.com
   - name: POPVPN 0049 GLOBAL TROJAN TLS
-    server: 64.176.7.205
+    server: 66.163.122.113
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
+    sni: api.searchnationwidecareerchangehelperandguidancetoday.com
   - name: POPVPN 0050 GLOBAL TROJAN TLS
-    server: 208.69.78.19
+    server: 66.163.122.81
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: www.yourultimateprofessionalcareerhub.com
+    sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
   - name: POPVPN 0051 GLOBAL TROJAN TLS
-    server: 208.69.78.29
+    server: www.findlocaljobnetworkandbuildcommunityconnections.com
     port: 443
     type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    password: 242a3d8eee5e4ed1a6bfa4141d549a25
     udp: true
-    sni: learn.yourultimateprofessionalcareerhub.com
-  - name: POPVPN 0052 GLOBAL TROJAN TLS
-    server: 216.238.104.154
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    sni: www.findlocaljobnetworkandbuildcommunityconnections.com
+  - name: POPVPN 0052 GLOBAL HY2 TLS
+    server: 179.61.138.145
+    port: 36264
+    type: hysteria2
+    password: VPNJEY
     udp: true
-    sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
-  - name: POPVPN 0053 🇺🇸 US SS AES-128-GCM
-    server: 156.146.38.167
+    sni: de2.jey.cc.cd
+    obfs: salamander
+    obfs-password: "Telegram@vpnjey"
+  - name: POPVPN 0053 🇺🇸 US SS AES-256-GCM
+    server: 15.204.233.41
+    port: 8882
+    type: ss
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+    udp: true
+  - name: POPVPN 0054 🇺🇸 US SS AES-128-GCM
+    server: 156.146.38.169
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: POPVPN 0054 🇮🇷 IR SS AES-256-GCM
+  - name: POPVPN 0055 🇺🇸 US SS AES-128-GCM
+    server: 156.146.38.170
+    port: 443
+    type: ss
+    cipher: aes-128-gcm
+    password: shadowsocks
+    udp: true
+  - name: POPVPN 0056 🇮🇷 IR SS AES-256-GCM
     server: 185.230.230.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0055 🇮🇷 IR SS AES-256-GCM
+  - name: POPVPN 0057 🇺🇸 US SS AES-128-GCM
+    server: 37.19.198.236
+    port: 443
+    type: ss
+    cipher: aes-128-gcm
+    password: shadowsocks
+    udp: true
+  - name: POPVPN 0058 🇮🇷 IR SS AES-256-GCM
     server: 45.86.51.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0056 🇩🇪 DE SS AES-256-GCM
-    server: 95.215.201.18
-    port: 19999
+  - name: POPVPN 0059 🇨🇦 CA SS AES-256-GCM
+    server: 51.222.136.236
+    port: 8882
     type: ss
     cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    password: kDWvXYZoTBcGkC4
     udp: true
-  - name: POPVPN 0057 🇺🇸 US SS AES-256-GCM
-    server: 193.151.160.18
-    port: 19999
-    type: ss
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    udp: true
-  - name: POPVPN 0058 GLOBAL TROJAN TLS
+  - name: POPVPN 0060 GLOBAL TROJAN TLS
     server: 66.163.114.132
     port: 443
     type: trojan
@@ -442,40 +458,26 @@ proxies:
     udp: true
     sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
     skip-cert-verify: true
-  - name: POPVPN 0059 GLOBAL SS AES-128-GCM
-    server: 156.146.38.169
+  - name: POPVPN 0061 GLOBAL SS 2022-BLAKE3-AES-128-GCM
+    server: 103.11.76.248
+    port: 28679
+    type: ss
+    cipher: 2022-blake3-aes-128-gcm
+    password: NzJlOTQ5NWYtM2ZkYi00Cg==
+    udp: true
+  - name: POPVPN 0062 GLOBAL SS CHACHA20-IETF-POLY1305
+    server: 130.49.189.54
+    port: 8388
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: hTTg7lwQMzpaF7KXpY3A8w
+    udp: true
+  - name: POPVPN 0063 GLOBAL SS AES-128-GCM
+    server: 149.22.95.183
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
-    udp: true
-  - name: POPVPN 0060 GLOBAL SS AES-256-GCM
-    server: 51.79.64.198
-    port: 8119
-    type: ss
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-    udp: true
-  - name: POPVPN 0061 GLOBAL SS CHACHA20-IETF-POLY1305
-    server: 198.98.53.130
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: eDfN7SODQceIOmIAbtJJtK
-    udp: true
-  - name: POPVPN 0062 GLOBAL SS 2022-BLAKE3-AES-256-GCM
-    server: 216.9.225.189
-    port: 443
-    type: ss
-    cipher: 2022-blake3-aes-256-gcm
-    password: "Q2YsIzc5YkchSFjsqUZWrQAFtsSpqf7XxYxkG4+Jbsk=:zT1SecPttPY/XPW6NwjK5Wql+/6zbcGSDJK21Jk8uLo="
-    udp: true
-  - name: POPVPN 0063 GLOBAL SS AES-256-GCM
-    server: 185.215.132.18
-    port: 19999
-    type: ss
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
   - name: POPVPN 0064 GLOBAL SS AES-256-GCM
     server: 15.204.247.175
@@ -484,36 +486,34 @@ proxies:
     cipher: aes-256-gcm
     password: XKFKl2rULjIp74
     udp: true
-  - name: POPVPN 0065 GLOBAL SS AES-256-GCM
-    server: 15.204.247.244
-    port: 4444
+  - name: POPVPN 0065 GLOBAL SS AES-128-GCM
+    server: 156.146.38.167
+    port: 443
     type: ss
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
+    cipher: aes-128-gcm
+    password: shadowsocks
     udp: true
   - name: POPVPN 0066 GLOBAL SS AES-256-GCM
+    server: 185.215.132.18
+    port: 19999
+    type: ss
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    udp: true
+  - name: POPVPN 0067 GLOBAL SS AES-256-GCM
     server: 185.215.132.9
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0067 GLOBAL TROJAN TLS
-    server: 66.163.122.25
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  - name: POPVPN 0068 GLOBAL SS AES-256-GCM
+    server: 193.151.160.9
+    port: 19999
+    type: ss
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-    sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
-    skip-cert-verify: true
-  - name: POPVPN 0068 GLOBAL TROJAN TLS
-    server: 66.163.122.7
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.searchnationwidecareerchangehelperandguidancetoday.com
-    skip-cert-verify: true
   - name: POPVPN 0069 GLOBAL SS AES-256-GCM
     server: 193.151.163.18
     port: 19999
@@ -521,47 +521,47 @@ proxies:
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0070 GLOBAL SS AES-256-GCM
-    server: 193.151.160.9
-    port: 19999
-    type: ss
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    udp: true
-  - name: POPVPN 0071 GLOBAL SS 2022-BLAKE3-AES-128-GCM
-    server: 103.11.76.248
-    port: 28679
-    type: ss
-    cipher: 2022-blake3-aes-128-gcm
-    password: NzJlOTQ5NWYtM2ZkYi00Cg==
-    udp: true
-  - name: POPVPN 0072 GLOBAL SS AES-128-GCM
-    server: 149.22.95.183
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: shadowsocks
-    udp: true
-  - name: POPVPN 0073 GLOBAL SS AES-256-GCM
-    server: 45.207.207.25
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C
-    udp: true
-  - name: POPVPN 0074 GLOBAL SS 2022-BLAKE3-AES-256-GCM
-    server: 51.38.71.51
-    port: 2083
-    type: ss
-    cipher: 2022-blake3-aes-256-gcm
-    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
-    udp: true
-  - name: POPVPN 0075 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0070 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 193.29.139.168
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: QCXDxuDlTTMD7jtgHUjIoj
+    udp: true
+  - name: POPVPN 0071 GLOBAL SS CHACHA20-IETF-POLY1305
+    server: 198.98.53.130
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: eDfN7SODQceIOmIAbtJJtK
+    udp: true
+  - name: POPVPN 0072 GLOBAL SS AES-256-GCM
+    server: 202.50.253.27
+    port: 19999
+    type: ss
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    udp: true
+  - name: POPVPN 0073 GLOBAL SS AES-256-GCM
+    server: 202.50.253.36
+    port: 19999
+    type: ss
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    udp: true
+  - name: POPVPN 0074 GLOBAL SS AES-256-GCM
+    server: 202.50.253.54
+    port: 19999
+    type: ss
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    udp: true
+  - name: POPVPN 0075 GLOBAL SS AES-256-GCM
+    server: 202.50.253.63
+    port: 19999
+    type: ss
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
   - name: POPVPN 0076 GLOBAL SS AES-256-GCM
     server: 202.50.253.72
@@ -571,63 +571,63 @@ proxies:
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
   - name: POPVPN 0077 GLOBAL SS AES-256-GCM
-    server: 202.50.253.27
-    port: 19999
-    type: ss
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    udp: true
-  - name: POPVPN 0078 GLOBAL SS AES-256-GCM
-    server: 51.83.192.80
-    port: 8388
-    type: ss
-    cipher: aes-256-gcm
-    password: "itzvpn@321"
-    udp: true
-  - name: POPVPN 0079 GLOBAL SS AES-256-GCM
-    server: 202.50.253.54
-    port: 19999
-    type: ss
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    udp: true
-  - name: POPVPN 0080 GLOBAL SS AES-256-GCM
-    server: 84.247.155.196
-    port: 80
-    type: ss
-    cipher: aes-256-gcm
-    password: 3eOFeNssde7PYYMv
-    udp: true
-  - name: POPVPN 0081 GLOBAL SS AES-256-GCM
-    server: 202.50.253.36
-    port: 19999
-    type: ss
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    udp: true
-  - name: POPVPN 0082 GLOBAL SS CHACHA20-IETF-POLY1305
-    server: 57.129.113.16
-    port: 8388
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: NcAXc0UZI6yQJE1p8QmOv8
-    udp: true
-  - name: POPVPN 0083 GLOBAL SS AES-256-GCM
     server: 202.50.253.81
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0084 GLOBAL SS CHACHA20-IETF-POLY1305
-    server: 130.49.189.54
+  - name: POPVPN 0078 GLOBAL SS 2022-BLAKE3-AES-256-GCM
+    server: 216.9.225.189
+    port: 443
+    type: ss
+    cipher: 2022-blake3-aes-256-gcm
+    password: "Q2YsIzc5YkchSFjsqUZWrQAFtsSpqf7XxYxkG4+Jbsk=:zT1SecPttPY/XPW6NwjK5Wql+/6zbcGSDJK21Jk8uLo="
+    udp: true
+  - name: POPVPN 0079 GLOBAL SS AES-256-GCM
+    server: 45.207.207.25
+    port: 443
+    type: ss
+    cipher: aes-256-gcm
+    password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C
+    udp: true
+  - name: POPVPN 0080 GLOBAL SS 2022-BLAKE3-AES-256-GCM
+    server: 51.38.71.51
+    port: 2083
+    type: ss
+    cipher: 2022-blake3-aes-256-gcm
+    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
+    udp: true
+  - name: POPVPN 0081 GLOBAL SS AES-256-GCM
+    server: 51.79.64.198
+    port: 8119
+    type: ss
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+    udp: true
+  - name: POPVPN 0082 GLOBAL SS AES-256-GCM
+    server: 51.83.192.80
+    port: 8388
+    type: ss
+    cipher: aes-256-gcm
+    password: "itzvpn@321"
+    udp: true
+  - name: POPVPN 0083 GLOBAL SS CHACHA20-IETF-POLY1305
+    server: 57.129.113.16
     port: 8388
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: hTTg7lwQMzpaF7KXpY3A8w
+    password: NcAXc0UZI6yQJE1p8QmOv8
+    udp: true
+  - name: POPVPN 0084 GLOBAL SS AES-256-GCM
+    server: 84.247.155.196
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: 3eOFeNssde7PYYMv
     udp: true
   - name: POPVPN 0085 GLOBAL SS AES-256-GCM
-    server: 202.50.253.63
+    server: 95.215.201.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
@@ -654,15 +654,22 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: hNfeLCN3XzYgLFSAWo_fxOl4HC1gNw0V
     udp: true
-  - name: POPVPN 0089 GLOBAL HY2 TLS
-    server: 179.61.138.145
-    port: 36264
-    type: hysteria2
-    password: VPNJEY
+  - name: POPVPN 0089 GLOBAL TROJAN TLS
+    server: 66.163.122.25
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: de2.jey.cc.cd
-    obfs: salamander
-    obfs-password: "Telegram@vpnjey"
+    sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+    skip-cert-verify: true
+  - name: POPVPN 0090 GLOBAL TROJAN TLS
+    server: 66.163.122.7
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+    skip-cert-verify: true
 proxy-groups:
   - name: AUTO
     type: url-test
@@ -718,44 +725,45 @@ proxy-groups:
       - POPVPN 0049 GLOBAL TROJAN TLS
       - POPVPN 0050 GLOBAL TROJAN TLS
       - POPVPN 0051 GLOBAL TROJAN TLS
-      - POPVPN 0052 GLOBAL TROJAN TLS
-      - POPVPN 0053 🇺🇸 US SS AES-128-GCM
-      - POPVPN 0054 🇮🇷 IR SS AES-256-GCM
-      - POPVPN 0055 🇮🇷 IR SS AES-256-GCM
-      - POPVPN 0056 🇩🇪 DE SS AES-256-GCM
-      - POPVPN 0057 🇺🇸 US SS AES-256-GCM
-      - POPVPN 0058 GLOBAL TROJAN TLS
-      - POPVPN 0059 GLOBAL SS AES-128-GCM
-      - POPVPN 0060 GLOBAL SS AES-256-GCM
-      - POPVPN 0061 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0062 GLOBAL SS 2022-BLAKE3-AES-256-GCM
-      - POPVPN 0063 GLOBAL SS AES-256-GCM
+      - POPVPN 0052 GLOBAL HY2 TLS
+      - POPVPN 0053 🇺🇸 US SS AES-256-GCM
+      - POPVPN 0054 🇺🇸 US SS AES-128-GCM
+      - POPVPN 0055 🇺🇸 US SS AES-128-GCM
+      - POPVPN 0056 🇮🇷 IR SS AES-256-GCM
+      - POPVPN 0057 🇺🇸 US SS AES-128-GCM
+      - POPVPN 0058 🇮🇷 IR SS AES-256-GCM
+      - POPVPN 0059 🇨🇦 CA SS AES-256-GCM
+      - POPVPN 0060 GLOBAL TROJAN TLS
+      - POPVPN 0061 GLOBAL SS 2022-BLAKE3-AES-128-GCM
+      - POPVPN 0062 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0063 GLOBAL SS AES-128-GCM
       - POPVPN 0064 GLOBAL SS AES-256-GCM
-      - POPVPN 0065 GLOBAL SS AES-256-GCM
+      - POPVPN 0065 GLOBAL SS AES-128-GCM
       - POPVPN 0066 GLOBAL SS AES-256-GCM
-      - POPVPN 0067 GLOBAL TROJAN TLS
-      - POPVPN 0068 GLOBAL TROJAN TLS
+      - POPVPN 0067 GLOBAL SS AES-256-GCM
+      - POPVPN 0068 GLOBAL SS AES-256-GCM
       - POPVPN 0069 GLOBAL SS AES-256-GCM
-      - POPVPN 0070 GLOBAL SS AES-256-GCM
-      - POPVPN 0071 GLOBAL SS 2022-BLAKE3-AES-128-GCM
-      - POPVPN 0072 GLOBAL SS AES-128-GCM
+      - POPVPN 0070 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0071 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0072 GLOBAL SS AES-256-GCM
       - POPVPN 0073 GLOBAL SS AES-256-GCM
-      - POPVPN 0074 GLOBAL SS 2022-BLAKE3-AES-256-GCM
-      - POPVPN 0075 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0074 GLOBAL SS AES-256-GCM
+      - POPVPN 0075 GLOBAL SS AES-256-GCM
       - POPVPN 0076 GLOBAL SS AES-256-GCM
       - POPVPN 0077 GLOBAL SS AES-256-GCM
-      - POPVPN 0078 GLOBAL SS AES-256-GCM
+      - POPVPN 0078 GLOBAL SS 2022-BLAKE3-AES-256-GCM
       - POPVPN 0079 GLOBAL SS AES-256-GCM
-      - POPVPN 0080 GLOBAL SS AES-256-GCM
+      - POPVPN 0080 GLOBAL SS 2022-BLAKE3-AES-256-GCM
       - POPVPN 0081 GLOBAL SS AES-256-GCM
-      - POPVPN 0082 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0083 GLOBAL SS AES-256-GCM
-      - POPVPN 0084 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0082 GLOBAL SS AES-256-GCM
+      - POPVPN 0083 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0084 GLOBAL SS AES-256-GCM
       - POPVPN 0085 GLOBAL SS AES-256-GCM
       - POPVPN 0086 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0087 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0088 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0089 GLOBAL HY2 TLS
+      - POPVPN 0089 GLOBAL TROJAN TLS
+      - POPVPN 0090 GLOBAL TROJAN TLS
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
@@ -814,82 +822,85 @@ proxy-groups:
       - POPVPN 0049 GLOBAL TROJAN TLS
       - POPVPN 0050 GLOBAL TROJAN TLS
       - POPVPN 0051 GLOBAL TROJAN TLS
-      - POPVPN 0052 GLOBAL TROJAN TLS
-      - POPVPN 0053 🇺🇸 US SS AES-128-GCM
-      - POPVPN 0054 🇮🇷 IR SS AES-256-GCM
-      - POPVPN 0055 🇮🇷 IR SS AES-256-GCM
-      - POPVPN 0056 🇩🇪 DE SS AES-256-GCM
-      - POPVPN 0057 🇺🇸 US SS AES-256-GCM
-      - POPVPN 0058 GLOBAL TROJAN TLS
-      - POPVPN 0059 GLOBAL SS AES-128-GCM
-      - POPVPN 0060 GLOBAL SS AES-256-GCM
-      - POPVPN 0061 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0062 GLOBAL SS 2022-BLAKE3-AES-256-GCM
-      - POPVPN 0063 GLOBAL SS AES-256-GCM
+      - POPVPN 0052 GLOBAL HY2 TLS
+      - POPVPN 0053 🇺🇸 US SS AES-256-GCM
+      - POPVPN 0054 🇺🇸 US SS AES-128-GCM
+      - POPVPN 0055 🇺🇸 US SS AES-128-GCM
+      - POPVPN 0056 🇮🇷 IR SS AES-256-GCM
+      - POPVPN 0057 🇺🇸 US SS AES-128-GCM
+      - POPVPN 0058 🇮🇷 IR SS AES-256-GCM
+      - POPVPN 0059 🇨🇦 CA SS AES-256-GCM
+      - POPVPN 0060 GLOBAL TROJAN TLS
+      - POPVPN 0061 GLOBAL SS 2022-BLAKE3-AES-128-GCM
+      - POPVPN 0062 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0063 GLOBAL SS AES-128-GCM
       - POPVPN 0064 GLOBAL SS AES-256-GCM
-      - POPVPN 0065 GLOBAL SS AES-256-GCM
+      - POPVPN 0065 GLOBAL SS AES-128-GCM
       - POPVPN 0066 GLOBAL SS AES-256-GCM
-      - POPVPN 0067 GLOBAL TROJAN TLS
-      - POPVPN 0068 GLOBAL TROJAN TLS
+      - POPVPN 0067 GLOBAL SS AES-256-GCM
+      - POPVPN 0068 GLOBAL SS AES-256-GCM
       - POPVPN 0069 GLOBAL SS AES-256-GCM
-      - POPVPN 0070 GLOBAL SS AES-256-GCM
-      - POPVPN 0071 GLOBAL SS 2022-BLAKE3-AES-128-GCM
-      - POPVPN 0072 GLOBAL SS AES-128-GCM
+      - POPVPN 0070 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0071 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0072 GLOBAL SS AES-256-GCM
       - POPVPN 0073 GLOBAL SS AES-256-GCM
-      - POPVPN 0074 GLOBAL SS 2022-BLAKE3-AES-256-GCM
-      - POPVPN 0075 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0074 GLOBAL SS AES-256-GCM
+      - POPVPN 0075 GLOBAL SS AES-256-GCM
       - POPVPN 0076 GLOBAL SS AES-256-GCM
       - POPVPN 0077 GLOBAL SS AES-256-GCM
-      - POPVPN 0078 GLOBAL SS AES-256-GCM
+      - POPVPN 0078 GLOBAL SS 2022-BLAKE3-AES-256-GCM
       - POPVPN 0079 GLOBAL SS AES-256-GCM
-      - POPVPN 0080 GLOBAL SS AES-256-GCM
+      - POPVPN 0080 GLOBAL SS 2022-BLAKE3-AES-256-GCM
       - POPVPN 0081 GLOBAL SS AES-256-GCM
-      - POPVPN 0082 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0083 GLOBAL SS AES-256-GCM
-      - POPVPN 0084 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0082 GLOBAL SS AES-256-GCM
+      - POPVPN 0083 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0084 GLOBAL SS AES-256-GCM
       - POPVPN 0085 GLOBAL SS AES-256-GCM
       - POPVPN 0086 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0087 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0088 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0089 GLOBAL HY2 TLS
+      - POPVPN 0089 GLOBAL TROJAN TLS
+      - POPVPN 0090 GLOBAL TROJAN TLS
   - name: HY2
     type: url-test
     proxies:
-      - POPVPN 0089 GLOBAL HY2 TLS
+      - POPVPN 0052 GLOBAL HY2 TLS
     url: "https://www.gstatic.com/generate_204"
     interval: 300
   - name: SS
     type: url-test
     proxies:
-      - POPVPN 0053 🇺🇸 US SS AES-128-GCM
-      - POPVPN 0054 🇮🇷 IR SS AES-256-GCM
-      - POPVPN 0055 🇮🇷 IR SS AES-256-GCM
-      - POPVPN 0056 🇩🇪 DE SS AES-256-GCM
-      - POPVPN 0057 🇺🇸 US SS AES-256-GCM
-      - POPVPN 0059 GLOBAL SS AES-128-GCM
-      - POPVPN 0060 GLOBAL SS AES-256-GCM
-      - POPVPN 0061 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0062 GLOBAL SS 2022-BLAKE3-AES-256-GCM
-      - POPVPN 0063 GLOBAL SS AES-256-GCM
+      - POPVPN 0053 🇺🇸 US SS AES-256-GCM
+      - POPVPN 0054 🇺🇸 US SS AES-128-GCM
+      - POPVPN 0055 🇺🇸 US SS AES-128-GCM
+      - POPVPN 0056 🇮🇷 IR SS AES-256-GCM
+      - POPVPN 0057 🇺🇸 US SS AES-128-GCM
+      - POPVPN 0058 🇮🇷 IR SS AES-256-GCM
+      - POPVPN 0059 🇨🇦 CA SS AES-256-GCM
+      - POPVPN 0061 GLOBAL SS 2022-BLAKE3-AES-128-GCM
+      - POPVPN 0062 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0063 GLOBAL SS AES-128-GCM
       - POPVPN 0064 GLOBAL SS AES-256-GCM
-      - POPVPN 0065 GLOBAL SS AES-256-GCM
+      - POPVPN 0065 GLOBAL SS AES-128-GCM
       - POPVPN 0066 GLOBAL SS AES-256-GCM
+      - POPVPN 0067 GLOBAL SS AES-256-GCM
+      - POPVPN 0068 GLOBAL SS AES-256-GCM
       - POPVPN 0069 GLOBAL SS AES-256-GCM
-      - POPVPN 0070 GLOBAL SS AES-256-GCM
-      - POPVPN 0071 GLOBAL SS 2022-BLAKE3-AES-128-GCM
-      - POPVPN 0072 GLOBAL SS AES-128-GCM
+      - POPVPN 0070 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0071 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0072 GLOBAL SS AES-256-GCM
       - POPVPN 0073 GLOBAL SS AES-256-GCM
-      - POPVPN 0074 GLOBAL SS 2022-BLAKE3-AES-256-GCM
-      - POPVPN 0075 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0074 GLOBAL SS AES-256-GCM
+      - POPVPN 0075 GLOBAL SS AES-256-GCM
       - POPVPN 0076 GLOBAL SS AES-256-GCM
       - POPVPN 0077 GLOBAL SS AES-256-GCM
-      - POPVPN 0078 GLOBAL SS AES-256-GCM
+      - POPVPN 0078 GLOBAL SS 2022-BLAKE3-AES-256-GCM
       - POPVPN 0079 GLOBAL SS AES-256-GCM
-      - POPVPN 0080 GLOBAL SS AES-256-GCM
+      - POPVPN 0080 GLOBAL SS 2022-BLAKE3-AES-256-GCM
       - POPVPN 0081 GLOBAL SS AES-256-GCM
-      - POPVPN 0082 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0083 GLOBAL SS AES-256-GCM
-      - POPVPN 0084 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0082 GLOBAL SS AES-256-GCM
+      - POPVPN 0083 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0084 GLOBAL SS AES-256-GCM
       - POPVPN 0085 GLOBAL SS AES-256-GCM
       - POPVPN 0086 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0087 GLOBAL SS CHACHA20-IETF-POLY1305
@@ -949,10 +960,9 @@ proxy-groups:
       - POPVPN 0049 GLOBAL TROJAN TLS
       - POPVPN 0050 GLOBAL TROJAN TLS
       - POPVPN 0051 GLOBAL TROJAN TLS
-      - POPVPN 0052 GLOBAL TROJAN TLS
-      - POPVPN 0058 GLOBAL TROJAN TLS
-      - POPVPN 0067 GLOBAL TROJAN TLS
-      - POPVPN 0068 GLOBAL TROJAN TLS
+      - POPVPN 0060 GLOBAL TROJAN TLS
+      - POPVPN 0089 GLOBAL TROJAN TLS
+      - POPVPN 0090 GLOBAL TROJAN TLS
     url: "https://www.gstatic.com/generate_204"
     interval: 300
   - name: VLESS
