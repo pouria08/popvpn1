@@ -1,252 +1,1013 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>POPVPN X — Live Dashboard</title>
-<meta name="description" content="Live statistics for the POPVPN X subscription pipeline"/>
-<style>
-  :root{
-    --bg:#070b14; --panel:#0e1524; --panel2:#131c2e; --line:#1e2b44;
-    --text:#e6edf7; --muted:#8ea0bd; --accent:#7c3aed; --accent2:#06b6d4;
-    --ok:#22c55e; --bad:#ef4444; --warn:#eab308;
-  }
-  *{box-sizing:border-box}
-  body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#17203a 0%,var(--bg) 60%);
-       color:var(--text);font:15px/1.6 "Vazirmatn",system-ui,-apple-system,"Segoe UI",sans-serif}
-  a{color:var(--accent2);text-decoration:none}
-  .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 80px}
-  header{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between;
-         padding-bottom:18px;border-bottom:1px solid var(--line);margin-bottom:22px}
-  h1{margin:0;font-size:26px;letter-spacing:.5px}
-  h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));
-          -webkit-background-clip:text;background-clip:text;color:transparent}
-  .sub{color:var(--muted);font-size:13px;margin-top:6px}
-  .grid{display:grid;gap:14px}
-  .cards{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
-  .card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
-        border-radius:14px;padding:14px 16px}
-  .card b{display:block;font-size:24px;font-variant-numeric:tabular-nums}
-  .card small{color:var(--muted)}
-  section{margin-top:26px}
-  h2{font-size:16px;margin:0 0 12px;color:var(--muted);font-weight:600;letter-spacing:.4px}
-  .bars{display:flex;flex-direction:column;gap:8px}
-  .bar{display:grid;grid-template-columns:110px 1fr 70px;gap:10px;align-items:center;font-size:13px}
-  .track{background:#0b1220;border:1px solid var(--line);border-radius:99px;height:12px;overflow:hidden}
-  .fill{height:100%;border-radius:99px}
-  table{width:100%;border-collapse:collapse;font-size:13px}
-  th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:right}
-  th:first-child,td:first-child{text-align:right}
-  th{color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--panel);z-index:2}
-  .pill{display:inline-block;padding:1px 8px;border-radius:99px;font-size:11px;border:1px solid var(--line)}
-  .ok{color:var(--ok)} .bad{color:var(--bad)} .warn{color:var(--warn)} .muted{color:var(--muted)}
-  .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
-  input,select{background:#0b1220;border:1px solid var(--line);color:var(--text);
-               border-radius:10px;padding:8px 12px;font:inherit;outline:none}
-  input:focus,select:focus{border-color:var(--accent)}
-  input[type=search]{flex:1;min-width:220px}
-  .tablewrap{max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:14px}
-  .btn{background:var(--accent);color:#fff;border:none;border-radius:10px;padding:8px 14px;
-       cursor:pointer;font:inherit}
-  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
-  .btn:hover{filter:brightness(1.1)}
-  .links{display:flex;gap:8px;flex-wrap:wrap}
-  .links a{background:var(--panel2);border:1px solid var(--line);padding:8px 12px;border-radius:10px;font-size:13px}
-  .foot{margin-top:40px;color:var(--muted);font-size:12px;text-align:center}
-  .chart{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px}
-  .spark{width:100%;height:auto;display:block}
-  @media (max-width:640px){ .bar{grid-template-columns:80px 1fr 60px} }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>POPVPN X — داشبورد حرفه‌ای و زنده</title>
+  <meta name="description" content="داشبورد زنده و حرفه‌ای POPVPN X برای نمایش وضعیت کانفیگ‌ها، پروتکل‌ها و منابع" />
+  <style>
+    :root {
+      --bg: #07111f;
+      --bg-2: #0d1729;
+      --panel: rgba(15, 23, 40, 0.78);
+      --panel-strong: rgba(17, 24, 39, 0.94);
+      --panel-soft: rgba(23, 33, 52, 0.8);
+      --line: rgba(148, 163, 184, 0.18);
+      --line-strong: rgba(148, 163, 184, 0.27);
+      --text: #eef4ff;
+      --muted: #9aaec6;
+      --primary: #7c3aed;
+      --secondary: #22d3ee;
+      --success: #34d399;
+      --warning: #fbbf24;
+      --danger: #f87171;
+      --shadow: 0 30px 80px rgba(15, 23, 42, 0.5);
+      --radius-xl: 24px;
+      --radius-lg: 18px;
+      --radius-md: 12px;
+      --radius-sm: 10px;
+      --content-w: 1220px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: "Vazirmatn", "Segoe UI", Tahoma, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(124, 58, 237, 0.30), transparent 28%),
+        radial-gradient(circle at bottom left, rgba(34, 211, 238, 0.18), transparent 28%),
+        linear-gradient(180deg, #050d18 0%, #0a1220 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button, input, select { font: inherit; }
+
+    .bg-orb {
+      position: fixed;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      filter: blur(90px);
+      opacity: 0.32;
+      pointer-events: none;
+      z-index: 0;
+      animation: float 12s ease-in-out infinite alternate;
+    }
+
+    .orb-1 { top: -80px; right: 10%; background: rgba(124, 58, 237, 0.8); }
+    .orb-2 { bottom: -80px; left: 8%; background: rgba(34, 211, 238, 0.6); animation-delay: 1.2s; }
+
+    @keyframes float {
+      0% { transform: translateY(0px) scale(1); }
+      100% { transform: translateY(28px) scale(1.08); }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 0 rgba(124, 58, 237, 0.2); }
+      50% { box-shadow: 0 0 25px rgba(124, 58, 237, 0.25); }
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .app-shell {
+      position: relative;
+      z-index: 1;
+      width: min(var(--content-w), calc(100% - 32px));
+      margin: 20px auto 60px;
+    }
+
+    .glass {
+      background: rgba(15, 23, 40, 0.7);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 18px 22px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+      position: sticky;
+      top: 16px;
+      z-index: 30;
+      background: rgba(7, 17, 31, 0.66);
+      border: 1px solid var(--line);
+      backdrop-filter: blur(14px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-weight: 800;
+    }
+
+    .brand-mark {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      font-size: 20px;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      box-shadow: 0 10px 25px rgba(124, 58, 237, 0.45);
+      animation: pulseGlow 2.5s ease-in-out infinite;
+    }
+
+    .brand small {
+      color: var(--muted);
+      font-size: 11px;
+      display: block;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .nav a {
+      color: var(--muted);
+      padding: 8px 12px;
+      border-radius: 10px;
+      transition: 0.2s ease;
+      font-size: 14px;
+    }
+
+    .nav a:hover {
+      background: rgba(124, 58, 237, 0.08);
+      color: var(--text);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 1px solid transparent;
+      border-radius: 12px;
+      padding: 10px 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      color: white;
+      background: linear-gradient(135deg, #7c3aed, #3b82f6);
+      box-shadow: 0 12px 24px rgba(124, 58, 237, 0.32);
+    }
+
+    .btn-secondary {
+      background: rgba(148, 163, 184, 0.06);
+      border-color: var(--line);
+      color: var(--text);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 24px;
+      padding: 22px 0 8px;
+      align-items: center;
+      animation: fadeUp 0.6s ease both;
+    }
+
+    .hero-copy {
+      padding: 26px 6px 20px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(34, 211, 238, 0.08);
+      border: 1px solid rgba(34, 211, 238, 0.22);
+      color: #a5f3fc;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.1rem, 4vw, 4rem);
+      line-height: 1.12;
+      letter-spacing: -0.04em;
+    }
+
+    h1 .gradient {
+      background: linear-gradient(135deg, #a78bfa, #67e8f9 48%, #f9a8d4);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-copy p {
+      margin: 16px 0 20px;
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 62ch;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .quick-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(148, 163, 184, 0.06);
+      border: 1px solid var(--line);
+      color: #dfeeff;
+      font-size: 12px;
+    }
+
+    .chip .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--success);
+      box-shadow: 0 0 10px rgba(52, 211, 153, 0.9);
+    }
+
+    .hero-visual {
+      border-radius: var(--radius-xl);
+      padding: 20px;
+      min-height: 330px;
+      background:
+        linear-gradient(180deg, rgba(17, 24, 39, 0.9), rgba(15, 23, 40, 0.88)),
+        radial-gradient(circle at 20% 10%, rgba(124, 58, 237, 0.26), transparent 35%);
+      border: 1px solid var(--line-strong);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .status-card {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .status-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .live-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      background: rgba(52, 211, 153, 0.08);
+      border: 1px solid rgba(52, 211, 153, 0.22);
+      color: #bbf7d0;
+      padding: 6px 10px;
+      font-size: 12px;
+    }
+
+    .live-pill .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--success);
+      box-shadow: 0 0 12px rgba(52, 211, 153, 0.9);
+    }
+
+    .hero-metric {
+      font-size: clamp(2rem, 3vw, 3rem);
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      margin: 0;
+    }
+
+    .hero-sub {
+      color: var(--muted);
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .mini-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(120px, 1fr));
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .mini-box {
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: rgba(15, 23, 40, 0.8);
+      border: 1px solid var(--line);
+    }
+
+    .mini-box small {
+      display: block;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .mini-box strong {
+      font-size: 1.1rem;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 8px;
+    }
+
+    .stat-card {
+      background: linear-gradient(180deg, rgba(17, 24, 39, 0.84), rgba(15, 23, 40, 0.72));
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px 18px 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card::before {
+      content: "";
+      position: absolute;
+      inset: -20% auto auto -35%;
+      width: 120px;
+      height: 120px;
+      background: radial-gradient(circle, rgba(124, 58, 237, 0.18), transparent 70%);
+      pointer-events: none;
+    }
+
+    .stat-card small {
+      color: var(--muted);
+      display: block;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+
+    .stat-card b {
+      font-size: clamp(1.6rem, 2vw, 2.25rem);
+      letter-spacing: -0.04em;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .stat-card span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .section {
+      margin-top: 28px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .panel {
+      background: rgba(15, 23, 40, 0.72);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1.1fr 1.4fr;
+      gap: 18px;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 1.15rem;
+    }
+
+    .badges {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 11px;
+      border: 1px solid var(--line);
+      background: rgba(148, 163, 184, 0.04);
+      color: var(--muted);
+    }
+
+    .bars {
+      display: grid;
+      gap: 12px;
+    }
+
+    .bar-line {
+      display: grid;
+      grid-template-columns: 96px 1fr 68px;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .track {
+      position: relative;
+      height: 12px;
+      border-radius: 999px;
+      background: rgba(15, 23, 40, 0.9);
+      border: 1px solid var(--line);
+      overflow: hidden;
+    }
+
+    .fill {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 0;
+      border-radius: inherit;
+      box-shadow: 0 0 12px rgba(124, 58, 237, 0.5);
+    }
+
+    .spark-shell {
+      padding: 14px 10px 10px;
+      border-radius: 14px;
+      background: rgba(10, 16, 27, 0.5);
+      border: 1px solid var(--line);
+    }
+
+    .spark {
+      width: 100%;
+      height: 180px;
+      display: block;
+    }
+
+    .table-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(250px, 1fr));
+      gap: 18px;
+    }
+
+    .table-wrap {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+      background: rgba(9, 15, 26, 0.38);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: right;
+      vertical-align: middle;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      background: rgba(15, 23, 40, 0.96);
+      color: var(--muted);
+      font-weight: 700;
+      z-index: 1;
+    }
+
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background: rgba(124, 58, 237, 0.03); }
+
+    .muted { color: var(--muted); }
+    .ok { color: var(--success); }
+    .warn { color: var(--warning); }
+    .bad { color: var(--danger); }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .field {
+      flex: 1 1 180px;
+      min-width: 145px;
+    }
+
+    input, select {
+      width: 100%;
+      border-radius: 12px;
+      background: rgba(9, 15, 26, 0.7);
+      border: 1px solid var(--line);
+      color: var(--text);
+      padding: 10px 12px;
+      outline: none;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    input:focus, select:focus {
+      border-color: rgba(124, 58, 237, 0.8);
+      box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.08);
+    }
+
+    .toolbar-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .footer {
+      margin-top: 32px;
+      padding: 24px 18px 12px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    @media (max-width: 920px) {
+      .hero, .two-col, .table-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .app-shell { width: min(var(--content-w), calc(100% - 20px)); }
+      .topbar { padding: 14px 16px; }
+      .hero-copy { padding-top: 8px; }
+      .bar-line { grid-template-columns: 76px 1fr 52px; }
+      .panel { padding: 16px; }
+    }
+  </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div>
-      <h1>⚡ <span>POPVPN X</span> · داشبورد زنده</h1>
-      <div class="sub" id="updated">در حال بارگذاری…</div>
-    </div>
-    <div class="links" id="links"></div>
-  </header>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
 
-  <div class="grid cards" id="cards"></div>
-
-  <section>
-    <h2>توزیع پروتکل‌ها</h2>
-    <div class="bars" id="protocols"></div>
-  </section>
-
-  <section>
-    <h2>روند تعداد کانفیگ‌ها</h2>
-    <div class="chart" id="chart"></div>
-  </section>
-
-  <section>
-    <h2>کشورها</h2>
-    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
-      <div class="tablewrap" style="max-height:320px">
-        <table><thead><tr><th>کشور</th><th>تعداد</th><th>سهم</th></tr></thead>
-        <tbody id="countries"></tbody></table>
+  <div class="app-shell">
+    <header class="topbar glass">
+      <div class="brand">
+        <div class="brand-mark">P</div>
+        <div>
+          POPVPN X
+          <small>Pipeline Monitor</small>
+        </div>
       </div>
-      <div class="tablewrap" style="max-height:320px">
-        <table><thead><tr><th>منبع</th><th>کانفیگ</th><th>وضعیت</th></tr></thead>
-        <tbody id="sources"></tbody></table>
+
+      <nav class="nav" aria-label="Navigation">
+        <a href="#overview">نمای کلی</a>
+        <a href="#protocols">پروتکل‌ها</a>
+        <a href="#countries">کشورها</a>
+        <a href="#configs">کانفیگ‌ها</a>
+      </nav>
+
+      <a class="btn btn-primary" href="https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt" target="_blank" rel="noopener">دریافت لینک</a>
+    </header>
+
+    <main>
+      <section class="hero" id="overview">
+        <div class="hero-copy">
+          <div class="eyebrow">⚡ Live automation pipeline</div>
+          <h1>اتوماسیون <span class="gradient">اشتراک‌های VPN</span> با رابط حرفه‌ای و زنده</h1>
+          <p>
+            POPVPN X برای تولید، فیلتر، تست و دسته‌بندی کانفیگ‌ها به‌صورت خودکار طراحی شده است؛
+            با خروجی‌های چندفرمت، داشبورد زنده و نرخ‌های قابل‌اعتماد برای مدیریت سریع‌تر و امن‌تر.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://raw.githubusercontent.com/pouria08/popvpn1/main/base64.txt" target="_blank" rel="noopener">📥 دریافت Base64</a>
+            <a class="btn btn-secondary" href="https://pouria08.github.io/popvpn1/" target="_blank" rel="noopener">🖥 داشبورد وب</a>
+          </div>
+
+          <div class="quick-badges">
+            <span class="chip"><span class="dot"></span> Python 3.9+</span>
+            <span class="chip"><span class="dot"></span> Zero Dependencies</span>
+            <span class="chip"><span class="dot"></span> 7 Protocols</span>
+          </div>
+        </div>
+
+        <div class="hero-visual glass">
+          <div class="status-card">
+            <div class="status-head">
+              <span>وضعیت زنده</span>
+              <span class="live-pill"><span class="dot"></span> Online</span>
+            </div>
+
+            <div>
+              <p class="hero-metric" id="live-total">--</p>
+              <p class="hero-sub">کانفیگ فعال و قابل‌استفاده</p>
+            </div>
+
+            <div class="mini-grid">
+              <div class="mini-box">
+                <small>کشورها</small>
+                <strong id="country-mini">--</strong>
+              </div>
+              <div class="mini-box">
+                <small>منابع</small>
+                <strong id="source-mini">--</strong>
+              </div>
+              <div class="mini-box">
+                <small>زنده</small>
+                <strong id="alive-mini">--</strong>
+              </div>
+              <div class="mini-box">
+                <small>پروتکل‌ها</small>
+                <strong id="proto-mini">--</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="stats-grid" id="cards"></div>
+
+      <div class="section two-col">
+        <section class="panel" id="protocols">
+          <div class="section-head">
+            <h2>توزیع پروتکل‌ها</h2>
+            <div class="badges" id="protocol-badges"></div>
+          </div>
+          <div class="bars" id="protocols-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="section-head">
+            <h2>روند تعداد کانفیگ‌ها</h2>
+            <span class="pill" id="history-tag">Trend</span>
+          </div>
+          <div class="spark-shell">
+            <div id="chart" class="spark"></div>
+          </div>
+        </section>
       </div>
-    </div>
-  </section>
 
-  <section>
-    <h2>کانفیگ‌ها (نمونه)</h2>
-    <div class="toolbar">
-      <input type="search" id="q" placeholder="جستجو در نام کانفیگ…"/>
-      <select id="fp"><option value="">همه پروتکل‌ها</option></select>
-      <select id="fc"><option value="">همه کشورها</option></select>
-      <select id="fv">
-        <option value="">همه</option>
-        <option value="alive">فقط زنده</option>
-        <option value="dead">فقط مرده</option>
-      </select>
-      <button class="btn ghost" id="copyAll">کپی لینک ساب</button>
-    </div>
-    <div class="tablewrap">
-      <table>
-        <thead><tr><th>نام</th><th>پروتکل</th><th>کشور</th><th>انتقال</th><th>امتیاز</th><th>وضعیت</th></tr></thead>
-        <tbody id="rows"></tbody>
-      </table>
-    </div>
-    <div class="sub" id="rowcount"></div>
-  </section>
+      <div class="section table-grid">
+        <section class="panel" id="countries">
+          <div class="section-head">
+            <h2>کشورها</h2>
+            <span class="pill" id="country-count">--</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>کشور</th>
+                  <th>تعداد</th>
+                  <th>سهم</th>
+                </tr>
+              </thead>
+              <tbody id="countries-body"></tbody>
+            </table>
+          </div>
+        </section>
 
-  <div class="foot">POPVPN X — generated by the auto-update pipeline · no credentials are stored in this file</div>
-</div>
+        <section class="panel">
+          <div class="section-head">
+            <h2>منابع داده</h2>
+            <span class="pill" id="source-count">--</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>منبع</th>
+                  <th>کانفیگ</th>
+                  <th>وضعیت</th>
+                </tr>
+              </thead>
+              <tbody id="sources-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
 
-<script>
-const $ = (id) => document.getElementById(id);
-let DATA = null;
+      <section class="panel section" id="configs">
+        <div class="toolbar-row">
+          <div class="section-head" style="margin:0;">
+            <h2>کانفیگ‌ها</h2>
+            <span class="pill" id="rowcount">0 ردیف</span>
+          </div>
+          <div class="filters">
+            <div class="field"><input type="search" id="q" placeholder="جستجو در نام کانفیگ..." /></div>
+            <div class="field"><select id="fp"><option value="">همه پروتکل‌ها</option></select></div>
+            <div class="field"><select id="fc"><option value="">همه کشورها</option></select></div>
+            <div class="field"><select id="fv">
+              <option value="">همه وضعیت‌ها</option>
+              <option value="alive">فقط زنده</option>
+              <option value="dead">فقط مرده</option>
+            </select></div>
+            <button class="btn btn-secondary" id="copyAll" type="button">کپی لینک ساب</button>
+          </div>
+        </div>
 
-function card(label, value, extra) {
-  return `<div class="card"><small>${label}</small><b>${value}</b>${extra ? `<small>${extra}</small>` : ""}</div>`;
-}
-function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>نام</th>
+                <th>پروتکل</th>
+                <th>کشور</th>
+                <th>انتقال</th>
+                <th>امتیاز</th>
+                <th>وضعیت</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
 
-function renderCards(d){
-  const probe = d.probe || {}, audit = d.audit || {}, cache = d.cache || {};
-  $("cards").innerHTML = [
-    card("کل کانفیگ‌ها", (d.total||0).toLocaleString(), `${(d.duration_ms/1000).toFixed(1)}s runtime`),
-    card("تکراری حذف‌شده", (d.duplicates||0).toLocaleString(), `${(d.invalid||0).toLocaleString()} خط نامعتبر`),
-    card("کشورها", d.country_count || 0, `${(d.by_country||[]).length} کشور برتر`),
-    card("منابع فعال", (d.sources||[]).filter(s=>s.last_configs>0).length, `${(d.sources||[]).length} منبع`),
-    card("زنده (probe)", (probe.alive||0).toLocaleString(), `${(probe.dead||0).toLocaleString()} مرده`),
-    card("نرخ کش HTTP", Math.round((cache.hit_rate||0)*100)+"%", `${cache.hits||0} hit`),
-    card("ناامن", (audit.insecure||0).toLocaleString(), `${(audit.private_hosts||0)} هاست خصوصی`),
-  ].join("");
-}
+    <footer class="footer">POPVPN X — generated by the auto-update pipeline · dashboard UI updated for a faster monitoring experience</footer>
+  </div>
 
-function renderProtocols(d){
-  const entries = Object.entries(d.by_protocol||{}).sort((a,b)=>b[1]-a[1]);
-  const max = Math.max(1, ...entries.map(e=>e[1]));
-  $("protocols").innerHTML = entries.map(([p,c])=>{
-    const color = (d.colors||{})[p] || "#7c3aed";
-    const pct = ((c/max)*100).toFixed(1);
-    return `<div class="bar"><span>${esc(p.toUpperCase())}</span>
-      <span class="track"><span class="fill" style="width:${pct}%;background:${color}"></span></span>
-      <span class="muted">${c.toLocaleString()}</span></div>`;
-  }).join("");
-  const sel = $("fp");
-  entries.forEach(([p])=>{ const o=document.createElement("option"); o.value=p; o.textContent=p.toUpperCase(); sel.appendChild(o); });
-}
+  <script>
+    const $ = (id) => document.getElementById(id);
+    let DATA = null;
 
-function renderCountries(d){
-  const total = Math.max(1, d.total||1);
-  $("countries").innerHTML = (d.by_country||[]).slice(0,40).map(r=>
-    `<tr><td>${esc(r.flag||"🏳️")} ${esc(r.name||"Unknown")}</td>
-     <td>${(r.count||0).toLocaleString()}</td>
-     <td class="muted">${((r.count/total)*100).toFixed(1)}%</td></tr>`).join("");
-  const sel = $("fc");
-  (d.by_country||[]).slice(0,40).forEach(r=>{
-    if(!r.code) return;
-    const o=document.createElement("option"); o.value=r.code; o.textContent=`${r.flag} ${r.code}`; sel.appendChild(o);
-  });
-}
+    function statCard(label, value, extra) {
+      return `
+        <div class="stat-card glass">
+          <small>${label}</small>
+          <b>${value}</b>
+          <span>${extra}</span>
+        </div>
+      `;
+    }
 
-function renderSources(d){
-  $("sources").innerHTML = (d.sources||[]).slice(0,40).map(s=>{
-    const cls = s.paused ? "warn" : (s.last_configs>0 ? "ok" : "bad");
-    const state = s.paused ? "موقتاً متوقف" : (s.last_configs>0 ? "سالم" : "خطا");
-    return `<tr><td title="${esc(s.url)}">${esc(s.name||s.url)}</td>
-      <td>${(s.last_configs||0).toLocaleString()}</td>
-      <td class="${cls}">${state} · ${Math.round((s.success_rate||0)*100)}%</td></tr>`;
-  }).join("");
-}
+    function esc(s) {
+      return String(s ?? "").replace(/[&<>\"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
 
-function renderLinks(d){
-  const l = d.links || {};
-  const items = Object.entries(l).filter(([,v])=>v);
-  $("links").innerHTML = items.map(([k,v])=>`<a href="${esc(v)}" target="_blank" rel="noopener">${esc(k)}</a>`).join("");
-}
+    function sparkline(values, colors) {
+      if (!values || values.length < 2) {
+        return '<div class="muted">داده‌ای برای رسم روند وجود ندارد.</div>';
+      }
 
-function sparkline(values, colors){
-  if(!values || values.length < 2) return `<div class="muted">داده‌ای برای رسم روند وجود ندارد.</div>`;
-  const w=1100,h=140,max=Math.max(...values),min=Math.min(...values),span=(max-min)||1;
-  const step=w/(values.length-1);
-  const pts=values.map((v,i)=>`${(i*step).toFixed(1)},${(h-((v-min)/span)*(h-24)-12).toFixed(1)}`);
-  return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
-    <polyline points="${pts.join(" ")}" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
-    <polygon points="0,${h} ${pts.join(" ")} ${w},${h}" fill="#7c3aed" opacity="0.12"/>
-    <text x="8" y="16" fill="#8ea0bd" font-size="12" font-family="monospace">${min.toLocaleString()} → ${max.toLocaleString()}</text>
-  </svg>`;
-}
+      const w = 900;
+      const h = 180;
+      const max = Math.max(...values);
+      const min = Math.min(...values);
+      const span = max - min || 1;
+      const step = w / (values.length - 1);
+      const pts = values.map((v, i) => `${(i * step).toFixed(1)},${(h - ((v - min) / span) * (h - 24) - 12).toFixed(1)}`);
 
-function filtered(){
-  const q = $("q").value.trim().toLowerCase();
-  const fp = $("fp").value, fc = $("fc").value, fv = $("fv").value;
-  return (DATA.configs||[]).filter(c=>{
-    if(q && !String(c.n).toLowerCase().includes(q)) return false;
-    if(fp && c.p!==fp) return false;
-    if(fc && c.c!==fc) return false;
-    if(fv==="alive" && c.v!==true) return false;
-    if(fv==="dead" && c.v!==false) return false;
-    return true;
-  });
-}
+      return `
+        <svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="sparkGradient" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.9" />
+              <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.12" />
+            </linearGradient>
+          </defs>
+          <polyline points="${pts.join(' ')}" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <polygon points="0,${h} ${pts.join(' ')} ${w},${h}" fill="url(#sparkGradient)" opacity="0.55" />
+        </svg>
+      `;
+    }
 
-function renderRows(){
-  if(!DATA) return;
-  const rows = filtered().slice(0,400);
-  $("rows").innerHTML = rows.map(c=>{
-    const state = c.v===true ? `<span class="ok">✔ ${c.ms}ms</span>`
-                : c.v===false ? `<span class="bad">✘ مرده</span>`
-                : `<span class="muted">—</span>`;
-    const warn = (c.w||[]).length ? ` <span class="pill warn" title="${esc(c.w.join(", "))}">!</span>` : "";
-    return `<tr><td>${esc(c.n)}${warn}</td><td>${esc(c.p)}</td>
-      <td>${esc(c.f||"")} ${esc(c.cn||c.c||"—")}</td><td class="muted">${esc(c.t)}</td>
-      <td>${c.s}</td><td>${state}</td></tr>`;
-  }).join("");
-  $("rowcount").textContent = `${rows.length} ردیف نمایش داده شد از ${(DATA.configs||[]).length} نمونه`;
-}
+    function renderCards(d) {
+      const probe = d.probe || {};
+      const audit = d.audit || {};
+      const cache = d.cache || {};
 
-async function boot(){
-  try{
-    const res = await fetch("data.json", {cache:"no-store"});
-    DATA = await res.json();
-  }catch(err){
-    $("updated").textContent = "data.json پیدا نشد — ابتدا pipeline را اجرا کنید.";
-    return;
-  }
-  $("updated").textContent = `آخرین به‌روزرسانی: ${DATA.generated_at}`;
-  renderCards(DATA); renderProtocols(DATA); renderCountries(DATA);
-  renderSources(DATA); renderLinks(DATA);
-  $("chart").innerHTML = sparkline((DATA.history||[]).map(h=>h.total));
-  ["q","fp","fc","fv"].forEach(id=>$(id).addEventListener("input", renderRows));
-  $("copyAll").addEventListener("click", async ()=>{
-    const url = (DATA.links||{})["plain"];
-    if(!url) return;
-    try{ await navigator.clipboard.writeText(url); $("copyAll").textContent="کپی شد ✔";
-         setTimeout(()=>$("copyAll").textContent="کپی لینک ساب",1500);}catch(e){}
-  });
-  renderRows();
-}
-boot();
-setInterval(()=>{ if(document.visibilityState==="visible") boot(); }, 120000);
-</script>
+      const cards = [
+        statCard('کل کانفیگ‌ها', (d.total || 0).toLocaleString('fa-IR'), `${(d.duration_ms / 1000).toFixed(1)}s runtime`),
+        statCard('تکرار حذف‌شده', (d.duplicates || 0).toLocaleString('fa-IR'), `${(d.invalid || 0).toLocaleString('fa-IR')} خط نامعتبر`),
+        statCard('کشورها', (d.country_count || 0).toLocaleString('fa-IR'), `${(d.by_country || []).length} کشور برتر`),
+        statCard('منابع فعال', (d.sources || []).filter(s => s.last_configs > 0).length.toLocaleString('fa-IR'), `${(d.sources || []).length} منبع`),
+        statCard('زنده (probe)', (probe.alive || 0).toLocaleString('fa-IR'), `${(probe.dead || 0).toLocaleString('fa-IR')} مرده`),
+        statCard('نرخ کش HTTP', `${Math.round((cache.hit_rate || 0) * 100)}%`, `${(cache.hits || 0).toLocaleString('fa-IR')} hit`),
+        statCard('ناامن', (audit.insecure || 0).toLocaleString('fa-IR'), `${(audit.private_hosts || 0)} هاست خصوصی`)
+      ];
+
+      $('cards').innerHTML = cards.join('');
+
+      $('live-total').textContent = (d.total || 0).toLocaleString('fa-IR');
+      $('country-mini').textContent = (d.country_count || 0).toLocaleString('fa-IR');
+      $('source-mini').textContent = (d.sources || []).length.toLocaleString('fa-IR');
+      $('alive-mini').textContent = (probe.alive || 0).toLocaleString('fa-IR');
+      $('proto-mini').textContent = Object.keys(d.by_protocol || {}).length.toLocaleString('fa-IR');
+    }
+
+    function renderProtocols(d) {
+      const entries = Object.entries(d.by_protocol || {}).sort((a, b) => b[1] - a[1]);
+      const max = Math.max(1, ...entries.map(e => e[1]));
+      const list = entries.map(([p, c]) => {
+        const color = (d.colors || {})[p] || '#7c3aed';
+        const pct = ((c / max) * 100).toFixed(1);
+        return `
+          <div class="bar-line">
+            <span>${esc(p.toUpperCase())}</span>
+            <span class="track"><span class="fill" style="width:${pct}%;background:${color};"></span></span>
+            <span>${Number(c).toLocaleString('fa-IR')}</span>
+          </div>
+        `;
+      }).join('');
+
+      $('protocols-list').innerHTML = list;
+
+      const badges = entries.map(([p, c]) => `<span class="pill">${esc(p.toUpperCase())}: ${Number(c).toLocaleString('fa-IR')}</span>`).join('');
+      $('protocol-badges').innerHTML = badges;
+
+      const sel = $('fp');
+      sel.innerHTML = '<option value="">همه پروتکل‌ها</option>';
+      entries.forEach(([p]) => {
+        const option = document.createElement('option');
+        option.value = p;
+        option.textContent = p.toUpperCase();
+        sel.appendChild(option);
+      });
+    }
+
+    function renderCountries(d) {
+      const total = Math.max(1, d.total || 1);
+      const rows = (d.by_country || []).slice(0, 15).map(r => `
+        <tr>
+          <td>${esc(r.flag || '🏳️')} ${esc(r.name || 'Unknown')}</td>
+          <td>${(r.count || 0).toLocaleString('fa-IR')}</td>
+          <td class="muted">${(((r.count || 0) / total) * 100).toFixed(1)}%</td>
+        </tr>
+      `).join('');
+
+      $('countries-body').innerHTML = rows;
+      $('country-count').textContent = `${(d.by_country || []).length.toLocaleString('fa-IR')} کشور`;
+
+      const sel = $('fc');
+      sel.innerHTML = '<option value="">همه کشورها</option>';
+      (d.by_country || []).slice(0, 40).forEach(r => {
+        if (!r.code) return;
+        const option = document.createElement('option');
+        option.value = r.code;
+        option.textContent = `${r.flag || '🏳️'} ${r.code}`;
+        sel.appendChild(option);
+      });
+    }
+
+    function renderSources(d) {
+      const rows = (d.sources || []).slice(0, 12).map(s => {
+        const cls = s.paused ? 'warn' : (s.last_configs > 0 ? 'ok' : 'bad');
+        const state = s.paused ? 'موقتاً متوقف' : (s.last_configs > 0 ? 'سالم' : 'خطا');
+        return `
+          <tr>
+            <td title="${esc(s.url)}">${esc(s.name || s.url)}</td>
+            <td>${(s.last_configs || 0).toLocaleString('fa-IR')}</td>
+            <td class="${cls}">${state} · ${Math.round((s.success_rate || 0) * 100)}%</td>
+          </tr>
+        `;
+      }).join('');
+
+      $('sources-body').innerHTML = rows;
+      $('source-count').textContent = `${(d.sources || []).length.toLocaleString('fa-IR')} منبع`;
+    }
+
+    function renderLinks(d) {
+      const links = d.links || {};
+      const items = Object.entries(links).filter(([, value]) => value);
+      $('links')?.remove();
+    }
+
+    function filtered() {
+      const q = $('q').value.trim().toLowerCase();
+      const fp = $('fp').value;
+      const fc = $('fc').value;
+      const fv = $('fv').value;
+
+      return (DATA.configs || []).filter(c => {
+        if (q && !String(c.n).toLowerCase().includes(q)) return false;
+        if (fp && c.p !== fp) return false;
+        if (fc && c.c !== fc) return false;
+        if (fv === 'alive' && c.v !== true) return false;
+        if (fv === 'dead' && c.v !== false) return false;
+        return true;
+      });
+    }
+
+    function renderRows() {
+      if (!DATA) return;
+
+      const rows = filtered().slice(0, 300);
+      $('rows').innerHTML = rows.map(c => {
+        const state = c.v === true ? `<span class="ok">✔ ${c.ms}ms</span>` :
+          c.v === false ? `<span class="bad">✘ مرده</span>` : `<span class="muted">—</span>`;
+        const warn = (c.w || []).length ? ` <span class="pill warn" title="${esc(c.w.join(', '))}">!</span>` : '';
+
+        return `
+          <tr>
+            <td>${esc(c.n)}${warn}</td>
+            <td>${esc(c.p)}</td>
+            <td>${esc(c.f || '')} ${esc(c.cn || c.c || '—')}</td>
+            <td class="muted">${esc(c.t)}</td>
+            <td>${c.s}</td>
+            <td>${state}</td>
+          </tr>
+        `;
+      }).join('');
+
+      $('rowcount').textContent = `${rows.length.toLocaleString('fa-IR')} ردیف نمایش داده شد`;
+    }
+
+    async function boot() {
+      try {
+        const res = await fetch('data.json', { cache: 'no-store' });
+        DATA = await res.json();
+      } catch (err) {
+        $('rowcount').textContent = 'data.json پیدا نشد — ابتدا pipeline را اجرا کنید.';
+        return;
+      }
+
+      renderCards(DATA);
+      renderProtocols(DATA);
+      renderCountries(DATA);
+      renderSources(DATA);
+      $('chart').innerHTML = sparkline((DATA.history || []).map(h => h.total));
+
+      ['q', 'fp', 'fc', 'fv'].forEach(id => $(id).addEventListener('input', renderRows));
+      $('copyAll').addEventListener('click', async () => {
+        const url = (DATA.links || {}).plain;
+        if (!url) return;
+        try {
+          await navigator.clipboard.writeText(url);
+          $('copyAll').textContent = 'کپی شد ✔';
+          setTimeout(() => $('copyAll').textContent = 'کپی لینک ساب', 1500);
+        } catch (e) {}
+      });
+
+      renderRows();
+    }
+
+    boot();
+    setInterval(() => { if (document.visibilityState === 'visible') boot(); }, 120000);
+  </script>
 </body>
 </html>
