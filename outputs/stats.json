@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-01 10:35:14 UTC",
+  "generated_at": "2026-11-01 17:09:34 UTC",
   "version": "2.0.0",
-  "duration_ms": 719,
-  "total": 93,
-  "unique": 93,
-  "parsed": 141,
-  "raw_lines": 144,
-  "duplicates": 48,
-  "invalid": 3,
+  "duration_ms": 935,
+  "total": 113,
+  "unique": 113,
+  "parsed": 145,
+  "raw_lines": 145,
+  "duplicates": 32,
+  "invalid": 0,
   "by_protocol": {
     "vless": 1,
-    "trojan": 55,
-    "hy2": 1,
-    "ss": 36
+    "trojan": 46,
+    "ss": 66
   },
   "by_country": [
     {
@@ -20,31 +19,24 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 88
+      "count": 110
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "region": "",
+      "count": 2
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 3
-    },
-    {
-      "code": "CA",
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "region": "NA",
-      "count": 1
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
       "count": 1
     }
   ],
-  "country_count": 4,
+  "country_count": 3,
   "sources": {
     "total": 4,
     "ok": 3,
@@ -55,10 +47,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
-      "last_configs": 82,
+      "last_configs": 86,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 245,
+      "from_cache": false,
+      "elapsed_ms": 162,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -69,9 +61,9 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 209,
+      "elapsed_ms": 159,
       "error": "HTTP 403",
-      "success_rate": 0.237,
+      "success_rate": 0.178,
       "paused": true
     },
     {
@@ -80,7 +72,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 694,
+      "elapsed_ms": 913,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -91,7 +83,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 247,
+      "elapsed_ms": 162,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -120,16 +112,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 93,
+    "kept": 113,
     "dropped": 0,
-    "insecure": 3,
+    "insecure": 2,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "allow-insecure": 3,
-      "unknown-network": 1
+      "allow-insecure": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 97
+  "previous_total": 93
 }
