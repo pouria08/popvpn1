@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-01 17:09:34 UTC",
+  "generated_at": "2026-11-01 21:13:27 UTC",
   "version": "2.0.0",
-  "duration_ms": 935,
+  "duration_ms": 529,
   "total": 113,
   "unique": 113,
   "parsed": 145,
@@ -40,8 +40,8 @@
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 1,
-    "paused": 0
+    "failed": 0,
+    "paused": 1
   },
   "source_list": [
     {
@@ -49,8 +49,8 @@
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
       "last_configs": 86,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 162,
+      "from_cache": true,
+      "elapsed_ms": 165,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -61,8 +61,8 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 159,
-      "error": "HTTP 403",
+      "elapsed_ms": 0,
+      "error": "auto-paused after repeated failures",
       "success_rate": 0.178,
       "paused": true
     },
@@ -72,7 +72,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 913,
+      "elapsed_ms": 509,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -82,8 +82,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 162,
+      "from_cache": true,
+      "elapsed_ms": 140,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -96,7 +96,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 4,
+    "misses": 3,
     "hit_rate": 0.0
   },
   "probe": {
@@ -122,5 +122,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 93
+  "previous_total": 113
 }
