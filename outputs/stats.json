@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-01 21:13:27 UTC",
+  "generated_at": "2026-11-02 00:51:02 UTC",
   "version": "2.0.0",
-  "duration_ms": 529,
-  "total": 113,
-  "unique": 113,
+  "duration_ms": 653,
+  "total": 116,
+  "unique": 116,
   "parsed": 145,
   "raw_lines": 145,
-  "duplicates": 32,
+  "duplicates": 29,
   "invalid": 0,
   "by_protocol": {
     "vless": 1,
     "trojan": 46,
-    "ss": 66
+    "ss": 69
   },
   "by_country": [
     {
@@ -22,26 +22,33 @@
       "count": 110
     },
     {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
-      "count": 2
-    },
-    {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
+      "count": 4
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "region": "",
       "count": 1
     }
   ],
-  "country_count": 3,
+  "country_count": 4,
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 0,
-    "paused": 1
+    "failed": 1,
+    "paused": 0
   },
   "source_list": [
     {
@@ -50,7 +57,7 @@
       "last_configs": 86,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 165,
+      "elapsed_ms": 137,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -61,9 +68,9 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 0,
-      "error": "auto-paused after repeated failures",
-      "success_rate": 0.178,
+      "elapsed_ms": 109,
+      "error": "HTTP 403",
+      "success_rate": 0.134,
       "paused": true
     },
     {
@@ -72,7 +79,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 509,
+      "elapsed_ms": 635,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -82,8 +89,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 140,
+      "from_cache": false,
+      "elapsed_ms": 108,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -96,7 +103,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 3,
+    "misses": 4,
     "hit_rate": 0.0
   },
   "probe": {
@@ -112,7 +119,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 113,
+    "kept": 116,
     "dropped": 0,
     "insecure": 2,
     "private_hosts": 0,
