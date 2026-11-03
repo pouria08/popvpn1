@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-11-02 18:28:48 UTC",
+  "generated_at": "2026-11-03 01:38:16 UTC",
   "version": "2.0.0",
-  "duration_ms": 857,
-  "total": 96,
-  "unique": 96,
-  "parsed": 148,
-  "raw_lines": 148,
-  "duplicates": 52,
+  "duration_ms": 1021,
+  "total": 95,
+  "unique": 95,
+  "parsed": 122,
+  "raw_lines": 122,
+  "duplicates": 27,
   "invalid": 0,
   "by_protocol": {
     "vless": 1,
-    "trojan": 58,
-    "ss": 37
+    "trojan": 51,
+    "hy2": 1,
+    "ss": 42
   },
   "by_country": [
     {
@@ -19,7 +20,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 91
+      "count": 92
     },
     {
       "code": "IR",
@@ -33,17 +34,10 @@
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 2
-    },
-    {
-      "code": "CA",
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "region": "NA",
       "count": 1
     }
   ],
-  "country_count": 4,
+  "country_count": 3,
   "sources": {
     "total": 4,
     "ok": 3,
@@ -54,10 +48,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
-      "last_configs": 89,
+      "last_configs": 63,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 160,
+      "from_cache": false,
+      "elapsed_ms": 199,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -68,9 +62,9 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 128,
+      "elapsed_ms": 122,
       "error": "HTTP 403",
-      "success_rate": 0.075,
+      "success_rate": 0.056,
       "paused": true
     },
     {
@@ -79,7 +73,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 839,
+      "elapsed_ms": 1006,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -89,8 +83,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 139,
+      "from_cache": false,
+      "elapsed_ms": 157,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -119,12 +113,14 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 96,
+    "kept": 95,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
     "placeholder_credentials": 0,
-    "warnings": {},
+    "warnings": {
+      "unknown-network": 1
+    },
     "dropped_reasons": {}
   },
   "previous_total": 96
