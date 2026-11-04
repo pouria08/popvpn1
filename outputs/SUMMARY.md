@@ -1,6 +1,6 @@
 ![Total](https://img.shields.io/badge/CONFIGS-79-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-21-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-2-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-29-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-27-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-3%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-4-eab308?style=flat-square)
 
-**Last update:** `2026-11-03 23:28:05 UTC` · **79 configs** (+5 vs previous run)
+**Last update:** `2026-11-04 06:35:48 UTC` · **79 configs** (±0 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
@@ -18,12 +18,12 @@
 
 <details><summary><b>Pipeline health</b></summary>
 
-- sources: **3/4** ok, 0 failed, 1 auto-paused
+- sources: **3/4** ok, 1 failed, 0 auto-paused
 - duplicates removed: **13**
 - invalid lines skipped: **1**
 - HTTP cache hit rate: **0%**
 - security flags: **0** insecure, **0** private hosts
-- run duration: **792 ms**
+- run duration: **491 ms**
 
 </details>
 
