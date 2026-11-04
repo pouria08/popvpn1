@@ -1,29 +1,28 @@
-![Total](https://img.shields.io/badge/CONFIGS-79-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-21-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-2-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-29-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-27-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-3%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-4-eab308?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-88-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-17-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-0-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-42-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-29-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-3%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-4-eab308?style=flat-square)
 
-**Last update:** `2026-11-04 06:35:48 UTC` · **79 configs** (±0 vs previous run)
+**Last update:** `2026-11-04 15:29:32 UTC` · **88 configs** (+9 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
-| TROJAN | 29 | 36.7% |
-| SS | 27 | 34.2% |
-| VLESS | 21 | 26.6% |
-| VMESS | 2 | 2.5% |
+| TROJAN | 42 | 47.7% |
+| SS | 29 | 33.0% |
+| VLESS | 17 | 19.3% |
 
 | Top countries | Configs |
 | --- | ---: |
-| 🏳️ GLOBAL / Unknown | 73 |
-| 🇺🇸 United States | 3 |
+| 🏳️ GLOBAL / Unknown | 83 |
 | 🇮🇷 Iran | 2 |
-| 🇩🇪 Germany | 1 |
+| 🇺🇸 United States | 2 |
+| 🇨🇦 Canada | 1 |
 
 <details><summary><b>Pipeline health</b></summary>
 
 - sources: **3/4** ok, 1 failed, 0 auto-paused
-- duplicates removed: **13**
-- invalid lines skipped: **1**
+- duplicates removed: **28**
+- invalid lines skipped: **3**
 - HTTP cache hit rate: **0%**
-- security flags: **0** insecure, **0** private hosts
-- run duration: **491 ms**
+- security flags: **2** insecure, **0** private hosts
+- run duration: **697 ms**
 
 </details>
 
@@ -32,10 +31,10 @@
 <details><summary><b>🌍 همهٔ لینک‌های کشورها در آخرین اجرا — Copyable</b></summary>
 
 ```text
-🏳️ GLOBAL / Unknown (73): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
-🇺🇸 United States (3): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
+🏳️ GLOBAL / Unknown (83): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
 🇮🇷 Iran (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ir.txt
-🇩🇪 Germany (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/de.txt
+🇺🇸 United States (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
+🇨🇦 Canada (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ca.txt
 ```
 
 </details>
