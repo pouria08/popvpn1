@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-05 02:31:53 UTC",
+  "generated_at": "2026-11-05 11:04:19 UTC",
   "version": "2.0.0",
-  "duration_ms": 518,
-  "total": 84,
-  "unique": 84,
-  "parsed": 116,
-  "raw_lines": 119,
-  "duplicates": 32,
-  "invalid": 3,
+  "duration_ms": 661,
+  "total": 91,
+  "unique": 91,
+  "parsed": 144,
+  "raw_lines": 144,
+  "duplicates": 53,
+  "invalid": 0,
   "by_protocol": {
-    "vless": 17,
-    "trojan": 31,
-    "ss": 36
+    "trojan": 60,
+    "hy2": 1,
+    "ss": 30
   },
   "by_country": [
     {
@@ -19,52 +19,38 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 74
+      "count": 87
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 6
+      "count": 3
     },
     {
       "code": "IR",
       "name": "Iran",
       "flag": "🇮🇷",
       "region": "",
-      "count": 2
-    },
-    {
-      "code": "CA",
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "region": "NA",
-      "count": 1
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
       "count": 1
     }
   ],
-  "country_count": 5,
+  "country_count": 3,
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 0,
-    "paused": 1
+    "failed": 1,
+    "paused": 0
   },
   "source_list": [
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
-      "last_configs": 57,
+      "last_configs": 85,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 132,
+      "from_cache": false,
+      "elapsed_ms": 125,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -75,9 +61,9 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 0,
-      "error": "auto-paused after repeated failures",
-      "success_rate": 0.013,
+      "elapsed_ms": 98,
+      "error": "HTTP 403",
+      "success_rate": 0.01,
       "paused": true
     },
     {
@@ -86,7 +72,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 507,
+      "elapsed_ms": 639,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -96,8 +82,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 113,
+      "from_cache": false,
+      "elapsed_ms": 148,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -110,7 +96,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 3,
+    "misses": 4,
     "hit_rate": 0.0
   },
   "probe": {
@@ -126,13 +112,14 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 84,
+    "kept": 91,
     "dropped": 0,
-    "insecure": 2,
+    "insecure": 3,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "allow-insecure": 2
+      "allow-insecure": 3,
+      "unknown-network": 1
     },
     "dropped_reasons": {}
   },
