@@ -1,5 +1,5 @@
 # POPVPN X — Clash / Mihomo profile
-# generated: 2026-11-05 11:04:19 UTC
+# generated: 2026-11-05 18:47:45 UTC
 # configs: 91
 
 mixed-port: 7890
@@ -24,570 +24,712 @@ dns:
     - "https://8.8.4.4/dns-query"
     - "tls://9.9.9.9:853"
 proxies:
-  - name: POPVPN 0001 🇺🇸 US TROJAN TLS
+  - name: POPVPN 0001 GLOBAL VLESS REALITY
+    server: 103.106.229.177
+    port: 21001
+    type: vless
+    uuid: 67952583-8572-42e1-943d-0602794f885b
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+      short-id: a51c3ccb2320024a
+  - name: POPVPN 0002 GLOBAL VLESS REALITY
+    server: 103.106.229.37
+    port: 21001
+    type: vless
+    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+      short-id: ab39fc68ab3dee81
+  - name: POPVPN 0003 GLOBAL VLESS REALITY
+    server: 130.49.177.193
+    port: 443
+    type: vless
+    uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
+    udp: true
+    tls: true
+    servername: de-2.ffpn.pro
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc
+      short-id: 681fc2dd643bc2f3
+  - name: POPVPN 0004 GLOBAL VLESS REALITY
+    server: 15.204.97.197
+    port: 23576
+    type: vless
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  - name: POPVPN 0005 GLOBAL VLESS REALITY
+    server: 15.204.97.198
+    port: 23576
+    type: vless
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  - name: POPVPN 0006 GLOBAL VLESS REALITY
+    server: 15.204.97.219
+    port: 23576
+    type: vless
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: POPVPN 0007 GLOBAL VLESS REALITY
+    server: 150.241.79.124
+    port: 443
+    type: vless
+    uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+    udp: true
+    tls: true
+    servername: de1.waspnest.space
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: dlhvkjq7Sj-TT__FLwUJzFLMDCk8bgi85Uz4qDU-5FM
+      short-id: 5212dad2aa9723d7
+  - name: POPVPN 0008 GLOBAL VLESS REALITY
+    server: 161.97.66.16
+    port: 443
+    type: vless
+    uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
+      short-id: 086bf957
+  - name: POPVPN 0009 GLOBAL VLESS REALITY
+    server: 165.154.63.139
+    port: 443
+    type: vless
+    uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+    udp: true
+    tls: true
+    servername: www.amazon.com
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
+      short-id: ca4aedd4
+  - name: POPVPN 0010 GLOBAL VLESS REALITY
+    server: 178.172.227.124
+    port: 10444
+    type: vless
+    uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+    udp: true
+    tls: true
+    servername: ads.x5.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+      short-id: 8debcf36f1cc69ff
+  - name: POPVPN 0011 GLOBAL VLESS REALITY
+    server: 191.44.108.6
+    port: 443
+    type: vless
+    uuid: 558b26f6-061b-4079-9b84-ca13b3e90ae3
+    udp: true
+    tls: true
+    servername: c9.qwyak.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: A0QL_j-ReX7AotEj1w8qX9rHRgN2WycTZ43gUvuvZ00
+      short-id: 3cf8d11aa0415d29
+  - name: POPVPN 0012 GLOBAL VLESS REALITY
+    server: 31.77.236.114
+    port: 443
+    type: vless
+    uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+    udp: true
+    tls: true
+    servername: files.porsche.com
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+      short-id: 1a2b3c4d
+  - name: POPVPN 0013 GLOBAL VLESS REALITY
+    server: 46.29.255.123
+    port: 59539
+    type: vless
+    uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+    udp: true
+    tls: true
+    servername: cloudflare-dns.com
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ
+  - name: POPVPN 0014 GLOBAL VLESS REALITY
+    server: 5.231.45.10
+    port: 8444
+    type: vless
+    uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+    udp: true
+    tls: true
+    servername: www.volkswagen.de
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+      short-id: 1a2b3c4d
+  - name: POPVPN 0015 GLOBAL VLESS REALITY
+    server: 511.150333.xyz
+    port: 21003
+    type: vless
+    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+      short-id: bab49aa4c2a88d27
+  - name: POPVPN 0016 GLOBAL VLESS REALITY
+    server: 78.159.250.214
+    port: 443
+    type: vless
+    uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
+    udp: true
+    tls: true
+    servername: qq.utiltools.site
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
+      short-id: "00000000"
+  - name: POPVPN 0017 GLOBAL VLESS REALITY
+    server: ai.smrtai.top
+    port: 443
+    type: vless
+    uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
+      short-id: 086bf957
+  - name: POPVPN 0018 GLOBAL VLESS REALITY
+    server: de-2.ffpn.pro
+    port: 443
+    type: vless
+    uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
+    udp: true
+    tls: true
+    servername: de-2.ffpn.pro
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc
+      short-id: 681fc2dd643bc2f3
+  - name: POPVPN 0019 GLOBAL VLESS REALITY
+    server: vvsvvs.soreanapanel.com
+    port: 443
+    type: vless
+    uuid: 913dc759-8639-4890-9bfc-a9acdc5090cf
+    udp: true
+    tls: true
+    servername: graphs.4cdn.de
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: YWhH3_lunQFxpqA29GF-Hq1K78hdSsy0h3E5dVbxImA
+      short-id: 371f6e
+  - name: POPVPN 0020 GLOBAL VLESS REALITY
+    server: 156.252.229.50
+    port: 8443
+    type: vless
+    uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
+    udp: true
+    tls: true
+    servername: play.googleapis.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+      short-id: 974f7f8f
+  - name: POPVPN 0021 GLOBAL VLESS REALITY
+    server: 191.44.108.30
+    port: 443
+    type: vless
+    uuid: 558b26f6-061b-4079-9b84-ca13b3e90ae3
+    udp: true
+    tls: true
+    servername: c8.qwyak.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 3pBHfffYFRPpe8Lt47cLSSgCgwNR-70blFzpEbm11AE
+      short-id: b2baf331493d3de1
+  - name: POPVPN 0022 GLOBAL VLESS REALITY
+    server: 192.177.26.55
+    port: 443
+    type: vless
+    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+    udp: true
+    tls: true
+    servername: repo-16.topp-con.xyz
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8
+      short-id: bdaddda4cbc8c7bf
+  - name: POPVPN 0023 GLOBAL VLESS REALITY
+    server: 45.43.79.92
+    port: 443
+    type: vless
+    uuid: 042b12d8-bac4-4b3a-b661-79e333f08e4e
+    udp: true
+    tls: true
+    servername: vikt659.isgood.host
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM
+      short-id: af4ca5d16438c938
+  - name: POPVPN 0024 GLOBAL VLESS WS
+    server: 122.176.216.52
+    port: 443
+    type: vless
+    uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
+    udp: true
+    tls: true
+    servername: app-6ada5023.deploy.meerasolution.com
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
+      headers:
+        Host: app-6ada5023.deploy.meerasolution.com
+  - name: POPVPN 0025 GLOBAL VLESS WS
+    server: hw14.roghanmo.com
+    port: 465
+    type: vless
+    uuid: 98aa35fc-7d2f-4744-a91b-7e33b4fdd9c8
+    udp: true
+    tls: true
+    servername: hw14.roghanmo.com.
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hw14.roghanmo.com.
+  - name: POPVPN 0026 🇺🇸 US TROJAN TLS
     server: 169.197.140.218
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0002 GLOBAL TROJAN TLS
-    server: 169.197.140.169
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0003 GLOBAL TROJAN TLS
-    server: 170.101.101.19
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: POPVPN 0004 GLOBAL TROJAN TLS
-    server: 170.101.101.211
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: POPVPN 0005 GLOBAL TROJAN TLS
-    server: 170.101.101.53
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: POPVPN 0006 GLOBAL TROJAN TLS
-    server: 216.106.186.82
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.findlocaljobnetworkandbuildcommunityconnections.com
-  - name: POPVPN 0007 GLOBAL TROJAN TLS
-    server: 216.152.147.201
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: resources.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0008 GLOBAL TROJAN TLS
-    server: 216.152.147.48
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0009 GLOBAL TROJAN TLS
-    server: 216.152.147.79
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0010 GLOBAL TROJAN TLS
-    server: 216.152.155.54
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: learn.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0011 GLOBAL TROJAN TLS
-    server: 216.238.80.100
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: connectwithtopemployersandfindidealjobs.com
-  - name: POPVPN 0012 GLOBAL TROJAN TLS
-    server: 66.163.112.147
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0013 GLOBAL TROJAN TLS
-    server: 66.163.114.106
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0014 GLOBAL TROJAN TLS
-    server: 66.163.114.166
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0015 GLOBAL TROJAN TLS
-    server: 66.163.114.45
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0016 GLOBAL TROJAN TLS
-    server: 66.163.122.113
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.searchnationwidecareerchangehelperandguidancetoday.com
-  - name: POPVPN 0017 GLOBAL TROJAN TLS
-    server: 66.163.122.25
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
-  - name: POPVPN 0018 GLOBAL TROJAN TLS
-    server: 66.163.127.107
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.indyourperfectremotetechjobfromthecomfortofhome.com
-  - name: POPVPN 0019 GLOBAL TROJAN TLS
-    server: 66.163.127.215
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.indyourperfectremotetechjobfromthecomfortofhome.com
-  - name: POPVPN 0020 GLOBAL TROJAN TLS
-    server: 169.197.140.171
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0021 GLOBAL TROJAN TLS
-    server: 169.197.140.214
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0022 GLOBAL TROJAN TLS
-    server: 169.197.140.224
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0023 GLOBAL TROJAN TLS
+  - name: POPVPN 0027 🇺🇸 US TROJAN TLS
     server: 169.197.140.245
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: POPVPN 0024 GLOBAL TROJAN TLS
-    server: 170.101.101.112
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: POPVPN 0025 GLOBAL TROJAN TLS
-    server: 170.101.101.131
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: POPVPN 0026 GLOBAL TROJAN TLS
-    server: 170.101.101.67
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: POPVPN 0027 GLOBAL TROJAN TLS
-    server: 208.69.78.19
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.yourultimateprofessionalcareerhub.com
   - name: POPVPN 0028 GLOBAL TROJAN TLS
-    server: 208.69.78.29
+    server: 169.197.140.169
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: learn.yourultimateprofessionalcareerhub.com
+    sni: api.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   - name: POPVPN 0029 GLOBAL TROJAN TLS
-    server: 216.152.147.152
+    server: 169.197.140.214
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: learn.connectingpeoplewithgreatjobs.com
+    sni: courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   - name: POPVPN 0030 GLOBAL TROJAN TLS
+    server: 216.152.147.201
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: resources.connectingpeoplewithgreatjobs.com
+  - name: POPVPN 0031 GLOBAL TROJAN TLS
     server: 216.152.147.74
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: api.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0031 GLOBAL TROJAN TLS
-    server: 216.152.147.85
+  - name: POPVPN 0032 GLOBAL TROJAN TLS
+    server: 216.152.147.79
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: cdn.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0032 GLOBAL TROJAN TLS
+    sni: blog.connectingpeoplewithgreatjobs.com
+  - name: POPVPN 0033 GLOBAL TROJAN TLS
+    server: 216.152.155.54
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: learn.nextjobopportunityandclaimyouridealrole.com
+  - name: POPVPN 0034 GLOBAL TROJAN TLS
+    server: 66.163.114.45
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
+  - name: POPVPN 0035 GLOBAL TROJAN TLS
+    server: ca001.zestapp778.com
+    port: 46977
+    type: trojan
+    password: 5t6i121em5lkmsmk
+    udp: true
+    sni: ca001.zestapp778.com
+  - name: POPVPN 0036 GLOBAL TROJAN TLS
+    server: sclass-00.catcat321.com
+    port: 20123
+    type: trojan
+    password: d9064589-74af-432a-9390-5d8a9da281bf
+    udp: true
+    sni: hk.catxstar.com
+  - name: POPVPN 0037 GLOBAL TROJAN TLS
+    server: 149.28.130.108
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: searchcreativejobsandshowcaseyourartistictalents.com
+  - name: POPVPN 0038 GLOBAL TROJAN TLS
+    server: 169.197.140.171
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  - name: POPVPN 0039 GLOBAL TROJAN TLS
+    server: 169.197.140.224
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  - name: POPVPN 0040 GLOBAL TROJAN TLS
+    server: 170.101.101.112
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
+  - name: POPVPN 0041 GLOBAL TROJAN TLS
+    server: 216.152.147.152
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: learn.connectingpeoplewithgreatjobs.com
+  - name: POPVPN 0042 GLOBAL TROJAN TLS
     server: 216.152.147.89
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: www.connectingpeoplewithgreatjobs.com
-  - name: POPVPN 0033 GLOBAL TROJAN TLS
+  - name: POPVPN 0043 GLOBAL TROJAN TLS
     server: 216.152.155.131
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: www.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0034 GLOBAL TROJAN TLS
+  - name: POPVPN 0044 GLOBAL TROJAN TLS
     server: 216.152.155.158
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: resources.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0035 GLOBAL TROJAN TLS
+  - name: POPVPN 0045 GLOBAL TROJAN TLS
     server: 216.152.155.176
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: blog.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0036 GLOBAL TROJAN TLS
+  - name: POPVPN 0046 GLOBAL TROJAN TLS
     server: 216.152.155.23
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: courses.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0037 GLOBAL TROJAN TLS
+  - name: POPVPN 0047 GLOBAL TROJAN TLS
     server: 216.152.155.59
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: api.nextjobopportunityandclaimyouridealrole.com
-  - name: POPVPN 0038 GLOBAL TROJAN TLS
+  - name: POPVPN 0048 GLOBAL TROJAN TLS
     server: 216.152.156.212
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0039 GLOBAL TROJAN TLS
-    server: 216.152.156.42
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0040 GLOBAL TROJAN TLS
-    server: 216.152.156.49
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0041 GLOBAL TROJAN TLS
-    server: 216.152.156.65
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0042 GLOBAL TROJAN TLS
-    server: 216.152.156.81
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: POPVPN 0043 GLOBAL TROJAN TLS
-    server: 66.163.112.13
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0044 GLOBAL TROJAN TLS
-    server: 66.163.112.142
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0045 GLOBAL TROJAN TLS
-    server: 66.163.112.171
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: learn.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0046 GLOBAL TROJAN TLS
-    server: 66.163.112.242
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: resources.unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0047 GLOBAL TROJAN TLS
-    server: 66.163.112.31
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: unlockyourfuturefindyourperfectcareer.com
-  - name: POPVPN 0048 GLOBAL TROJAN TLS
-    server: 66.163.112.76
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.unlockyourfuturefindyourperfectcareer.com
   - name: POPVPN 0049 GLOBAL TROJAN TLS
-    server: 66.163.114.114
+    server: 216.238.104.154
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+    sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
   - name: POPVPN 0050 GLOBAL TROJAN TLS
-    server: 66.163.114.126
+    server: 216.238.80.100
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
+    sni: connectwithtopemployersandfindidealjobs.com
   - name: POPVPN 0051 GLOBAL TROJAN TLS
+    server: 64.176.7.205
+    port: 443
+    type: trojan
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
+  - name: POPVPN 0052 GLOBAL TROJAN TLS
     server: 66.163.114.132
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
     sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0052 GLOBAL TROJAN TLS
-    server: 66.163.114.245
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  - name: POPVPN 0053 GLOBAL VLESS WS
+    server: 178.172.227.124
+    port: 14430
+    type: vless
+    uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
     udp: true
-    sni: findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: POPVPN 0053 GLOBAL TROJAN TLS
-    server: 66.163.118.244
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.discovergreatjobsandadvanceyourcareer.com
-  - name: POPVPN 0054 GLOBAL TROJAN TLS
-    server: 66.163.118.251
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: resources.discovergreatjobsandadvanceyourcareer.com
-  - name: POPVPN 0055 GLOBAL TROJAN TLS
-    server: 66.163.118.62
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.discovergreatjobsandadvanceyourcareer.com
-  - name: POPVPN 0056 GLOBAL TROJAN TLS
-    server: 66.163.122.7
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.searchnationwidecareerchangehelperandguidancetoday.com
-  - name: POPVPN 0057 GLOBAL TROJAN TLS
-    server: 66.163.122.81
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
-  - name: POPVPN 0058 GLOBAL HY2 TLS
-    server: 152.32.254.68
-    port: 5010
-    type: hysteria2
-    password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-    udp: true
-    sni: nas.aizhzo.com
-    obfs: salamander
-    obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  - name: POPVPN 0059 🇺🇸 US SS AES-256-GCM
+    servername: 178.172.227.124
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: 178.172.227.124
+  - name: POPVPN 0054 🇺🇸 US SS AES-256-GCM
     server: 15.204.246.132
     port: 7307
     type: ss
     cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
     udp: true
-  - name: POPVPN 0060 🇮🇷 IR SS AES-256-GCM
+  - name: POPVPN 0055 🇮🇷 IR SS AES-256-GCM
     server: 185.230.230.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0061 🇺🇸 US SS AES-256-GCM
+  - name: POPVPN 0056 🇺🇸 US SS AES-256-GCM
     server: 193.151.160.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0062 GLOBAL TROJAN TLS
-    server: 216.152.155.59
+  - name: POPVPN 0057 GLOBAL VLESS WS
+    server: 38.107.232.36
+    port: 80
+    type: vless
+    uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vless/
+  - name: POPVPN 0058 GLOBAL VLESS TCP
+    server: bot.vudfaro.ir
+    port: 5051
+    type: vless
+    uuid: 7df4f23f-b361-412a-883a-54dfdb5b8c8f
+    udp: true
+  - name: POPVPN 0059 GLOBAL VLESS TCP
+    server: bot.vudfaro.ir
+    port: 5066
+    type: vless
+    uuid: 7df4f23f-b361-412a-883a-54dfdb5b8c8f
+    udp: true
+  - name: POPVPN 0060 GLOBAL VLESS TCP
+    server: bot.vudfaro.ir
+    port: 5068
+    type: vless
+    uuid: 7df4f23f-b361-412a-883a-54dfdb5b8c8f
+    udp: true
+  - name: POPVPN 0061 GLOBAL TROJAN TLS
+    server: 64.176.7.205
     port: 443
     type: trojan
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+    sni: 64.176.7.205
     skip-cert-verify: true
-  - name: POPVPN 0063 GLOBAL TROJAN TLS
-    server: 216.152.156.65
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: 216.152.156.65
-    skip-cert-verify: true
-  - name: POPVPN 0064 GLOBAL TROJAN TLS
-    server: 216.152.156.81
-    port: 443
-    type: trojan
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: 216.152.156.81
-    skip-cert-verify: true
-  - name: POPVPN 0065 GLOBAL SS CHACHA20-IETF-POLY1305
+  - name: POPVPN 0062 GLOBAL SS CHACHA20-IETF-POLY1305
     server: 138.197.89.234
     port: 28960
     type: ss
     cipher: chacha20-ietf-poly1305
     password: DZRy4Q3QH0jUGfKFl2jDCZ
     udp: true
-  - name: POPVPN 0066 GLOBAL SS AES-128-GCM
+  - name: POPVPN 0063 GLOBAL SS AES-128-GCM
     server: 149.22.95.183
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: POPVPN 0067 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0064 GLOBAL SS AES-256-GCM
     server: 149.40.57.134
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0068 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0065 GLOBAL SS AES-256-GCM
     server: 149.88.106.73
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0069 GLOBAL SS AES-256-GCM
-    server: 149.88.107.74
-    port: 19999
-    type: ss
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    udp: true
-  - name: POPVPN 0070 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0066 GLOBAL SS AES-256-GCM
     server: 15.204.247.244
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
     udp: true
-  - name: POPVPN 0071 GLOBAL SS AES-128-GCM
+  - name: POPVPN 0067 GLOBAL SS AES-128-GCM
     server: 156.146.38.167
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: POPVPN 0072 GLOBAL SS AES-128-GCM
+  - name: POPVPN 0068 GLOBAL SS AES-128-GCM
     server: 156.146.38.168
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: POPVPN 0073 GLOBAL SS AES-128-GCM
+  - name: POPVPN 0069 GLOBAL SS AES-128-GCM
     server: 156.146.38.169
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: POPVPN 0074 GLOBAL SS AES-128-GCM
+  - name: POPVPN 0070 GLOBAL SS AES-128-GCM
     server: 156.146.38.170
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: POPVPN 0075 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0071 GLOBAL SS AES-256-GCM
+    server: 158.51.121.221
+    port: 19999
+    type: ss
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    udp: true
+  - name: POPVPN 0072 GLOBAL SS AES-256-GCM
     server: 172.111.38.72
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0076 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0073 GLOBAL SS CHACHA20-IETF-POLY1305
+    server: 185.213.23.63
+    port: 990
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    udp: true
+  - name: POPVPN 0074 GLOBAL SS AES-256-GCM
     server: 185.215.132.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0077 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0075 GLOBAL SS AES-256-GCM
     server: 185.215.132.9
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0078 GLOBAL SS AES-256-GCM
-    server: 185.22.153.192
-    port: 18443
-    type: ss
-    cipher: aes-256-gcm
-    password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-    udp: true
-  - name: POPVPN 0079 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0076 GLOBAL SS AES-256-GCM
     server: 193.151.160.9
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     udp: true
-  - name: POPVPN 0080 GLOBAL SS AES-256-GCM
+  - name: POPVPN 0077 GLOBAL SS AES-256-GCM
     server: 193.151.163.18
     port: 19999
     type: ss
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    udp: true
+  - name: POPVPN 0078 GLOBAL SS CHACHA20-IETF-POLY1305
+    server: 193.29.139.168
+    port: 8080
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
+    udp: true
+  - name: POPVPN 0079 GLOBAL SS CHACHA20-IETF-POLY1305
+    server: 193.29.139.198
+    port: 8080
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    udp: true
+  - name: POPVPN 0080 GLOBAL SS CHACHA20-IETF-POLY1305
+    server: 193.29.139.212
+    port: 8080
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
     udp: true
   - name: POPVPN 0081 GLOBAL SS AES-256-GCM
     server: 198.244.202.215
@@ -670,33 +812,33 @@ proxy-groups:
   - name: AUTO
     type: url-test
     proxies:
-      - POPVPN 0001 🇺🇸 US TROJAN TLS
-      - POPVPN 0002 GLOBAL TROJAN TLS
-      - POPVPN 0003 GLOBAL TROJAN TLS
-      - POPVPN 0004 GLOBAL TROJAN TLS
-      - POPVPN 0005 GLOBAL TROJAN TLS
-      - POPVPN 0006 GLOBAL TROJAN TLS
-      - POPVPN 0007 GLOBAL TROJAN TLS
-      - POPVPN 0008 GLOBAL TROJAN TLS
-      - POPVPN 0009 GLOBAL TROJAN TLS
-      - POPVPN 0010 GLOBAL TROJAN TLS
-      - POPVPN 0011 GLOBAL TROJAN TLS
-      - POPVPN 0012 GLOBAL TROJAN TLS
-      - POPVPN 0013 GLOBAL TROJAN TLS
-      - POPVPN 0014 GLOBAL TROJAN TLS
-      - POPVPN 0015 GLOBAL TROJAN TLS
-      - POPVPN 0016 GLOBAL TROJAN TLS
-      - POPVPN 0017 GLOBAL TROJAN TLS
-      - POPVPN 0018 GLOBAL TROJAN TLS
-      - POPVPN 0019 GLOBAL TROJAN TLS
-      - POPVPN 0020 GLOBAL TROJAN TLS
-      - POPVPN 0021 GLOBAL TROJAN TLS
-      - POPVPN 0022 GLOBAL TROJAN TLS
-      - POPVPN 0023 GLOBAL TROJAN TLS
-      - POPVPN 0024 GLOBAL TROJAN TLS
-      - POPVPN 0025 GLOBAL TROJAN TLS
-      - POPVPN 0026 GLOBAL TROJAN TLS
-      - POPVPN 0027 GLOBAL TROJAN TLS
+      - POPVPN 0001 GLOBAL VLESS REALITY
+      - POPVPN 0002 GLOBAL VLESS REALITY
+      - POPVPN 0003 GLOBAL VLESS REALITY
+      - POPVPN 0004 GLOBAL VLESS REALITY
+      - POPVPN 0005 GLOBAL VLESS REALITY
+      - POPVPN 0006 GLOBAL VLESS REALITY
+      - POPVPN 0007 GLOBAL VLESS REALITY
+      - POPVPN 0008 GLOBAL VLESS REALITY
+      - POPVPN 0009 GLOBAL VLESS REALITY
+      - POPVPN 0010 GLOBAL VLESS REALITY
+      - POPVPN 0011 GLOBAL VLESS REALITY
+      - POPVPN 0012 GLOBAL VLESS REALITY
+      - POPVPN 0013 GLOBAL VLESS REALITY
+      - POPVPN 0014 GLOBAL VLESS REALITY
+      - POPVPN 0015 GLOBAL VLESS REALITY
+      - POPVPN 0016 GLOBAL VLESS REALITY
+      - POPVPN 0017 GLOBAL VLESS REALITY
+      - POPVPN 0018 GLOBAL VLESS REALITY
+      - POPVPN 0019 GLOBAL VLESS REALITY
+      - POPVPN 0020 GLOBAL VLESS REALITY
+      - POPVPN 0021 GLOBAL VLESS REALITY
+      - POPVPN 0022 GLOBAL VLESS REALITY
+      - POPVPN 0023 GLOBAL VLESS REALITY
+      - POPVPN 0024 GLOBAL VLESS WS
+      - POPVPN 0025 GLOBAL VLESS WS
+      - POPVPN 0026 🇺🇸 US TROJAN TLS
+      - POPVPN 0027 🇺🇸 US TROJAN TLS
       - POPVPN 0028 GLOBAL TROJAN TLS
       - POPVPN 0029 GLOBAL TROJAN TLS
       - POPVPN 0030 GLOBAL TROJAN TLS
@@ -722,34 +864,34 @@ proxy-groups:
       - POPVPN 0050 GLOBAL TROJAN TLS
       - POPVPN 0051 GLOBAL TROJAN TLS
       - POPVPN 0052 GLOBAL TROJAN TLS
-      - POPVPN 0053 GLOBAL TROJAN TLS
-      - POPVPN 0054 GLOBAL TROJAN TLS
-      - POPVPN 0055 GLOBAL TROJAN TLS
-      - POPVPN 0056 GLOBAL TROJAN TLS
-      - POPVPN 0057 GLOBAL TROJAN TLS
-      - POPVPN 0058 GLOBAL HY2 TLS
-      - POPVPN 0059 🇺🇸 US SS AES-256-GCM
-      - POPVPN 0060 🇮🇷 IR SS AES-256-GCM
-      - POPVPN 0061 🇺🇸 US SS AES-256-GCM
-      - POPVPN 0062 GLOBAL TROJAN TLS
-      - POPVPN 0063 GLOBAL TROJAN TLS
-      - POPVPN 0064 GLOBAL TROJAN TLS
-      - POPVPN 0065 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0066 GLOBAL SS AES-128-GCM
-      - POPVPN 0067 GLOBAL SS AES-256-GCM
-      - POPVPN 0068 GLOBAL SS AES-256-GCM
-      - POPVPN 0069 GLOBAL SS AES-256-GCM
-      - POPVPN 0070 GLOBAL SS AES-256-GCM
-      - POPVPN 0071 GLOBAL SS AES-128-GCM
-      - POPVPN 0072 GLOBAL SS AES-128-GCM
-      - POPVPN 0073 GLOBAL SS AES-128-GCM
-      - POPVPN 0074 GLOBAL SS AES-128-GCM
+      - POPVPN 0053 GLOBAL VLESS WS
+      - POPVPN 0054 🇺🇸 US SS AES-256-GCM
+      - POPVPN 0055 🇮🇷 IR SS AES-256-GCM
+      - POPVPN 0056 🇺🇸 US SS AES-256-GCM
+      - POPVPN 0057 GLOBAL VLESS WS
+      - POPVPN 0058 GLOBAL VLESS TCP
+      - POPVPN 0059 GLOBAL VLESS TCP
+      - POPVPN 0060 GLOBAL VLESS TCP
+      - POPVPN 0061 GLOBAL TROJAN TLS
+      - POPVPN 0062 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0063 GLOBAL SS AES-128-GCM
+      - POPVPN 0064 GLOBAL SS AES-256-GCM
+      - POPVPN 0065 GLOBAL SS AES-256-GCM
+      - POPVPN 0066 GLOBAL SS AES-256-GCM
+      - POPVPN 0067 GLOBAL SS AES-128-GCM
+      - POPVPN 0068 GLOBAL SS AES-128-GCM
+      - POPVPN 0069 GLOBAL SS AES-128-GCM
+      - POPVPN 0070 GLOBAL SS AES-128-GCM
+      - POPVPN 0071 GLOBAL SS AES-256-GCM
+      - POPVPN 0072 GLOBAL SS AES-256-GCM
+      - POPVPN 0073 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0074 GLOBAL SS AES-256-GCM
       - POPVPN 0075 GLOBAL SS AES-256-GCM
       - POPVPN 0076 GLOBAL SS AES-256-GCM
       - POPVPN 0077 GLOBAL SS AES-256-GCM
-      - POPVPN 0078 GLOBAL SS AES-256-GCM
-      - POPVPN 0079 GLOBAL SS AES-256-GCM
-      - POPVPN 0080 GLOBAL SS AES-256-GCM
+      - POPVPN 0078 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0079 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0080 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0081 GLOBAL SS AES-256-GCM
       - POPVPN 0082 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0083 GLOBAL SS CHACHA20-IETF-POLY1305
@@ -768,33 +910,33 @@ proxy-groups:
     type: select
     proxies:
       - AUTO
-      - POPVPN 0001 🇺🇸 US TROJAN TLS
-      - POPVPN 0002 GLOBAL TROJAN TLS
-      - POPVPN 0003 GLOBAL TROJAN TLS
-      - POPVPN 0004 GLOBAL TROJAN TLS
-      - POPVPN 0005 GLOBAL TROJAN TLS
-      - POPVPN 0006 GLOBAL TROJAN TLS
-      - POPVPN 0007 GLOBAL TROJAN TLS
-      - POPVPN 0008 GLOBAL TROJAN TLS
-      - POPVPN 0009 GLOBAL TROJAN TLS
-      - POPVPN 0010 GLOBAL TROJAN TLS
-      - POPVPN 0011 GLOBAL TROJAN TLS
-      - POPVPN 0012 GLOBAL TROJAN TLS
-      - POPVPN 0013 GLOBAL TROJAN TLS
-      - POPVPN 0014 GLOBAL TROJAN TLS
-      - POPVPN 0015 GLOBAL TROJAN TLS
-      - POPVPN 0016 GLOBAL TROJAN TLS
-      - POPVPN 0017 GLOBAL TROJAN TLS
-      - POPVPN 0018 GLOBAL TROJAN TLS
-      - POPVPN 0019 GLOBAL TROJAN TLS
-      - POPVPN 0020 GLOBAL TROJAN TLS
-      - POPVPN 0021 GLOBAL TROJAN TLS
-      - POPVPN 0022 GLOBAL TROJAN TLS
-      - POPVPN 0023 GLOBAL TROJAN TLS
-      - POPVPN 0024 GLOBAL TROJAN TLS
-      - POPVPN 0025 GLOBAL TROJAN TLS
-      - POPVPN 0026 GLOBAL TROJAN TLS
-      - POPVPN 0027 GLOBAL TROJAN TLS
+      - POPVPN 0001 GLOBAL VLESS REALITY
+      - POPVPN 0002 GLOBAL VLESS REALITY
+      - POPVPN 0003 GLOBAL VLESS REALITY
+      - POPVPN 0004 GLOBAL VLESS REALITY
+      - POPVPN 0005 GLOBAL VLESS REALITY
+      - POPVPN 0006 GLOBAL VLESS REALITY
+      - POPVPN 0007 GLOBAL VLESS REALITY
+      - POPVPN 0008 GLOBAL VLESS REALITY
+      - POPVPN 0009 GLOBAL VLESS REALITY
+      - POPVPN 0010 GLOBAL VLESS REALITY
+      - POPVPN 0011 GLOBAL VLESS REALITY
+      - POPVPN 0012 GLOBAL VLESS REALITY
+      - POPVPN 0013 GLOBAL VLESS REALITY
+      - POPVPN 0014 GLOBAL VLESS REALITY
+      - POPVPN 0015 GLOBAL VLESS REALITY
+      - POPVPN 0016 GLOBAL VLESS REALITY
+      - POPVPN 0017 GLOBAL VLESS REALITY
+      - POPVPN 0018 GLOBAL VLESS REALITY
+      - POPVPN 0019 GLOBAL VLESS REALITY
+      - POPVPN 0020 GLOBAL VLESS REALITY
+      - POPVPN 0021 GLOBAL VLESS REALITY
+      - POPVPN 0022 GLOBAL VLESS REALITY
+      - POPVPN 0023 GLOBAL VLESS REALITY
+      - POPVPN 0024 GLOBAL VLESS WS
+      - POPVPN 0025 GLOBAL VLESS WS
+      - POPVPN 0026 🇺🇸 US TROJAN TLS
+      - POPVPN 0027 🇺🇸 US TROJAN TLS
       - POPVPN 0028 GLOBAL TROJAN TLS
       - POPVPN 0029 GLOBAL TROJAN TLS
       - POPVPN 0030 GLOBAL TROJAN TLS
@@ -820,34 +962,34 @@ proxy-groups:
       - POPVPN 0050 GLOBAL TROJAN TLS
       - POPVPN 0051 GLOBAL TROJAN TLS
       - POPVPN 0052 GLOBAL TROJAN TLS
-      - POPVPN 0053 GLOBAL TROJAN TLS
-      - POPVPN 0054 GLOBAL TROJAN TLS
-      - POPVPN 0055 GLOBAL TROJAN TLS
-      - POPVPN 0056 GLOBAL TROJAN TLS
-      - POPVPN 0057 GLOBAL TROJAN TLS
-      - POPVPN 0058 GLOBAL HY2 TLS
-      - POPVPN 0059 🇺🇸 US SS AES-256-GCM
-      - POPVPN 0060 🇮🇷 IR SS AES-256-GCM
-      - POPVPN 0061 🇺🇸 US SS AES-256-GCM
-      - POPVPN 0062 GLOBAL TROJAN TLS
-      - POPVPN 0063 GLOBAL TROJAN TLS
-      - POPVPN 0064 GLOBAL TROJAN TLS
-      - POPVPN 0065 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0066 GLOBAL SS AES-128-GCM
-      - POPVPN 0067 GLOBAL SS AES-256-GCM
-      - POPVPN 0068 GLOBAL SS AES-256-GCM
-      - POPVPN 0069 GLOBAL SS AES-256-GCM
-      - POPVPN 0070 GLOBAL SS AES-256-GCM
-      - POPVPN 0071 GLOBAL SS AES-128-GCM
-      - POPVPN 0072 GLOBAL SS AES-128-GCM
-      - POPVPN 0073 GLOBAL SS AES-128-GCM
-      - POPVPN 0074 GLOBAL SS AES-128-GCM
+      - POPVPN 0053 GLOBAL VLESS WS
+      - POPVPN 0054 🇺🇸 US SS AES-256-GCM
+      - POPVPN 0055 🇮🇷 IR SS AES-256-GCM
+      - POPVPN 0056 🇺🇸 US SS AES-256-GCM
+      - POPVPN 0057 GLOBAL VLESS WS
+      - POPVPN 0058 GLOBAL VLESS TCP
+      - POPVPN 0059 GLOBAL VLESS TCP
+      - POPVPN 0060 GLOBAL VLESS TCP
+      - POPVPN 0061 GLOBAL TROJAN TLS
+      - POPVPN 0062 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0063 GLOBAL SS AES-128-GCM
+      - POPVPN 0064 GLOBAL SS AES-256-GCM
+      - POPVPN 0065 GLOBAL SS AES-256-GCM
+      - POPVPN 0066 GLOBAL SS AES-256-GCM
+      - POPVPN 0067 GLOBAL SS AES-128-GCM
+      - POPVPN 0068 GLOBAL SS AES-128-GCM
+      - POPVPN 0069 GLOBAL SS AES-128-GCM
+      - POPVPN 0070 GLOBAL SS AES-128-GCM
+      - POPVPN 0071 GLOBAL SS AES-256-GCM
+      - POPVPN 0072 GLOBAL SS AES-256-GCM
+      - POPVPN 0073 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0074 GLOBAL SS AES-256-GCM
       - POPVPN 0075 GLOBAL SS AES-256-GCM
       - POPVPN 0076 GLOBAL SS AES-256-GCM
       - POPVPN 0077 GLOBAL SS AES-256-GCM
-      - POPVPN 0078 GLOBAL SS AES-256-GCM
-      - POPVPN 0079 GLOBAL SS AES-256-GCM
-      - POPVPN 0080 GLOBAL SS AES-256-GCM
+      - POPVPN 0078 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0079 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0080 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0081 GLOBAL SS AES-256-GCM
       - POPVPN 0082 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0083 GLOBAL SS CHACHA20-IETF-POLY1305
@@ -859,34 +1001,31 @@ proxy-groups:
       - POPVPN 0089 GLOBAL SS AES-256-GCM
       - POPVPN 0090 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0091 GLOBAL SS CHACHA20-IETF-POLY1305
-  - name: HY2
-    type: url-test
-    proxies:
-      - POPVPN 0058 GLOBAL HY2 TLS
-    url: "https://www.gstatic.com/generate_204"
-    interval: 300
   - name: SS
     type: url-test
     proxies:
-      - POPVPN 0059 🇺🇸 US SS AES-256-GCM
-      - POPVPN 0060 🇮🇷 IR SS AES-256-GCM
-      - POPVPN 0061 🇺🇸 US SS AES-256-GCM
-      - POPVPN 0065 GLOBAL SS CHACHA20-IETF-POLY1305
-      - POPVPN 0066 GLOBAL SS AES-128-GCM
-      - POPVPN 0067 GLOBAL SS AES-256-GCM
-      - POPVPN 0068 GLOBAL SS AES-256-GCM
-      - POPVPN 0069 GLOBAL SS AES-256-GCM
-      - POPVPN 0070 GLOBAL SS AES-256-GCM
-      - POPVPN 0071 GLOBAL SS AES-128-GCM
-      - POPVPN 0072 GLOBAL SS AES-128-GCM
-      - POPVPN 0073 GLOBAL SS AES-128-GCM
-      - POPVPN 0074 GLOBAL SS AES-128-GCM
+      - POPVPN 0054 🇺🇸 US SS AES-256-GCM
+      - POPVPN 0055 🇮🇷 IR SS AES-256-GCM
+      - POPVPN 0056 🇺🇸 US SS AES-256-GCM
+      - POPVPN 0062 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0063 GLOBAL SS AES-128-GCM
+      - POPVPN 0064 GLOBAL SS AES-256-GCM
+      - POPVPN 0065 GLOBAL SS AES-256-GCM
+      - POPVPN 0066 GLOBAL SS AES-256-GCM
+      - POPVPN 0067 GLOBAL SS AES-128-GCM
+      - POPVPN 0068 GLOBAL SS AES-128-GCM
+      - POPVPN 0069 GLOBAL SS AES-128-GCM
+      - POPVPN 0070 GLOBAL SS AES-128-GCM
+      - POPVPN 0071 GLOBAL SS AES-256-GCM
+      - POPVPN 0072 GLOBAL SS AES-256-GCM
+      - POPVPN 0073 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0074 GLOBAL SS AES-256-GCM
       - POPVPN 0075 GLOBAL SS AES-256-GCM
       - POPVPN 0076 GLOBAL SS AES-256-GCM
       - POPVPN 0077 GLOBAL SS AES-256-GCM
-      - POPVPN 0078 GLOBAL SS AES-256-GCM
-      - POPVPN 0079 GLOBAL SS AES-256-GCM
-      - POPVPN 0080 GLOBAL SS AES-256-GCM
+      - POPVPN 0078 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0079 GLOBAL SS CHACHA20-IETF-POLY1305
+      - POPVPN 0080 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0081 GLOBAL SS AES-256-GCM
       - POPVPN 0082 GLOBAL SS CHACHA20-IETF-POLY1305
       - POPVPN 0083 GLOBAL SS CHACHA20-IETF-POLY1305
@@ -903,33 +1042,8 @@ proxy-groups:
   - name: TROJAN
     type: url-test
     proxies:
-      - POPVPN 0001 🇺🇸 US TROJAN TLS
-      - POPVPN 0002 GLOBAL TROJAN TLS
-      - POPVPN 0003 GLOBAL TROJAN TLS
-      - POPVPN 0004 GLOBAL TROJAN TLS
-      - POPVPN 0005 GLOBAL TROJAN TLS
-      - POPVPN 0006 GLOBAL TROJAN TLS
-      - POPVPN 0007 GLOBAL TROJAN TLS
-      - POPVPN 0008 GLOBAL TROJAN TLS
-      - POPVPN 0009 GLOBAL TROJAN TLS
-      - POPVPN 0010 GLOBAL TROJAN TLS
-      - POPVPN 0011 GLOBAL TROJAN TLS
-      - POPVPN 0012 GLOBAL TROJAN TLS
-      - POPVPN 0013 GLOBAL TROJAN TLS
-      - POPVPN 0014 GLOBAL TROJAN TLS
-      - POPVPN 0015 GLOBAL TROJAN TLS
-      - POPVPN 0016 GLOBAL TROJAN TLS
-      - POPVPN 0017 GLOBAL TROJAN TLS
-      - POPVPN 0018 GLOBAL TROJAN TLS
-      - POPVPN 0019 GLOBAL TROJAN TLS
-      - POPVPN 0020 GLOBAL TROJAN TLS
-      - POPVPN 0021 GLOBAL TROJAN TLS
-      - POPVPN 0022 GLOBAL TROJAN TLS
-      - POPVPN 0023 GLOBAL TROJAN TLS
-      - POPVPN 0024 GLOBAL TROJAN TLS
-      - POPVPN 0025 GLOBAL TROJAN TLS
-      - POPVPN 0026 GLOBAL TROJAN TLS
-      - POPVPN 0027 GLOBAL TROJAN TLS
+      - POPVPN 0026 🇺🇸 US TROJAN TLS
+      - POPVPN 0027 🇺🇸 US TROJAN TLS
       - POPVPN 0028 GLOBAL TROJAN TLS
       - POPVPN 0029 GLOBAL TROJAN TLS
       - POPVPN 0030 GLOBAL TROJAN TLS
@@ -955,14 +1069,42 @@ proxy-groups:
       - POPVPN 0050 GLOBAL TROJAN TLS
       - POPVPN 0051 GLOBAL TROJAN TLS
       - POPVPN 0052 GLOBAL TROJAN TLS
-      - POPVPN 0053 GLOBAL TROJAN TLS
-      - POPVPN 0054 GLOBAL TROJAN TLS
-      - POPVPN 0055 GLOBAL TROJAN TLS
-      - POPVPN 0056 GLOBAL TROJAN TLS
-      - POPVPN 0057 GLOBAL TROJAN TLS
-      - POPVPN 0062 GLOBAL TROJAN TLS
-      - POPVPN 0063 GLOBAL TROJAN TLS
-      - POPVPN 0064 GLOBAL TROJAN TLS
+      - POPVPN 0061 GLOBAL TROJAN TLS
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+  - name: VLESS
+    type: url-test
+    proxies:
+      - POPVPN 0001 GLOBAL VLESS REALITY
+      - POPVPN 0002 GLOBAL VLESS REALITY
+      - POPVPN 0003 GLOBAL VLESS REALITY
+      - POPVPN 0004 GLOBAL VLESS REALITY
+      - POPVPN 0005 GLOBAL VLESS REALITY
+      - POPVPN 0006 GLOBAL VLESS REALITY
+      - POPVPN 0007 GLOBAL VLESS REALITY
+      - POPVPN 0008 GLOBAL VLESS REALITY
+      - POPVPN 0009 GLOBAL VLESS REALITY
+      - POPVPN 0010 GLOBAL VLESS REALITY
+      - POPVPN 0011 GLOBAL VLESS REALITY
+      - POPVPN 0012 GLOBAL VLESS REALITY
+      - POPVPN 0013 GLOBAL VLESS REALITY
+      - POPVPN 0014 GLOBAL VLESS REALITY
+      - POPVPN 0015 GLOBAL VLESS REALITY
+      - POPVPN 0016 GLOBAL VLESS REALITY
+      - POPVPN 0017 GLOBAL VLESS REALITY
+      - POPVPN 0018 GLOBAL VLESS REALITY
+      - POPVPN 0019 GLOBAL VLESS REALITY
+      - POPVPN 0020 GLOBAL VLESS REALITY
+      - POPVPN 0021 GLOBAL VLESS REALITY
+      - POPVPN 0022 GLOBAL VLESS REALITY
+      - POPVPN 0023 GLOBAL VLESS REALITY
+      - POPVPN 0024 GLOBAL VLESS WS
+      - POPVPN 0025 GLOBAL VLESS WS
+      - POPVPN 0053 GLOBAL VLESS WS
+      - POPVPN 0057 GLOBAL VLESS WS
+      - POPVPN 0058 GLOBAL VLESS TCP
+      - POPVPN 0059 GLOBAL VLESS TCP
+      - POPVPN 0060 GLOBAL VLESS TCP
     url: "https://www.gstatic.com/generate_204"
     interval: 300
 rules:
