@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-06 07:58:02 UTC",
+  "generated_at": "2026-11-06 15:58:19 UTC",
   "version": "2.0.0",
-  "duration_ms": 771,
+  "duration_ms": 611,
   "total": 92,
   "unique": 92,
   "parsed": 119,
@@ -43,7 +43,7 @@
       "last_configs": 60,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 202,
+      "elapsed_ms": 192,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -54,9 +54,9 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 161,
+      "elapsed_ms": 192,
       "error": "HTTP 403",
-      "success_rate": 0.006,
+      "success_rate": 0.004,
       "paused": true
     },
     {
@@ -65,7 +65,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 751,
+      "elapsed_ms": 594,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -75,8 +75,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 200,
+      "from_cache": true,
+      "elapsed_ms": 192,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -115,5 +115,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 88
+  "previous_total": 92
 }
