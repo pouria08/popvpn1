@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-07 08:52:16 UTC",
+  "generated_at": "2026-11-07 15:43:14 UTC",
   "version": "2.0.0",
-  "duration_ms": 1015,
-  "total": 99,
-  "unique": 99,
+  "duration_ms": 872,
+  "total": 97,
+  "unique": 97,
   "parsed": 119,
   "raw_lines": 119,
-  "duplicates": 20,
+  "duplicates": 22,
   "invalid": 0,
   "by_protocol": {
     "vless": 30,
-    "trojan": 28,
-    "ss": 41
+    "trojan": 25,
+    "ss": 42
   },
   "by_country": [
     {
@@ -19,24 +19,17 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 92
+      "count": 94
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 6
-    },
-    {
-      "code": "CA",
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "region": "NA",
-      "count": 1
+      "count": 3
     }
   ],
-  "country_count": 3,
+  "country_count": 2,
   "sources": {
     "total": 4,
     "ok": 3,
@@ -50,7 +43,7 @@
       "last_configs": 60,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 194,
+      "elapsed_ms": 178,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -61,7 +54,7 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 176,
+      "elapsed_ms": 154,
       "error": "HTTP 403",
       "success_rate": 0.002,
       "paused": true
@@ -72,7 +65,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 999,
+      "elapsed_ms": 837,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -83,7 +76,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 195,
+      "elapsed_ms": 192,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -112,7 +105,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 99,
+    "kept": 97,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,
@@ -122,5 +115,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 91
+  "previous_total": 99
 }
