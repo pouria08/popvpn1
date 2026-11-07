@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-07 01:58:40 UTC",
+  "generated_at": "2026-11-07 08:52:16 UTC",
   "version": "2.0.0",
-  "duration_ms": 566,
-  "total": 91,
-  "unique": 91,
+  "duration_ms": 1015,
+  "total": 99,
+  "unique": 99,
   "parsed": 119,
   "raw_lines": 119,
-  "duplicates": 28,
+  "duplicates": 20,
   "invalid": 0,
   "by_protocol": {
     "vless": 30,
-    "trojan": 24,
-    "ss": 37
+    "trojan": 28,
+    "ss": 41
   },
   "by_country": [
     {
@@ -19,17 +19,24 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 87
+      "count": 92
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 4
+      "count": 6
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "region": "NA",
+      "count": 1
     }
   ],
-  "country_count": 2,
+  "country_count": 3,
   "sources": {
     "total": 4,
     "ok": 3,
@@ -43,7 +50,7 @@
       "last_configs": 60,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 182,
+      "elapsed_ms": 194,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -54,9 +61,9 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 157,
+      "elapsed_ms": 176,
       "error": "HTTP 403",
-      "success_rate": 0.003,
+      "success_rate": 0.002,
       "paused": true
     },
     {
@@ -65,7 +72,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 499,
+      "elapsed_ms": 999,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -75,8 +82,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 147,
+      "from_cache": false,
+      "elapsed_ms": 195,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -105,7 +112,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 91,
+    "kept": 99,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,

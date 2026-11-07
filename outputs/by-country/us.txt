@@ -2,7 +2,9 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@172.111.38.72:19999#POPVPN 0050 🇺🇸 US SS AES-256-GCM
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@173.244.56.6:443#POPVPN 0051 🇺🇸 US SS AES-128-GCM
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoQ0NXT2NJc0s1d3JGejRPWDcwcldm@216.105.168.18:443#POPVPN 0052 🇺🇸 US SS CHACHA20-IETF-POLY1305
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.236:443#POPVPN 0053 🇺🇸 US SS AES-128-GCM
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.19:443?sni=learn.explorecreativejobsandenhanceyourcareerportfolio.com#POPVPN 0027 🇺🇸 US TROJAN TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.237:443?security=tls&sni=cdn.explorecreativejobsandenhanceyourcareerportfolio.com#POPVPN 0028 🇺🇸 US TROJAN TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.67:443?security=tls&headerType=none&type=tcp&sni=courses.explorecreativejobsandenhanceyourcareerportfolio.com#POPVPN 0029 🇺🇸 US TROJAN TLS
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443?allowInsecure=0&sni=courses.nextjobopportunityandclaimyouridealrole.com#POPVPN 0030 🇺🇸 US TROJAN TLS
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@193.151.160.18:19999#POPVPN 0054 🇺🇸 US SS AES-256-GCM
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.236:443#POPVPN 0055 🇺🇸 US SS AES-128-GCM
