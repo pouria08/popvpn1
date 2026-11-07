@@ -39,22 +39,22 @@
         "POPVPN 0008 GLOBAL VLESS REALITY",
         "POPVPN 0009 GLOBAL VLESS REALITY",
         "POPVPN 0010 GLOBAL VLESS REALITY",
-        "POPVPN 0011 GLOBAL VLESS REALITY",
-        "POPVPN 0012 GLOBAL VLESS REALITY",
-        "POPVPN 0013 GLOBAL VLESS REALITY",
-        "POPVPN 0014 GLOBAL VLESS REALITY",
-        "POPVPN 0015 GLOBAL VLESS REALITY",
-        "POPVPN 0016 GLOBAL VLESS REALITY",
-        "POPVPN 0017 GLOBAL VLESS REALITY",
-        "POPVPN 0018 GLOBAL VLESS REALITY",
-        "POPVPN 0019 GLOBAL VLESS REALITY",
-        "POPVPN 0020 GLOBAL VLESS REALITY",
-        "POPVPN 0021 GLOBAL VLESS REALITY",
-        "POPVPN 0022 GLOBAL VLESS REALITY",
-        "POPVPN 0023 GLOBAL VLESS REALITY",
-        "POPVPN 0024 GLOBAL VLESS WS",
-        "POPVPN 0025 GLOBAL VLESS WS",
-        "POPVPN 0026 🇺🇸 US TROJAN TLS",
+        "POPVPN 0011 GLOBAL VLESS WS",
+        "POPVPN 0012 🇺🇸 US TROJAN TLS",
+        "POPVPN 0013 GLOBAL TROJAN WS",
+        "POPVPN 0014 GLOBAL TROJAN TLS",
+        "POPVPN 0015 GLOBAL TROJAN WS",
+        "POPVPN 0016 GLOBAL TROJAN TLS",
+        "POPVPN 0017 GLOBAL TROJAN WS",
+        "POPVPN 0018 GLOBAL TROJAN WS",
+        "POPVPN 0019 GLOBAL TROJAN TLS",
+        "POPVPN 0020 GLOBAL TROJAN TLS",
+        "POPVPN 0021 GLOBAL TROJAN TLS",
+        "POPVPN 0022 GLOBAL TROJAN TLS",
+        "POPVPN 0023 GLOBAL TROJAN TLS",
+        "POPVPN 0024 GLOBAL TROJAN TLS",
+        "POPVPN 0025 GLOBAL TROJAN TLS",
+        "POPVPN 0026 GLOBAL TROJAN TLS",
         "POPVPN 0027 GLOBAL TROJAN TLS",
         "POPVPN 0028 GLOBAL TROJAN TLS",
         "POPVPN 0029 GLOBAL TROJAN TLS",
@@ -66,66 +66,67 @@
         "POPVPN 0035 GLOBAL TROJAN TLS",
         "POPVPN 0036 GLOBAL TROJAN TLS",
         "POPVPN 0037 GLOBAL TROJAN TLS",
-        "POPVPN 0038 GLOBAL TROJAN TLS",
-        "POPVPN 0039 GLOBAL TROJAN TLS",
-        "POPVPN 0040 GLOBAL TROJAN TLS",
-        "POPVPN 0041 GLOBAL TROJAN TLS",
-        "POPVPN 0042 GLOBAL TROJAN TLS",
-        "POPVPN 0043 GLOBAL TROJAN TLS",
-        "POPVPN 0044 GLOBAL TROJAN TLS",
-        "POPVPN 0045 GLOBAL TROJAN TLS",
-        "POPVPN 0046 GLOBAL TROJAN TLS",
-        "POPVPN 0047 GLOBAL TROJAN TLS",
-        "POPVPN 0048 GLOBAL TROJAN TLS",
-        "POPVPN 0049 GLOBAL TROJAN TLS",
-        "POPVPN 0050 GLOBAL VLESS WS",
-        "POPVPN 0051 🇺🇸 US SS AES-256-GCM",
-        "POPVPN 0052 🇺🇸 US SS AES-128-GCM",
-        "POPVPN 0053 GLOBAL VLESS WS",
-        "POPVPN 0054 GLOBAL VLESS TCP",
-        "POPVPN 0055 GLOBAL VLESS TCP",
-        "POPVPN 0056 GLOBAL VLESS TCP",
-        "POPVPN 0057 GLOBAL TROJAN TLS",
-        "POPVPN 0058 GLOBAL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0038 GLOBAL HY2 TLS",
+        "POPVPN 0039 GLOBAL HY2 TLS",
+        "POPVPN 0040 GLOBAL VLESS WS",
+        "POPVPN 0041 GLOBAL VLESS WS",
+        "POPVPN 0042 🇺🇸 US SS AES-256-GCM",
+        "POPVPN 0043 🇺🇸 US SS AES-128-GCM",
+        "POPVPN 0044 GLOBAL VLESS WS",
+        "POPVPN 0045 GLOBAL VLESS WS",
+        "POPVPN 0046 GLOBAL VLESS TCP",
+        "POPVPN 0047 GLOBAL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0048 GLOBAL SS AES-256-GCM",
+        "POPVPN 0049 GLOBAL SS AES-128-GCM",
+        "POPVPN 0050 GLOBAL SS AES-256-GCM",
+        "POPVPN 0051 GLOBAL SS AES-256-GCM",
+        "POPVPN 0052 GLOBAL SS AES-256-GCM",
+        "POPVPN 0053 GLOBAL SS AES-256-GCM",
+        "POPVPN 0054 GLOBAL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0055 GLOBAL SS AES-128-GCM",
+        "POPVPN 0056 GLOBAL SS AES-128-GCM",
+        "POPVPN 0057 GLOBAL SS AES-128-GCM",
+        "POPVPN 0058 GLOBAL SS AES-128-GCM",
         "POPVPN 0059 GLOBAL SS AES-256-GCM",
         "POPVPN 0060 GLOBAL SS AES-256-GCM",
         "POPVPN 0061 GLOBAL SS AES-256-GCM",
         "POPVPN 0062 GLOBAL SS AES-256-GCM",
-        "POPVPN 0063 GLOBAL SS AES-128-GCM",
-        "POPVPN 0064 GLOBAL SS AES-128-GCM",
-        "POPVPN 0065 GLOBAL SS AES-128-GCM",
-        "POPVPN 0066 GLOBAL SS AES-128-GCM",
+        "POPVPN 0063 GLOBAL SS AES-256-GCM",
+        "POPVPN 0064 GLOBAL SS AES-256-GCM",
+        "POPVPN 0065 GLOBAL SS AES-256-GCM",
+        "POPVPN 0066 GLOBAL SS AES-256-GCM",
         "POPVPN 0067 GLOBAL SS AES-256-GCM",
         "POPVPN 0068 GLOBAL SS AES-256-GCM",
         "POPVPN 0069 GLOBAL SS AES-256-GCM",
         "POPVPN 0070 GLOBAL SS AES-256-GCM",
         "POPVPN 0071 GLOBAL SS AES-256-GCM",
-        "POPVPN 0072 GLOBAL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0072 GLOBAL SS AES-256-GCM",
         "POPVPN 0073 GLOBAL SS AES-256-GCM",
         "POPVPN 0074 GLOBAL SS AES-256-GCM",
         "POPVPN 0075 GLOBAL SS AES-256-GCM",
         "POPVPN 0076 GLOBAL SS AES-256-GCM",
-        "POPVPN 0077 GLOBAL SS AES-256-GCM",
+        "POPVPN 0077 GLOBAL SS CHACHA20-IETF-POLY1305",
         "POPVPN 0078 GLOBAL SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0079 GLOBAL SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0080 GLOBAL SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0081 GLOBAL SS AES-256-GCM",
-        "POPVPN 0082 GLOBAL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0079 GLOBAL SS AES-256-GCM",
+        "POPVPN 0080 GLOBAL SS AES-128-GCM",
+        "POPVPN 0081 GLOBAL SS AES-128-GCM",
+        "POPVPN 0082 GLOBAL SS AES-256-GCM",
         "POPVPN 0083 GLOBAL SS AES-256-GCM",
-        "POPVPN 0084 GLOBAL SS AES-128-GCM",
-        "POPVPN 0085 GLOBAL SS AES-128-GCM",
-        "POPVPN 0086 GLOBAL SS AES-256-GCM",
+        "POPVPN 0084 GLOBAL SS AES-256-GCM",
+        "POPVPN 0085 GLOBAL SS AES-256-GCM",
+        "POPVPN 0086 GLOBAL SS 2022-BLAKE3-AES-128-GCM",
         "POPVPN 0087 GLOBAL SS AES-256-GCM",
-        "POPVPN 0088 GLOBAL SS 2022-BLAKE3-AES-128-GCM",
+        "POPVPN 0088 GLOBAL SS AES-256-GCM",
         "POPVPN 0089 GLOBAL SS AES-256-GCM",
         "POPVPN 0090 GLOBAL SS AES-256-GCM",
         "POPVPN 0091 GLOBAL SS AES-256-GCM",
-        "POPVPN 0092 GLOBAL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0092 GLOBAL SS AES-256-GCM",
         "POPVPN 0093 GLOBAL SS AES-256-GCM",
         "POPVPN 0094 GLOBAL SS AES-256-GCM",
-        "POPVPN 0095 GLOBAL SS AES-256-GCM",
-        "POPVPN 0096 GLOBAL SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0097 GLOBAL SS CHACHA20-IETF-POLY1305"
+        "POPVPN 0095 GLOBAL SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0096 GLOBAL SS AES-256-GCM",
+        "POPVPN 0097 GLOBAL SS AES-256-GCM",
+        "POPVPN 0098 GLOBAL TROJAN TLS"
       ]
     },
     {
@@ -142,26 +143,6 @@
     },
     {
       "tag": "POPVPN 0001 GLOBAL VLESS REALITY",
-      "server": "103.106.229.177",
-      "server_port": 21001,
-      "type": "vless",
-      "uuid": "67952583-8572-42e1-943d-0602794f885b",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA",
-          "short_id": "a51c3ccb2320024a"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0002 GLOBAL VLESS REALITY",
       "server": "103.106.229.37",
       "server_port": 21001,
       "type": "vless",
@@ -181,69 +162,28 @@
       }
     },
     {
+      "tag": "POPVPN 0002 GLOBAL VLESS REALITY",
+      "server": "103.106.229.37",
+      "server_port": 21003,
+      "type": "vless",
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+          "short_id": "bab49aa4c2a88d27"
+        }
+      }
+    },
+    {
       "tag": "POPVPN 0003 GLOBAL VLESS REALITY",
-      "server": "130.49.177.193",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "727a9178-d7f0-4142-8205-b0d19959ded0",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-2.ffpn.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc",
-          "short_id": "681fc2dd643bc2f3"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0004 GLOBAL VLESS REALITY",
       "server": "15.204.97.197",
-      "server_port": 23576,
-      "type": "vless",
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0005 GLOBAL VLESS REALITY",
-      "server": "15.204.97.198",
-      "server_port": 23576,
-      "type": "vless",
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0006 GLOBAL VLESS REALITY",
-      "server": "15.204.97.219",
       "server_port": 23576,
       "type": "vless",
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -263,7 +203,49 @@
       }
     },
     {
-      "tag": "POPVPN 0007 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0004 GLOBAL VLESS REALITY",
+      "server": "15.204.97.214",
+      "server_port": 23576,
+      "type": "vless",
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0005 GLOBAL VLESS REALITY",
+      "server": "15.204.97.216",
+      "server_port": 23576,
+      "type": "vless",
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0006 GLOBAL VLESS REALITY",
       "server": "150.241.79.124",
       "server_port": 443,
       "type": "vless",
@@ -284,48 +266,7 @@
       }
     },
     {
-      "tag": "POPVPN 0008 GLOBAL VLESS REALITY",
-      "server": "161.97.66.16",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "086bf957-9cd0-4e55-8280-bbef10435b41",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc",
-          "short_id": "086bf957"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0009 GLOBAL VLESS REALITY",
-      "server": "165.154.63.139",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ",
-          "short_id": "ca4aedd4"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0010 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0007 GLOBAL VLESS REALITY",
       "server": "178.172.227.124",
       "server_port": 10444,
       "type": "vless",
@@ -346,49 +287,7 @@
       }
     },
     {
-      "tag": "POPVPN 0011 GLOBAL VLESS REALITY",
-      "server": "191.44.108.6",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "558b26f6-061b-4079-9b84-ca13b3e90ae3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "c9.qwyak.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "A0QL_j-ReX7AotEj1w8qX9rHRgN2WycTZ43gUvuvZ00",
-          "short_id": "3cf8d11aa0415d29"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0012 GLOBAL VLESS REALITY",
-      "server": "31.77.236.114",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "files.porsche.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "short_id": "1a2b3c4d"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0013 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0008 GLOBAL VLESS REALITY",
       "server": "46.29.255.123",
       "server_port": 59539,
       "type": "vless",
@@ -408,180 +307,23 @@
       }
     },
     {
-      "tag": "POPVPN 0014 GLOBAL VLESS REALITY",
-      "server": "5.231.45.10",
-      "server_port": 8444,
-      "type": "vless",
-      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.volkswagen.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "short_id": "1a2b3c4d"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0015 GLOBAL VLESS REALITY",
-      "server": "511.150333.xyz",
-      "server_port": 21003,
+      "tag": "POPVPN 0009 GLOBAL VLESS REALITY",
+      "server": "103.106.229.37",
+      "server_port": 21004,
       "type": "vless",
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
         "reality": {
           "enabled": true,
           "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-          "short_id": "bab49aa4c2a88d27"
+          "short_id": "2df2bd9d8366cef1"
         }
       }
     },
     {
-      "tag": "POPVPN 0016 GLOBAL VLESS REALITY",
-      "server": "78.159.250.214",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "4054fdc2-ee80-4419-8a8e-d937df4719e2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "qq.utiltools.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI",
-          "short_id": "00000000"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0017 GLOBAL VLESS REALITY",
-      "server": "ai.smrtai.top",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "086bf957-9cd0-4e55-8280-bbef10435b41",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc",
-          "short_id": "086bf957"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0018 GLOBAL VLESS REALITY",
-      "server": "de-2.ffpn.pro",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "727a9178-d7f0-4142-8205-b0d19959ded0",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-2.ffpn.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc",
-          "short_id": "681fc2dd643bc2f3"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0019 GLOBAL VLESS REALITY",
-      "server": "vvsvvs.soreanapanel.com",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "913dc759-8639-4890-9bfc-a9acdc5090cf",
-      "tls": {
-        "enabled": true,
-        "server_name": "graphs.4cdn.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "YWhH3_lunQFxpqA29GF-Hq1K78hdSsy0h3E5dVbxImA",
-          "short_id": "371f6e"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0020 GLOBAL VLESS REALITY",
-      "server": "156.252.229.50",
-      "server_port": 8443,
-      "type": "vless",
-      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.googleapis.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
-          "short_id": "974f7f8f"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0021 GLOBAL VLESS REALITY",
-      "server": "191.44.108.30",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "558b26f6-061b-4079-9b84-ca13b3e90ae3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "c8.qwyak.ru",
-        "reality": {
-          "enabled": true,
-          "public_key": "3pBHfffYFRPpe8Lt47cLSSgCgwNR-70blFzpEbm11AE",
-          "short_id": "b2baf331493d3de1"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0022 GLOBAL VLESS REALITY",
-      "server": "192.177.26.55",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "repo-16.topp-con.xyz",
-        "reality": {
-          "enabled": true,
-          "public_key": "cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8",
-          "short_id": "bdaddda4cbc8c7bf"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0023 GLOBAL VLESS REALITY",
+      "tag": "POPVPN 0010 GLOBAL VLESS REALITY",
       "server": "45.43.79.92",
       "server_port": 443,
       "type": "vless",
@@ -598,7 +340,7 @@
       }
     },
     {
-      "tag": "POPVPN 0024 GLOBAL VLESS WS",
+      "tag": "POPVPN 0011 GLOBAL VLESS WS",
       "server": "122.176.216.52",
       "server_port": 443,
       "type": "vless",
@@ -620,29 +362,7 @@
       }
     },
     {
-      "tag": "POPVPN 0025 GLOBAL VLESS WS",
-      "server": "hw14.roghanmo.com",
-      "server_port": 465,
-      "type": "vless",
-      "uuid": "98aa35fc-7d2f-4744-a91b-7e33b4fdd9c8",
-      "tls": {
-        "enabled": true,
-        "server_name": "hw14.roghanmo.com.",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hw14.roghanmo.com."
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0026 🇺🇸 US TROJAN TLS",
+      "tag": "POPVPN 0012 🇺🇸 US TROJAN TLS",
       "server": "66.163.122.26",
       "server_port": 443,
       "type": "trojan",
@@ -653,7 +373,62 @@
       }
     },
     {
-      "tag": "POPVPN 0027 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0013 GLOBAL TROJAN WS",
+      "server": "104.16.186.130",
+      "server_port": 2053,
+      "type": "trojan",
+      "password": "gHQP0D7D15",
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0014 GLOBAL TROJAN TLS",
+      "server": "95.143.196.97",
+      "server_port": 443,
+      "type": "trojan",
+      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
+      "tls": {
+        "enabled": true,
+        "server_name": "connect-se.mimowhat.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0015 GLOBAL TROJAN WS",
+      "server": "104.17.10.171",
+      "server_port": 443,
+      "type": "trojan",
+      "password": "883e3cc8-9613-4f2d-8c42-0dd3d429db55",
+      "tls": {
+        "enabled": true,
+        "server_name": "ltf8.jueson.de5.net"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/categories/community/",
+        "headers": {
+          "Host": "ltf8.jueson.de5.net"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0016 GLOBAL TROJAN TLS",
       "server": "169.197.140.169",
       "server_port": 443,
       "type": "trojan",
@@ -668,22 +443,42 @@
       }
     },
     {
-      "tag": "POPVPN 0028 GLOBAL TROJAN TLS",
-      "server": "169.197.140.214",
-      "server_port": 443,
+      "tag": "POPVPN 0017 GLOBAL TROJAN WS",
+      "server": "172.67.118.45",
+      "server_port": 2053,
       "type": "trojan",
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "password": "gHQP0D7D15",
       "tls": {
         "enabled": true,
-        "server_name": "courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        "server_name": "marvdasht.phonecomparisonblog.org"
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
         }
       }
     },
     {
-      "tag": "POPVPN 0029 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0018 GLOBAL TROJAN WS",
+      "server": "172.67.118.45",
+      "server_port": 2053,
+      "type": "trojan",
+      "password": "gHQP0D7D15",
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0019 GLOBAL TROJAN TLS",
       "server": "216.152.147.152",
       "server_port": 443,
       "type": "trojan",
@@ -698,7 +493,7 @@
       }
     },
     {
-      "tag": "POPVPN 0030 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0020 GLOBAL TROJAN TLS",
       "server": "216.152.147.201",
       "server_port": 443,
       "type": "trojan",
@@ -713,7 +508,7 @@
       }
     },
     {
-      "tag": "POPVPN 0031 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0021 GLOBAL TROJAN TLS",
       "server": "216.152.147.48",
       "server_port": 443,
       "type": "trojan",
@@ -728,7 +523,7 @@
       }
     },
     {
-      "tag": "POPVPN 0032 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0022 GLOBAL TROJAN TLS",
       "server": "216.152.147.74",
       "server_port": 443,
       "type": "trojan",
@@ -743,7 +538,7 @@
       }
     },
     {
-      "tag": "POPVPN 0033 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0023 GLOBAL TROJAN TLS",
       "server": "216.152.147.79",
       "server_port": 443,
       "type": "trojan",
@@ -758,22 +553,7 @@
       }
     },
     {
-      "tag": "POPVPN 0034 GLOBAL TROJAN TLS",
-      "server": "66.163.114.45",
-      "server_port": 443,
-      "type": "trojan",
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.findconnectwithemployersandbuildprofessionalnetwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0035 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0024 GLOBAL TROJAN TLS",
       "server": "66.163.122.113",
       "server_port": 443,
       "type": "trojan",
@@ -788,7 +568,7 @@
       }
     },
     {
-      "tag": "POPVPN 0036 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0025 GLOBAL TROJAN TLS",
       "server": "66.163.122.25",
       "server_port": 443,
       "type": "trojan",
@@ -803,14 +583,14 @@
       }
     },
     {
-      "tag": "POPVPN 0037 GLOBAL TROJAN TLS",
-      "server": "ca001.zestapp778.com",
-      "server_port": 46977,
+      "tag": "POPVPN 0026 GLOBAL TROJAN TLS",
+      "server": "us001.zestapp778.com",
+      "server_port": 57277,
       "type": "trojan",
       "password": "5t6i121em5lkmsmk",
       "tls": {
         "enabled": true,
-        "server_name": "ca001.zestapp778.com",
+        "server_name": "us001.zestapp778.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -818,22 +598,7 @@
       }
     },
     {
-      "tag": "POPVPN 0038 GLOBAL TROJAN TLS",
-      "server": "sclass-00.catcat321.com",
-      "server_port": 20123,
-      "type": "trojan",
-      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0039 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0027 GLOBAL TROJAN TLS",
       "server": "149.28.130.108",
       "server_port": 443,
       "type": "trojan",
@@ -844,7 +609,18 @@
       }
     },
     {
-      "tag": "POPVPN 0040 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0028 GLOBAL TROJAN TLS",
+      "server": "167.179.108.225",
+      "server_port": 443,
+      "type": "trojan",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "discoverparttimepositionsandsupplementyourincomeguide.com"
+      }
+    },
+    {
+      "tag": "POPVPN 0029 GLOBAL TROJAN TLS",
       "server": "169.197.140.171",
       "server_port": 443,
       "type": "trojan",
@@ -855,7 +631,18 @@
       }
     },
     {
-      "tag": "POPVPN 0041 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0030 GLOBAL TROJAN TLS",
+      "server": "169.197.140.214",
+      "server_port": 443,
+      "type": "trojan",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+      }
+    },
+    {
+      "tag": "POPVPN 0031 GLOBAL TROJAN TLS",
       "server": "169.197.140.218",
       "server_port": 443,
       "type": "trojan",
@@ -866,18 +653,18 @@
       }
     },
     {
-      "tag": "POPVPN 0042 GLOBAL TROJAN TLS",
-      "server": "216.152.155.131",
+      "tag": "POPVPN 0032 GLOBAL TROJAN TLS",
+      "server": "193.108.119.29",
       "server_port": 443,
       "type": "trojan",
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "www.nextjobopportunityandclaimyouridealrole.com"
+        "server_name": "blog.iloverussia2026.com"
       }
     },
     {
-      "tag": "POPVPN 0043 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0033 GLOBAL TROJAN TLS",
       "server": "216.152.155.158",
       "server_port": 443,
       "type": "trojan",
@@ -888,7 +675,7 @@
       }
     },
     {
-      "tag": "POPVPN 0044 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0034 GLOBAL TROJAN TLS",
       "server": "216.152.155.176",
       "server_port": 443,
       "type": "trojan",
@@ -899,7 +686,7 @@
       }
     },
     {
-      "tag": "POPVPN 0045 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0035 GLOBAL TROJAN TLS",
       "server": "216.238.104.154",
       "server_port": 443,
       "type": "trojan",
@@ -910,7 +697,7 @@
       }
     },
     {
-      "tag": "POPVPN 0046 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0036 GLOBAL TROJAN TLS",
       "server": "216.238.80.100",
       "server_port": 443,
       "type": "trojan",
@@ -921,29 +708,7 @@
       }
     },
     {
-      "tag": "POPVPN 0047 GLOBAL TROJAN TLS",
-      "server": "64.176.7.205",
-      "server_port": 443,
-      "type": "trojan",
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "advanceyouremploymentskillsandcareerdevelopmenthub.com"
-      }
-    },
-    {
-      "tag": "POPVPN 0048 GLOBAL TROJAN TLS",
-      "server": "66.163.114.132",
-      "server_port": 443,
-      "type": "trojan",
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.findconnectwithemployersandbuildprofessionalnetwork.com"
-      }
-    },
-    {
-      "tag": "POPVPN 0049 GLOBAL TROJAN TLS",
+      "tag": "POPVPN 0037 GLOBAL TROJAN TLS",
       "server": "66.163.122.81",
       "server_port": 443,
       "type": "trojan",
@@ -954,7 +719,29 @@
       }
     },
     {
-      "tag": "POPVPN 0050 GLOBAL VLESS WS",
+      "tag": "POPVPN 0038 GLOBAL HY2 TLS",
+      "server": "152.32.254.68",
+      "server_port": 5010,
+      "type": "hysteria2",
+      "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
+      "tls": {
+        "enabled": true,
+        "server_name": "nas.aizhzo.com"
+      }
+    },
+    {
+      "tag": "POPVPN 0039 GLOBAL HY2 TLS",
+      "server": "179.61.138.145",
+      "server_port": 36264,
+      "type": "hysteria2",
+      "password": "vpnJey",
+      "tls": {
+        "enabled": true,
+        "server_name": "de2.jey.cc.cd"
+      }
+    },
+    {
+      "tag": "POPVPN 0040 GLOBAL VLESS WS",
       "server": "178.172.227.124",
       "server_port": 14430,
       "type": "vless",
@@ -968,7 +755,21 @@
       }
     },
     {
-      "tag": "POPVPN 0051 🇺🇸 US SS AES-256-GCM",
+      "tag": "POPVPN 0041 GLOBAL VLESS WS",
+      "server": "3h-unitedstates1.09vpn.com",
+      "server_port": 80,
+      "type": "vless",
+      "uuid": "18cf8db1-9f86-43f7-baa0-382efb7f2dfa",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {
+          "Host": "3h-unitedstates1.09vpn.com"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0042 🇺🇸 US SS AES-256-GCM",
       "server": "193.151.160.18",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -976,7 +777,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0052 🇺🇸 US SS AES-128-GCM",
+      "tag": "POPVPN 0043 🇺🇸 US SS AES-128-GCM",
       "server": "37.19.198.236",
       "server_port": 443,
       "type": "shadowsocks",
@@ -984,7 +785,18 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0053 GLOBAL VLESS WS",
+      "tag": "POPVPN 0044 GLOBAL VLESS WS",
+      "server": "152.228.162.19",
+      "server_port": 80,
+      "type": "vless",
+      "uuid": "25f86cb1-2140-4085-abcb-c3a0ea7a4be0",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/"
+      }
+    },
+    {
+      "tag": "POPVPN 0045 GLOBAL VLESS WS",
       "server": "38.107.232.36",
       "server_port": 80,
       "type": "vless",
@@ -995,44 +807,14 @@
       }
     },
     {
-      "tag": "POPVPN 0054 GLOBAL VLESS TCP",
-      "server": "bot.vudfaro.ir",
-      "server_port": 5051,
+      "tag": "POPVPN 0046 GLOBAL VLESS TCP",
+      "server": "167.233.129.126",
+      "server_port": 2474,
       "type": "vless",
-      "uuid": "7df4f23f-b361-412a-883a-54dfdb5b8c8f"
+      "uuid": "287db857-de04-4212-bd69-5d14083e340e"
     },
     {
-      "tag": "POPVPN 0055 GLOBAL VLESS TCP",
-      "server": "bot.vudfaro.ir",
-      "server_port": 5066,
-      "type": "vless",
-      "uuid": "7df4f23f-b361-412a-883a-54dfdb5b8c8f"
-    },
-    {
-      "tag": "POPVPN 0056 GLOBAL VLESS TCP",
-      "server": "bot.vudfaro.ir",
-      "server_port": 5068,
-      "type": "vless",
-      "uuid": "7df4f23f-b361-412a-883a-54dfdb5b8c8f"
-    },
-    {
-      "tag": "POPVPN 0057 GLOBAL TROJAN TLS",
-      "server": "64.176.7.205",
-      "server_port": 443,
-      "type": "trojan",
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "64.176.7.205",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "POPVPN 0058 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0047 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "138.197.89.234",
       "server_port": 28960,
       "type": "shadowsocks",
@@ -1040,7 +822,23 @@
       "password": "DZRy4Q3QH0jUGfKFl2jDCZ"
     },
     {
-      "tag": "POPVPN 0059 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0048 GLOBAL SS AES-256-GCM",
+      "server": "142.202.51.22",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0049 GLOBAL SS AES-128-GCM",
+      "server": "149.22.95.183",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "POPVPN 0050 GLOBAL SS AES-256-GCM",
       "server": "149.40.57.133",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1048,7 +846,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0060 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0051 GLOBAL SS AES-256-GCM",
       "server": "149.40.57.134",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1056,15 +854,15 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0061 GLOBAL SS AES-256-GCM",
-      "server": "149.88.106.73",
+      "tag": "POPVPN 0052 GLOBAL SS AES-256-GCM",
+      "server": "149.88.106.74",
       "server_port": 19999,
       "type": "shadowsocks",
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0062 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0053 GLOBAL SS AES-256-GCM",
       "server": "15.204.247.206",
       "server_port": 4444,
       "type": "shadowsocks",
@@ -1072,7 +870,15 @@
       "password": "pKEW8JPByTVTLtM"
     },
     {
-      "tag": "POPVPN 0063 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0054 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "152.53.1.57",
+      "server_port": 8388,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
+    },
+    {
+      "tag": "POPVPN 0055 GLOBAL SS AES-128-GCM",
       "server": "156.146.38.167",
       "server_port": 443,
       "type": "shadowsocks",
@@ -1080,7 +886,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0064 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0056 GLOBAL SS AES-128-GCM",
       "server": "156.146.38.168",
       "server_port": 443,
       "type": "shadowsocks",
@@ -1088,7 +894,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0065 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0057 GLOBAL SS AES-128-GCM",
       "server": "156.146.38.169",
       "server_port": 443,
       "type": "shadowsocks",
@@ -1096,7 +902,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0066 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0058 GLOBAL SS AES-128-GCM",
       "server": "156.146.38.170",
       "server_port": 443,
       "type": "shadowsocks",
@@ -1104,7 +910,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0067 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0059 GLOBAL SS AES-256-GCM",
       "server": "158.51.121.221",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1112,7 +918,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0068 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0060 GLOBAL SS AES-256-GCM",
       "server": "162.251.62.31",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1120,7 +926,15 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0069 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0061 GLOBAL SS AES-256-GCM",
+      "server": "167.17.64.22",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0062 GLOBAL SS AES-256-GCM",
       "server": "167.17.67.171",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1128,7 +942,23 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0070 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0063 GLOBAL SS AES-256-GCM",
+      "server": "167.88.62.203",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0064 GLOBAL SS AES-256-GCM",
+      "server": "167.88.62.56",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0065 GLOBAL SS AES-256-GCM",
       "server": "167.88.63.99",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1136,7 +966,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0071 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0066 GLOBAL SS AES-256-GCM",
       "server": "172.111.36.123",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1144,15 +974,15 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0072 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "185.213.23.63",
-      "server_port": 990,
+      "tag": "POPVPN 0067 GLOBAL SS AES-256-GCM",
+      "server": "172.99.189.142",
+      "server_port": 19999,
       "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0073 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0068 GLOBAL SS AES-256-GCM",
       "server": "185.215.132.18",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1160,7 +990,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0074 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0069 GLOBAL SS AES-256-GCM",
       "server": "185.215.132.9",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1168,7 +998,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0075 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0070 GLOBAL SS AES-256-GCM",
       "server": "185.230.230.18",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1176,7 +1006,39 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0076 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0071 GLOBAL SS AES-256-GCM",
+      "server": "193.108.116.98",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0072 GLOBAL SS AES-256-GCM",
+      "server": "193.108.117.84",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0073 GLOBAL SS AES-256-GCM",
+      "server": "193.108.118.247",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0074 GLOBAL SS AES-256-GCM",
+      "server": "193.108.119.2",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0075 GLOBAL SS AES-256-GCM",
       "server": "193.151.160.9",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1184,7 +1046,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0077 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0076 GLOBAL SS AES-256-GCM",
       "server": "193.151.163.18",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1192,15 +1054,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0078 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "193.29.139.168",
-      "server_port": 8080,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "tag": "POPVPN 0079 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0077 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "193.29.139.198",
       "server_port": 8080,
       "type": "shadowsocks",
@@ -1208,23 +1062,7 @@
       "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
-      "tag": "POPVPN 0080 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "193.29.139.212",
-      "server_port": 8080,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "tag": "POPVPN 0081 GLOBAL SS AES-256-GCM",
-      "server": "198.244.202.215",
-      "server_port": 19999,
-      "type": "shadowsocks",
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "POPVPN 0082 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "tag": "POPVPN 0078 GLOBAL SS CHACHA20-IETF-POLY1305",
       "server": "198.98.53.130",
       "server_port": 443,
       "type": "shadowsocks",
@@ -1232,7 +1070,7 @@
       "password": "eDfN7SODQceIOmIAbtJJtK"
     },
     {
-      "tag": "POPVPN 0083 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0079 GLOBAL SS AES-256-GCM",
       "server": "216.106.178.169",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1240,7 +1078,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0084 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0080 GLOBAL SS AES-128-GCM",
       "server": "37.19.198.243",
       "server_port": 443,
       "type": "shadowsocks",
@@ -1248,7 +1086,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0085 GLOBAL SS AES-128-GCM",
+      "tag": "POPVPN 0081 GLOBAL SS AES-128-GCM",
       "server": "37.19.198.244",
       "server_port": 443,
       "type": "shadowsocks",
@@ -1256,7 +1094,23 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "POPVPN 0086 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0082 GLOBAL SS AES-256-GCM",
+      "server": "38.109.228.110",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0083 GLOBAL SS AES-256-GCM",
+      "server": "38.121.43.18",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0084 GLOBAL SS AES-256-GCM",
       "server": "38.121.43.225",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1264,7 +1118,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0087 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0085 GLOBAL SS AES-256-GCM",
       "server": "38.121.43.231",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1272,7 +1126,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0088 GLOBAL SS 2022-BLAKE3-AES-128-GCM",
+      "tag": "POPVPN 0086 GLOBAL SS 2022-BLAKE3-AES-128-GCM",
       "server": "38.145.220.193",
       "server_port": 8443,
       "type": "shadowsocks",
@@ -1280,7 +1134,7 @@
       "password": "jUbDNsFamcyDfpm+rI3Zyw=="
     },
     {
-      "tag": "POPVPN 0089 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0087 GLOBAL SS AES-256-GCM",
       "server": "38.22.17.129",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1288,7 +1142,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0090 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0088 GLOBAL SS AES-256-GCM",
       "server": "38.22.17.139",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1296,7 +1150,15 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0091 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0089 GLOBAL SS AES-256-GCM",
+      "server": "38.22.17.219",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0090 GLOBAL SS AES-256-GCM",
       "server": "45.86.51.18",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1304,15 +1166,15 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0092 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "49.51.39.148",
-      "server_port": 443,
+      "tag": "POPVPN 0091 GLOBAL SS AES-256-GCM",
+      "server": "46.17.47.58",
+      "server_port": 18443,
       "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "LCvps-199-168-136-193-bak8443"
+      "method": "aes-256-gcm",
+      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
     },
     {
-      "tag": "POPVPN 0093 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0092 GLOBAL SS AES-256-GCM",
       "server": "51.222.136.236",
       "server_port": 8882,
       "type": "shadowsocks",
@@ -1320,7 +1182,7 @@
       "password": "kDWvXYZoTBcGkC4"
     },
     {
-      "tag": "POPVPN 0094 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0093 GLOBAL SS AES-256-GCM",
       "server": "67.220.73.178",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1328,7 +1190,31 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0095 GLOBAL SS AES-256-GCM",
+      "tag": "POPVPN 0094 GLOBAL SS AES-256-GCM",
+      "server": "79.137.99.183",
+      "server_port": 19999,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "POPVPN 0095 GLOBAL SS CHACHA20-IETF-POLY1305",
+      "server": "88.216.254.18",
+      "server_port": 1080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA"
+    },
+    {
+      "tag": "POPVPN 0096 GLOBAL SS AES-256-GCM",
+      "server": "94.156.250.148",
+      "server_port": 7001,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "tag": "POPVPN 0097 GLOBAL SS AES-256-GCM",
       "server": "95.215.201.18",
       "server_port": 19999,
       "type": "shadowsocks",
@@ -1336,20 +1222,16 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "POPVPN 0096 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "dns22.m3hrzd.ir",
-      "server_port": 1348,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "6Gzfdmd2cvye1qyKoub9E7eWijMDR2lK"
-    },
-    {
-      "tag": "POPVPN 0097 GLOBAL SS CHACHA20-IETF-POLY1305",
-      "server": "dns27.m3hrzd.ir",
-      "server_port": 1353,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "6Gzfdmd2cvye1qyKoub9E7eWijMDR2lK"
+      "tag": "POPVPN 0098 GLOBAL TROJAN TLS",
+      "server": "216.152.156.81",
+      "server_port": 443,
+      "type": "trojan",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+        "insecure": true
+      }
     }
   ],
   "route": {
@@ -1374,7 +1256,7 @@
   },
   "_meta": {
     "title": "POPVPN X",
-    "generated_at": "2026-11-07 15:43:14 UTC",
-    "count": 97
+    "generated_at": "2026-11-07 20:16:43 UTC",
+    "count": 98
   }
 }

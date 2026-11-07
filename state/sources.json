@@ -40,30 +40,30 @@
       "successes": 11
     },
     "https://opti.testspeedpro.ir/vlessagg/sub/6MLH-W6rfyxoUgC0JKu6dZmTGYdx4yE5": {
-      "attempts": 29,
-      "avg_ms": 794,
+      "attempts": 30,
+      "avg_ms": 720,
       "fail_streak": 0,
       "last_configs": 0,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1794066193,
+      "last_ok_at": 1794082603,
       "last_status": 200,
       "name": "opti.testspeedpro.ir",
       "reliability": 1.0,
-      "successes": 29
+      "successes": 30
     },
     "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt": {
-      "attempts": 108,
-      "avg_ms": 171,
+      "attempts": 109,
+      "avg_ms": 168,
       "fail_streak": 0,
       "last_configs": 59,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1794066193,
-      "last_status": 200,
+      "last_ok_at": 1794082603,
+      "last_status": 304,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 108
+      "successes": 109
     },
     "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt": {
       "attempts": 88,
@@ -105,17 +105,17 @@
       "successes": 12
     },
     "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt": {
-      "attempts": 29,
-      "avg_ms": 176,
+      "attempts": 30,
+      "avg_ms": 170,
       "fail_streak": 0,
-      "last_configs": 60,
+      "last_configs": 61,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1794066193,
-      "last_status": 304,
+      "last_ok_at": 1794082603,
+      "last_status": 200,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 29
+      "successes": 30
     },
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt": {
       "attempts": 13,
@@ -274,5 +274,5 @@
       "successes": 0
     }
   },
-  "updated_at": 1794066194
+  "updated_at": 1794082603
 }
