@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-08 18:51:53 UTC",
+  "generated_at": "2026-11-08 22:56:11 UTC",
   "version": "2.0.0",
-  "duration_ms": 714,
-  "total": 84,
-  "unique": 84,
+  "duration_ms": 669,
+  "total": 89,
+  "unique": 89,
   "parsed": 117,
   "raw_lines": 119,
-  "duplicates": 33,
+  "duplicates": 28,
   "invalid": 2,
   "by_protocol": {
     "vless": 6,
-    "trojan": 29,
+    "trojan": 36,
     "hy2": 1,
-    "ss": 48
+    "ss": 46
   },
   "by_country": [
     {
@@ -20,22 +20,36 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 77
+      "count": 83
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 7
+      "count": 3
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "region": "NA",
+      "count": 2
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "region": "NA",
+      "count": 1
     }
   ],
-  "country_count": 2,
+  "country_count": 4,
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 0,
-    "paused": 1
+    "failed": 1,
+    "paused": 0
   },
   "source_list": [
     {
@@ -43,8 +57,8 @@
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
       "last_configs": 58,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 252,
+      "from_cache": true,
+      "elapsed_ms": 274,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -55,8 +69,8 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 0,
-      "error": "auto-paused after repeated failures",
+      "elapsed_ms": 151,
+      "error": "HTTP 403",
       "success_rate": 0.001,
       "paused": true
     },
@@ -66,7 +80,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 694,
+      "elapsed_ms": 650,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -77,7 +91,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 127,
+      "elapsed_ms": 195,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -90,7 +104,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 3,
+    "misses": 4,
     "hit_rate": 0.0
   },
   "probe": {
@@ -106,7 +120,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 84,
+    "kept": 89,
     "dropped": 0,
     "insecure": 2,
     "private_hosts": 0,
@@ -117,5 +131,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 88
+  "previous_total": 84
 }

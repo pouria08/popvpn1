@@ -194,11 +194,11 @@
   {
     "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 113,
+    "attempts": 114,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 59,
-    "avg_ms": 153,
+    "avg_ms": 169,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -206,11 +206,11 @@
   {
     "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 34,
+    "attempts": 35,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 58,
-    "avg_ms": 205,
+    "avg_ms": 232,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -230,11 +230,11 @@
   {
     "url": "https://opti.testspeedpro.ir/vlessagg/sub/6MLH-W6rfyxoUgC0JKu6dZmTGYdx4yE5",
     "name": "opti.testspeedpro.ir",
-    "attempts": 34,
+    "attempts": 35,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 0,
-    "avg_ms": 695,
+    "avg_ms": 677,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -242,12 +242,12 @@
   {
     "url": "https://shadowmere.xyz/api/b64sub/",
     "name": "shadowmere.xyz",
-    "attempts": 25,
+    "attempts": 26,
     "success_rate": 0.0,
-    "fail_streak": 25,
+    "fail_streak": 26,
     "last_configs": 0,
     "avg_ms": 0,
-    "reliability": 0.0008,
+    "reliability": 0.0006,
     "last_error": "HTTP 403",
     "paused": true
   }
