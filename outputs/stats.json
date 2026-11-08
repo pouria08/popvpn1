@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-08 06:12:24 UTC",
+  "generated_at": "2026-11-08 13:35:01 UTC",
   "version": "2.0.0",
-  "duration_ms": 570,
-  "total": 99,
-  "unique": 99,
+  "duration_ms": 741,
+  "total": 88,
+  "unique": 88,
   "parsed": 120,
   "raw_lines": 121,
-  "duplicates": 21,
+  "duplicates": 32,
   "invalid": 1,
   "by_protocol": {
     "vless": 16,
-    "trojan": 24,
+    "trojan": 28,
     "hy2": 2,
-    "ss": 57
+    "ss": 42
   },
   "by_country": [
     {
@@ -27,7 +27,7 @@
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 15
+      "count": 4
     }
   ],
   "country_count": 2,
@@ -44,7 +44,7 @@
       "last_configs": 61,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 169,
+      "elapsed_ms": 183,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -55,7 +55,7 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 117,
+      "elapsed_ms": 192,
       "error": "HTTP 403",
       "success_rate": 0.001,
       "paused": true
@@ -66,7 +66,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 553,
+      "elapsed_ms": 725,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -76,8 +76,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 128,
+      "from_cache": false,
+      "elapsed_ms": 206,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -106,7 +106,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 99,
+    "kept": 88,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,
