@@ -1,28 +1,26 @@
-![Total](https://img.shields.io/badge/CONFIGS-88-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-9-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-0-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-28-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-51-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-3%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-4-eab308?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-89-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-9-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-0-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-33-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-47-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-3%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-2-eab308?style=flat-square)
 
-**Last update:** `2026-11-10 04:39:14 UTC` · **88 configs** (+3 vs previous run)
+**Last update:** `2026-11-10 13:32:32 UTC` · **89 configs** (+1 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
-| SS | 51 | 58.0% |
-| TROJAN | 28 | 31.8% |
-| VLESS | 9 | 10.2% |
+| SS | 47 | 52.8% |
+| TROJAN | 33 | 37.1% |
+| VLESS | 9 | 10.1% |
 
 | Top countries | Configs |
 | --- | ---: |
-| 🏳️ GLOBAL / Unknown | 81 |
+| 🏳️ GLOBAL / Unknown | 84 |
 | 🇺🇸 United States | 5 |
-| 🇮🇷 Iran | 1 |
-| 🇲🇽 Mexico | 1 |
 
 <details><summary><b>Pipeline health</b></summary>
 
 - sources: **3/4** ok, 1 failed, 0 auto-paused
-- duplicates removed: **31**
+- duplicates removed: **30**
 - invalid lines skipped: **0**
 - HTTP cache hit rate: **0%**
 - security flags: **1** insecure, **0** private hosts
-- run duration: **811 ms**
+- run duration: **825 ms**
 
 </details>
 
@@ -31,10 +29,8 @@
 <details><summary><b>🌍 همهٔ لینک‌های کشورها در آخرین اجرا — Copyable</b></summary>
 
 ```text
-🏳️ GLOBAL / Unknown (81): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
+🏳️ GLOBAL / Unknown (84): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
 🇺🇸 United States (5): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
-🇮🇷 Iran (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ir.txt
-🇲🇽 Mexico (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/mx.txt
 ```
 
 </details>

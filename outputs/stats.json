@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-10 04:39:14 UTC",
+  "generated_at": "2026-11-10 13:32:32 UTC",
   "version": "2.0.0",
-  "duration_ms": 811,
-  "total": 88,
-  "unique": 88,
+  "duration_ms": 825,
+  "total": 89,
+  "unique": 89,
   "parsed": 119,
   "raw_lines": 119,
-  "duplicates": 31,
+  "duplicates": 30,
   "invalid": 0,
   "by_protocol": {
     "vless": 9,
-    "trojan": 28,
-    "ss": 51
+    "trojan": 33,
+    "ss": 47
   },
   "by_country": [
     {
@@ -19,7 +19,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 81
+      "count": 84
     },
     {
       "code": "US",
@@ -27,23 +27,9 @@
       "flag": "🇺🇸",
       "region": "NA",
       "count": 5
-    },
-    {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
-      "count": 1
-    },
-    {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
-      "region": "NA",
-      "count": 1
     }
   ],
-  "country_count": 4,
+  "country_count": 2,
   "sources": {
     "total": 4,
     "ok": 3,
@@ -57,7 +43,7 @@
       "last_configs": 60,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 146,
+      "elapsed_ms": 172,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -68,7 +54,7 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 125,
+      "elapsed_ms": 160,
       "error": "HTTP 403",
       "success_rate": 0.0,
       "paused": true
@@ -79,7 +65,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 793,
+      "elapsed_ms": 817,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -90,7 +76,7 @@
       "last_configs": 59,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 118,
+      "elapsed_ms": 78,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -119,7 +105,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 88,
+    "kept": 89,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,
@@ -129,5 +115,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 85
+  "previous_total": 88
 }
