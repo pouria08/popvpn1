@@ -1,11 +1,11 @@
-![Total](https://img.shields.io/badge/CONFIGS-92-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-5-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-0-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-27-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-58-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-3%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-3-eab308?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-93-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-5-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-0-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-26-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-60-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-3%2F4-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-4-eab308?style=flat-square)
 
-**Last update:** `2026-11-11 16:15:51 UTC` · **92 configs** (+42 vs previous run)
+**Last update:** `2026-11-11 22:49:08 UTC` · **93 configs** (+1 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
-| SS | 58 | 63.0% |
-| TROJAN | 27 | 29.3% |
+| SS | 60 | 64.5% |
+| TROJAN | 26 | 28.0% |
 | VLESS | 5 | 5.4% |
 | HY2 | 2 | 2.2% |
 
@@ -13,16 +13,17 @@
 | --- | ---: |
 | 🏳️ GLOBAL / Unknown | 85 |
 | 🇺🇸 United States | 6 |
-| 🇨🇦 Canada | 1 |
+| 🇮🇷 Iran | 1 |
+| 🇲🇽 Mexico | 1 |
 
 <details><summary><b>Pipeline health</b></summary>
 
 - sources: **3/4** ok, 1 failed, 0 auto-paused
-- duplicates removed: **29**
+- duplicates removed: **28**
 - invalid lines skipped: **0**
 - HTTP cache hit rate: **0%**
 - security flags: **4** insecure, **0** private hosts
-- run duration: **826 ms**
+- run duration: **667 ms**
 
 </details>
 
@@ -33,7 +34,8 @@
 ```text
 🏳️ GLOBAL / Unknown (85): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/global.txt
 🇺🇸 United States (6): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
-🇨🇦 Canada (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ca.txt
+🇮🇷 Iran (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ir.txt
+🇲🇽 Mexico (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/mx.txt
 ```
 
 </details>
