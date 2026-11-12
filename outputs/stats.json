@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-12 03:51:34 UTC",
+  "generated_at": "2026-11-12 12:51:01 UTC",
   "version": "2.0.0",
-  "duration_ms": 826,
-  "total": 93,
-  "unique": 93,
+  "duration_ms": 681,
+  "total": 94,
+  "unique": 94,
   "parsed": 121,
   "raw_lines": 121,
-  "duplicates": 28,
+  "duplicates": 27,
   "invalid": 0,
   "by_protocol": {
     "vless": 5,
-    "trojan": 26,
+    "trojan": 36,
     "hy2": 2,
-    "ss": 60
+    "ss": 51
   },
   "by_country": [
     {
@@ -20,36 +20,22 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 85
+      "count": 89
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 6
-    },
-    {
-      "code": "IR",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "region": "",
-      "count": 1
-    },
-    {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
-      "region": "NA",
-      "count": 1
+      "count": 5
     }
   ],
-  "country_count": 4,
+  "country_count": 2,
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 0,
-    "paused": 1
+    "failed": 1,
+    "paused": 0
   },
   "source_list": [
     {
@@ -58,7 +44,7 @@
       "last_configs": 62,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 192,
+      "elapsed_ms": 153,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -69,8 +55,8 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 0,
-      "error": "auto-paused after repeated failures",
+      "elapsed_ms": 164,
+      "error": "HTTP 403",
       "success_rate": 0.0,
       "paused": true
     },
@@ -80,7 +66,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 814,
+      "elapsed_ms": 665,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -90,8 +76,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 137,
+      "from_cache": false,
+      "elapsed_ms": 162,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -104,7 +90,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 3,
+    "misses": 4,
     "hit_rate": 0.0
   },
   "probe": {
@@ -120,7 +106,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 93,
+    "kept": 94,
     "dropped": 0,
     "insecure": 4,
     "private_hosts": 0,
