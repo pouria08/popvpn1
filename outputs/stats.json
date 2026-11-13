@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13 01:53:35 UTC",
+  "generated_at": "2026-11-13 09:38:55 UTC",
   "version": "2.0.0",
-  "duration_ms": 902,
+  "duration_ms": 720,
   "total": 96,
   "unique": 96,
   "parsed": 121,
@@ -9,10 +9,10 @@
   "duplicates": 25,
   "invalid": 0,
   "by_protocol": {
-    "vless": 8,
-    "trojan": 36,
+    "vless": 6,
+    "trojan": 25,
     "hy2": 2,
-    "ss": 50
+    "ss": 63
   },
   "by_country": [
     {
@@ -20,27 +20,27 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 88
+      "count": 91
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 6
+      "count": 3
     },
     {
-      "code": "CA",
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "region": "NA",
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
       "count": 1
     },
     {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
-      "region": "NA",
+      "code": "PY",
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "region": "SA",
       "count": 1
     }
   ],
@@ -48,8 +48,8 @@
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 0,
-    "paused": 1
+    "failed": 1,
+    "paused": 0
   },
   "source_list": [
     {
@@ -58,7 +58,7 @@
       "last_configs": 62,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 157,
+      "elapsed_ms": 248,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -69,8 +69,8 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 0,
-      "error": "auto-paused after repeated failures",
+      "elapsed_ms": 221,
+      "error": "HTTP 403",
       "success_rate": 0.0,
       "paused": true
     },
@@ -80,7 +80,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 887,
+      "elapsed_ms": 708,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -90,8 +90,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 130,
+      "from_cache": false,
+      "elapsed_ms": 263,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -104,7 +104,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 3,
+    "misses": 4,
     "hit_rate": 0.0
   },
   "probe": {
