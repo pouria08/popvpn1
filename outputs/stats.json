@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-13 09:38:55 UTC",
+  "generated_at": "2026-11-13 17:48:50 UTC",
   "version": "2.0.0",
-  "duration_ms": 720,
-  "total": 96,
-  "unique": 96,
-  "parsed": 121,
-  "raw_lines": 121,
-  "duplicates": 25,
-  "invalid": 0,
+  "duration_ms": 605,
+  "total": 112,
+  "unique": 112,
+  "parsed": 150,
+  "raw_lines": 151,
+  "duplicates": 38,
+  "invalid": 1,
   "by_protocol": {
-    "vless": 6,
-    "trojan": 25,
-    "hy2": 2,
-    "ss": 63
+    "vless": 1,
+    "trojan": 51,
+    "ss": 60
   },
   "by_country": [
     {
@@ -20,7 +19,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 91
+      "count": 107
     },
     {
       "code": "US",
@@ -55,10 +54,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
-      "last_configs": 62,
+      "last_configs": 91,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 248,
+      "from_cache": false,
+      "elapsed_ms": 158,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -69,7 +68,7 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 221,
+      "elapsed_ms": 172,
       "error": "HTTP 403",
       "success_rate": 0.0,
       "paused": true
@@ -80,7 +79,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 708,
+      "elapsed_ms": 578,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -90,8 +89,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 263,
+      "from_cache": true,
+      "elapsed_ms": 164,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -120,14 +119,13 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 96,
+    "kept": 112,
     "dropped": 0,
-    "insecure": 4,
+    "insecure": 1,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "allow-insecure": 4,
-      "unknown-network": 2
+      "allow-insecure": 1
     },
     "dropped_reasons": {}
   },
