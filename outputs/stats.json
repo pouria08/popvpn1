@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14 06:35:49 UTC",
+  "generated_at": "2026-11-14 14:14:10 UTC",
   "version": "2.0.0",
-  "duration_ms": 740,
+  "duration_ms": 852,
   "total": 122,
   "unique": 122,
   "parsed": 161,
@@ -9,9 +9,10 @@
   "duplicates": 39,
   "invalid": 0,
   "by_protocol": {
-    "trojan": 49,
+    "vless": 5,
+    "trojan": 52,
     "hy2": 3,
-    "ss": 70
+    "ss": 62
   },
   "by_country": [
     {
@@ -26,10 +27,24 @@
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 8
+      "count": 6
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "region": "NA",
+      "count": 1
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "region": "NA",
+      "count": 1
     }
   ],
-  "country_count": 2,
+  "country_count": 4,
   "sources": {
     "total": 4,
     "ok": 3,
@@ -42,8 +57,8 @@
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
       "last_configs": 102,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 270,
+      "from_cache": true,
+      "elapsed_ms": 142,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -54,7 +69,7 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 262,
+      "elapsed_ms": 107,
       "error": "HTTP 403",
       "success_rate": 0.0,
       "paused": true
@@ -65,7 +80,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 727,
+      "elapsed_ms": 832,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -75,8 +90,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 257,
+      "from_cache": false,
+      "elapsed_ms": 116,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -116,5 +131,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 117
+  "previous_total": 122
 }
