@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-11-13 23:38:09 UTC",
+  "generated_at": "2026-11-14 06:35:49 UTC",
   "version": "2.0.0",
-  "duration_ms": 819,
-  "total": 117,
-  "unique": 117,
-  "parsed": 150,
-  "raw_lines": 151,
-  "duplicates": 33,
-  "invalid": 1,
+  "duration_ms": 740,
+  "total": 122,
+  "unique": 122,
+  "parsed": 161,
+  "raw_lines": 161,
+  "duplicates": 39,
+  "invalid": 0,
   "by_protocol": {
-    "trojan": 52,
-    "ss": 65
+    "trojan": 49,
+    "hy2": 3,
+    "ss": 70
   },
   "by_country": [
     {
@@ -18,7 +19,7 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 109
+      "count": 114
     },
     {
       "code": "US",
@@ -32,17 +33,17 @@
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 0,
-    "paused": 1
+    "failed": 1,
+    "paused": 0
   },
   "source_list": [
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
-      "last_configs": 91,
+      "last_configs": 102,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 121,
+      "from_cache": false,
+      "elapsed_ms": 270,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -53,8 +54,8 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 0,
-      "error": "auto-paused after repeated failures",
+      "elapsed_ms": 262,
+      "error": "HTTP 403",
       "success_rate": 0.0,
       "paused": true
     },
@@ -64,7 +65,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 804,
+      "elapsed_ms": 727,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -74,8 +75,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 121,
+      "from_cache": true,
+      "elapsed_ms": 257,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -88,7 +89,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 3,
+    "misses": 4,
     "hit_rate": 0.0
   },
   "probe": {
@@ -104,15 +105,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 117,
+    "kept": 122,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
+      "unknown-network": 3,
       "allow-insecure": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 112
+  "previous_total": 117
 }
