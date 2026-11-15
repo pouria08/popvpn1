@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-15 17:47:17 UTC",
+  "generated_at": "2026-11-15 22:54:43 UTC",
   "version": "2.0.0",
-  "duration_ms": 635,
-  "total": 92,
-  "unique": 92,
+  "duration_ms": 504,
+  "total": 96,
+  "unique": 96,
   "parsed": 120,
   "raw_lines": 122,
-  "duplicates": 28,
+  "duplicates": 24,
   "invalid": 2,
   "by_protocol": {
-    "trojan": 38,
+    "trojan": 32,
     "hy2": 2,
-    "ss": 52
+    "ss": 62
   },
   "by_country": [
     {
@@ -19,19 +19,19 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 87
+      "count": 92
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 4
+      "count": 3
     },
     {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
       "region": "NA",
       "count": 1
     }
@@ -40,8 +40,8 @@
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 1,
-    "paused": 0
+    "failed": 0,
+    "paused": 1
   },
   "source_list": [
     {
@@ -49,8 +49,8 @@
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
       "last_configs": 62,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 131,
+      "from_cache": true,
+      "elapsed_ms": 145,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -61,8 +61,8 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 105,
-      "error": "HTTP 403",
+      "elapsed_ms": 0,
+      "error": "auto-paused after repeated failures",
       "success_rate": 0.0,
       "paused": true
     },
@@ -72,7 +72,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 622,
+      "elapsed_ms": 492,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -82,8 +82,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 58,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 112,
+      "from_cache": false,
+      "elapsed_ms": 104,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -96,7 +96,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 4,
+    "misses": 3,
     "hit_rate": 0.0
   },
   "probe": {
@@ -112,7 +112,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 92,
+    "kept": 96,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,
@@ -123,5 +123,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 113
+  "previous_total": 92
 }
