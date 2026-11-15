@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-15 02:44:59 UTC",
+  "generated_at": "2026-11-15 11:05:47 UTC",
   "version": "2.0.0",
-  "duration_ms": 667,
-  "total": 114,
-  "unique": 114,
+  "duration_ms": 428,
+  "total": 113,
+  "unique": 113,
   "parsed": 160,
   "raw_lines": 161,
-  "duplicates": 46,
+  "duplicates": 47,
   "invalid": 1,
   "by_protocol": {
-    "trojan": 51,
+    "trojan": 54,
     "hy2": 3,
-    "ss": 60
+    "ss": 56
   },
   "by_country": [
     {
@@ -29,13 +29,6 @@
       "count": 4
     },
     {
-      "code": "CA",
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "region": "NA",
-      "count": 1
-    },
-    {
       "code": "MX",
       "name": "Mexico",
       "flag": "🇲🇽",
@@ -43,12 +36,12 @@
       "count": 1
     }
   ],
-  "country_count": 4,
+  "country_count": 3,
   "sources": {
     "total": 4,
     "ok": 3,
-    "failed": 0,
-    "paused": 1
+    "failed": 1,
+    "paused": 0
   },
   "source_list": [
     {
@@ -57,7 +50,7 @@
       "last_configs": 102,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 218,
+      "elapsed_ms": 160,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -68,8 +61,8 @@
       "last_configs": 0,
       "ok": false,
       "from_cache": false,
-      "elapsed_ms": 0,
-      "error": "auto-paused after repeated failures",
+      "elapsed_ms": 115,
+      "error": "HTTP 403",
       "success_rate": 0.0,
       "paused": true
     },
@@ -79,7 +72,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 652,
+      "elapsed_ms": 411,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -89,8 +82,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 58,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 192,
+      "from_cache": false,
+      "elapsed_ms": 164,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -103,7 +96,7 @@
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 3,
+    "misses": 4,
     "hit_rate": 0.0
   },
   "probe": {
@@ -119,7 +112,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 114,
+    "kept": 113,
     "dropped": 0,
     "insecure": 1,
     "private_hosts": 0,
