@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-16 22:13:52 UTC",
+  "generated_at": "2026-11-17 04:35:10 UTC",
   "version": "2.0.0",
-  "duration_ms": 587,
-  "total": 275,
-  "unique": 275,
-  "parsed": 358,
-  "raw_lines": 358,
-  "duplicates": 83,
+  "duration_ms": 608,
+  "total": 273,
+  "unique": 273,
+  "parsed": 346,
+  "raw_lines": 346,
+  "duplicates": 73,
   "invalid": 0,
   "by_protocol": {
     "vless": 1,
-    "trojan": 23,
+    "trojan": 32,
     "hy2": 3,
-    "ss": 248
+    "ss": 237
   },
   "by_country": [
-    {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
-      "region": "EU",
-      "count": 63
-    },
     {
       "code": "?",
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 58
+      "count": 67
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "EU",
+      "count": 60
     },
     {
       "code": "US",
@@ -51,13 +51,6 @@
       "count": 12
     },
     {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 12
-    },
-    {
       "code": "IT",
       "name": "Italy",
       "flag": "🇮🇹",
@@ -65,25 +58,18 @@
       "count": 11
     },
     {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
-      "region": "",
-      "count": 7
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
+      "count": 10
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 6
-    },
-    {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "region": "AS",
-      "count": 6
+      "count": 8
     },
     {
       "code": "ES",
@@ -93,9 +79,16 @@
       "count": 5
     },
     {
-      "code": "SG",
-      "name": "Singapore",
-      "flag": "🇸🇬",
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "region": "",
+      "count": 5
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
       "region": "AS",
       "count": 4
     },
@@ -107,10 +100,10 @@
       "count": 3
     },
     {
-      "code": "SE",
-      "name": "Sweden",
-      "flag": "🇸🇪",
-      "region": "EU",
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "region": "AS",
       "count": 3
     },
     {
@@ -142,10 +135,10 @@
       "count": 1
     },
     {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
-      "region": "EU",
+      "code": "IN",
+      "name": "India",
+      "flag": "🇮🇳",
+      "region": "AS",
       "count": 1
     },
     {
@@ -156,14 +149,14 @@
       "count": 1
     },
     {
-      "code": "NO",
-      "name": "Norway",
-      "flag": "🇳🇴",
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
       "region": "EU",
       "count": 1
     }
   ],
-  "country_count": 21,
+  "country_count": 20,
   "sources": {
     "total": 4,
     "ok": 4,
@@ -177,7 +170,7 @@
       "last_configs": 60,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 190,
+      "elapsed_ms": 134,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -185,12 +178,12 @@
     {
       "name": "shadowmere.xyz",
       "url": "https://shadowmere.xyz/api/b64sub/",
-      "last_configs": 239,
+      "last_configs": 227,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 546,
+      "elapsed_ms": 584,
       "error": "",
-      "success_rate": 0.578,
+      "success_rate": 0.684,
       "paused": false
     },
     {
@@ -199,7 +192,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 555,
+      "elapsed_ms": 561,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -209,8 +202,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 139,
+      "from_cache": false,
+      "elapsed_ms": 57,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -218,7 +211,7 @@
   ],
   "per_source": {
     "raw.githubusercontent.com": 59,
-    "shadowmere.xyz": 239,
+    "shadowmere.xyz": 227,
     "opti.testspeedpro.ir": 0
   },
   "cache": {
@@ -240,7 +233,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 275,
+    "kept": 273,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -250,5 +243,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 258
+  "previous_total": 275
 }
