@@ -40,30 +40,30 @@
       "successes": 11
     },
     "https://opti.testspeedpro.ir/vlessagg/sub/6MLH-W6rfyxoUgC0JKu6dZmTGYdx4yE5": {
-      "attempts": 64,
-      "avg_ms": 585,
+      "attempts": 65,
+      "avg_ms": 671,
       "fail_streak": 0,
       "last_configs": 0,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1794890110,
+      "last_ok_at": 1794925993,
       "last_status": 200,
       "name": "opti.testspeedpro.ir",
       "reliability": 1.0,
-      "successes": 64
+      "successes": 65
     },
     "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt": {
-      "attempts": 143,
-      "avg_ms": 99,
+      "attempts": 144,
+      "avg_ms": 87,
       "fail_streak": 0,
       "last_configs": 59,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1794890110,
+      "last_ok_at": 1794925993,
       "last_status": 200,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 143
+      "successes": 144
     },
     "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt": {
       "attempts": 88,
@@ -105,17 +105,17 @@
       "successes": 12
     },
     "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt": {
-      "attempts": 64,
-      "avg_ms": 144,
+      "attempts": 65,
+      "avg_ms": 141,
       "fail_streak": 0,
       "last_configs": 60,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1794890110,
+      "last_ok_at": 1794925993,
       "last_status": 304,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 64
+      "successes": 65
     },
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt": {
       "attempts": 13,
@@ -261,18 +261,18 @@
       "successes": 57
     },
     "https://shadowmere.xyz/api/b64sub/": {
-      "attempts": 47,
-      "avg_ms": 468,
+      "attempts": 48,
+      "avg_ms": 489,
       "fail_streak": 0,
-      "last_configs": 227,
+      "last_configs": 228,
       "last_error": "",
       "last_fail_at": 1794764837,
-      "last_ok_at": 1794890110,
+      "last_ok_at": 1794925993,
       "last_status": 200,
       "name": "shadowmere.xyz",
-      "reliability": 0.6837,
-      "successes": 4
+      "reliability": 0.7628,
+      "successes": 5
     }
   },
-  "updated_at": 1794890110
+  "updated_at": 1794925993
 }
