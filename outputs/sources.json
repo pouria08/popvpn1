@@ -134,12 +134,12 @@
   {
     "url": "https://shadowmere.xyz/api/b64sub/",
     "name": "shadowmere.xyz",
-    "attempts": 49,
-    "success_rate": 0.122,
+    "attempts": 50,
+    "success_rate": 0.14,
     "fail_streak": 0,
-    "last_configs": 237,
-    "avg_ms": 429,
-    "reliability": 0.8221,
+    "last_configs": 244,
+    "avg_ms": 449,
+    "reliability": 0.8666,
     "last_error": "",
     "paused": false
   },
@@ -206,11 +206,11 @@
   {
     "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 66,
+    "attempts": 67,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 60,
-    "avg_ms": 134,
+    "avg_ms": 141,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -218,11 +218,11 @@
   {
     "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 145,
+    "attempts": 146,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 59,
-    "avg_ms": 105,
+    "avg_ms": 109,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -242,11 +242,11 @@
   {
     "url": "https://opti.testspeedpro.ir/vlessagg/sub/6MLH-W6rfyxoUgC0JKu6dZmTGYdx4yE5",
     "name": "opti.testspeedpro.ir",
-    "attempts": 66,
+    "attempts": 67,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 0,
-    "avg_ms": 777,
+    "avg_ms": 786,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
