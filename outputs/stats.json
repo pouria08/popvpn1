@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-19 03:36:27 UTC",
+  "generated_at": "2026-11-19 13:21:57 UTC",
   "version": "2.0.0",
-  "duration_ms": 525,
-  "total": 306,
-  "unique": 306,
-  "parsed": 367,
-  "raw_lines": 367,
-  "duplicates": 61,
-  "invalid": 0,
+  "duration_ms": 772,
+  "total": 291,
+  "unique": 291,
+  "parsed": 376,
+  "raw_lines": 377,
+  "duplicates": 85,
+  "invalid": 1,
   "by_protocol": {
-    "vless": 9,
-    "trojan": 27,
-    "hy2": 2,
+    "trojan": 23,
+    "vless": 1,
+    "hy2": 3,
     "vmess": 1,
-    "ss": 267
+    "ss": 263
   },
   "by_country": [
     {
@@ -21,14 +21,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 75
+      "count": 72
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 67
+      "count": 65
     },
     {
       "code": "NL",
@@ -45,18 +45,11 @@
       "count": 15
     },
     {
-      "code": "IT",
-      "name": "Italy",
-      "flag": "🇮🇹",
-      "region": "EU",
-      "count": 13
-    },
-    {
       "code": "GB",
       "name": "United Kingdom",
       "flag": "🇬🇧",
       "region": "EU",
-      "count": 11
+      "count": 12
     },
     {
       "code": "CA",
@@ -66,25 +59,25 @@
       "count": 10
     },
     {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "region": "AS",
-      "count": 8
+      "code": "IT",
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "region": "EU",
+      "count": 10
     },
     {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
       "region": "EU",
-      "count": 7
+      "count": 9
     },
     {
-      "code": "SG",
-      "name": "Singapore",
-      "flag": "🇸🇬",
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
       "region": "AS",
-      "count": 6
+      "count": 8
     },
     {
       "code": "ES",
@@ -94,24 +87,24 @@
       "count": 5
     },
     {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
-      "region": "",
-      "count": 5
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "region": "AS",
+      "count": 4
     },
     {
       "code": "CH",
       "name": "Switzerland",
       "flag": "🇨🇭",
       "region": "EU",
-      "count": 4
+      "count": 3
     },
     {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
-      "region": "EU",
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "region": "",
       "count": 3
     },
     {
@@ -122,9 +115,9 @@
       "count": 2
     },
     {
-      "code": "SE",
-      "name": "Sweden",
-      "flag": "🇸🇪",
+      "code": "AT",
+      "name": "Austria",
+      "flag": "🇦🇹",
       "region": "EU",
       "count": 2
     },
@@ -136,30 +129,16 @@
       "count": 2
     },
     {
-      "code": "AT",
-      "name": "Austria",
-      "flag": "🇦🇹",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "CZ",
-      "name": "Czechia",
-      "flag": "🇨🇿",
-      "region": "EU",
+      "code": "CL",
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "region": "SA",
       "count": 1
     },
     {
       "code": "HK",
       "name": "Hong Kong",
       "flag": "🇭🇰",
-      "region": "AS",
-      "count": 1
-    },
-    {
-      "code": "IN",
-      "name": "India",
-      "flag": "🇮🇳",
       "region": "AS",
       "count": 1
     },
@@ -178,9 +157,9 @@
       "count": 1
     },
     {
-      "code": "RO",
-      "name": "Romania",
-      "flag": "🇷🇴",
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
       "region": "EU",
       "count": 1
     },
@@ -192,7 +171,7 @@
       "count": 1
     }
   ],
-  "country_count": 25,
+  "country_count": 22,
   "sources": {
     "total": 4,
     "ok": 4,
@@ -203,10 +182,10 @@
     {
       "name": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
-      "last_configs": 60,
+      "last_configs": 73,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 77,
+      "from_cache": false,
+      "elapsed_ms": 29,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -214,12 +193,12 @@
     {
       "name": "shadowmere.xyz",
       "url": "https://shadowmere.xyz/api/b64sub/",
-      "last_configs": 248,
+      "last_configs": 244,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 386,
+      "elapsed_ms": 384,
       "error": "",
-      "success_rate": 0.944,
+      "success_rate": 0.958,
       "paused": false
     },
     {
@@ -228,7 +207,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 499,
+      "elapsed_ms": 746,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -238,8 +217,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 92,
+      "from_cache": false,
+      "elapsed_ms": 67,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -247,7 +226,7 @@
   ],
   "per_source": {
     "raw.githubusercontent.com": 59,
-    "shadowmere.xyz": 248,
+    "shadowmere.xyz": 244,
     "opti.testspeedpro.ir": 0
   },
   "cache": {
@@ -269,16 +248,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 306,
+    "kept": 291,
     "dropped": 0,
-    "insecure": 1,
+    "insecure": 0,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 3,
-      "allow-insecure": 1
+      "unknown-network": 4
     },
     "dropped_reasons": {}
   },
-  "previous_total": 312
+  "previous_total": 306
 }

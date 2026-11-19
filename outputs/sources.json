@@ -134,12 +134,12 @@
   {
     "url": "https://shadowmere.xyz/api/b64sub/",
     "name": "shadowmere.xyz",
-    "attempts": 53,
-    "success_rate": 0.189,
+    "attempts": 54,
+    "success_rate": 0.204,
     "fail_streak": 0,
-    "last_configs": 248,
-    "avg_ms": 424,
-    "reliability": 0.9438,
+    "last_configs": 244,
+    "avg_ms": 408,
+    "reliability": 0.9578,
     "last_error": "",
     "paused": false
   },
@@ -192,6 +192,18 @@
     "paused": false
   },
   {
+    "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
+    "name": "raw.githubusercontent.com",
+    "attempts": 71,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 73,
+    "avg_ms": 76,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
     "url": "https://raw.githubusercontent.com/inaz266/In-az-26/refs/heads/main/filtee.txt",
     "name": "raw.githubusercontent.com",
     "attempts": 57,
@@ -204,25 +216,13 @@
     "paused": false
   },
   {
-    "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
-    "name": "raw.githubusercontent.com",
-    "attempts": 70,
-    "success_rate": 1.0,
-    "fail_streak": 0,
-    "last_configs": 60,
-    "avg_ms": 108,
-    "reliability": 1.0,
-    "last_error": "",
-    "paused": false
-  },
-  {
     "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 149,
+    "attempts": 150,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 59,
-    "avg_ms": 98,
+    "avg_ms": 85,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -242,11 +242,11 @@
   {
     "url": "https://opti.testspeedpro.ir/vlessagg/sub/6MLH-W6rfyxoUgC0JKu6dZmTGYdx4yE5",
     "name": "opti.testspeedpro.ir",
-    "attempts": 70,
+    "attempts": 71,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 0,
-    "avg_ms": 580,
+    "avg_ms": 646,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
