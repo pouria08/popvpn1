@@ -1,22 +1,6 @@
 {
- "updated_at": 1795209189,
+ "updated_at": 1795209343,
  "runs": [
-  {
-   "at": 1790408888,
-   "total": 475,
-   "by_protocol": {
-    "vless": 281,
-    "trojan": 60,
-    "vmess": 57,
-    "hy2": 3,
-    "ss": 74
-   },
-   "sources_ok": 5,
-   "sources_total": 5,
-   "alive": 0,
-   "countries": 36,
-   "duration_ms": 406
-  },
   {
    "at": 1790428233,
    "total": 479,
@@ -3742,6 +3726,21 @@
    "alive": 0,
    "countries": 8,
    "duration_ms": 955
+  },
+  {
+   "at": 1795209343,
+   "total": 9,
+   "by_protocol": {
+    "vless": 5,
+    "trojan": 1,
+    "ss": 2,
+    "vmess": 1
+   },
+   "sources_ok": 1,
+   "sources_total": 1,
+   "alive": 9,
+   "countries": 7,
+   "duration_ms": 508
   }
  ]
 }
