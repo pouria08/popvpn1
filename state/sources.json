@@ -1,17 +1,17 @@
 {
   "sources": {
     "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw": {
-      "attempts": 2,
-      "avg_ms": 589,
+      "attempts": 3,
+      "avg_ms": 727,
       "fail_streak": 0,
-      "last_configs": 11,
+      "last_configs": 9,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1795179721,
+      "last_ok_at": 1795209189,
       "last_status": 200,
       "name": "boltnet.org",
       "reliability": 1.0,
-      "successes": 2
+      "successes": 3
     },
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt": {
       "attempts": 23,
@@ -66,17 +66,17 @@
       "successes": 73
     },
     "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt": {
-      "attempts": 154,
-      "avg_ms": 84,
+      "attempts": 155,
+      "avg_ms": 120,
       "fail_streak": 0,
       "last_configs": 59,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1795179721,
-      "last_status": 304,
+      "last_ok_at": 1795209189,
+      "last_status": 200,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 154
+      "successes": 155
     },
     "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt": {
       "attempts": 88,
@@ -118,17 +118,17 @@
       "successes": 12
     },
     "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt": {
-      "attempts": 75,
-      "avg_ms": 95,
+      "attempts": 76,
+      "avg_ms": 125,
       "fail_streak": 0,
       "last_configs": 73,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1795179721,
+      "last_ok_at": 1795209189,
       "last_status": 304,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 75
+      "successes": 76
     },
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt": {
       "attempts": 13,
@@ -287,5 +287,5 @@
       "successes": 13
     }
   },
-  "updated_at": 1795179721
+  "updated_at": 1795209189
 }

@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-20 13:02:01 UTC",
+  "generated_at": "2026-11-20 21:13:09 UTC",
   "version": "2.0.0",
-  "duration_ms": 944,
-  "total": 113,
-  "unique": 113,
-  "parsed": 143,
+  "duration_ms": 955,
+  "total": 114,
+  "unique": 114,
+  "parsed": 141,
   "raw_lines": 144,
-  "duplicates": 30,
-  "invalid": 1,
+  "duplicates": 27,
+  "invalid": 3,
   "by_protocol": {
-    "vless": 9,
+    "vless": 6,
     "trojan": 28,
     "hy2": 3,
-    "vmess": 3,
-    "ss": 70
+    "vmess": 2,
+    "ss": 75
   },
   "by_country": [
     {
@@ -21,14 +21,14 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 95
+      "count": 97
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 8
+      "count": 10
     },
     {
       "code": "CA",
@@ -38,17 +38,10 @@
       "count": 2
     },
     {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
       "region": "EU",
-      "count": 2
-    },
-    {
-      "code": "CN",
-      "name": "China",
-      "flag": "🇨🇳",
-      "region": "AS",
       "count": 1
     },
     {
@@ -59,16 +52,16 @@
       "count": 1
     },
     {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
       "region": "EU",
       "count": 1
     },
     {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
       "region": "",
       "count": 1
     },
@@ -78,16 +71,9 @@
       "flag": "🇺🇦",
       "region": "EU",
       "count": 1
-    },
-    {
-      "code": "VN",
-      "name": "Vietnam",
-      "flag": "🇻🇳",
-      "region": "AS",
-      "count": 1
     }
   ],
-  "country_count": 10,
+  "country_count": 8,
   "sources": {
     "total": 3,
     "ok": 3,
@@ -101,7 +87,7 @@
       "last_configs": 73,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 77,
+      "elapsed_ms": 171,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -109,10 +95,10 @@
     {
       "name": "boltnet.org",
       "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
-      "last_configs": 11,
+      "last_configs": 9,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 930,
+      "elapsed_ms": 935,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -122,8 +108,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 77,
+      "from_cache": false,
+      "elapsed_ms": 174,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -131,7 +117,7 @@
   ],
   "per_source": {
     "raw.githubusercontent.com": 59,
-    "boltnet.org": 11
+    "boltnet.org": 9
   },
   "cache": {
     "enabled": true,
@@ -152,15 +138,16 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 113,
+    "kept": 114,
     "dropped": 0,
-    "insecure": 0,
+    "insecure": 2,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 6
+      "unknown-network": 5,
+      "allow-insecure": 2
     },
     "dropped_reasons": {}
   },
-  "previous_total": 114
+  "previous_total": 113
 }
