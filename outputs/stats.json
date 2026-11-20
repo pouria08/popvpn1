@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-19 22:13:16 UTC",
+  "generated_at": "2026-11-20 03:27:37 UTC",
   "version": "2.0.0",
-  "duration_ms": 821,
-  "total": 316,
-  "unique": 316,
-  "parsed": 397,
-  "raw_lines": 398,
-  "duplicates": 81,
+  "duration_ms": 872,
+  "total": 318,
+  "unique": 318,
+  "parsed": 404,
+  "raw_lines": 405,
+  "duplicates": 86,
   "invalid": 1,
   "by_protocol": {
     "trojan": 25,
     "vless": 1,
     "hy2": 3,
     "vmess": 1,
-    "ss": 286
+    "ss": 288
   },
   "by_country": [
     {
@@ -35,14 +35,14 @@
       "name": "Netherlands",
       "flag": "🇳🇱",
       "region": "EU",
-      "count": 62
+      "count": 64
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 17
+      "count": 20
     },
     {
       "code": "CA",
@@ -84,20 +84,20 @@
       "name": "Russia",
       "flag": "🇷🇺",
       "region": "",
-      "count": 6
-    },
-    {
-      "code": "SG",
-      "name": "Singapore",
-      "flag": "🇸🇬",
-      "region": "AS",
-      "count": 6
+      "count": 7
     },
     {
       "code": "ES",
       "name": "Spain",
       "flag": "🇪🇸",
       "region": "EU",
+      "count": 5
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "region": "AS",
       "count": 5
     },
     {
@@ -115,20 +115,6 @@
       "count": 3
     },
     {
-      "code": "TR",
-      "name": "Türkiye",
-      "flag": "🇹🇷",
-      "region": "",
-      "count": 3
-    },
-    {
-      "code": "ZA",
-      "name": "South Africa",
-      "flag": "🇿🇦",
-      "region": "AF",
-      "count": 3
-    },
-    {
       "code": "AE",
       "name": "United Arab Emirates",
       "flag": "🇦🇪",
@@ -136,17 +122,24 @@
       "count": 2
     },
     {
-      "code": "SE",
-      "name": "Sweden",
-      "flag": "🇸🇪",
-      "region": "EU",
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "region": "",
       "count": 2
     },
     {
-      "code": "CL",
-      "name": "Chile",
-      "flag": "🇨🇱",
-      "region": "SA",
+      "code": "ZA",
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "region": "AF",
+      "count": 2
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "flag": "🇦🇱",
+      "region": "EU",
       "count": 1
     },
     {
@@ -183,6 +176,13 @@
       "flag": "🇳🇴",
       "region": "EU",
       "count": 1
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "region": "EU",
+      "count": 1
     }
   ],
   "country_count": 24,
@@ -199,7 +199,7 @@
       "last_configs": 73,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 178,
+      "elapsed_ms": 142,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -207,12 +207,12 @@
     {
       "name": "shadowmere.xyz",
       "url": "https://shadowmere.xyz/api/b64sub/",
-      "last_configs": 265,
+      "last_configs": 272,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 767,
+      "elapsed_ms": 595,
       "error": "",
-      "success_rate": 0.968,
+      "success_rate": 0.976,
       "paused": false
     },
     {
@@ -221,7 +221,7 @@
       "last_configs": 0,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 603,
+      "elapsed_ms": 845,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -231,8 +231,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 137,
+      "from_cache": true,
+      "elapsed_ms": 100,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -240,7 +240,7 @@
   ],
   "per_source": {
     "raw.githubusercontent.com": 59,
-    "shadowmere.xyz": 265,
+    "shadowmere.xyz": 272,
     "opti.testspeedpro.ir": 0
   },
   "cache": {
@@ -262,7 +262,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 316,
+    "kept": 318,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -272,5 +272,5 @@
     },
     "dropped_reasons": {}
   },
-  "previous_total": 291
+  "previous_total": 316
 }
