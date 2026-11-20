@@ -1,5 +1,18 @@
 {
   "sources": {
+    "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw": {
+      "attempts": 1,
+      "avg_ms": 362,
+      "fail_streak": 0,
+      "last_configs": 12,
+      "last_error": "",
+      "last_fail_at": 0,
+      "last_ok_at": 1795164471,
+      "last_status": 200,
+      "name": "boltnet.org",
+      "reliability": 1.0,
+      "successes": 1
+    },
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt": {
       "attempts": 23,
       "avg_ms": 1500,
@@ -53,17 +66,17 @@
       "successes": 73
     },
     "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt": {
-      "attempts": 152,
-      "avg_ms": 103,
+      "attempts": 153,
+      "avg_ms": 89,
       "fail_streak": 0,
       "last_configs": 59,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1795145257,
-      "last_status": 304,
+      "last_ok_at": 1795164471,
+      "last_status": 200,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 152
+      "successes": 153
     },
     "https://raw.githubusercontent.com/Axiomdeveloper/Axiom-TG-Sub/main/sub/axiom_sub.txt": {
       "attempts": 88,
@@ -105,17 +118,17 @@
       "successes": 12
     },
     "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt": {
-      "attempts": 73,
-      "avg_ms": 126,
+      "attempts": 74,
+      "avg_ms": 107,
       "fail_streak": 0,
       "last_configs": 73,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1795145257,
+      "last_ok_at": 1795164471,
       "last_status": 304,
       "name": "raw.githubusercontent.com",
       "reliability": 1.0,
-      "successes": 73
+      "successes": 74
     },
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt": {
       "attempts": 13,
@@ -274,5 +287,5 @@
       "successes": 13
     }
   },
-  "updated_at": 1795145257
+  "updated_at": 1795164475
 }

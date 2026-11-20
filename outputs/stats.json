@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-20 03:27:37 UTC",
+  "generated_at": "2026-11-20 08:47:55 UTC",
   "version": "2.0.0",
-  "duration_ms": 872,
-  "total": 318,
-  "unique": 318,
-  "parsed": 404,
-  "raw_lines": 405,
-  "duplicates": 86,
+  "duration_ms": 4940,
+  "total": 114,
+  "unique": 114,
+  "parsed": 144,
+  "raw_lines": 145,
+  "duplicates": 30,
   "invalid": 1,
   "by_protocol": {
-    "trojan": 25,
-    "vless": 1,
-    "hy2": 3,
-    "vmess": 1,
-    "ss": 288
+    "vless": 9,
+    "trojan": 28,
+    "vmess": 3,
+    "ss": 71,
+    "hy2": 3
   },
   "by_country": [
     {
@@ -21,124 +21,40 @@
       "name": "Unknown",
       "flag": "🏳️",
       "region": "",
-      "count": 73
+      "count": 95
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 66
-    },
-    {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
-      "region": "EU",
-      "count": 64
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 20
+      "count": 7
     },
     {
       "code": "CA",
       "name": "Canada",
       "flag": "🇨🇦",
       "region": "NA",
-      "count": 15
+      "count": 3
     },
     {
-      "code": "IT",
-      "name": "Italy",
-      "flag": "🇮🇹",
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
       "region": "EU",
-      "count": 13
+      "count": 2
     },
     {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 12
-    },
-    {
-      "code": "FR",
-      "name": "France",
-      "flag": "🇫🇷",
-      "region": "EU",
-      "count": 10
-    },
-    {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
+      "code": "CN",
+      "name": "China",
+      "flag": "🇨🇳",
       "region": "AS",
-      "count": 8
-    },
-    {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
-      "region": "",
-      "count": 7
+      "count": 1
     },
     {
       "code": "ES",
       "name": "Spain",
       "flag": "🇪🇸",
-      "region": "EU",
-      "count": 5
-    },
-    {
-      "code": "SG",
-      "name": "Singapore",
-      "flag": "🇸🇬",
-      "region": "AS",
-      "count": 5
-    },
-    {
-      "code": "CH",
-      "name": "Switzerland",
-      "flag": "🇨🇭",
-      "region": "EU",
-      "count": 4
-    },
-    {
-      "code": "AT",
-      "name": "Austria",
-      "flag": "🇦🇹",
-      "region": "EU",
-      "count": 3
-    },
-    {
-      "code": "AE",
-      "name": "United Arab Emirates",
-      "flag": "🇦🇪",
-      "region": "AS",
-      "count": 2
-    },
-    {
-      "code": "TR",
-      "name": "Türkiye",
-      "flag": "🇹🇷",
-      "region": "",
-      "count": 2
-    },
-    {
-      "code": "ZA",
-      "name": "South Africa",
-      "flag": "🇿🇦",
-      "region": "AF",
-      "count": 2
-    },
-    {
-      "code": "AL",
-      "name": "Albania",
-      "flag": "🇦🇱",
       "region": "EU",
       "count": 1
     },
@@ -150,45 +66,38 @@
       "count": 1
     },
     {
-      "code": "HK",
-      "name": "Hong Kong",
-      "flag": "🇭🇰",
-      "region": "AS",
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "region": "",
       "count": 1
     },
     {
-      "code": "IN",
-      "name": "India",
-      "flag": "🇮🇳",
-      "region": "AS",
+      "code": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "region": "",
       "count": 1
     },
     {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
-      "region": "NA",
-      "count": 1
-    },
-    {
-      "code": "NO",
-      "name": "Norway",
-      "flag": "🇳🇴",
+      "code": "UA",
+      "name": "Ukraine",
+      "flag": "🇺🇦",
       "region": "EU",
       "count": 1
     },
     {
-      "code": "SE",
-      "name": "Sweden",
-      "flag": "🇸🇪",
-      "region": "EU",
+      "code": "VN",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "region": "AS",
       "count": 1
     }
   ],
-  "country_count": 24,
+  "country_count": 11,
   "sources": {
-    "total": 4,
-    "ok": 4,
+    "total": 3,
+    "ok": 3,
     "failed": 0,
     "paused": 0
   },
@@ -199,29 +108,18 @@
       "last_configs": 73,
       "ok": true,
       "from_cache": true,
-      "elapsed_ms": 142,
+      "elapsed_ms": 80,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     },
     {
-      "name": "shadowmere.xyz",
-      "url": "https://shadowmere.xyz/api/b64sub/",
-      "last_configs": 272,
+      "name": "boltnet.org",
+      "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
+      "last_configs": 12,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 595,
-      "error": "",
-      "success_rate": 0.976,
-      "paused": false
-    },
-    {
-      "name": "opti.testspeedpro.ir",
-      "url": "https://opti.testspeedpro.ir/vlessagg/sub/6MLH-W6rfyxoUgC0JKu6dZmTGYdx4yE5",
-      "last_configs": 0,
-      "ok": true,
-      "from_cache": false,
-      "elapsed_ms": 845,
+      "elapsed_ms": 907,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -231,8 +129,8 @@
       "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
       "last_configs": 59,
       "ok": true,
-      "from_cache": true,
-      "elapsed_ms": 100,
+      "from_cache": false,
+      "elapsed_ms": 69,
       "error": "",
       "success_rate": 1.0,
       "paused": false
@@ -240,37 +138,36 @@
   ],
   "per_source": {
     "raw.githubusercontent.com": 59,
-    "shadowmere.xyz": 272,
-    "opti.testspeedpro.ir": 0
+    "boltnet.org": 12
   },
   "cache": {
     "enabled": true,
     "hits": 0,
-    "misses": 4,
+    "misses": 3,
     "hit_rate": 0.0
   },
   "probe": {
-    "mode": "off",
-    "endpoints_total": 0,
-    "endpoints_probed": 0,
+    "mode": "tcp",
+    "endpoints_total": 113,
+    "endpoints_probed": 113,
     "endpoints_cached": 0,
-    "alive": 0,
-    "dead": 0,
-    "configs_alive": 0,
-    "configs_dead": 0,
-    "elapsed_ms": 0,
-    "avg_latency_ms": 0
+    "alive": 101,
+    "dead": 12,
+    "configs_alive": 102,
+    "configs_dead": 12,
+    "elapsed_ms": 4017,
+    "avg_latency_ms": 84
   },
   "audit": {
-    "kept": 318,
+    "kept": 114,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "unknown-network": 4
+      "unknown-network": 6
     },
     "dropped_reasons": {}
   },
-  "previous_total": 316
+  "previous_total": 318
 }

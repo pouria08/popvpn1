@@ -2,5 +2,4 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsWlp6Zm8xbXFIN1BxbmxvQW9nZGkyWEJobGdpb2ZNeQ@64.49.13.12:2089#POPVPN 0192 🇹🇷 TR SS CHACHA20-IETF-POLY1305
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsWlp6Zm8xbXFIN1BxbmxvQW9nZGkyWEJobGdpb2ZNeQ@tr.subscriptionservice.ir:2089#POPVPN 0274 🇹🇷 TR SS CHACHA20-IETF-POLY1305
+vless://4f9f03f9-39e9-4879-8f10-0eccf859aafd@155.103.71.207:8080?security=none&flow=xtls-rprx-vision&encryption=mlkem768x25519plus.native.0rtt.EITKrLrLFdNlWVc2lGL0531SnyJBnQ7NwAOFsSxdY0w&type=ws&path=%2F#POPVPN 0037 🇹🇷 TR VLESS WS

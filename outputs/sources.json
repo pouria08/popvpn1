@@ -194,11 +194,11 @@
   {
     "url": "https://raw.githubusercontent.com/HnCgs/HomayounConfigs/main/configs.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 73,
+    "attempts": 74,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 73,
-    "avg_ms": 126,
+    "avg_ms": 107,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -218,11 +218,11 @@
   {
     "url": "https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt",
     "name": "raw.githubusercontent.com",
-    "attempts": 152,
+    "attempts": 153,
     "success_rate": 1.0,
     "fail_streak": 0,
     "last_configs": 59,
-    "avg_ms": 103,
+    "avg_ms": 89,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
@@ -235,6 +235,18 @@
     "fail_streak": 0,
     "last_configs": 47,
     "avg_ms": 255,
+    "reliability": 1.0,
+    "last_error": "",
+    "paused": false
+  },
+  {
+    "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
+    "name": "boltnet.org",
+    "attempts": 1,
+    "success_rate": 1.0,
+    "fail_streak": 0,
+    "last_configs": 12,
+    "avg_ms": 362,
     "reliability": 1.0,
     "last_error": "",
     "paused": false
