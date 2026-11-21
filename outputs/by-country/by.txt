@@ -2,5 +2,4 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://6c713691-3ca2-4446-ad25-113d1bed6b03@by-tls.fluxorvpn.net:443?mode=gun&security=tls&alpn=h2&encryption=none&insecure=0&fp=safari&type=grpc&serviceName=%2Fgrpc&allowInsecure=0&sni=mediatract.com#POPVPN 0321 🇧🇾 BY VLESS GRPC
-vless://1ffd1edc-16da-4a9f-a72b-9b5253dfb9cc@by-tls.nerpvpn.net:443?mode=gun&security=tls&alpn=h2&encryption=none&insecure=0&fp=safari&type=grpc&serviceName=%2Fgrpc&allowInsecure=0&sni=mediatract.com#POPVPN 0322 🇧🇾 BY VLESS GRPC
+trojan://jyneij42qcfg3x9f@179.254.191.2:39105?type=tcp&security=none#POPVPN 0018 🇧🇾 BY TROJAN TCP

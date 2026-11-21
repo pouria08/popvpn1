@@ -1,21 +1,23 @@
-![Total](https://img.shields.io/badge/CONFIGS-9-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-7-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-0-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-1-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-1-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-1%2F1-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-6-eab308?style=flat-square)
+![Total](https://img.shields.io/badge/CONFIGS-20-7c3aed?style=flat-square) | ![VLESS](https://img.shields.io/badge/VLESS-17-8b5cf6?style=flat-square) | ![VMess](https://img.shields.io/badge/VMess-0-3b82f6?style=flat-square) | ![Trojan](https://img.shields.io/badge/Trojan-2-f97316?style=flat-square) | ![SS](https://img.shields.io/badge/Shadowsocks-1-22c55e?style=flat-square) | ![Sources](https://img.shields.io/badge/SOURCES-1%2F1-06b6d4?style=flat-square) | ![Countries](https://img.shields.io/badge/COUNTRIES-9-eab308?style=flat-square)
 
-**Last update:** `2026-11-21 18:05:04 UTC` · **9 configs** (+3 vs previous run)
+**Last update:** `2026-11-21 23:26:07 UTC` · **20 configs** (+11 vs previous run)
 
 | Protocol | Configs | Share |
 | --- | ---: | ---: |
-| VLESS | 7 | 77.8% |
-| TROJAN | 1 | 11.1% |
-| SS | 1 | 11.1% |
+| VLESS | 17 | 85.0% |
+| TROJAN | 2 | 10.0% |
+| SS | 1 | 5.0% |
 
 | Top countries | Configs |
 | --- | ---: |
-| 🇩🇪 Germany | 4 |
+| 🇩🇪 Germany | 7 |
+| 🇳🇱 Netherlands | 5 |
+| 🇰🇿 Kazakhstan | 2 |
+| 🇧🇾 Belarus | 1 |
 | 🇪🇸 Spain | 1 |
-| 🇫🇮 Finland | 1 |
-| 🇳🇱 Netherlands | 1 |
 | 🇵🇱 Poland | 1 |
-| 🇸🇪 Sweden | 1 |
+| 🇸🇰 Slovakia | 1 |
+| 🇺🇦 Ukraine | 1 |
 
 <details><summary><b>Pipeline health</b></summary>
 
@@ -23,8 +25,8 @@
 - duplicates removed: **0**
 - invalid lines skipped: **0**
 - HTTP cache hit rate: **0%**
-- security flags: **0** insecure, **0** private hosts
-- run duration: **905 ms**
+- security flags: **1** insecure, **0** private hosts
+- run duration: **899 ms**
 
 </details>
 
@@ -33,12 +35,15 @@
 <details><summary><b>🌍 همهٔ لینک‌های کشورها در آخرین اجرا — Copyable</b></summary>
 
 ```text
-🇩🇪 Germany (4): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/de.txt
+🇩🇪 Germany (7): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/de.txt
+🇳🇱 Netherlands (5): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/nl.txt
+🇰🇿 Kazakhstan (2): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/kz.txt
+🇧🇾 Belarus (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/by.txt
 🇪🇸 Spain (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/es.txt
-🇫🇮 Finland (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/fi.txt
-🇳🇱 Netherlands (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/nl.txt
 🇵🇱 Poland (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/pl.txt
-🇸🇪 Sweden (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/se.txt
+🇸🇰 Slovakia (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/sk.txt
+🇺🇦 Ukraine (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/ua.txt
+🇺🇸 United States (1): https://raw.githubusercontent.com/pouria08/popvpn1/main/outputs/by-country/us.txt
 ```
 
 </details>
