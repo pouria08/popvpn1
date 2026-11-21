@@ -31,10 +31,13 @@
       "outbounds": [
         "POPVPN 0001 🇩🇪 DE VLESS REALITY",
         "POPVPN 0002 🇳🇱 NL VLESS REALITY",
-        "POPVPN 0003 🇪🇸 ES VLESS XHTTP",
-        "POPVPN 0004 🇨🇦 CA SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0005 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305"
+        "POPVPN 0003 🇵🇱 PL VLESS XHTTP",
+        "POPVPN 0004 🇪🇸 ES VLESS XHTTP",
+        "POPVPN 0005 🇩🇪 DE VLESS XHTTP",
+        "POPVPN 0006 🇫🇮 FI VLESS TLS",
+        "POPVPN 0007 🇩🇪 DE VLESS TCP",
+        "POPVPN 0008 🇸🇪 SE TROJAN TCP",
+        "POPVPN 0009 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305"
       ]
     },
     {
@@ -82,7 +85,7 @@
         "server_name": "fontanka.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -92,7 +95,22 @@
       }
     },
     {
-      "tag": "POPVPN 0003 🇪🇸 ES VLESS XHTTP",
+      "tag": "POPVPN 0003 🇵🇱 PL VLESS XHTTP",
+      "server": "140.248.186.54",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "93cdb4e7-ab65-44fa-91c8-f46e80806bca",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0004 🇪🇸 ES VLESS XHTTP",
       "server": "api.ferrin.uk",
       "server_port": 443,
       "type": "vless",
@@ -107,24 +125,56 @@
       }
     },
     {
-      "tag": "POPVPN 0004 🇨🇦 CA SS CHACHA20-IETF-POLY1305",
-      "server": "134.195.198.163",
+      "tag": "POPVPN 0005 🇩🇪 DE VLESS XHTTP",
+      "server": "testvalikan.rovilo.ir",
       "server_port": 443,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "PmCqK98WqhSC"
+      "type": "vless",
+      "uuid": "93cdb4e7-ab65-44fa-91c8-f46e80806bca",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "POPVPN 0005 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
-      "server": "136.176.66.193",
+      "tag": "POPVPN 0006 🇫🇮 FI VLESS TLS",
+      "server": "65.109.252.58",
       "server_port": 443,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "SWBJ2eOCrLJk"
+      "type": "vless",
+      "uuid": "2b696acb-1311-4ab7-b832-b376d29dca27",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "static.170.55.238.62.clients.your-server.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305",
-      "server": "3.10.140.166",
+      "tag": "POPVPN 0007 🇩🇪 DE VLESS TCP",
+      "server": "62.144.51.95",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "c657310e-d87c-4358-9cb7-200a0c3f35e8"
+    },
+    {
+      "tag": "POPVPN 0008 🇸🇪 SE TROJAN TCP",
+      "server": "sonau.yaremonta.loc.cc",
+      "server_port": 8444,
+      "type": "trojan",
+      "password": "og85o9QeVVvtMD2sxPjO",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "tag": "POPVPN 0009 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305",
+      "server": "18.175.136.46",
       "server_port": 443,
       "type": "shadowsocks",
       "method": "2022-blake3-chacha20-poly1305",
@@ -153,7 +203,7 @@
   },
   "_meta": {
     "title": "POPVPN X",
-    "generated_at": "2026-11-21 11:16:04 UTC",
-    "count": 6
+    "generated_at": "2026-11-21 18:05:04 UTC",
+    "count": 9
   }
 }

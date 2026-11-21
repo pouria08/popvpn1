@@ -1,6 +1,6 @@
 # POPVPN X — Clash / Mihomo profile
-# generated: 2026-11-21 11:16:04 UTC
-# configs: 6
+# generated: 2026-11-21 18:05:04 UTC
+# configs: 9
 
 mixed-port: 7890
 allow-lan: false
@@ -46,11 +46,20 @@ proxies:
     tls: true
     servername: fontanka.ru
     flow: xtls-rprx-vision
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     reality-opts:
       public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
       short-id: 6ad3c0f1e9b2478a
-  - name: POPVPN 0003 🇪🇸 ES VLESS XHTTP
+  - name: POPVPN 0003 🇵🇱 PL VLESS XHTTP
+    server: 140.248.186.54
+    port: 443
+    type: vless
+    uuid: 93cdb4e7-ab65-44fa-91c8-f46e80806bca
+    udp: true
+    tls: true
+    servername: cdn.akamai.steamstatic.com
+    client-fingerprint: chrome
+  - name: POPVPN 0004 🇪🇸 ES VLESS XHTTP
     server: api.ferrin.uk
     port: 443
     type: vless
@@ -59,22 +68,39 @@ proxies:
     tls: true
     servername: 7d1a74fd.ferrin.uk
     client-fingerprint: firefox
-  - name: POPVPN 0004 🇨🇦 CA SS CHACHA20-IETF-POLY1305
-    server: 134.195.198.163
+  - name: POPVPN 0005 🇩🇪 DE VLESS XHTTP
+    server: testvalikan.rovilo.ir
     port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: PmCqK98WqhSC
+    type: vless
+    uuid: 93cdb4e7-ab65-44fa-91c8-f46e80806bca
     udp: true
-  - name: POPVPN 0005 🇩🇪 DE SS CHACHA20-IETF-POLY1305
-    server: 136.176.66.193
+    tls: true
+    servername: cdn.akamai.steamstatic.com
+    client-fingerprint: chrome
+  - name: POPVPN 0006 🇫🇮 FI VLESS TLS
+    server: 65.109.252.58
     port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: SWBJ2eOCrLJk
+    type: vless
+    uuid: 2b696acb-1311-4ab7-b832-b376d29dca27
     udp: true
-  - name: POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
-    server: 3.10.140.166
+    tls: true
+    servername: static.170.55.238.62.clients.your-server.de
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: POPVPN 0007 🇩🇪 DE VLESS TCP
+    server: 62.144.51.95
+    port: 443
+    type: vless
+    uuid: c657310e-d87c-4358-9cb7-200a0c3f35e8
+    udp: true
+  - name: POPVPN 0008 🇸🇪 SE TROJAN TCP
+    server: sonau.yaremonta.loc.cc
+    port: 8444
+    type: trojan
+    password: og85o9QeVVvtMD2sxPjO
+    udp: true
+  - name: POPVPN 0009 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+    server: 18.175.136.46
     port: 443
     type: ss
     cipher: 2022-blake3-chacha20-poly1305
@@ -86,10 +112,13 @@ proxy-groups:
     proxies:
       - POPVPN 0001 🇩🇪 DE VLESS REALITY
       - POPVPN 0002 🇳🇱 NL VLESS REALITY
-      - POPVPN 0003 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0004 🇨🇦 CA SS CHACHA20-IETF-POLY1305
-      - POPVPN 0005 🇩🇪 DE SS CHACHA20-IETF-POLY1305
-      - POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0003 🇵🇱 PL VLESS XHTTP
+      - POPVPN 0004 🇪🇸 ES VLESS XHTTP
+      - POPVPN 0005 🇩🇪 DE VLESS XHTTP
+      - POPVPN 0006 🇫🇮 FI VLESS TLS
+      - POPVPN 0007 🇩🇪 DE VLESS TCP
+      - POPVPN 0008 🇸🇪 SE TROJAN TCP
+      - POPVPN 0009 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
@@ -99,16 +128,23 @@ proxy-groups:
       - AUTO
       - POPVPN 0001 🇩🇪 DE VLESS REALITY
       - POPVPN 0002 🇳🇱 NL VLESS REALITY
-      - POPVPN 0003 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0004 🇨🇦 CA SS CHACHA20-IETF-POLY1305
-      - POPVPN 0005 🇩🇪 DE SS CHACHA20-IETF-POLY1305
-      - POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0003 🇵🇱 PL VLESS XHTTP
+      - POPVPN 0004 🇪🇸 ES VLESS XHTTP
+      - POPVPN 0005 🇩🇪 DE VLESS XHTTP
+      - POPVPN 0006 🇫🇮 FI VLESS TLS
+      - POPVPN 0007 🇩🇪 DE VLESS TCP
+      - POPVPN 0008 🇸🇪 SE TROJAN TCP
+      - POPVPN 0009 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
   - name: SS
     type: url-test
     proxies:
-      - POPVPN 0004 🇨🇦 CA SS CHACHA20-IETF-POLY1305
-      - POPVPN 0005 🇩🇪 DE SS CHACHA20-IETF-POLY1305
-      - POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0009 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+  - name: TROJAN
+    type: url-test
+    proxies:
+      - POPVPN 0008 🇸🇪 SE TROJAN TCP
     url: "https://www.gstatic.com/generate_204"
     interval: 300
   - name: VLESS
@@ -116,7 +152,11 @@ proxy-groups:
     proxies:
       - POPVPN 0001 🇩🇪 DE VLESS REALITY
       - POPVPN 0002 🇳🇱 NL VLESS REALITY
-      - POPVPN 0003 🇪🇸 ES VLESS XHTTP
+      - POPVPN 0003 🇵🇱 PL VLESS XHTTP
+      - POPVPN 0004 🇪🇸 ES VLESS XHTTP
+      - POPVPN 0005 🇩🇪 DE VLESS XHTTP
+      - POPVPN 0006 🇫🇮 FI VLESS TLS
+      - POPVPN 0007 🇩🇪 DE VLESS TCP
     url: "https://www.gstatic.com/generate_204"
     interval: 300
 rules:
