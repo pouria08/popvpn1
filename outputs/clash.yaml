@@ -1,6 +1,6 @@
 # POPVPN X — Clash / Mihomo profile
-# generated: 2026-11-20 21:15:43 UTC
-# configs: 9
+# generated: 2026-11-21 02:27:06 UTC
+# configs: 1
 
 mixed-port: 7890
 allow-lan: false
@@ -24,16 +24,7 @@ dns:
     - "https://8.8.4.4/dns-query"
     - "tls://9.9.9.9:853"
 proxies:
-  - name: POPVPN 0001 🇺🇦 UA VLESS XHTTP
-    server: render.com
-    port: 443
-    type: vless
-    uuid: 97be5ac0-dae3-43c1-aae8-3fcb7b130c59
-    udp: true
-    tls: true
-    servername: org-ukrn-soeiwhdhshal-bssutudhdahuahese-beqhjdwter.maniyadg7shard.ir
-    client-fingerprint: chrome
-  - name: POPVPN 0002 🇪🇸 ES VLESS XHTTP
+  - name: POPVPN 0001 🇪🇸 ES VLESS XHTTP
     server: api.ferrin.uk
     port: 443
     type: vless
@@ -42,85 +33,11 @@ proxies:
     tls: true
     servername: 7d1a74fd.ferrin.uk
     client-fingerprint: firefox
-  - name: POPVPN 0003 🇫🇮 FI VLESS TLS
-    server: 65.109.252.58
-    port: 443
-    type: vless
-    uuid: 2b696acb-1311-4ab7-b832-b376d29dca27
-    udp: true
-    tls: true
-    servername: static.170.55.238.62.clients.your-server.de
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-  - name: POPVPN 0004 🇺🇸 US VLESS WS
-    server: 46.243.205.192
-    port: 443
-    type: vless
-    uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
-    udp: true
-    tls: true
-    servername: 46.243.205.192
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /catalog/feed/H9eui7WsW3xS
-      headers:
-        Host: 46.243.205.192
-  - name: POPVPN 0005 🇺🇸 US TROJAN TLS
-    server: 206.119.73.250
-    port: 10443
-    type: trojan
-    password: ChatGPT2024
-    udp: true
-    sni: jp.jksni.baidu.com
-    skip-cert-verify: true
-  - name: POPVPN 0006 🇨🇦 CA SS CHACHA20-IETF-POLY1305
-    server: 134.195.198.163
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: PmCqK98WqhSC
-    udp: true
-  - name: POPVPN 0007 🇺🇸 US VMESS NONE
-    server: 142.171.48.179
-    port: 28167
-    type: vmess
-    uuid: 273695bd-c2fb-4c54-9477-4b702a606242
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: gw.alicdn.com
-  - name: POPVPN 0008 🇩🇪 DE SS CHACHA20-IETF-POLY1305
-    server: 136.176.66.193
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: SWBJ2eOCrLJk
-    udp: true
-  - name: POPVPN 0009 🇹🇷 TR VLESS WS
-    server: 155.103.71.207
-    port: 8080
-    type: vless
-    uuid: 4f9f03f9-39e9-4879-8f10-0eccf859aafd
-    udp: true
-    flow: xtls-rprx-vision
-    xudp: true
-    network: ws
-    ws-opts:
-      path: /
 proxy-groups:
   - name: AUTO
     type: url-test
     proxies:
-      - POPVPN 0001 🇺🇦 UA VLESS XHTTP
-      - POPVPN 0002 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0003 🇫🇮 FI VLESS TLS
-      - POPVPN 0004 🇺🇸 US VLESS WS
-      - POPVPN 0005 🇺🇸 US TROJAN TLS
-      - POPVPN 0006 🇨🇦 CA SS CHACHA20-IETF-POLY1305
-      - POPVPN 0007 🇺🇸 US VMESS NONE
-      - POPVPN 0008 🇩🇪 DE SS CHACHA20-IETF-POLY1305
-      - POPVPN 0009 🇹🇷 TR VLESS WS
+      - POPVPN 0001 🇪🇸 ES VLESS XHTTP
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
@@ -128,42 +45,11 @@ proxy-groups:
     type: select
     proxies:
       - AUTO
-      - POPVPN 0001 🇺🇦 UA VLESS XHTTP
-      - POPVPN 0002 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0003 🇫🇮 FI VLESS TLS
-      - POPVPN 0004 🇺🇸 US VLESS WS
-      - POPVPN 0005 🇺🇸 US TROJAN TLS
-      - POPVPN 0006 🇨🇦 CA SS CHACHA20-IETF-POLY1305
-      - POPVPN 0007 🇺🇸 US VMESS NONE
-      - POPVPN 0008 🇩🇪 DE SS CHACHA20-IETF-POLY1305
-      - POPVPN 0009 🇹🇷 TR VLESS WS
-  - name: SS
-    type: url-test
-    proxies:
-      - POPVPN 0006 🇨🇦 CA SS CHACHA20-IETF-POLY1305
-      - POPVPN 0008 🇩🇪 DE SS CHACHA20-IETF-POLY1305
-    url: "https://www.gstatic.com/generate_204"
-    interval: 300
-  - name: TROJAN
-    type: url-test
-    proxies:
-      - POPVPN 0005 🇺🇸 US TROJAN TLS
-    url: "https://www.gstatic.com/generate_204"
-    interval: 300
+      - POPVPN 0001 🇪🇸 ES VLESS XHTTP
   - name: VLESS
     type: url-test
     proxies:
-      - POPVPN 0001 🇺🇦 UA VLESS XHTTP
-      - POPVPN 0002 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0003 🇫🇮 FI VLESS TLS
-      - POPVPN 0004 🇺🇸 US VLESS WS
-      - POPVPN 0009 🇹🇷 TR VLESS WS
-    url: "https://www.gstatic.com/generate_204"
-    interval: 300
-  - name: VMESS
-    type: url-test
-    proxies:
-      - POPVPN 0007 🇺🇸 US VMESS NONE
+      - POPVPN 0001 🇪🇸 ES VLESS XHTTP
     url: "https://www.gstatic.com/generate_204"
     interval: 300
 rules:

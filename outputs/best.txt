@@ -2,12 +2,4 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://97be5ac0-dae3-43c1-aae8-3fcb7b130c59@render.com:443?security=tls&type=xhttp&host=Org-ukrn-soeiwhdhshal-bssutudhdahuahese-beqhjdwter.maniyadg7shard.ir&mode=stream-one&sni=Org-ukrn-soeiwhdhshal-bssutudhdahuahese-beqhjdwter.maniyadg7shard.ir&fp=chrome#POPVPN 0001 🇺🇦 UA VLESS XHTTP
-vless://7d1a74fd-8a38-4a29-863f-5da53a9e557e@api.ferrin.uk:443?mode=stream-one&path=%2Fes%2F%3F%40MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI%3Fed%3D2048&security=tls&alpn=h2&encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A3%2C%22hMaxReusableSecs%22%3A%221140-1260%22%7D%7D&insecure=0&fp=firefox&type=xhttp&allowInsecure=0&sni=7d1a74fd.ferrin.uk#POPVPN 0002 🇪🇸 ES VLESS XHTTP
-vless://2b696acb-1311-4ab7-b832-b376d29dca27@65.109.252.58:443?security=tls&type=tcp&sni=static.170.55.238.62.clients.your-server.de&fp=firefox&flow=xtls-rprx-vision#POPVPN 0003 🇫🇮 FI VLESS TLS
-vless://fd90e601-a56c-42b8-aab7-aa02d26fcb04@46.243.205.192:443?allowInsecure=1&encryption=none&fp=chrome&host=46.243.205.192&path=%2Fcatalog%2Ffeed%2FH9eui7WsW3xS&security=tls&sni=46.243.205.192&type=ws#POPVPN 0004 🇺🇸 US VLESS WS
-trojan://ChatGPT2024@206.119.73.250:10443?allowInsecure=1&sni=jp.jksni.baidu.com#POPVPN 0005 🇺🇸 US TROJAN TLS
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQbUNxSzk4V3FoU0M@134.195.198.163:443#POPVPN 0006 🇨🇦 CA SS CHACHA20-IETF-POLY1305
-vmess://eyJhZGQiOiAiMTQyLjE3MS40OC4xNzkiLCAiYWlkIjogIjAiLCAiYWxsb3dpbnNlY3VyZSI6ICIxIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogImd3LmFsaWNkbi5jb20iLCAiaWQiOiAiMjczNjk1YmQtYzJmYi00YzU0LTk0NzctNGI3MDJhNjA2MjQyIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6ICIyODE2NyIsICJwcyI6ICJQT1BWUE4gMDAwNyDwn4e68J+HuCBVUyBWTUVTUyBOT05FIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTV0JKMmVPQ3JMSms@136.176.66.193:443#POPVPN 0008 🇩🇪 DE SS CHACHA20-IETF-POLY1305
-vless://4f9f03f9-39e9-4879-8f10-0eccf859aafd@155.103.71.207:8080?security=none&flow=xtls-rprx-vision&encryption=mlkem768x25519plus.native.0rtt.EITKrLrLFdNlWVc2lGL0531SnyJBnQ7NwAOFsSxdY0w&type=ws&path=%2F#POPVPN 0009 🇹🇷 TR VLESS WS
+vless://7d1a74fd-8a38-4a29-863f-5da53a9e557e@api.ferrin.uk:443?encryption=none&security=tls&sni=7d1a74fd.ferrin.uk&fp=firefox&alpn=h2&type=xhttp&path=%2Fes%2F%3F%40MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI%3Fed%3D2048&mode=stream-one#POPVPN 0001 🇪🇸 ES VLESS XHTTP

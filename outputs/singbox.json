@@ -29,15 +29,7 @@
       "tag": "select",
       "type": "selector",
       "outbounds": [
-        "POPVPN 0001 🇺🇦 UA VLESS XHTTP",
-        "POPVPN 0002 🇪🇸 ES VLESS XHTTP",
-        "POPVPN 0003 🇫🇮 FI VLESS TLS",
-        "POPVPN 0004 🇺🇸 US VLESS WS",
-        "POPVPN 0005 🇺🇸 US TROJAN TLS",
-        "POPVPN 0006 🇨🇦 CA SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0007 🇺🇸 US VMESS NONE",
-        "POPVPN 0008 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
-        "POPVPN 0009 🇹🇷 TR VLESS WS"
+        "POPVPN 0001 🇪🇸 ES VLESS XHTTP"
       ]
     },
     {
@@ -53,22 +45,7 @@
       "type": "dns"
     },
     {
-      "tag": "POPVPN 0001 🇺🇦 UA VLESS XHTTP",
-      "server": "render.com",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "97be5ac0-dae3-43c1-aae8-3fcb7b130c59",
-      "tls": {
-        "enabled": true,
-        "server_name": "org-ukrn-soeiwhdhshal-bssutudhdahuahese-beqhjdwter.maniyadg7shard.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0002 🇪🇸 ES VLESS XHTTP",
+      "tag": "POPVPN 0001 🇪🇸 ES VLESS XHTTP",
       "server": "api.ferrin.uk",
       "server_port": 443,
       "type": "vless",
@@ -80,94 +57,6 @@
           "enabled": true,
           "fingerprint": "firefox"
         }
-      }
-    },
-    {
-      "tag": "POPVPN 0003 🇫🇮 FI VLESS TLS",
-      "server": "65.109.252.58",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "2b696acb-1311-4ab7-b832-b376d29dca27",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "static.170.55.238.62.clients.your-server.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0004 🇺🇸 US VLESS WS",
-      "server": "46.243.205.192",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "fd90e601-a56c-42b8-aab7-aa02d26fcb04",
-      "tls": {
-        "enabled": true,
-        "server_name": "46.243.205.192",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/catalog/feed/H9eui7WsW3xS",
-        "headers": {
-          "Host": "46.243.205.192"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0005 🇺🇸 US TROJAN TLS",
-      "server": "206.119.73.250",
-      "server_port": 10443,
-      "type": "trojan",
-      "password": "ChatGPT2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp.jksni.baidu.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "POPVPN 0006 🇨🇦 CA SS CHACHA20-IETF-POLY1305",
-      "server": "134.195.198.163",
-      "server_port": 443,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "PmCqK98WqhSC"
-    },
-    {
-      "tag": "POPVPN 0007 🇺🇸 US VMESS NONE",
-      "server": "142.171.48.179",
-      "server_port": 28167,
-      "type": "vmess",
-      "uuid": "273695bd-c2fb-4c54-9477-4b702a606242",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "POPVPN 0008 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
-      "server": "136.176.66.193",
-      "server_port": 443,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "SWBJ2eOCrLJk"
-    },
-    {
-      "tag": "POPVPN 0009 🇹🇷 TR VLESS WS",
-      "server": "155.103.71.207",
-      "server_port": 8080,
-      "type": "vless",
-      "uuid": "4f9f03f9-39e9-4879-8f10-0eccf859aafd",
-      "flow": "xtls-rprx-vision",
-      "transport": {
-        "type": "ws",
-        "path": "/"
       }
     }
   ],
@@ -193,7 +82,7 @@
   },
   "_meta": {
     "title": "POPVPN X",
-    "generated_at": "2026-11-20 21:15:43 UTC",
-    "count": 9
+    "generated_at": "2026-11-21 02:27:06 UTC",
+    "count": 1
   }
 }
