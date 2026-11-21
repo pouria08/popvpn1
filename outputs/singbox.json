@@ -29,7 +29,12 @@
       "tag": "select",
       "type": "selector",
       "outbounds": [
-        "POPVPN 0001 🇪🇸 ES VLESS XHTTP"
+        "POPVPN 0001 🇩🇪 DE VLESS REALITY",
+        "POPVPN 0002 🇳🇱 NL VLESS REALITY",
+        "POPVPN 0003 🇪🇸 ES VLESS XHTTP",
+        "POPVPN 0004 🇨🇦 CA SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0005 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
+        "POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305"
       ]
     },
     {
@@ -45,7 +50,49 @@
       "type": "dns"
     },
     {
-      "tag": "POPVPN 0001 🇪🇸 ES VLESS XHTTP",
+      "tag": "POPVPN 0001 🇩🇪 DE VLESS REALITY",
+      "server": "178.248.236.229",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "144.hexdey.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0",
+          "short_id": "d05a120d3506d2cc"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0002 🇳🇱 NL VLESS REALITY",
+      "server": "48.102.205.89",
+      "server_port": 22444,
+      "type": "vless",
+      "uuid": "a9ff24d3-f308-4e72-acb9-a76062583837",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fontanka.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8",
+          "short_id": "6ad3c0f1e9b2478a"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0003 🇪🇸 ES VLESS XHTTP",
       "server": "api.ferrin.uk",
       "server_port": 443,
       "type": "vless",
@@ -58,6 +105,30 @@
           "fingerprint": "firefox"
         }
       }
+    },
+    {
+      "tag": "POPVPN 0004 🇨🇦 CA SS CHACHA20-IETF-POLY1305",
+      "server": "134.195.198.163",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "PmCqK98WqhSC"
+    },
+    {
+      "tag": "POPVPN 0005 🇩🇪 DE SS CHACHA20-IETF-POLY1305",
+      "server": "136.176.66.193",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "SWBJ2eOCrLJk"
+    },
+    {
+      "tag": "POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305",
+      "server": "3.10.140.166",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4="
     }
   ],
   "route": {
@@ -82,7 +153,7 @@
   },
   "_meta": {
     "title": "POPVPN X",
-    "generated_at": "2026-11-21 02:27:06 UTC",
-    "count": 1
+    "generated_at": "2026-11-21 11:16:04 UTC",
+    "count": 6
   }
 }

@@ -1,26 +1,48 @@
 {
-  "generated_at": "2026-11-21 02:27:06 UTC",
+  "generated_at": "2026-11-21 11:16:04 UTC",
   "version": "2.0.0",
-  "duration_ms": 793,
-  "total": 1,
-  "unique": 1,
-  "parsed": 1,
-  "raw_lines": 1,
+  "duration_ms": 767,
+  "total": 6,
+  "unique": 6,
+  "parsed": 6,
+  "raw_lines": 7,
   "duplicates": 0,
-  "invalid": 0,
+  "invalid": 1,
   "by_protocol": {
-    "vless": 1
+    "vless": 3,
+    "ss": 3
   },
   "by_country": [
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 3
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "region": "NA",
+      "count": 1
+    },
     {
       "code": "ES",
       "name": "Spain",
       "flag": "🇪🇸",
       "region": "EU",
       "count": 1
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "EU",
+      "count": 1
     }
   ],
-  "country_count": 1,
+  "country_count": 4,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -31,17 +53,17 @@
     {
       "name": "boltnet.org",
       "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
-      "last_configs": 1,
+      "last_configs": 6,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 790,
+      "elapsed_ms": 765,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "boltnet.org": 1
+    "boltnet.org": 6
   },
   "cache": {
     "enabled": true,
@@ -62,7 +84,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 1,
+    "kept": 6,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -70,5 +92,5 @@
     "warnings": {},
     "dropped_reasons": {}
   },
-  "previous_total": 9
+  "previous_total": 1
 }
