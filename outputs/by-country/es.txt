@@ -2,4 +2,4 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://7d1a74fd-8a38-4a29-863f-5da53a9e557e@api.ferrin.uk:443?mode=stream-one&path=%2Fes%2F%3F%40MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI%3Fed%3D2048&security=tls&alpn=h2&encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A3%2C%22hMaxReusableSecs%22%3A%221140-1260%22%7D%7D&insecure=0&fp=firefox&type=xhttp&allowInsecure=0&sni=7d1a74fd.ferrin.uk#POPVPN 0016 🇪🇸 ES VLESS XHTTP
+vless://7d1a74fd-8a38-4a29-863f-5da53a9e557e@api.ferrin.uk:443?security=tls&type=xhttp&path=%2Fes&packetEncoding=xudp&alpn=h2&sni=7d1a74fd.ferrin.uk&fp=chrome&mode=stream-one&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A%223%22%2C%22hMaxReusableSecs%22%3A%221140-1260%22%7D%7D&encryption=none#POPVPN 0015 🇪🇸 ES VLESS XHTTP
