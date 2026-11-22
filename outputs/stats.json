@@ -1,22 +1,23 @@
 {
-  "generated_at": "2026-11-22 15:25:45 UTC",
+  "generated_at": "2026-11-22 21:53:09 UTC",
   "version": "2.0.0",
-  "duration_ms": 950,
-  "total": 10,
-  "unique": 10,
-  "parsed": 10,
-  "raw_lines": 10,
+  "duration_ms": 48181,
+  "total": 8,
+  "unique": 8,
+  "parsed": 8,
+  "raw_lines": 8,
   "duplicates": 0,
   "invalid": 0,
   "by_protocol": {
-    "vless": 9,
-    "trojan": 1
+    "vless": 5,
+    "trojan": 2,
+    "ss": 1
   },
   "by_country": [
     {
-      "code": "PL",
-      "name": "Poland",
-      "flag": "🇵🇱",
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
       "region": "EU",
       "count": 3
     },
@@ -25,14 +26,14 @@
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 3
+      "count": 2
     },
     {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "region": "EU",
-      "count": 2
+      "count": 1
     },
     {
       "code": "ES",
@@ -42,9 +43,9 @@
       "count": 1
     },
     {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
       "region": "EU",
       "count": 1
     }
@@ -60,17 +61,17 @@
     {
       "name": "boltnet.org",
       "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
-      "last_configs": 10,
+      "last_configs": 8,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 947,
+      "elapsed_ms": 48177,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "boltnet.org": 10
+    "boltnet.org": 8
   },
   "cache": {
     "enabled": true,
@@ -91,7 +92,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 10,
+    "kept": 8,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -99,5 +100,5 @@
     "warnings": {},
     "dropped_reasons": {}
   },
-  "previous_total": 18
+  "previous_total": 10
 }

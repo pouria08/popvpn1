@@ -2,4 +2,6 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://ef5a57c7-84d5-4f86-b99c-875a16da485f@84.54.58.149:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=sbmicro656.richhoodfoc.com&fp=chrome&pbk=t_PE4flX4qNVn1leXcJX_YWgDw9YZxsrCQAPEHYConc&sid=f21696d23293b39f#POPVPN 0006 🇳🇱 NL VLESS REALITY
+vless://f350ebe0-d1fb-4710-a20e-32b439fa0cc4@50.7.122.243:443?encryption=none&type=grpc&security=reality&serviceName=cdnsync.v2.Transfer&sni=xn--e1afgzg.xn----9sbekcigdcaa6cd7cafr7e.xn--p1ai&fp=firefox&pbk=8ENbaQRCWZk-wewSrdHq1_rVjJY4CrxqXUo_5vZNdi4&sid=b2b44805#POPVPN 0001 🇳🇱 NL VLESS REALITY
+vless://ef5a57c7-84d5-4f86-b99c-875a16da485f@84.54.58.149:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=sbmicro656.richhoodfoc.com&fp=edge&pbk=t_PE4flX4qNVn1leXcJX_YWgDw9YZxsrCQAPEHYConc&sid=f21696d23293b39f#POPVPN 0004 🇳🇱 NL VLESS REALITY
+trojan://mitivpn@199.232.78.160:443?pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&path=/&security=tls&alpn=http/1.1&insecure=0&host=mitivpn-mitivpn--mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=steamstatic.com#POPVPN 0006 🇳🇱 NL TROJAN WS
