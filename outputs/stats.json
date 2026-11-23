@@ -1,37 +1,51 @@
 {
-  "generated_at": "2026-11-22 21:53:09 UTC",
+  "generated_at": "2026-11-23 02:52:28 UTC",
   "version": "2.0.0",
-  "duration_ms": 48181,
-  "total": 8,
-  "unique": 8,
-  "parsed": 8,
-  "raw_lines": 8,
+  "duration_ms": 962,
+  "total": 18,
+  "unique": 18,
+  "parsed": 18,
+  "raw_lines": 19,
   "duplicates": 0,
-  "invalid": 0,
+  "invalid": 1,
   "by_protocol": {
-    "vless": 5,
-    "trojan": 2,
-    "ss": 1
+    "vless": 15,
+    "trojan": 1,
+    "ss": 2
   },
   "by_country": [
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 5
+    },
     {
       "code": "NL",
       "name": "Netherlands",
       "flag": "🇳🇱",
       "region": "EU",
-      "count": 3
+      "count": 4
     },
     {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
+      "count": 3
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "region": "EU",
       "count": 2
     },
     {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
+      "code": "CZ",
+      "name": "Czechia",
+      "flag": "🇨🇿",
       "region": "EU",
       "count": 1
     },
@@ -43,14 +57,21 @@
       "count": 1
     },
     {
-      "code": "PL",
-      "name": "Poland",
-      "flag": "🇵🇱",
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
       "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "region": "AS",
       "count": 1
     }
   ],
-  "country_count": 5,
+  "country_count": 8,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -61,17 +82,17 @@
     {
       "name": "boltnet.org",
       "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
-      "last_configs": 8,
+      "last_configs": 18,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 48177,
+      "elapsed_ms": 958,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "boltnet.org": 8
+    "boltnet.org": 18
   },
   "cache": {
     "enabled": true,
@@ -92,13 +113,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 8,
+    "kept": 18,
     "dropped": 0,
-    "insecure": 0,
+    "insecure": 1,
     "private_hosts": 0,
     "placeholder_credentials": 0,
-    "warnings": {},
+    "warnings": {
+      "allow-insecure": 1
+    },
     "dropped_reasons": {}
   },
-  "previous_total": 10
+  "previous_total": 8
 }
