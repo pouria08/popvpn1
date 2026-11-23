@@ -1,17 +1,17 @@
 {
   "sources": {
     "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw": {
-      "attempts": 12,
-      "avg_ms": 12255,
+      "attempts": 13,
+      "avg_ms": 7664,
       "fail_streak": 0,
-      "last_configs": 18,
+      "last_configs": 6,
       "last_error": "",
       "last_fail_at": 0,
-      "last_ok_at": 1795402348,
+      "last_ok_at": 1795438877,
       "last_status": 200,
       "name": "boltnet.org",
       "reliability": 1.0,
-      "successes": 12
+      "successes": 13
     },
     "https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt": {
       "attempts": 23,
@@ -287,5 +287,5 @@
       "successes": 13
     }
   },
-  "updated_at": 1795402348
+  "updated_at": 1795438877
 }
