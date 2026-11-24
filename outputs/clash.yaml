@@ -1,6 +1,6 @@
 # POPVPN X — Clash / Mihomo profile
-# generated: 2026-11-23 13:01:17 UTC
-# configs: 6
+# generated: 2026-11-24 00:58:30 UTC
+# configs: 12
 
 mixed-port: 7890
 allow-lan: false
@@ -24,45 +24,67 @@ dns:
     - "https://8.8.4.4/dns-query"
     - "tls://9.9.9.9:853"
 proxies:
-  - name: POPVPN 0001 🇵🇱 PL VLESS REALITY
-    server: 45.132.179.90
+  - name: POPVPN 0001 🇺🇸 US VLESS REALITY
+    server: slot5.ipoxxo.online
+    port: 2083
+    type: vless
+    uuid: 52a16edf-7a7b-402e-9a48-aa22c3014784
+    udp: true
+    tls: true
+    servername: github.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: MtTn1O-PyWg96wyML5eATQsjSPIUle_jH-3mReeVCXg
+      short-id: a096bdf644bc30e0
+  - name: POPVPN 0002 🇩🇪 DE VLESS REALITY
+    server: 179.253.173.85
     port: 443
     type: vless
-    uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+    uuid: 2015b70a-aa1d-46cb-94f3-58ffa7a336cd
     udp: true
     tls: true
-    servername: sbmicro683.gangplatform.com
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    reality-opts:
-      public-key: Ldrfdkq0bJrZWCS0p1u6Z2tPPal0LzRm4cgEYF_2KH8
-      short-id: cda7e8556ea56616
-  - name: POPVPN 0002 🇭🇰 HK VLESS REALITY
-    server: 85.189.67.107
-    port: 20086
-    type: vless
-    uuid: 01b87800-396e-4d79-8eaf-c023deeccf7c
-    udp: true
-    tls: true
-    servername: www.paypal.com
-    flow: xtls-rprx-vision
+    servername: ru1.taptapvpn.top
     client-fingerprint: firefox
     reality-opts:
-      public-key: N60X1fq3w78e_eDHwgyrbgdplTgq1oyTnICTAKy7RjY
-  - name: POPVPN 0003 🇺🇸 US VLESS REALITY
-    server: leviko-us6922.shopingggg.ir
-    port: 8443
+      public-key: vywV_ETKfHeTtvTAjeuDjdfFpIKqoYCbLH3Yi0msX1M
+      short-id: d4b8e21a
+  - name: POPVPN 0003 🇩🇪 DE VLESS REALITY
+    server: cip.nimbaha12.ir
+    port: 2082
     type: vless
-    uuid: 1d1eda2e-0bd7-4478-877b-1c5425c6c4dd
+    uuid: 25591035-9ab3-4d13-aa5c-db6d812654fc
     udp: true
     tls: true
-    servername: tradingview.com
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
+    servername: filimo.com
+    client-fingerprint: chrome
     reality-opts:
-      public-key: yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38
-      short-id: 8f3c6e2a1b5d4f09
-  - name: POPVPN 0004 🇪🇸 ES VLESS XHTTP
+      public-key: S8HvumWz220iqyw-XSMXZ-YwQT53kA6-cw2utT_s1BE
+      short-id: c82fddc4
+  - name: POPVPN 0004 🇫🇮 FI VLESS REALITY
+    server: finlandnovemberone.best
+    port: 443
+    type: vless
+    uuid: fdbd8fb8-7d27-4bd8-9da1-1e42c4876835
+    udp: true
+    tls: true
+    servername: finlandnovemberone.best
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 5INjcaKWv9Yfn62Igz2_xfw1PNgEtroCkKqd0c-wMA4
+      short-id: a8329724e1e60d85
+  - name: POPVPN 0005 🇩🇪 DE VLESS REALITY
+    server: tun.chvps.tr
+    port: 1152
+    type: vless
+    uuid: e18f77f3-e518-4c8c-b230-c79e3708c7f4
+    udp: true
+    tls: true
+    servername: in.tradingview.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE
+      short-id: ead6bdba606219a2
+  - name: POPVPN 0006 🇪🇸 ES VLESS XHTTP
     server: api.ferrin.uk
     port: 443
     type: vless
@@ -70,39 +92,75 @@ proxies:
     udp: true
     tls: true
     servername: 7d1a74fd.ferrin.uk
-    client-fingerprint: chrome
-  - name: POPVPN 0005 🇸🇬 SG VLESS TLS
-    server: onhit.shalanax.com
-    port: 443
+    client-fingerprint: firefox
+  - name: POPVPN 0007 🇩🇪 DE VLESS XHTTP
+    server: pofiyoz2.gamecloudarbab7baba.site
+    port: 8080
     type: vless
-    uuid: 59413788-5d3f-4860-8fbb-d411b82cb4eb
+    uuid: e599fde7-4629-412a-a37f-d7f1adf23fe0
     udp: true
     tls: true
-    servername: zoom.us
+    servername: az.gamecloudarbab7baba.site
     client-fingerprint: chrome
-  - name: POPVPN 0006 🇺🇸 US TROJAN WS
+    xudp: true
+  - name: POPVPN 0008 🇺🇸 US TROJAN WS
     server: ipfast.kingmna.com
     port: 443
     type: trojan
     password: GBEqN2BggZfFExc5pTTHUA
     udp: true
     sni: cdn.akamai.steamstatic.com
-    skip-cert-verify: true
     network: ws
     ws-opts:
       path: "/TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER"
       headers:
         Host: cdn.akamai.steamstatic.com
+  - name: POPVPN 0009 🇸🇬 SG VLESS TLS
+    server: onhit.shalanax.com
+    port: 443
+    type: vless
+    uuid: 59413788-5d3f-4860-8fbb-d411b82cb4eb
+    udp: true
+    tls: true
+    servername: m.zoom.us
+    client-fingerprint: chrome
+  - name: POPVPN 0010 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+    server: 18.171.162.58
+    port: 443
+    type: ss
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+    udp: true
+  - name: POPVPN 0011 🇫🇷 FR SS 2022-BLAKE3-AES-256-GCM
+    server: 2.59.58.32
+    port: 1883
+    type: ss
+    cipher: 2022-blake3-aes-256-gcm
+    password: "QF6wGXmPQ8VkiafXxmIR70yvQG7TD43W+FTrM3oFogE=:kUGV+ktCkRQQrrECd9egvrRBsm60oZL7SIDDBjXUcMw="
+    udp: true
+  - name: POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+    server: 3.67.196.112
+    port: 443
+    type: ss
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+    udp: true
 proxy-groups:
   - name: AUTO
     type: url-test
     proxies:
-      - POPVPN 0001 🇵🇱 PL VLESS REALITY
-      - POPVPN 0002 🇭🇰 HK VLESS REALITY
-      - POPVPN 0003 🇺🇸 US VLESS REALITY
-      - POPVPN 0004 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0005 🇸🇬 SG VLESS TLS
-      - POPVPN 0006 🇺🇸 US TROJAN WS
+      - POPVPN 0001 🇺🇸 US VLESS REALITY
+      - POPVPN 0002 🇩🇪 DE VLESS REALITY
+      - POPVPN 0003 🇩🇪 DE VLESS REALITY
+      - POPVPN 0004 🇫🇮 FI VLESS REALITY
+      - POPVPN 0005 🇩🇪 DE VLESS REALITY
+      - POPVPN 0006 🇪🇸 ES VLESS XHTTP
+      - POPVPN 0007 🇩🇪 DE VLESS XHTTP
+      - POPVPN 0008 🇺🇸 US TROJAN WS
+      - POPVPN 0009 🇸🇬 SG VLESS TLS
+      - POPVPN 0010 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0011 🇫🇷 FR SS 2022-BLAKE3-AES-256-GCM
+      - POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
@@ -110,26 +168,43 @@ proxy-groups:
     type: select
     proxies:
       - AUTO
-      - POPVPN 0001 🇵🇱 PL VLESS REALITY
-      - POPVPN 0002 🇭🇰 HK VLESS REALITY
-      - POPVPN 0003 🇺🇸 US VLESS REALITY
-      - POPVPN 0004 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0005 🇸🇬 SG VLESS TLS
-      - POPVPN 0006 🇺🇸 US TROJAN WS
+      - POPVPN 0001 🇺🇸 US VLESS REALITY
+      - POPVPN 0002 🇩🇪 DE VLESS REALITY
+      - POPVPN 0003 🇩🇪 DE VLESS REALITY
+      - POPVPN 0004 🇫🇮 FI VLESS REALITY
+      - POPVPN 0005 🇩🇪 DE VLESS REALITY
+      - POPVPN 0006 🇪🇸 ES VLESS XHTTP
+      - POPVPN 0007 🇩🇪 DE VLESS XHTTP
+      - POPVPN 0008 🇺🇸 US TROJAN WS
+      - POPVPN 0009 🇸🇬 SG VLESS TLS
+      - POPVPN 0010 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0011 🇫🇷 FR SS 2022-BLAKE3-AES-256-GCM
+      - POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+  - name: SS
+    type: url-test
+    proxies:
+      - POPVPN 0010 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0011 🇫🇷 FR SS 2022-BLAKE3-AES-256-GCM
+      - POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
   - name: TROJAN
     type: url-test
     proxies:
-      - POPVPN 0006 🇺🇸 US TROJAN WS
+      - POPVPN 0008 🇺🇸 US TROJAN WS
     url: "https://www.gstatic.com/generate_204"
     interval: 300
   - name: VLESS
     type: url-test
     proxies:
-      - POPVPN 0001 🇵🇱 PL VLESS REALITY
-      - POPVPN 0002 🇭🇰 HK VLESS REALITY
-      - POPVPN 0003 🇺🇸 US VLESS REALITY
-      - POPVPN 0004 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0005 🇸🇬 SG VLESS TLS
+      - POPVPN 0001 🇺🇸 US VLESS REALITY
+      - POPVPN 0002 🇩🇪 DE VLESS REALITY
+      - POPVPN 0003 🇩🇪 DE VLESS REALITY
+      - POPVPN 0004 🇫🇮 FI VLESS REALITY
+      - POPVPN 0005 🇩🇪 DE VLESS REALITY
+      - POPVPN 0006 🇪🇸 ES VLESS XHTTP
+      - POPVPN 0007 🇩🇪 DE VLESS XHTTP
+      - POPVPN 0009 🇸🇬 SG VLESS TLS
     url: "https://www.gstatic.com/generate_204"
     interval: 300
 rules:

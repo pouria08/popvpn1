@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-11-23 13:01:17 UTC",
+  "generated_at": "2026-11-24 00:58:30 UTC",
   "version": "2.0.0",
-  "duration_ms": 782,
-  "total": 6,
-  "unique": 6,
-  "parsed": 6,
-  "raw_lines": 6,
+  "duration_ms": 844,
+  "total": 12,
+  "unique": 12,
+  "parsed": 12,
+  "raw_lines": 13,
   "duplicates": 0,
-  "invalid": 0,
+  "invalid": 1,
   "by_protocol": {
-    "vless": 5,
-    "trojan": 1
+    "vless": 8,
+    "trojan": 1,
+    "ss": 3
   },
   "by_country": [
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 6
+    },
     {
       "code": "US",
       "name": "United States",
@@ -28,16 +36,16 @@
       "count": 1
     },
     {
-      "code": "HK",
-      "name": "Hong Kong",
-      "flag": "🇭🇰",
-      "region": "AS",
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "region": "EU",
       "count": 1
     },
     {
-      "code": "PL",
-      "name": "Poland",
-      "flag": "🇵🇱",
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
       "region": "EU",
       "count": 1
     },
@@ -49,7 +57,7 @@
       "count": 1
     }
   ],
-  "country_count": 5,
+  "country_count": 6,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -60,17 +68,17 @@
     {
       "name": "boltnet.org",
       "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
-      "last_configs": 6,
+      "last_configs": 12,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 779,
+      "elapsed_ms": 838,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "boltnet.org": 6
+    "boltnet.org": 12
   },
   "cache": {
     "enabled": true,
@@ -91,15 +99,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 6,
+    "kept": 12,
     "dropped": 0,
-    "insecure": 2,
+    "insecure": 1,
     "private_hosts": 0,
     "placeholder_credentials": 0,
     "warnings": {
-      "allow-insecure": 2
+      "allow-insecure": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 18
+  "previous_total": 6
 }

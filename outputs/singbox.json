@@ -29,12 +29,18 @@
       "tag": "select",
       "type": "selector",
       "outbounds": [
-        "POPVPN 0001 🇵🇱 PL VLESS REALITY",
-        "POPVPN 0002 🇭🇰 HK VLESS REALITY",
-        "POPVPN 0003 🇺🇸 US VLESS REALITY",
-        "POPVPN 0004 🇪🇸 ES VLESS XHTTP",
-        "POPVPN 0005 🇸🇬 SG VLESS TLS",
-        "POPVPN 0006 🇺🇸 US TROJAN WS"
+        "POPVPN 0001 🇺🇸 US VLESS REALITY",
+        "POPVPN 0002 🇩🇪 DE VLESS REALITY",
+        "POPVPN 0003 🇩🇪 DE VLESS REALITY",
+        "POPVPN 0004 🇫🇮 FI VLESS REALITY",
+        "POPVPN 0005 🇩🇪 DE VLESS REALITY",
+        "POPVPN 0006 🇪🇸 ES VLESS XHTTP",
+        "POPVPN 0007 🇩🇪 DE VLESS XHTTP",
+        "POPVPN 0008 🇺🇸 US TROJAN WS",
+        "POPVPN 0009 🇸🇬 SG VLESS TLS",
+        "POPVPN 0010 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305",
+        "POPVPN 0011 🇫🇷 FR SS 2022-BLAKE3-AES-256-GCM",
+        "POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305"
       ]
     },
     {
@@ -50,69 +56,99 @@
       "type": "dns"
     },
     {
-      "tag": "POPVPN 0001 🇵🇱 PL VLESS REALITY",
-      "server": "45.132.179.90",
+      "tag": "POPVPN 0001 🇺🇸 US VLESS REALITY",
+      "server": "slot5.ipoxxo.online",
+      "server_port": 2083,
+      "type": "vless",
+      "uuid": "52a16edf-7a7b-402e-9a48-aa22c3014784",
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MtTn1O-PyWg96wyML5eATQsjSPIUle_jH-3mReeVCXg",
+          "short_id": "a096bdf644bc30e0"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0002 🇩🇪 DE VLESS REALITY",
+      "server": "179.253.173.85",
       "server_port": 443,
       "type": "vless",
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "flow": "xtls-rprx-vision",
+      "uuid": "2015b70a-aa1d-46cb-94f3-58ffa7a336cd",
       "tls": {
         "enabled": true,
-        "server_name": "sbmicro683.gangplatform.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Ldrfdkq0bJrZWCS0p1u6Z2tPPal0LzRm4cgEYF_2KH8",
-          "short_id": "cda7e8556ea56616"
-        }
-      }
-    },
-    {
-      "tag": "POPVPN 0002 🇭🇰 HK VLESS REALITY",
-      "server": "85.189.67.107",
-      "server_port": 20086,
-      "type": "vless",
-      "uuid": "01b87800-396e-4d79-8eaf-c023deeccf7c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.paypal.com",
+        "server_name": "ru1.taptapvpn.top",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "N60X1fq3w78e_eDHwgyrbgdplTgq1oyTnICTAKy7RjY"
+          "public_key": "vywV_ETKfHeTtvTAjeuDjdfFpIKqoYCbLH3Yi0msX1M",
+          "short_id": "d4b8e21a"
         }
       }
     },
     {
-      "tag": "POPVPN 0003 🇺🇸 US VLESS REALITY",
-      "server": "leviko-us6922.shopingggg.ir",
-      "server_port": 8443,
+      "tag": "POPVPN 0003 🇩🇪 DE VLESS REALITY",
+      "server": "cip.nimbaha12.ir",
+      "server_port": 2082,
       "type": "vless",
-      "uuid": "1d1eda2e-0bd7-4478-877b-1c5425c6c4dd",
-      "flow": "xtls-rprx-vision",
+      "uuid": "25591035-9ab3-4d13-aa5c-db6d812654fc",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "filimo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38",
-          "short_id": "8f3c6e2a1b5d4f09"
+          "public_key": "S8HvumWz220iqyw-XSMXZ-YwQT53kA6-cw2utT_s1BE",
+          "short_id": "c82fddc4"
         }
       }
     },
     {
-      "tag": "POPVPN 0004 🇪🇸 ES VLESS XHTTP",
+      "tag": "POPVPN 0004 🇫🇮 FI VLESS REALITY",
+      "server": "finlandnovemberone.best",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "fdbd8fb8-7d27-4bd8-9da1-1e42c4876835",
+      "tls": {
+        "enabled": true,
+        "server_name": "finlandnovemberone.best",
+        "reality": {
+          "enabled": true,
+          "public_key": "5INjcaKWv9Yfn62Igz2_xfw1PNgEtroCkKqd0c-wMA4",
+          "short_id": "a8329724e1e60d85"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0005 🇩🇪 DE VLESS REALITY",
+      "server": "tun.chvps.tr",
+      "server_port": 1152,
+      "type": "vless",
+      "uuid": "e18f77f3-e518-4c8c-b230-c79e3708c7f4",
+      "tls": {
+        "enabled": true,
+        "server_name": "in.tradingview.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+          "short_id": "ead6bdba606219a2"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0006 🇪🇸 ES VLESS XHTTP",
       "server": "api.ferrin.uk",
       "server_port": 443,
       "type": "vless",
@@ -122,36 +158,34 @@
         "server_name": "7d1a74fd.ferrin.uk",
         "utls": {
           "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "POPVPN 0007 🇩🇪 DE VLESS XHTTP",
+      "server": "pofiyoz2.gamecloudarbab7baba.site",
+      "server_port": 8080,
+      "type": "vless",
+      "uuid": "e599fde7-4629-412a-a37f-d7f1adf23fe0",
+      "tls": {
+        "enabled": true,
+        "server_name": "az.gamecloudarbab7baba.site",
+        "utls": {
+          "enabled": true,
           "fingerprint": "chrome"
         }
       }
     },
     {
-      "tag": "POPVPN 0005 🇸🇬 SG VLESS TLS",
-      "server": "onhit.shalanax.com",
-      "server_port": 443,
-      "type": "vless",
-      "uuid": "59413788-5d3f-4860-8fbb-d411b82cb4eb",
-      "tls": {
-        "enabled": true,
-        "server_name": "zoom.us",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "POPVPN 0006 🇺🇸 US TROJAN WS",
+      "tag": "POPVPN 0008 🇺🇸 US TROJAN WS",
       "server": "ipfast.kingmna.com",
       "server_port": 443,
       "type": "trojan",
       "password": "GBEqN2BggZfFExc5pTTHUA",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com",
-        "insecure": true
+        "server_name": "cdn.akamai.steamstatic.com"
       },
       "transport": {
         "type": "ws",
@@ -160,6 +194,46 @@
           "Host": "cdn.akamai.steamstatic.com"
         }
       }
+    },
+    {
+      "tag": "POPVPN 0009 🇸🇬 SG VLESS TLS",
+      "server": "onhit.shalanax.com",
+      "server_port": 443,
+      "type": "vless",
+      "uuid": "59413788-5d3f-4860-8fbb-d411b82cb4eb",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.zoom.us",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "POPVPN 0010 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305",
+      "server": "18.171.162.58",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4="
+    },
+    {
+      "tag": "POPVPN 0011 🇫🇷 FR SS 2022-BLAKE3-AES-256-GCM",
+      "server": "2.59.58.32",
+      "server_port": 1883,
+      "type": "shadowsocks",
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "QF6wGXmPQ8VkiafXxmIR70yvQG7TD43W+FTrM3oFogE=:kUGV+ktCkRQQrrECd9egvrRBsm60oZL7SIDDBjXUcMw="
+    },
+    {
+      "tag": "POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305",
+      "server": "3.67.196.112",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
     }
   ],
   "route": {
@@ -184,7 +258,7 @@
   },
   "_meta": {
     "title": "POPVPN X",
-    "generated_at": "2026-11-23 13:01:17 UTC",
-    "count": 6
+    "generated_at": "2026-11-24 00:58:30 UTC",
+    "count": 12
   }
 }
