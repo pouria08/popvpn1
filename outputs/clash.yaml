@@ -1,6 +1,6 @@
 # POPVPN X — Clash / Mihomo profile
-# generated: 2026-11-24 21:19:27 UTC
-# configs: 12
+# generated: 2026-11-25 04:55:43 UTC
+# configs: 19
 
 mixed-port: 7890
 allow-lan: false
@@ -24,20 +24,70 @@ dns:
     - "https://8.8.4.4/dns-query"
     - "tls://9.9.9.9:853"
 proxies:
-  - name: POPVPN 0001 🇺🇸 US VLESS REALITY
-    server: 186.241.113.196
-    port: 24605
+  - name: POPVPN 0001 🇵🇱 PL VLESS REALITY
+    server: 13.143.189.174
+    port: 6443
     type: vless
-    uuid: 38a3c008-b730-4b5c-b654-1a5453d24e8e
+    uuid: 391a32c6-084c-4d61-8e8d-472678021dac
     udp: true
     tls: true
-    servername: gateway.icloud.com
-    flow: xtls-rprx-vision
+    servername: downloadmirror.intel.com
+    client-fingerprint: qq
+    reality-opts:
+      public-key: T_DB978NmE_RxqrscgvQl6vch18YDEAJY-uk7tBtBzY
+      short-id: 50831b4958b2643a
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /api/v1/update
+  - name: POPVPN 0002 🇺🇸 US VLESS REALITY
+    server: 187.54.12.146
+    port: 10455
+    type: vless
+    uuid: d27390ea-4177-4ee3-a3fe-2cf513f33f7d
+    udp: true
+    tls: true
+    servername: addons.mozilla.org
     client-fingerprint: firefox
     reality-opts:
-      public-key: OMw1bo_JwLG61eycCxczLlK4BUViVp4SHcD8eh2Aol4
-      short-id: 4ef4b7e137b38248
-  - name: POPVPN 0002 🇳🇱 NL VLESS REALITY
+      public-key: NoLIbCssob6T9HvprXBoNoYsZyDN650OViyAMePwp1c
+      short-id: 54cd1667f48828f9
+  - name: POPVPN 0003 🇩🇪 DE VLESS REALITY
+    server: 2.26.252.27
+    port: 443
+    type: vless
+    uuid: a38e3651-a36c-445d-87e1-336a7855edb4
+    udp: true
+    tls: true
+    servername: ger01.deflink.net
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: TwjCmZPEnOHZW5QYa2LhobAO8E2LveyrMdX1ZEha9Bo
+      short-id: 78270c5caade48d7
+  - name: POPVPN 0004 🇫🇷 FR VLESS REALITY
+    server: 82.22.2.137
+    port: 443
+    type: vless
+    uuid: 7ce93cef-119d-4cba-9d9d-da0056ba979c
+    udp: true
+    tls: true
+    servername: fr2.green-tg.com
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: EhKlZ3cHsJQRkNH7Qeya0ZeAy5jovCT-H4VNivwPyls
+      short-id: 0bf13fb706784403
+  - name: POPVPN 0005 🇷🇺 RU VLESS REALITY
+    server: 141.133.202.12
+    port: 1443
+    type: vless
+    uuid: 00094b43-04c7-464b-a3d0-72da5fe0e68b
+    udp: true
+    tls: true
+    servername: s3.yandex.net
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: OPBCa6EpdUuRrZm44e2JQbEFoXLcj5-25gm0bi3zzWA
+      short-id: 76f547961a8ca082
+  - name: POPVPN 0006 🇳🇱 NL VLESS REALITY
     server: 195.209.221.16
     port: 443
     type: vless
@@ -46,92 +96,142 @@ proxies:
     tls: true
     servername: ruhsds734.thebestqas.am
     flow: xtls-rprx-vision
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     reality-opts:
       public-key: Jv6OJRVpXGL8SlWq1VoCUbkeKCkG9cTzi2OHI2R9eAQ
       short-id: bd1b77948ad14751
-  - name: POPVPN 0003 🇭🇰 HK VLESS REALITY
-    server: 68.64.181.197
-    port: 20086
+  - name: POPVPN 0007 🇩🇪 DE VLESS REALITY
+    server: 89.116.72.217
+    port: 8880
     type: vless
-    uuid: cfa9310e-0083-4e06-a664-0381098c148f
+    uuid: 19841976-1b67-49e4-9f21-804d10b2fd00
     udp: true
     tls: true
-    servername: aws.amazon.com
-    flow: xtls-rprx-vision
+    servername: www.microsoft.com
     client-fingerprint: chrome
     reality-opts:
-      public-key: 78TG1qYh_ShLeQszkvn8Fzv9fItRD5uqNbldKeejFTI
-  - name: POPVPN 0004 🇳🇱 NL VLESS REALITY
-    server: nl.memepn.com
+      public-key: OjDDQkw-g0y3OGcZUgsT_k4N_QtBDjgcjYF9it6Nyz4
+      short-id: cb4a2e4c
+    xudp: true
+  - name: POPVPN 0008 🇩🇪 DE VLESS REALITY
+    server: 91.224.87.152
     port: 443
     type: vless
-    uuid: f69e272f-e0e5-4e9d-b180-5be63930cde9
+    uuid: bc4c9ea8-b4ee-4451-80e1-dfcd5eceec4c
     udp: true
     tls: true
-    servername: nl.memepn.com
+    servername: www.tradingview.com
     flow: xtls-rprx-vision
     client-fingerprint: firefox
     reality-opts:
-      public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-      short-id: 868419504747f6de
-  - name: POPVPN 0005 🇪🇸 ES VLESS XHTTP
-    server: api.ferrin.uk
+      public-key: ZKLerhOtbZ9D1Kvfz9w9LPGhYTQmfGs98HthyAy85AQ
+      short-id: ad51b5ecda6a9234
+  - name: POPVPN 0009 🇫🇮 FI VLESS REALITY
+    server: rial-fl2.torshikhoone.ir
     port: 443
     type: vless
-    uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
+    uuid: f8b63f3a-d418-499f-9d00-2b33f90199d5
     udp: true
     tls: true
-    servername: 7d1a74fd.ferrin.uk
-    client-fingerprint: chrome
-  - name: POPVPN 0006 🇷🇺 RU VLESS TLS
-    server: 201.8.87.187
-    port: 443
-    type: vless
-    uuid: d7121b33-e335-4921-bb00-4c0b157e7fc1
-    udp: true
-    tls: true
-    servername: 2gcnbpjzq4go.cloud-kmt.com
+    servername: www.hetzner.com
     flow: xtls-rprx-vision
-  - name: POPVPN 0007 🇯🇵 JP TROJAN TLS
-    server: nu3rb.supertoolify.com
-    port: 443
-    type: trojan
-    password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    udp: true
-    sni: nu3rb.supertoolify.com
-  - name: POPVPN 0008 GLOBAL VLESS TLS
-    server: cdn.shop.mygharehshop.ir
-    port: 41230
-    type: vless
-    uuid: e7e0da99-901a-4b1e-9f5c-17d5d0923edd
-    udp: true
-    tls: true
-    servername: cdn.shop.mygharehshop.ir
     client-fingerprint: chrome
-  - name: POPVPN 0009 🇸🇬 SG VLESS TLS
-    server: onhit.shalanax.com
+    reality-opts:
+      public-key: eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw
+      short-id: b1c9c3d3cc3b662b
+  - name: POPVPN 0010 🇩🇪 DE VLESS REALITY
+    server: rial-ge1.torshikhoone.ir
     port: 443
     type: vless
-    uuid: 59413788-5d3f-4860-8fbb-d411b82cb4eb
+    uuid: f8b63f3a-d418-499f-9d00-2b33f90199d5
     udp: true
     tls: true
-    servername: aka.ms
+    servername: tgju.org
+    flow: xtls-rprx-vision
     client-fingerprint: chrome
-  - name: POPVPN 0010 🇩🇪 DE VLESS TCP
-    server: 195.110.15.216
-    port: 31652
+    reality-opts:
+      public-key: eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw
+      short-id: b1c9c3d3cc3b662b
+  - name: POPVPN 0011 🇩🇪 DE VLESS REALITY
+    server: rial-ge2.torshikhoone.ir
+    port: 443
     type: vless
-    uuid: 2da03bdf-8af3-4207-96c7-d70e0dd22c36
+    uuid: f8b63f3a-d418-499f-9d00-2b33f90199d5
     udp: true
-  - name: POPVPN 0011 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+    tls: true
+    servername: tgju.org
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw
+      short-id: b1c9c3d3cc3b662b
+  - name: POPVPN 0012 🇩🇪 DE VLESS REALITY
+    server: rial-gee3.torshikhoone.ir
+    port: 443
+    type: vless
+    uuid: f8b63f3a-d418-499f-9d00-2b33f90199d5
+    udp: true
+    tls: true
+    servername: tgju.org
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw
+      short-id: b1c9c3d3cc3b662b
+  - name: POPVPN 0013 🇳🇱 NL VLESS REALITY
+    server: yellow-5hmq5ehr3ievlnabv8l2.concept7.ru
+    port: 443
+    type: vless
+    uuid: 48818046-00b5-4576-bbe8-d2971fe0f844
+    udp: true
+    tls: true
+    servername: river-3-369.rtbcdn.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
+      short-id: 4b227777d4dd
+  - name: POPVPN 0014 🇫🇷 FR VLESS TLS
+    server: 144.31.214.249
+    port: 443
+    type: vless
+    uuid: a38e3651-a36c-445d-87e1-336a7855edb4
+    udp: true
+    tls: true
+    servername: fra01.deflink.net
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+  - name: POPVPN 0015 🇳🇱 NL VLESS TCP
+    server: alsu.deev-guard.ir
+    port: 44200
+    type: vless
+    uuid: d1ec39e3-ad7b-4b65-9f65-813696f9a04e
+    udp: true
+    xudp: true
+  - name: POPVPN 0016 🇩🇪 DE VLESS TLS
+    server: free-server.techsonic.dev
+    port: 443
+    type: vless
+    uuid: 90711def-edd4-42da-ba1d-b2046b86b50a
+    udp: true
+    tls: true
+    servername: tech-sonic.webex.com
+    client-fingerprint: chrome
+  - name: POPVPN 0017 🇳🇱 NL VLESS TCP
+    server: sur.deev-guard.ir
+    port: 15470
+    type: vless
+    uuid: d1ec39e3-ad7b-4b65-9f65-813696f9a04e
+    udp: true
+    xudp: true
+  - name: POPVPN 0018 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
     server: 18.197.131.255
     port: 443
     type: ss
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+  - name: POPVPN 0019 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
     server: 35.178.82.244
     port: 443
     type: ss
@@ -142,18 +242,25 @@ proxy-groups:
   - name: AUTO
     type: url-test
     proxies:
-      - POPVPN 0001 🇺🇸 US VLESS REALITY
-      - POPVPN 0002 🇳🇱 NL VLESS REALITY
-      - POPVPN 0003 🇭🇰 HK VLESS REALITY
-      - POPVPN 0004 🇳🇱 NL VLESS REALITY
-      - POPVPN 0005 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0006 🇷🇺 RU VLESS TLS
-      - POPVPN 0007 🇯🇵 JP TROJAN TLS
-      - POPVPN 0008 GLOBAL VLESS TLS
-      - POPVPN 0009 🇸🇬 SG VLESS TLS
-      - POPVPN 0010 🇩🇪 DE VLESS TCP
-      - POPVPN 0011 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
-      - POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0001 🇵🇱 PL VLESS REALITY
+      - POPVPN 0002 🇺🇸 US VLESS REALITY
+      - POPVPN 0003 🇩🇪 DE VLESS REALITY
+      - POPVPN 0004 🇫🇷 FR VLESS REALITY
+      - POPVPN 0005 🇷🇺 RU VLESS REALITY
+      - POPVPN 0006 🇳🇱 NL VLESS REALITY
+      - POPVPN 0007 🇩🇪 DE VLESS REALITY
+      - POPVPN 0008 🇩🇪 DE VLESS REALITY
+      - POPVPN 0009 🇫🇮 FI VLESS REALITY
+      - POPVPN 0010 🇩🇪 DE VLESS REALITY
+      - POPVPN 0011 🇩🇪 DE VLESS REALITY
+      - POPVPN 0012 🇩🇪 DE VLESS REALITY
+      - POPVPN 0013 🇳🇱 NL VLESS REALITY
+      - POPVPN 0014 🇫🇷 FR VLESS TLS
+      - POPVPN 0015 🇳🇱 NL VLESS TCP
+      - POPVPN 0016 🇩🇪 DE VLESS TLS
+      - POPVPN 0017 🇳🇱 NL VLESS TCP
+      - POPVPN 0018 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0019 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
@@ -161,43 +268,52 @@ proxy-groups:
     type: select
     proxies:
       - AUTO
-      - POPVPN 0001 🇺🇸 US VLESS REALITY
-      - POPVPN 0002 🇳🇱 NL VLESS REALITY
-      - POPVPN 0003 🇭🇰 HK VLESS REALITY
-      - POPVPN 0004 🇳🇱 NL VLESS REALITY
-      - POPVPN 0005 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0006 🇷🇺 RU VLESS TLS
-      - POPVPN 0007 🇯🇵 JP TROJAN TLS
-      - POPVPN 0008 GLOBAL VLESS TLS
-      - POPVPN 0009 🇸🇬 SG VLESS TLS
-      - POPVPN 0010 🇩🇪 DE VLESS TCP
-      - POPVPN 0011 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
-      - POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0001 🇵🇱 PL VLESS REALITY
+      - POPVPN 0002 🇺🇸 US VLESS REALITY
+      - POPVPN 0003 🇩🇪 DE VLESS REALITY
+      - POPVPN 0004 🇫🇷 FR VLESS REALITY
+      - POPVPN 0005 🇷🇺 RU VLESS REALITY
+      - POPVPN 0006 🇳🇱 NL VLESS REALITY
+      - POPVPN 0007 🇩🇪 DE VLESS REALITY
+      - POPVPN 0008 🇩🇪 DE VLESS REALITY
+      - POPVPN 0009 🇫🇮 FI VLESS REALITY
+      - POPVPN 0010 🇩🇪 DE VLESS REALITY
+      - POPVPN 0011 🇩🇪 DE VLESS REALITY
+      - POPVPN 0012 🇩🇪 DE VLESS REALITY
+      - POPVPN 0013 🇳🇱 NL VLESS REALITY
+      - POPVPN 0014 🇫🇷 FR VLESS TLS
+      - POPVPN 0015 🇳🇱 NL VLESS TCP
+      - POPVPN 0016 🇩🇪 DE VLESS TLS
+      - POPVPN 0017 🇳🇱 NL VLESS TCP
+      - POPVPN 0018 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0019 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
   - name: SS
     type: url-test
     proxies:
-      - POPVPN 0011 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
-      - POPVPN 0012 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
-    url: "https://www.gstatic.com/generate_204"
-    interval: 300
-  - name: TROJAN
-    type: url-test
-    proxies:
-      - POPVPN 0007 🇯🇵 JP TROJAN TLS
+      - POPVPN 0018 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+      - POPVPN 0019 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
     url: "https://www.gstatic.com/generate_204"
     interval: 300
   - name: VLESS
     type: url-test
     proxies:
-      - POPVPN 0001 🇺🇸 US VLESS REALITY
-      - POPVPN 0002 🇳🇱 NL VLESS REALITY
-      - POPVPN 0003 🇭🇰 HK VLESS REALITY
-      - POPVPN 0004 🇳🇱 NL VLESS REALITY
-      - POPVPN 0005 🇪🇸 ES VLESS XHTTP
-      - POPVPN 0006 🇷🇺 RU VLESS TLS
-      - POPVPN 0008 GLOBAL VLESS TLS
-      - POPVPN 0009 🇸🇬 SG VLESS TLS
-      - POPVPN 0010 🇩🇪 DE VLESS TCP
+      - POPVPN 0001 🇵🇱 PL VLESS REALITY
+      - POPVPN 0002 🇺🇸 US VLESS REALITY
+      - POPVPN 0003 🇩🇪 DE VLESS REALITY
+      - POPVPN 0004 🇫🇷 FR VLESS REALITY
+      - POPVPN 0005 🇷🇺 RU VLESS REALITY
+      - POPVPN 0006 🇳🇱 NL VLESS REALITY
+      - POPVPN 0007 🇩🇪 DE VLESS REALITY
+      - POPVPN 0008 🇩🇪 DE VLESS REALITY
+      - POPVPN 0009 🇫🇮 FI VLESS REALITY
+      - POPVPN 0010 🇩🇪 DE VLESS REALITY
+      - POPVPN 0011 🇩🇪 DE VLESS REALITY
+      - POPVPN 0012 🇩🇪 DE VLESS REALITY
+      - POPVPN 0013 🇳🇱 NL VLESS REALITY
+      - POPVPN 0014 🇫🇷 FR VLESS TLS
+      - POPVPN 0015 🇳🇱 NL VLESS TCP
+      - POPVPN 0016 🇩🇪 DE VLESS TLS
+      - POPVPN 0017 🇳🇱 NL VLESS TCP
     url: "https://www.gstatic.com/generate_204"
     interval: 300
 rules:
