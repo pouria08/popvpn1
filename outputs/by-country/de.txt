@@ -2,4 +2,4 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://90711def-edd4-42da-ba1d-b2046b86b50a@free-server.techsonic.dev:443?allowInsecure=1&encryption=none&fp=chrome&security=tls&sni=tech-sonic.webex.com&type=tcp#POPVPN 0002 🇩🇪 DE VLESS TLS
+vless://b9ae9395-c3e4-4212-86b8-d27a92f214dd@188.225.34.128:443?encryption=mlkem768x25519plus.xorpub.0rtt.1_coi21c-2IwqPUeoV6r9BwjGcI7iRys5-nDVXelQkY&flow=xtls-rprx-vision&security=tls&sni=edge-de5.mystatic-cdn.ru&fp=chrome&alpn=h2&type=tcp&headerType=none#POPVPN 0008 🇩🇪 DE VLESS TLS

@@ -2,4 +2,7 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://d27390ea-4177-4ee3-a3fe-2cf513f33f7d@187.54.12.146:10455?type=xhttp&security=reality&fp=firefox&pbk=NoLIbCssob6T9HvprXBoNoYsZyDN650OViyAMePwp1c&sid=54cd1667f48828f9&sni=addons.mozilla.org&path=/api&mode=auto#POPVPN 0002 🇺🇸 US VLESS REALITY
+vless://b73a8f0b-0aad-4272-bd40-bc5d0e918d38@38.59.243.225:4076?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=MnJgQSRNwrlqHe1jPhOJBEhVCZvcLIajf7CegwtV0Fg&security=reality&sni=aws.amazon.com&type=tcp#POPVPN 0004 🇺🇸 US VLESS REALITY
+trojan://1sUm9iYpsjLCOC9THsL9cg@ipfast.kingmna.com:443?pcs=CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E&path=%2FTELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER&security=tls&insecure=0&host=denegu113.global.ssl.fastly.net.&type=ws&allowInsecure=0&sni=cdn.akamai.steamstatic.com#POPVPN 0012 🇺🇸 US TROJAN WS
+vless://9a591702-24c7-4abf-9f14-ac59438a64e6@176.114.95.245:443?security=&encryption=mlkem768x25519plus.native.0rtt.NPITyKcLP3ZK5ulXf_tjxU85NIRZTq1etgX54VAeI0c&headerType=none&type=tcp#POPVPN 0013 🇺🇸 US VLESS TCP
+trojan://JshEyCTWuC@48.102.138.153:22374?type=tcp&security=none#POPVPN 0015 🇺🇸 US TROJAN TCP
