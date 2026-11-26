@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-11-26 09:37:53 UTC",
+  "generated_at": "2026-11-26 19:41:19 UTC",
   "version": "2.0.0",
-  "duration_ms": 923,
-  "total": 6,
-  "unique": 6,
-  "parsed": 6,
-  "raw_lines": 7,
+  "duration_ms": 1106,
+  "total": 7,
+  "unique": 7,
+  "parsed": 7,
+  "raw_lines": 8,
   "duplicates": 0,
   "invalid": 1,
   "by_protocol": {
-    "vless": 4,
-    "trojan": 1,
-    "ss": 1
+    "vless": 5,
+    "ss": 2
   },
   "by_country": [
-    {
-      "code": "NL",
-      "name": "Netherlands",
-      "flag": "🇳🇱",
-      "region": "EU",
-      "count": 3
-    },
     {
       "code": "US",
       "name": "United States",
@@ -29,14 +21,42 @@
       "count": 2
     },
     {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 1
+    },
+    {
       "code": "FI",
       "name": "Finland",
       "flag": "🇫🇮",
       "region": "EU",
       "count": 1
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "region": "AS",
+      "count": 1
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "region": "EU",
+      "count": 1
     }
   ],
-  "country_count": 3,
+  "country_count": 6,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -47,17 +67,17 @@
     {
       "name": "boltnet.org",
       "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
-      "last_configs": 6,
+      "last_configs": 7,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 916,
+      "elapsed_ms": 1102,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "boltnet.org": 6
+    "boltnet.org": 7
   },
   "cache": {
     "enabled": true,
@@ -78,13 +98,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 6,
+    "kept": 7,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
-    "placeholder_credentials": 0,
-    "warnings": {},
+    "placeholder_credentials": 1,
+    "warnings": {
+      "weak-credential": 1
+    },
     "dropped_reasons": {}
   },
-  "previous_total": 15
+  "previous_total": 6
 }

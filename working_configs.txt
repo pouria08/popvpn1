@@ -2,9 +2,10 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://9df9ee1a-0671-4c6c-93c7-65598fb946f7@157.22.184.213:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ruiot747.gangtype.com&fp=firefox&pbk=tlAfLrhaFWvls1KhUZ9T4lj-8C2XyrGNx-ib5UYDPnc&sid=94f045a31f6a3769&flow=xtls-rprx-vision#POPVPN 0001 🇳🇱 NL VLESS REALITY
-vless://9df9ee1a-0671-4c6c-93c7-65598fb946f7@176.108.247.25:443?flow=xtls-rprx-vision&security=reality&sni=sbmicro675.alexdjane.am&fp=firefox&pbk=VG7Xc_At1WydHYh8e2h4VoCODJCnmv3vnS-S7f1sVCI&sid=55dba0df21263564&encryption=none&type=tcp#POPVPN 0002 🇳🇱 NL VLESS REALITY
-vless://9df9ee1a-0671-4c6c-93c7-65598fb946f7@82.152.141.167:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=nemicro503.jointaction.am&pbk=FvLfKSHg-IuXqNk70I9GcP19Xib0NjEkJjfjdUjw0WI&sid=9de43827829f021f&fp=qq&spx=%2F&encryption=none#POPVPN 0003 🇳🇱 NL VLESS REALITY
-vless://0173d52e-8e1b-4681-831e-11529677b72f@165.231.157.150:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=api-6b04608f.adhil.uk&type=tcp#POPVPN 0004 🇫🇮 FI VLESS TLS
-trojan://1sUm9iYpsjLCOC9THsL9cg@ipfast.kingmna.com:443?pcs=CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E&path=%2FTELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER-TELEGRAM-%40NUFiLTER&security=tls&insecure=0&host=dekoto845.global.ssl.fastly.net.&type=ws&allowInsecure=0&sni=cdn.akamai.steamstatic.com#POPVPN 0005 🇺🇸 US TROJAN WS
-ss://YWVzLTEyOC1nY206ODQ1ZTY1ZjEwZWUwZTQzYjFmNzZlMDA4Y2EyZGU2N2M@173.234.31.203:16565#POPVPN 0006 🇺🇸 US SS AES-128-GCM
+vless://e894c08a-fecc-46f5-bf03-c95d0274c79d@2.27.203.38:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=www.google.com&pbk=Xuy5y3WGJjkxyUtkhiY87dwndv4fuD45gO64TWnlThI&sid=fd0cc2b3ac52deb8&fp=firefox#POPVPN 0001 🇫🇮 FI VLESS REALITY
+vless://e894c08a-fecc-46f5-bf03-c95d0274c79d@48.102.207.168:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=www.google.com&pbk=H71UY7bCYbmpFwoIiLFVhsxbn2uV_RA0tGA11BiwCkU&sid=5968a556d38f6af6&fp=firefox#POPVPN 0002 🇺🇸 US VLESS REALITY
+vless://259ec8bc-5a6b-4b33-8a71-c40e8d150c24@h-pl.ok-habits.xyz:443?encryption=none&type=tcp&security=reality&sni=1.4.8.8&fp=hellofirefox_120&pbk=fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI&sid=db04ce8bdb8900f1#POPVPN 0003 🇵🇱 PL VLESS REALITY
+vless://e894c08a-fecc-46f5-bf03-c95d0274c79d@48.102.138.175:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=25QzRZqG6_xhYTy3Be7EXiE8UgaVyRl_GFx8mfXBLWc&security=reality&sid=6aee1e2cdc4d33dd&sni=www.google.com&type=tcp#POPVPN 0004 🇺🇸 US VLESS REALITY
+vless://b4ca1048-fb56-4543-9a5d-06adfa42b058@216.24.57.1:2083?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=n--l--1.parspack.lifestyle&fp=chrome&type=ws&allowInsecure=0&sni=n--l--1.parspack.lifestyle#POPVPN 0005 🇳🇱 NL VLESS WS
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6OHlPM0FOV2VmdXVHczFsUktYRUNRQTFGRWh4bFdGVjJwcFFNY0JhWm81WT0@3.70.132.223:443#POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305
+ss://YWVzLTI1Ni1nY206MTIzNDU2@8.216.5.230:5555#POPVPN 0007 🇯🇵 JP SS AES-256-GCM

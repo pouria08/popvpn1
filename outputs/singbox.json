@@ -29,12 +29,13 @@
       "tag": "select",
       "type": "selector",
       "outbounds": [
-        "POPVPN 0001 🇳🇱 NL VLESS REALITY",
-        "POPVPN 0002 🇳🇱 NL VLESS REALITY",
-        "POPVPN 0003 🇳🇱 NL VLESS REALITY",
-        "POPVPN 0004 🇫🇮 FI VLESS TLS",
-        "POPVPN 0005 🇺🇸 US TROJAN WS",
-        "POPVPN 0006 🇺🇸 US SS AES-128-GCM"
+        "POPVPN 0001 🇫🇮 FI VLESS REALITY",
+        "POPVPN 0002 🇺🇸 US VLESS REALITY",
+        "POPVPN 0003 🇵🇱 PL VLESS REALITY",
+        "POPVPN 0004 🇺🇸 US VLESS REALITY",
+        "POPVPN 0005 🇳🇱 NL VLESS WS",
+        "POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305",
+        "POPVPN 0007 🇯🇵 JP SS AES-256-GCM"
       ]
     },
     {
@@ -50,109 +51,121 @@
       "type": "dns"
     },
     {
-      "tag": "POPVPN 0001 🇳🇱 NL VLESS REALITY",
-      "server": "157.22.184.213",
+      "tag": "POPVPN 0001 🇫🇮 FI VLESS REALITY",
+      "server": "2.27.203.38",
       "server_port": 443,
       "type": "vless",
-      "uuid": "9df9ee1a-0671-4c6c-93c7-65598fb946f7",
+      "uuid": "e894c08a-fecc-46f5-bf03-c95d0274c79d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ruiot747.gangtype.com",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "tlAfLrhaFWvls1KhUZ9T4lj-8C2XyrGNx-ib5UYDPnc",
-          "short_id": "94f045a31f6a3769"
+          "public_key": "Xuy5y3WGJjkxyUtkhiY87dwndv4fuD45gO64TWnlThI",
+          "short_id": "fd0cc2b3ac52deb8"
         }
       }
     },
     {
-      "tag": "POPVPN 0002 🇳🇱 NL VLESS REALITY",
-      "server": "176.108.247.25",
+      "tag": "POPVPN 0002 🇺🇸 US VLESS REALITY",
+      "server": "48.102.207.168",
       "server_port": 443,
       "type": "vless",
-      "uuid": "9df9ee1a-0671-4c6c-93c7-65598fb946f7",
+      "uuid": "e894c08a-fecc-46f5-bf03-c95d0274c79d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sbmicro675.alexdjane.am",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "VG7Xc_At1WydHYh8e2h4VoCODJCnmv3vnS-S7f1sVCI",
-          "short_id": "55dba0df21263564"
+          "public_key": "H71UY7bCYbmpFwoIiLFVhsxbn2uV_RA0tGA11BiwCkU",
+          "short_id": "5968a556d38f6af6"
         }
       }
     },
     {
-      "tag": "POPVPN 0003 🇳🇱 NL VLESS REALITY",
-      "server": "82.152.141.167",
+      "tag": "POPVPN 0003 🇵🇱 PL VLESS REALITY",
+      "server": "h-pl.ok-habits.xyz",
       "server_port": 443,
       "type": "vless",
-      "uuid": "9df9ee1a-0671-4c6c-93c7-65598fb946f7",
-      "flow": "xtls-rprx-vision",
+      "uuid": "259ec8bc-5a6b-4b33-8a71-c40e8d150c24",
       "tls": {
         "enabled": true,
-        "server_name": "nemicro503.jointaction.am",
+        "server_name": "1.4.8.8",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "hellofirefox_120"
         },
         "reality": {
           "enabled": true,
-          "public_key": "FvLfKSHg-IuXqNk70I9GcP19Xib0NjEkJjfjdUjw0WI",
-          "short_id": "9de43827829f021f"
+          "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
+          "short_id": "db04ce8bdb8900f1"
         }
       }
     },
     {
-      "tag": "POPVPN 0004 🇫🇮 FI VLESS TLS",
-      "server": "165.231.157.150",
+      "tag": "POPVPN 0004 🇺🇸 US VLESS REALITY",
+      "server": "48.102.138.175",
       "server_port": 8443,
       "type": "vless",
-      "uuid": "0173d52e-8e1b-4681-831e-11529677b72f",
+      "uuid": "e894c08a-fecc-46f5-bf03-c95d0274c79d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-6b04608f.adhil.uk",
-        "utls": {
+        "server_name": "www.google.com",
+        "reality": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "public_key": "25QzRZqG6_xhYTy3Be7EXiE8UgaVyRl_GFx8mfXBLWc",
+          "short_id": "6aee1e2cdc4d33dd"
         }
       }
     },
     {
-      "tag": "POPVPN 0005 🇺🇸 US TROJAN WS",
-      "server": "ipfast.kingmna.com",
-      "server_port": 443,
-      "type": "trojan",
-      "password": "1sUm9iYpsjLCOC9THsL9cg",
+      "tag": "POPVPN 0005 🇳🇱 NL VLESS WS",
+      "server": "216.24.57.1",
+      "server_port": 2083,
+      "type": "vless",
+      "uuid": "b4ca1048-fb56-4543-9a5d-06adfa42b058",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com"
+        "server_name": "n--l--1.parspack.lifestyle",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER",
+        "path": "/",
         "headers": {
-          "Host": "cdn.akamai.steamstatic.com"
+          "Host": "n--l--1.parspack.lifestyle"
         }
       }
     },
     {
-      "tag": "POPVPN 0006 🇺🇸 US SS AES-128-GCM",
-      "server": "173.234.31.203",
-      "server_port": 16565,
+      "tag": "POPVPN 0006 🇩🇪 DE SS 2022-BLAKE3-CHACHA20-POLY1305",
+      "server": "3.70.132.223",
+      "server_port": 443,
       "type": "shadowsocks",
-      "method": "aes-128-gcm",
-      "password": "845e65f10ee0e43b1f76e008ca2de67c"
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
+    },
+    {
+      "tag": "POPVPN 0007 🇯🇵 JP SS AES-256-GCM",
+      "server": "8.216.5.230",
+      "server_port": 5555,
+      "type": "shadowsocks",
+      "method": "aes-256-gcm",
+      "password": "123456"
     }
   ],
   "route": {
@@ -177,7 +190,7 @@
   },
   "_meta": {
     "title": "POPVPN X",
-    "generated_at": "2026-11-26 09:37:53 UTC",
-    "count": 6
+    "generated_at": "2026-11-26 19:41:19 UTC",
+    "count": 7
   }
 }
