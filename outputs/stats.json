@@ -1,90 +1,42 @@
 {
-  "generated_at": "2026-11-26 00:28:48 UTC",
+  "generated_at": "2026-11-26 09:37:53 UTC",
   "version": "2.0.0",
-  "duration_ms": 853,
-  "total": 15,
-  "unique": 15,
-  "parsed": 15,
-  "raw_lines": 15,
+  "duration_ms": 923,
+  "total": 6,
+  "unique": 6,
+  "parsed": 6,
+  "raw_lines": 7,
   "duplicates": 0,
-  "invalid": 0,
+  "invalid": 1,
   "by_protocol": {
-    "vless": 13,
-    "trojan": 2
+    "vless": 4,
+    "trojan": 1,
+    "ss": 1
   },
   "by_country": [
-    {
-      "code": "US",
-      "name": "United States",
-      "flag": "🇺🇸",
-      "region": "NA",
-      "count": 4
-    },
-    {
-      "code": "GB",
-      "name": "United Kingdom",
-      "flag": "🇬🇧",
-      "region": "EU",
-      "count": 3
-    },
-    {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "EE",
-      "name": "Estonia",
-      "flag": "🇪🇪",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "ES",
-      "name": "Spain",
-      "flag": "🇪🇸",
-      "region": "EU",
-      "count": 1
-    },
-    {
-      "code": "LT",
-      "name": "Lithuania",
-      "flag": "🇱🇹",
-      "region": "EU",
-      "count": 1
-    },
     {
       "code": "NL",
       "name": "Netherlands",
       "flag": "🇳🇱",
       "region": "EU",
-      "count": 1
+      "count": 3
     },
     {
-      "code": "PL",
-      "name": "Poland",
-      "flag": "🇵🇱",
-      "region": "EU",
-      "count": 1
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "region": "NA",
+      "count": 2
     },
     {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
-      "region": "",
-      "count": 1
-    },
-    {
-      "code": "SE",
-      "name": "Sweden",
-      "flag": "🇸🇪",
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
       "region": "EU",
       "count": 1
     }
   ],
-  "country_count": 10,
+  "country_count": 3,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -95,17 +47,17 @@
     {
       "name": "boltnet.org",
       "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
-      "last_configs": 15,
+      "last_configs": 6,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 850,
+      "elapsed_ms": 916,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "boltnet.org": 15
+    "boltnet.org": 6
   },
   "cache": {
     "enabled": true,
@@ -126,7 +78,7 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 15,
+    "kept": 6,
     "dropped": 0,
     "insecure": 0,
     "private_hosts": 0,
@@ -134,5 +86,5 @@
     "warnings": {},
     "dropped_reasons": {}
   },
-  "previous_total": 2
+  "previous_total": 15
 }
