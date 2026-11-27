@@ -1,18 +1,40 @@
 {
-  "generated_at": "2026-11-26 19:41:19 UTC",
+  "generated_at": "2026-11-27 02:54:46 UTC",
   "version": "2.0.0",
-  "duration_ms": 1106,
-  "total": 7,
-  "unique": 7,
-  "parsed": 7,
-  "raw_lines": 8,
+  "duration_ms": 692,
+  "total": 20,
+  "unique": 20,
+  "parsed": 20,
+  "raw_lines": 20,
   "duplicates": 0,
-  "invalid": 1,
+  "invalid": 0,
   "by_protocol": {
-    "vless": 5,
-    "ss": 2
+    "vless": 15,
+    "trojan": 2,
+    "ss": 3
   },
   "by_country": [
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "EU",
+      "count": 6
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "region": "EU",
+      "count": 4
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "region": "EU",
+      "count": 2
+    },
     {
       "code": "US",
       "name": "United States",
@@ -21,24 +43,24 @@
       "count": 2
     },
     {
-      "code": "DE",
-      "name": "Germany",
-      "flag": "🇩🇪",
+      "code": "CH",
+      "name": "Switzerland",
+      "flag": "🇨🇭",
       "region": "EU",
       "count": 1
     },
     {
-      "code": "FI",
-      "name": "Finland",
-      "flag": "🇫🇮",
+      "code": "EE",
+      "name": "Estonia",
+      "flag": "🇪🇪",
       "region": "EU",
       "count": 1
     },
     {
-      "code": "JP",
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "region": "AS",
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
       "count": 1
     },
     {
@@ -49,14 +71,21 @@
       "count": 1
     },
     {
-      "code": "PL",
-      "name": "Poland",
-      "flag": "🇵🇱",
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
       "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "region": "AS",
       "count": 1
     }
   ],
-  "country_count": 6,
+  "country_count": 10,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -67,17 +96,17 @@
     {
       "name": "boltnet.org",
       "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
-      "last_configs": 7,
+      "last_configs": 20,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 1102,
+      "elapsed_ms": 686,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "boltnet.org": 7
+    "boltnet.org": 20
   },
   "cache": {
     "enabled": true,
@@ -98,15 +127,15 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 7,
+    "kept": 20,
     "dropped": 0,
-    "insecure": 0,
+    "insecure": 1,
     "private_hosts": 0,
-    "placeholder_credentials": 1,
+    "placeholder_credentials": 0,
     "warnings": {
-      "weak-credential": 1
+      "allow-insecure": 1
     },
     "dropped_reasons": {}
   },
-  "previous_total": 6
+  "previous_total": 7
 }
