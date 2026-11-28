@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-11-27 22:03:06 UTC",
+  "generated_at": "2026-11-28 03:57:38 UTC",
   "version": "2.0.0",
-  "duration_ms": 984,
-  "total": 10,
-  "unique": 10,
-  "parsed": 10,
-  "raw_lines": 12,
+  "duration_ms": 845,
+  "total": 19,
+  "unique": 19,
+  "parsed": 19,
+  "raw_lines": 20,
   "duplicates": 0,
-  "invalid": 2,
+  "invalid": 1,
   "by_protocol": {
-    "vless": 4,
-    "trojan": 1,
-    "ss": 5
+    "vless": 12,
+    "trojan": 2,
+    "ss": 4,
+    "vmess": 1
   },
   "by_country": [
     {
@@ -22,28 +23,91 @@
       "count": 5
     },
     {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "EU",
+      "count": 2
+    },
+    {
       "code": "US",
       "name": "United States",
       "flag": "🇺🇸",
       "region": "NA",
-      "count": 3
+      "count": 2
     },
     {
-      "code": "DK",
-      "name": "Denmark",
-      "flag": "🇩🇰",
+      "code": "BG",
+      "name": "Bulgaria",
+      "flag": "🇧🇬",
       "region": "EU",
       "count": 1
     },
     {
-      "code": "SG",
-      "name": "Singapore",
-      "flag": "🇸🇬",
-      "region": "AS",
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "flag": "🇲🇩",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "flag": "🇷🇴",
+      "region": "EU",
+      "count": 1
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "region": "EU",
       "count": 1
     }
   ],
-  "country_count": 4,
+  "country_count": 13,
   "sources": {
     "total": 1,
     "ok": 1,
@@ -54,17 +118,17 @@
     {
       "name": "boltnet.org",
       "url": "https://boltnet.org/m/YVJWwJp9BfQ1_cw2ag9UJw",
-      "last_configs": 10,
+      "last_configs": 19,
       "ok": true,
       "from_cache": false,
-      "elapsed_ms": 981,
+      "elapsed_ms": 840,
       "error": "",
       "success_rate": 1.0,
       "paused": false
     }
   ],
   "per_source": {
-    "boltnet.org": 10
+    "boltnet.org": 19
   },
   "cache": {
     "enabled": true,
@@ -85,15 +149,13 @@
     "avg_latency_ms": 0
   },
   "audit": {
-    "kept": 10,
+    "kept": 19,
     "dropped": 0,
-    "insecure": 1,
+    "insecure": 0,
     "private_hosts": 0,
     "placeholder_credentials": 0,
-    "warnings": {
-      "allow-insecure": 1
-    },
+    "warnings": {},
     "dropped_reasons": {}
   },
-  "previous_total": 12
+  "previous_total": 10
 }
